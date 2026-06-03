@@ -1,0 +1,303 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_agents_plans_wild_teal_wind_add_folder_support_to_v1_api_md",
+      "label": "wild-teal-wind-add-folder-support-to-v1-api.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_problem",
+      "label": "Problem",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L7"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_root_cause",
+      "label": "Root Cause",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L13"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_codeblock_1",
+      "label": "code:ts (if (folderId !== undefined) {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L17"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_decisions",
+      "label": "Decisions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L27"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_scope",
+      "label": "Scope",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L39"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_changes",
+      "label": "Changes",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_1_packages_api_v1_schema_ts_add_folderid_to_query_response_schemas",
+      "label": "1. `packages/api/v1/schema.ts` \u2014 Add `folderId` to query + response schemas",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L51"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_codeblock_2",
+      "label": "code:ts (export const ZGetDocumentsQuerySchema = z.object({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L55"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_2_packages_api_v1_implementation_ts_pass_folderid_through_add_to_responses",
+      "label": "2. `packages/api/v1/implementation.ts` \u2014 Pass `folderId` through + add to responses",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L76"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_codeblock_3",
+      "label": "code:ts (getDocuments: authenticatedMiddleware(async (args, user, tea)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L80"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_3_packages_lib_server_only_document_find_documents_ts_handle_return_all_semantics",
+      "label": "3. `packages/lib/server-only/document/find-documents.ts` \u2014 Handle \"return all\" semantics",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L119"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_codeblock_4",
+      "label": "code:ts (export type FindDocumentsOptions = {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L123"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_codeblock_5",
+      "label": "code:ts (if (!skipFolderFilter) {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L133"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_why_skipfolderfilter_option_b",
+      "label": "Why `skipFolderFilter` (Option B)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L153"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_behavior_matrix",
+      "label": "Behavior Matrix",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L168"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_implementation_notes",
+      "label": "Implementation Notes",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L177"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_testing",
+      "label": "Testing",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L185"
+    },
+    {
+      "id": "plans_wild_teal_wind_add_folder_support_to_v1_api_breaking_change_notice",
+      "label": "Breaking Change Notice",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L197"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_wild_teal_wind_add_folder_support_to_v1_api_md",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_problem",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_wild_teal_wind_add_folder_support_to_v1_api_md",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_root_cause",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_wild_teal_wind_add_folder_support_to_v1_api_root_cause",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_wild_teal_wind_add_folder_support_to_v1_api_md",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_decisions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_wild_teal_wind_add_folder_support_to_v1_api_md",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_scope",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_wild_teal_wind_add_folder_support_to_v1_api_md",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_changes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_wild_teal_wind_add_folder_support_to_v1_api_changes",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_1_packages_api_v1_schema_ts_add_folderid_to_query_response_schemas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_wild_teal_wind_add_folder_support_to_v1_api_1_packages_api_v1_schema_ts_add_folderid_to_query_response_schemas",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_wild_teal_wind_add_folder_support_to_v1_api_changes",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_2_packages_api_v1_implementation_ts_pass_folderid_through_add_to_responses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_wild_teal_wind_add_folder_support_to_v1_api_2_packages_api_v1_implementation_ts_pass_folderid_through_add_to_responses",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_wild_teal_wind_add_folder_support_to_v1_api_changes",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_3_packages_lib_server_only_document_find_documents_ts_handle_return_all_semantics",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_wild_teal_wind_add_folder_support_to_v1_api_3_packages_lib_server_only_document_find_documents_ts_handle_return_all_semantics",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_wild_teal_wind_add_folder_support_to_v1_api_3_packages_lib_server_only_document_find_documents_ts_handle_return_all_semantics",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_wild_teal_wind_add_folder_support_to_v1_api_md",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_why_skipfolderfilter_option_b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_wild_teal_wind_add_folder_support_to_v1_api_md",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_behavior_matrix",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_wild_teal_wind_add_folder_support_to_v1_api_md",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_implementation_notes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_wild_teal_wind_add_folder_support_to_v1_api_md",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_testing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_wild_teal_wind_add_folder_support_to_v1_api_md",
+      "target": "plans_wild_teal_wind_add_folder_support_to_v1_api_breaking_change_notice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/wild-teal-wind-add-folder-support-to-v1-api.md",
+      "source_location": "L197",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,175 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_signing_certificate_timestamp_server_mdx",
+      "label": "timestamp-server.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "signing_certificate_timestamp_server_environment_variable",
+      "label": "Environment Variable",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L10"
+    },
+    {
+      "id": "signing_certificate_timestamp_server_configuration",
+      "label": "Configuration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L16"
+    },
+    {
+      "id": "signing_certificate_timestamp_server_codeblock_1",
+      "label": "code:bash (NEXT_PRIVATE_SIGNING_TIMESTAMP_AUTHORITY=http://timestamp.di)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L18"
+    },
+    {
+      "id": "signing_certificate_timestamp_server_free_timestamp_servers",
+      "label": "Free Timestamp Servers",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L22"
+    },
+    {
+      "id": "signing_certificate_timestamp_server_benefits_of_timestamping",
+      "label": "Benefits of Timestamping",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L36"
+    },
+    {
+      "id": "signing_certificate_timestamp_server_signature_appearance",
+      "label": "Signature Appearance",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L43"
+    },
+    {
+      "id": "signing_certificate_timestamp_server_contact_information",
+      "label": "Contact Information",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L45"
+    },
+    {
+      "id": "signing_certificate_timestamp_server_codeblock_2",
+      "label": "code:bash (NEXT_PUBLIC_SIGNING_CONTACT_INFO=support@example.com)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L49"
+    },
+    {
+      "id": "signing_certificate_timestamp_server_legacy_signature_format",
+      "label": "Legacy Signature Format",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L55"
+    },
+    {
+      "id": "signing_certificate_timestamp_server_codeblock_3",
+      "label": "code:bash (NEXT_PRIVATE_USE_LEGACY_SIGNING_SUBFILTER=true)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L59"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_signing_certificate_timestamp_server_mdx",
+      "target": "signing_certificate_timestamp_server_environment_variable",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_signing_certificate_timestamp_server_mdx",
+      "target": "signing_certificate_timestamp_server_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "signing_certificate_timestamp_server_configuration",
+      "target": "signing_certificate_timestamp_server_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_signing_certificate_timestamp_server_mdx",
+      "target": "signing_certificate_timestamp_server_free_timestamp_servers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_signing_certificate_timestamp_server_mdx",
+      "target": "signing_certificate_timestamp_server_benefits_of_timestamping",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_signing_certificate_timestamp_server_mdx",
+      "target": "signing_certificate_timestamp_server_signature_appearance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "signing_certificate_timestamp_server_signature_appearance",
+      "target": "signing_certificate_timestamp_server_contact_information",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "signing_certificate_timestamp_server_contact_information",
+      "target": "signing_certificate_timestamp_server_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "signing_certificate_timestamp_server_signature_appearance",
+      "target": "signing_certificate_timestamp_server_legacy_signature_format",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "signing_certificate_timestamp_server_legacy_signature_format",
+      "target": "signing_certificate_timestamp_server_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/timestamp-server.mdx",
+      "source_location": "L59",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

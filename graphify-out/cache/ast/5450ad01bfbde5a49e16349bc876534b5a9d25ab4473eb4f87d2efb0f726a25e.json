@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_local_development_gitpod_mdx",
+      "label": "gitpod.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/gitpod.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "local_development_gitpod_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/gitpod.mdx",
+      "source_location": "L10"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_local_development_gitpod_mdx",
+      "target": "local_development_gitpod_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/gitpod.mdx",
+      "source_location": "L10",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_tsconfig_eslint_json",
+      "label": "tsconfig.eslint.json",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/tsconfig.eslint.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "documenso_tsconfig_eslint_extends",
+      "label": "extends",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/tsconfig.eslint.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "documenso_tsconfig_eslint_include",
+      "label": "include",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/tsconfig.eslint.json",
+      "source_location": "L3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_tsconfig_eslint_json",
+      "target": "documenso_tsconfig_eslint_extends",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/tsconfig.eslint.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_tsconfig_eslint_json",
+      "target": "ref_packages_tsconfig_base_json",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/tsconfig.eslint.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_tsconfig_eslint_json",
+      "target": "documenso_tsconfig_eslint_include",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/tsconfig.eslint.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_tsconfig_eslint_include",
+      "target": "ref_packages",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/tsconfig.eslint.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "documenso_tsconfig_eslint_include",
+      "target": "ref_apps",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/tsconfig.eslint.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    }
+  ]
+}

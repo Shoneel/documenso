@@ -21,12 +21,12 @@ export const UserProfileTimur = ({ className, rows = 2 }: UserProfileTimurProps)
       </div>
 
       <div className="mt-4">
-        <img src={timurImage} className="h-20 w-20 rounded-full" alt="image of timur ercan founder of documenso" />
+        <img src={timurImage} className="h-20 w-20 rounded-full" alt="image of timur ercan founder of WAF eSign" />
       </div>
 
       <div className="mt-6">
         <div className="flex items-center justify-center gap-x-2">
-          <h2 className="font-semibold text-2xl">Timur Ercan</h2>
+          <h2 className="font-semibold text-2xl">Joe Deo</h2>
 
           <VerifiedIcon className="h-8 w-8 text-primary" />
         </div>

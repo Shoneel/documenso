@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_openpage_api_readme_md",
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/openpage-api/README.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "openpage_api_readme_documenso_openpage_api",
+      "label": "@documenso/openpage-api",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/openpage-api/README.md",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_openpage_api_readme_md",
+      "target": "openpage_api_readme_documenso_openpage_api",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/openpage-api/README.md",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

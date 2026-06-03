@@ -3,11 +3,11 @@ import { i18n, type MessageDescriptor } from '@lingui/core';
 
 export const appMetaTags = (title?: MessageDescriptor) => {
   const description =
-    'Join Documenso, the open signing infrastructure, and get a 10x better signing experience. Pricing starts at $30/mo. forever! Sign in now and enjoy a faster, smarter, and more beautiful document signing process. Integrates with your favorite tools, customizable, and expandable. Support our mission and become a part of our open-source community.';
+    'Join WAF eSign, the open signing infrastructure, and get a 10x better signing experience. Pricing starts at $30/mo. forever! Sign in now and enjoy a faster, smarter, and more beautiful document signing process. Integrates with your favorite tools, customizable, and expandable. Support our mission and become a part of our open-source community.';
 
   return [
     {
-      title: title ? `${i18n._(title)} - Documenso` : 'Documenso',
+      title: title ? `${i18n._(title)} - WAF eSign` : 'WAF eSign',
     },
     {
       name: 'description',
@@ -16,11 +16,11 @@ export const appMetaTags = (title?: MessageDescriptor) => {
     {
       name: 'keywords',
       content:
-        'Documenso, open source, DocuSign alternative, document signing, open signing infrastructure, open-source community, fast signing, beautiful signing, smart templates',
+        'WAF eSign, open source, DocuSign alternative, document signing, open signing infrastructure, open-source community, fast signing, beautiful signing, smart templates',
     },
     {
       name: 'author',
-      content: 'Documenso, Inc.',
+      content: 'WAF eSign, Inc.',
     },
     {
       name: 'robots',
@@ -28,7 +28,11 @@ export const appMetaTags = (title?: MessageDescriptor) => {
     },
     {
       property: 'og:title',
-      content: 'Documenso - The Open Source DocuSign Alternative',
+      content: 'WAF eSign - The Open Source DocuSign Alternative',
+    },
+    {
+      property: 'og:site_name',
+      content: 'WAF eSign',
     },
     {
       property: 'og:description',
@@ -47,8 +51,12 @@ export const appMetaTags = (title?: MessageDescriptor) => {
       content: 'summary_large_image',
     },
     {
+      name: 'twitter:title',
+      content: title ? i18n._(title) : 'WAF eSign',
+    },
+    {
       name: 'twitter:site',
-      content: '@documenso',
+      content: '@wafesign',
     },
     {
       name: 'twitter:description',

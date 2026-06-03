@@ -1,0 +1,207 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_agents_plans_happy_teal_tree_platform_signing_page_branding_md",
+      "label": "happy-teal-tree-platform-signing-page-branding.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "plans_happy_teal_tree_platform_signing_page_branding_what",
+      "label": "What",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "plans_happy_teal_tree_platform_signing_page_branding_why",
+      "label": "Why",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L19"
+    },
+    {
+      "id": "plans_happy_teal_tree_platform_signing_page_branding_how",
+      "label": "How",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L29"
+    },
+    {
+      "id": "plans_happy_teal_tree_platform_signing_page_branding_storage_packages_prisma_schema_prisma",
+      "label": "Storage (`packages/prisma/schema.prisma`)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L31"
+    },
+    {
+      "id": "plans_happy_teal_tree_platform_signing_page_branding_sanitiser_packages_lib_utils_sanitize_branding_css_ts",
+      "label": "Sanitiser (`packages/lib/utils/sanitize-branding-css.ts`)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L45"
+    },
+    {
+      "id": "plans_happy_teal_tree_platform_signing_page_branding_render_apps_remix_app_components_general_recipient_branding_tsx",
+      "label": "Render (`apps/remix/app/components/general/recipient-branding.tsx`)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L69"
+    },
+    {
+      "id": "plans_happy_teal_tree_platform_signing_page_branding_codeblock_1",
+      "label": "code:block1 (.documenso-branded {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L75"
+    },
+    {
+      "id": "plans_happy_teal_tree_platform_signing_page_branding_plan_gate",
+      "label": "Plan gate",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L90"
+    },
+    {
+      "id": "plans_happy_teal_tree_platform_signing_page_branding_ui_apps_remix_app_components_forms_branding_preferences_form_tsx",
+      "label": "UI (`apps/remix/app/components/forms/branding-preferences-form.tsx`)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L97"
+    },
+    {
+      "id": "plans_happy_teal_tree_platform_signing_page_branding_trpc",
+      "label": "TRPC",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L111"
+    },
+    {
+      "id": "plans_happy_teal_tree_platform_signing_page_branding_known_accepted_limitations",
+      "label": "Known accepted limitations",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L119"
+    },
+    {
+      "id": "plans_happy_teal_tree_platform_signing_page_branding_out_of_scope",
+      "label": "Out of scope",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L134"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_happy_teal_tree_platform_signing_page_branding_md",
+      "target": "plans_happy_teal_tree_platform_signing_page_branding_what",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_happy_teal_tree_platform_signing_page_branding_md",
+      "target": "plans_happy_teal_tree_platform_signing_page_branding_why",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_happy_teal_tree_platform_signing_page_branding_md",
+      "target": "plans_happy_teal_tree_platform_signing_page_branding_how",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_happy_teal_tree_platform_signing_page_branding_how",
+      "target": "plans_happy_teal_tree_platform_signing_page_branding_storage_packages_prisma_schema_prisma",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_happy_teal_tree_platform_signing_page_branding_how",
+      "target": "plans_happy_teal_tree_platform_signing_page_branding_sanitiser_packages_lib_utils_sanitize_branding_css_ts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_happy_teal_tree_platform_signing_page_branding_how",
+      "target": "plans_happy_teal_tree_platform_signing_page_branding_render_apps_remix_app_components_general_recipient_branding_tsx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_happy_teal_tree_platform_signing_page_branding_render_apps_remix_app_components_general_recipient_branding_tsx",
+      "target": "plans_happy_teal_tree_platform_signing_page_branding_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_happy_teal_tree_platform_signing_page_branding_how",
+      "target": "plans_happy_teal_tree_platform_signing_page_branding_plan_gate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_happy_teal_tree_platform_signing_page_branding_how",
+      "target": "plans_happy_teal_tree_platform_signing_page_branding_ui_apps_remix_app_components_forms_branding_preferences_form_tsx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_happy_teal_tree_platform_signing_page_branding_how",
+      "target": "plans_happy_teal_tree_platform_signing_page_branding_trpc",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_happy_teal_tree_platform_signing_page_branding_md",
+      "target": "plans_happy_teal_tree_platform_signing_page_branding_known_accepted_limitations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_happy_teal_tree_platform_signing_page_branding_md",
+      "target": "plans_happy_teal_tree_platform_signing_page_branding_out_of_scope",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/happy-teal-tree-platform-signing-page-branding.md",
+      "source_location": "L134",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

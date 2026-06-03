@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_settings_public_profile_mdx",
+      "label": "public-profile.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/settings/public-profile.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "settings_public_profile_codeblock_1",
+      "label": "code:block1 (https://app.documenso.com/p/<your-username>)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/settings/public-profile.mdx",
+      "source_location": "L11"
+    },
+    {
+      "id": "settings_public_profile_configure_your_public_profile",
+      "label": "Configure Your Public Profile",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/settings/public-profile.mdx",
+      "source_location": "L17"
+    },
+    {
+      "id": "settings_public_profile_link_templates_to_your_public_profile",
+      "label": "Link Templates to Your Public Profile",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/settings/public-profile.mdx",
+      "source_location": "L37"
+    },
+    {
+      "id": "settings_public_profile_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/settings/public-profile.mdx",
+      "source_location": "L64"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_settings_public_profile_mdx",
+      "target": "settings_public_profile_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/settings/public-profile.mdx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_settings_public_profile_mdx",
+      "target": "settings_public_profile_configure_your_public_profile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/settings/public-profile.mdx",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_settings_public_profile_mdx",
+      "target": "settings_public_profile_link_templates_to_your_public_profile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/settings/public-profile.mdx",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_settings_public_profile_mdx",
+      "target": "settings_public_profile_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/settings/public-profile.mdx",
+      "source_location": "L64",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,287 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_recipient_expiration_mdx",
+      "label": "recipient-expiration.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "advanced_recipient_expiration_overview",
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L10"
+    },
+    {
+      "id": "advanced_recipient_expiration_default_behaviour",
+      "label": "Default Behaviour",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L22"
+    },
+    {
+      "id": "advanced_recipient_expiration_settings_cascade",
+      "label": "Settings Cascade",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L28"
+    },
+    {
+      "id": "advanced_recipient_expiration_set_expiration_for_a_document",
+      "label": "Set Expiration for a Document",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L58"
+    },
+    {
+      "id": "advanced_recipient_expiration_open_the_document_settings",
+      "label": "Open the document settings",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L64"
+    },
+    {
+      "id": "advanced_recipient_expiration_configure_the_expiration",
+      "label": "Configure the expiration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L71"
+    },
+    {
+      "id": "advanced_recipient_expiration_send_the_document",
+      "label": "Send the document",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L85"
+    },
+    {
+      "id": "advanced_recipient_expiration_set_a_default_expiration_period",
+      "label": "Set a Default Expiration Period",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L97"
+    },
+    {
+      "id": "advanced_recipient_expiration_navigate_to_document_preferences",
+      "label": "Navigate to document preferences",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L103"
+    },
+    {
+      "id": "advanced_recipient_expiration_configure_the_default",
+      "label": "Configure the default",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L110"
+    },
+    {
+      "id": "advanced_recipient_expiration_save",
+      "label": "Save",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L121"
+    },
+    {
+      "id": "advanced_recipient_expiration_what_happens_when_a_recipient_expires",
+      "label": "What Happens When a Recipient Expires",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L133"
+    },
+    {
+      "id": "advanced_recipient_expiration_resending_to_extend_a_deadline",
+      "label": "Resending to Extend a Deadline",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L144"
+    },
+    {
+      "id": "advanced_recipient_expiration_open_the_document",
+      "label": "Open the document",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L152"
+    },
+    {
+      "id": "advanced_recipient_expiration_resend",
+      "label": "Resend",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L159"
+    },
+    {
+      "id": "advanced_recipient_expiration_expiration_options_reference",
+      "label": "Expiration Options Reference",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L166"
+    },
+    {
+      "id": "advanced_recipient_expiration_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L179"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_recipient_expiration_mdx",
+      "target": "advanced_recipient_expiration_overview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_recipient_expiration_mdx",
+      "target": "advanced_recipient_expiration_default_behaviour",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_recipient_expiration_mdx",
+      "target": "advanced_recipient_expiration_settings_cascade",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_recipient_expiration_mdx",
+      "target": "advanced_recipient_expiration_set_expiration_for_a_document",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_recipient_expiration_set_expiration_for_a_document",
+      "target": "advanced_recipient_expiration_open_the_document_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_recipient_expiration_set_expiration_for_a_document",
+      "target": "advanced_recipient_expiration_configure_the_expiration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_recipient_expiration_set_expiration_for_a_document",
+      "target": "advanced_recipient_expiration_send_the_document",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_recipient_expiration_mdx",
+      "target": "advanced_recipient_expiration_set_a_default_expiration_period",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_recipient_expiration_set_a_default_expiration_period",
+      "target": "advanced_recipient_expiration_navigate_to_document_preferences",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_recipient_expiration_set_a_default_expiration_period",
+      "target": "advanced_recipient_expiration_configure_the_default",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_recipient_expiration_set_a_default_expiration_period",
+      "target": "advanced_recipient_expiration_save",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_recipient_expiration_mdx",
+      "target": "advanced_recipient_expiration_what_happens_when_a_recipient_expires",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_recipient_expiration_mdx",
+      "target": "advanced_recipient_expiration_resending_to_extend_a_deadline",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_recipient_expiration_resending_to_extend_a_deadline",
+      "target": "advanced_recipient_expiration_open_the_document",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_recipient_expiration_resending_to_extend_a_deadline",
+      "target": "advanced_recipient_expiration_resend",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L159",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_recipient_expiration_mdx",
+      "target": "advanced_recipient_expiration_expiration_options_reference",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_recipient_expiration_mdx",
+      "target": "advanced_recipient_expiration_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/recipient-expiration.mdx",
+      "source_location": "L179",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

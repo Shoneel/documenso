@@ -1,0 +1,751 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_agents_plans_smooth_coral_earth_database_rate_limiting_md",
+      "label": "smooth-coral-earth-database-rate-limiting.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_summary",
+      "label": "Summary",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_design_decisions",
+      "label": "Design Decisions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L10"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_rate_limit_check_flow",
+      "label": "Rate Limit Check Flow",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L20"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_codeblock_1",
+      "label": "code:block1 (check({ ip, identifier }) ->)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L22"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_1_database_schema",
+      "label": "1. Database Schema",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L35"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_1_1_prisma_model",
+      "label": "1.1 Prisma model",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L37"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_codeblock_2",
+      "label": "code:prisma (model RateLimit {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L41"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_1_2_migration",
+      "label": "1.2 Migration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L62"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_2_rate_limit_library",
+      "label": "2. Rate Limit Library",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L68"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_2_1_core_module",
+      "label": "2.1 Core module",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L70"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_codeblock_3",
+      "label": "code:typescript (type WindowUnit = 's' | 'm' | 'h' | 'd';)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L74"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_2_2_window_parsing_and_bucket_computation",
+      "label": "2.2 Window parsing and bucket computation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L102"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_codeblock_4",
+      "label": "code:typescript (const parseWindow = (window: WindowStr): number => {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L104"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_2_3_check_implementation",
+      "label": "2.3 Check implementation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L123"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_codeblock_5",
+      "label": "code:typescript (const result = await prisma.rateLimit.upsert({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L135"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_2_4_rate_limit_definitions",
+      "label": "2.4 Rate limit definitions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L160"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_codeblock_6",
+      "label": "code:typescript (// ---- Auth (Tier 1 - Critical, sends emails) ----)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L164"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_3_integration_points",
+      "label": "3. Integration Points",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L273"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_3_1_hono_middleware_for_api_routes",
+      "label": "3.1 Hono middleware for API routes",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L275"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_codeblock_7",
+      "label": "code:typescript (import { type MiddlewareHandler } from 'hono';)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L279"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_3_2_replace_existing_hono_rate_limiters",
+      "label": "3.2 Replace existing Hono rate limiters",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L314"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_codeblock_8",
+      "label": "code:typescript (// Before)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L323"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_3_3_response_helpers_for_inline_checks",
+      "label": "3.3 Response helpers for inline checks",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L337"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_codeblock_9",
+      "label": "code:typescript (export const rateLimitResponse = (c: Context, result: RateLi)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L343"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_codeblock_10",
+      "label": "code:typescript (const result = await loginRateLimit.check({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L360"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_codeblock_11",
+      "label": "code:typescript (export const assertRateLimit = (result: RateLimitCheckResult)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L372"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_codeblock_12",
+      "label": "code:typescript (const result = await request2FAEmailRateLimit.check({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L384"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_3_4_auth_endpoint_rate_limiting",
+      "label": "3.4 Auth endpoint rate limiting",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L395"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_3_4_trpc_unauthenticated_route_rate_limiting",
+      "label": "3.4 tRPC unauthenticated route rate limiting",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L412"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_3_5_trpc_and_file_routes_general_api_rate_limiting",
+      "label": "3.5 tRPC and file routes \u2014 general API rate limiting",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L424"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_4_cleanup_job",
+      "label": "4. Cleanup Job",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L433"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_4_1_job_definition",
+      "label": "4.1 Job definition",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L435"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_codeblock_13",
+      "label": "code:typescript (export const CLEANUP_RATE_LIMITS_JOB_DEFINITION = {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L439"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_4_2_job_handler",
+      "label": "4.2 Job handler",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L456"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_codeblock_14",
+      "label": "code:typescript (export const run = async () => {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L464"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_4_3_register_in_job_client",
+      "label": "4.3 Register in job client",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L484"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_5_remove_hono_rate_limiter_dependency",
+      "label": "5. Remove hono-rate-limiter Dependency",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L490"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_6_files_to_create_or_modify",
+      "label": "6. Files to Create or Modify",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L499"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_new_files",
+      "label": "New Files",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L501"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_modified_files",
+      "label": "Modified Files",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L511"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_7_considerations",
+      "label": "7. Considerations",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L527"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_7_1_fail_open",
+      "label": "7.1 Fail-open",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L529"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_7_2_performance",
+      "label": "7.2 Performance",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L533"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_7_3_monitoring",
+      "label": "7.3 Monitoring",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L540"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_7_4_testing",
+      "label": "7.4 Testing",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L544"
+    },
+    {
+      "id": "plans_smooth_coral_earth_database_rate_limiting_7_5_future_improvements",
+      "label": "7.5 Future improvements",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L548"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_smooth_coral_earth_database_rate_limiting_md",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_summary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_summary",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_design_decisions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_summary",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_rate_limit_check_flow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_rate_limit_check_flow",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_smooth_coral_earth_database_rate_limiting_md",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_1_database_schema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_1_database_schema",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_1_1_prisma_model",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_1_1_prisma_model",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_1_database_schema",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_1_2_migration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_smooth_coral_earth_database_rate_limiting_md",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_2_rate_limit_library",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_2_rate_limit_library",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_2_1_core_module",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_2_1_core_module",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_2_rate_limit_library",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_2_2_window_parsing_and_bucket_computation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_2_2_window_parsing_and_bucket_computation",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_2_rate_limit_library",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_2_3_check_implementation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_2_3_check_implementation",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_2_rate_limit_library",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_2_4_rate_limit_definitions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_2_4_rate_limit_definitions",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L164",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_smooth_coral_earth_database_rate_limiting_md",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_3_integration_points",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L273",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_3_integration_points",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_3_1_hono_middleware_for_api_routes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L275",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_3_1_hono_middleware_for_api_routes",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L279",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_3_integration_points",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_3_2_replace_existing_hono_rate_limiters",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L314",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_3_2_replace_existing_hono_rate_limiters",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L323",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_3_integration_points",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_3_3_response_helpers_for_inline_checks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L337",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_3_3_response_helpers_for_inline_checks",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L343",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_3_3_response_helpers_for_inline_checks",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L360",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_3_3_response_helpers_for_inline_checks",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_codeblock_11",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L372",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_3_3_response_helpers_for_inline_checks",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_codeblock_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L384",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_3_integration_points",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_3_4_auth_endpoint_rate_limiting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L395",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_3_integration_points",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_3_4_trpc_unauthenticated_route_rate_limiting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L412",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_3_integration_points",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_3_5_trpc_and_file_routes_general_api_rate_limiting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L424",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_smooth_coral_earth_database_rate_limiting_md",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_4_cleanup_job",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L433",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_4_cleanup_job",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_4_1_job_definition",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L435",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_4_1_job_definition",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_codeblock_13",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L439",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_4_cleanup_job",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_4_2_job_handler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L456",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_4_2_job_handler",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_codeblock_14",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L464",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_4_cleanup_job",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_4_3_register_in_job_client",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L484",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_smooth_coral_earth_database_rate_limiting_md",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_5_remove_hono_rate_limiter_dependency",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L490",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_smooth_coral_earth_database_rate_limiting_md",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_6_files_to_create_or_modify",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L499",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_6_files_to_create_or_modify",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_new_files",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L501",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_6_files_to_create_or_modify",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_modified_files",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L511",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_smooth_coral_earth_database_rate_limiting_md",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_7_considerations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L527",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_7_considerations",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_7_1_fail_open",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L529",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_7_considerations",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_7_2_performance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L533",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_7_considerations",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_7_3_monitoring",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L540",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_7_considerations",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_7_4_testing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L544",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_smooth_coral_earth_database_rate_limiting_7_considerations",
+      "target": "plans_smooth_coral_earth_database_rate_limiting_7_5_future_improvements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-coral-earth-database-rate-limiting.md",
+      "source_location": "L548",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

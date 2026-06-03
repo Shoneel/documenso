@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_docker_readme_md",
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/docker/README.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docker_readme_docker_setup_for_documenso",
+      "label": "Docker Setup for Documenso",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/docker/README.md",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_docker_readme_md",
+      "target": "docker_readme_docker_setup_for_documenso",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/docker/README.md",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

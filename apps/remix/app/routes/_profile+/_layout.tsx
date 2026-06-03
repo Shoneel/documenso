@@ -1,4 +1,3 @@
-import LogoIcon from '@documenso/assets/logo_icon.png';
 import { useOptionalSession } from '@documenso/lib/client-only/providers/session';
 import { cn } from '@documenso/ui/lib/utils';
 import { Button } from '@documenso/ui/primitives/button';
@@ -9,7 +8,6 @@ import { useEffect, useState } from 'react';
 import { isRouteErrorResponse, Link, Outlet } from 'react-router';
 
 import { Header as AuthenticatedHeader } from '~/components/general/app-header';
-import { BrandingLogo } from '~/components/general/branding-logo';
 import { GenericErrorLayout } from '~/components/general/generic-error-layout';
 import { appMetaTags } from '~/utils/meta';
 
@@ -50,14 +48,13 @@ export default function PublicProfileLayout() {
               to="/"
               className="rounded-md ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:inline"
             >
-              <BrandingLogo className="hidden h-6 w-auto sm:block" />
-
               <img
-                src={LogoIcon}
-                alt="Documenso Logo"
-                width={48}
-                height={48}
-                className="h-10 w-auto sm:hidden dark:invert"
+                src="/static/logo.png"
+                alt="WAF eSign"
+                width={120}
+                height="auto"
+                style={{ objectFit: 'contain' }}
+                className="dark:invert"
               />
             </Link>
 

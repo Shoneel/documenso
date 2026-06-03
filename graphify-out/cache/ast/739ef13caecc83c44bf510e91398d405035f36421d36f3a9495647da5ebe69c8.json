@@ -1,0 +1,95 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_document_visibility_mdx",
+      "label": "document-visibility.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/document-visibility.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "advanced_document_visibility_overview",
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/document-visibility.mdx",
+      "source_location": "L9"
+    },
+    {
+      "id": "advanced_document_visibility_document_visibility_options",
+      "label": "Document Visibility Options",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/document-visibility.mdx",
+      "source_location": "L15"
+    },
+    {
+      "id": "advanced_document_visibility_how_it_works",
+      "label": "How It Works",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/document-visibility.mdx",
+      "source_location": "L30"
+    },
+    {
+      "id": "advanced_document_visibility_a_note_on_document_access",
+      "label": "A Note on Document Access",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/document-visibility.mdx",
+      "source_location": "L64"
+    },
+    {
+      "id": "advanced_document_visibility_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/document-visibility.mdx",
+      "source_location": "L70"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_document_visibility_mdx",
+      "target": "advanced_document_visibility_overview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/document-visibility.mdx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_document_visibility_mdx",
+      "target": "advanced_document_visibility_document_visibility_options",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/document-visibility.mdx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_document_visibility_mdx",
+      "target": "advanced_document_visibility_how_it_works",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/document-visibility.mdx",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_document_visibility_mdx",
+      "target": "advanced_document_visibility_a_note_on_document_access",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/document-visibility.mdx",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_document_visibility_mdx",
+      "target": "advanced_document_visibility_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/document-visibility.mdx",
+      "source_location": "L70",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

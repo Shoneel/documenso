@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_cla_md",
+      "label": "CLA.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CLA.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "documenso_cla_documenso_contributors_license_agreement",
+      "label": "Documenso Contributors License Agreement",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CLA.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "documenso_cla_background",
+      "label": "Background:",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CLA.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "documenso_cla_agreement",
+      "label": "Agreement:",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CLA.md",
+      "source_location": "L9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_cla_md",
+      "target": "documenso_cla_documenso_contributors_license_agreement",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CLA.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_cla_documenso_contributors_license_agreement",
+      "target": "documenso_cla_background",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CLA.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_cla_documenso_contributors_license_agreement",
+      "target": "documenso_cla_agreement",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CLA.md",
+      "source_location": "L9",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -5,48 +5,48 @@
 @layer base {
   :root,
   .dark-mode-disabled {
-    --background: 0 0% 100%;
-    --foreground: 222.2 47.4% 11.2%;
+    --background: 210 40% 98%;
+    --foreground: 215 35% 20%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 35% 94%;
+    --muted-foreground: 215 20% 45%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 47.4% 11.2%;
+    --popover-foreground: 215 35% 20%;
 
     --card: 0 0% 100%;
-    --card-border: 214.3 31.8% 91.4%;
-    --card-border-tint: 112 205 159;
-    --card-foreground: 222.2 47.4% 11.2%;
+    --card-border: 210 25% 86%;
+    --card-border-tint: 101 142 204;
+    --card-foreground: 215 35% 20%;
 
-    --field-card: 95 74% 90%;
-    --field-card-border: 95.08 71.08% 67.45%;
-    --field-card-foreground: 222.2 47.4% 11.2%;
+    --field-card: 210 80% 92%;
+    --field-card-border: 210 55% 55%;
+    --field-card-foreground: 215 35% 20%;
 
-    --widget: 0 0% 97%;
-    --widget-foreground: 0 0% 95%;
+    --widget: 210 35% 96%;
+    --widget-foreground: 210 35% 92%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
+    --border: 210 25% 86%;
+    --input: 210 25% 88%;
+    --field-border: 210 25% 86%;
 
-    --primary: 95.08 71.08% 67.45%;
-    --primary-foreground: 95.08 71.08% 10%;
+    --primary: 210 55% 55%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 204 45% 92%;
+    --secondary-foreground: 215 35% 25%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 200 65% 90%;
+    --accent-foreground: 215 40% 20%;
 
-    --destructive: 0 100% 50%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --ring: 95.08 71.08% 67.45%;
+    --ring: 210 55% 55%;
 
     --radius: 0.5rem;
 
-    --warning: 54 96% 45%;
-
+    --warning: 38 92% 50%;
     --gold: 47.9 95.8% 53.1%;
 
     --recipient-green: 100 48% 55%;
@@ -56,7 +56,6 @@
     --recipient-yellow: 51 100% 43%;
     --recipient-pink: 313 65% 57%;
 
-    /* Base - Neutral */
     --new-neutral-50: 0, 0%, 96%;
     --new-neutral-100: 0, 0%, 91%;
     --new-neutral-200: 0, 0%, 82%;
@@ -69,7 +68,6 @@
     --new-neutral-900: 0, 0%, 24%;
     --new-neutral-950: 0, 0%, 9%;
 
-    /* Base - White */
     --new-white-50: 0, 0%, 5%;
     --new-white-60: 0, 0%, 6%;
     --new-white-100: 0, 0%, 10%;
@@ -82,20 +80,19 @@
     --new-white-800: 0, 0%, 90%;
     --new-white-900: 0, 0%, 100%;
 
-    /* Primary - Green */
-    --new-primary-50: 98, 73%, 97%;
-    --new-primary-100: 95, 73%, 94%;
-    --new-primary-200: 94, 70%, 87%;
-    --new-primary-300: 95, 71%, 81%;
-    --new-primary-400: 95, 71%, 74%;
-    --new-primary-500: 95, 71%, 67%;
-    --new-primary-600: 95, 71%, 54%;
-    --new-primary-700: 95, 71%, 41%;
-    --new-primary-800: 95, 71%, 27%;
-    --new-primary-900: 95, 72%, 14%;
-    --new-primary-950: 95, 72%, 7%;
+    /* Primary - Water */
+    --new-primary-50: 210, 100%, 98%;
+    --new-primary-100: 210, 95%, 94%;
+    --new-primary-200: 208, 90%, 88%;
+    --new-primary-300: 208, 85%, 80%;
+    --new-primary-400: 209, 75%, 70%;
+    --new-primary-500: 210, 55%, 55%;
+    --new-primary-600: 211, 60%, 48%;
+    --new-primary-700: 212, 65%, 38%;
+    --new-primary-800: 214, 60%, 28%;
+    --new-primary-900: 215, 55%, 20%;
+    --new-primary-950: 216, 50%, 12%;
 
-    /* Secondary - Info */
     --new-info-50: 210, 54%, 95%;
     --new-info-100: 211, 57%, 90%;
     --new-info-200: 212, 55%, 80%;
@@ -108,7 +105,6 @@
     --new-info-900: 211, 57%, 10%;
     --new-info-950: 214, 54%, 5%;
 
-    /* Secondary - Error */
     --new-error-50: 4, 80%, 96%;
     --new-error-100: 3, 78%, 91%;
     --new-error-200: 3, 79%, 83%;
@@ -121,7 +117,6 @@
     --new-error-900: 3, 79%, 11%;
     --new-error-950: 3, 80%, 6%;
 
-    /* Secondary - Warning */
     --new-warning-50: 39, 100%, 96%;
     --new-warning-100: 40, 100%, 93%;
     --new-warning-200: 39, 100%, 86%;
@@ -134,57 +129,54 @@
     --new-warning-900: 39, 100%, 14%;
     --new-warning-950: 38, 100%, 7%;
 
-    /* Surface */
     --new-surface-black: 0, 0%, 0%;
     --new-surface-white: 0, 0%, 91%;
 
-    --envelope-editor-background: 210 40% 98.04%;
+    --envelope-editor-background: 210 45% 96%;
   }
 
   .dark:not(.dark-mode-disabled) {
-    --background: 0 0% 14.9%;
-    --foreground: 0 0% 97%;
+    --background: 215 40% 10%;
+    --foreground: 210 40% 96%;
 
-    --muted: 0 0% 23.4%;
-    --muted-foreground: 0 0% 85%;
+    --muted: 215 20% 18%;
+    --muted-foreground: 210 20% 70%;
 
-    --popover: 0 0% 14.9%;
-    --popover-foreground: 0 0% 90%;
+    --popover: 215 35% 14%;
+    --popover-foreground: 210 40% 96%;
 
-    --card: 0 0% 14.9%;
-    --card-border: 0 0% 27.9%;
-    --card-border-tint: 112 205 159;
-    --card-foreground: 0 0% 95%;
+    --card: 215 35% 14%;
+    --card-border: 215 20% 22%;
+    --card-border-tint: 82 171 216;
+    --card-foreground: 210 40% 96%;
 
-    --widget: 0 0% 14.9%;
-    --widget-foreground: 0 0% 18%;
+    --widget: 215 35% 14%;
+    --widget-foreground: 215 35% 18%;
 
-    --border: 0 0% 27.9%;
-    --input: 0 0% 27.9%;
+    --border: 215 20% 22%;
+    --input: 215 20% 22%;
+    --field-border: 215 20% 22%;
 
-    --field-border: 214.3 31.8% 91.4%;
+    --primary: 205 75% 60%;
+    --primary-foreground: 0 0% 100%;
 
-    --primary: 95.08 71.08% 67.45%;
-    --primary-foreground: 95.08 71.08% 10%;
+    --secondary: 210 25% 20%;
+    --secondary-foreground: 205 75% 60%;
 
-    --secondary: 0 0% 23.4%;
-    --secondary-foreground: 95.08 71.08% 67.45%;
-
-    --accent: 0 0% 27.9%;
-    --accent-foreground: 95.08 71.08% 67.45%;
+    --accent: 210 25% 22%;
+    --accent-foreground: 205 75% 60%;
 
     --destructive: 0 87% 62%;
-    --destructive-foreground: 0 87% 19%;
+    --destructive-foreground: 0 0% 100%;
 
-    --ring: 95.08 71.08% 67.45%;
+    --ring: 205 75% 60%;
 
     --radius: 0.5rem;
 
-    --warning: 54 96% 45%;
-
+    --warning: 38 92% 50%;
     --gold: 47.9 95.8% 53.1%;
 
-    --envelope-editor-background: 0 0% 14.9%;
+    --envelope-editor-background: 215 40% 10%;
   }
 }
 
@@ -201,14 +193,6 @@
   }
 }
 
-/*
- * Custom CSS for printing reports
- * - Sets page margins to 0.5 inches
- * - Hides the header and footer
- * - Hides the print button
- * - Sets page size to A4
- * - Sets the font size to 12pt
- */
 .print-provider {
   @page {
     margin: 1in;
@@ -243,21 +227,6 @@
   display: none;
 }
 
-/* .custom-scrollbar::-webkit-scrollbar-track {
-  border-radius: 10px;
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  background: rgb(100 116 139 / 1);
-  border-radius: 10px;
-  width: 8px;
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: rgb(100 116 139 / 0.5);
-} */
-
-/* Custom Swagger Dark Theme */
 .swagger-dark-theme .swagger-ui {
   filter: invert(88%) hue-rotate(180deg);
 }

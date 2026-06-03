@@ -1,0 +1,655 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_webhooks_events_mdx",
+      "label": "events.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "webhooks_events_event_payload_structure",
+      "label": "Event Payload Structure",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L8"
+    },
+    {
+      "id": "webhooks_events_codeblock_1",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L12"
+    },
+    {
+      "id": "webhooks_events_top_level_fields",
+      "label": "Top-Level Fields",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L23"
+    },
+    {
+      "id": "webhooks_events_payload_fields",
+      "label": "Payload Fields",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L32"
+    },
+    {
+      "id": "webhooks_events_document_metadata_fields",
+      "label": "Document Metadata Fields",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L55"
+    },
+    {
+      "id": "webhooks_events_recipient_fields",
+      "label": "Recipient Fields",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L75"
+    },
+    {
+      "id": "webhooks_events_document_lifecycle_events",
+      "label": "Document Lifecycle Events",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L99"
+    },
+    {
+      "id": "webhooks_events_document_created",
+      "label": "`document.created`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L103"
+    },
+    {
+      "id": "webhooks_events_codeblock_2",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L109"
+    },
+    {
+      "id": "webhooks_events_document_sent",
+      "label": "`document.sent`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L193"
+    },
+    {
+      "id": "webhooks_events_codeblock_3",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L201"
+    },
+    {
+      "id": "webhooks_events_document_opened",
+      "label": "`document.opened`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L285"
+    },
+    {
+      "id": "webhooks_events_codeblock_4",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L293"
+    },
+    {
+      "id": "webhooks_events_document_signed",
+      "label": "`document.signed`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L318"
+    },
+    {
+      "id": "webhooks_events_codeblock_5",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L326"
+    },
+    {
+      "id": "webhooks_events_document_recipient_completed",
+      "label": "`document.recipient.completed`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L353"
+    },
+    {
+      "id": "webhooks_events_codeblock_6",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L359"
+    },
+    {
+      "id": "webhooks_events_document_completed",
+      "label": "`document.completed`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L385"
+    },
+    {
+      "id": "webhooks_events_codeblock_7",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L393"
+    },
+    {
+      "id": "webhooks_events_document_rejected",
+      "label": "`document.rejected`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L527"
+    },
+    {
+      "id": "webhooks_events_codeblock_8",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L535"
+    },
+    {
+      "id": "webhooks_events_document_cancelled",
+      "label": "`document.cancelled`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L562"
+    },
+    {
+      "id": "webhooks_events_codeblock_9",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L570"
+    },
+    {
+      "id": "webhooks_events_document_reminder_sent",
+      "label": "`document.reminder.sent`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L654"
+    },
+    {
+      "id": "webhooks_events_codeblock_10",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L660"
+    },
+    {
+      "id": "webhooks_events_template_events",
+      "label": "Template Events",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L687"
+    },
+    {
+      "id": "webhooks_events_template_created",
+      "label": "`template.created`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L691"
+    },
+    {
+      "id": "webhooks_events_codeblock_11",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L697"
+    },
+    {
+      "id": "webhooks_events_template_updated",
+      "label": "`template.updated`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L713"
+    },
+    {
+      "id": "webhooks_events_codeblock_12",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L719"
+    },
+    {
+      "id": "webhooks_events_template_deleted",
+      "label": "`template.deleted`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L735"
+    },
+    {
+      "id": "webhooks_events_codeblock_13",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L741"
+    },
+    {
+      "id": "webhooks_events_template_used",
+      "label": "`template.used`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L757"
+    },
+    {
+      "id": "webhooks_events_codeblock_14",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L763"
+    },
+    {
+      "id": "webhooks_events_event_summary",
+      "label": "Event Summary",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L781"
+    },
+    {
+      "id": "webhooks_events_document_events",
+      "label": "Document Events",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L783"
+    },
+    {
+      "id": "webhooks_events_template_events_797",
+      "label": "Template Events",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L797"
+    },
+    {
+      "id": "webhooks_events_handling_events",
+      "label": "Handling Events",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L808"
+    },
+    {
+      "id": "webhooks_events_codeblock_15",
+      "label": "code:typescript (app.post('/webhook', (req, res) => {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L828"
+    },
+    {
+      "id": "webhooks_events_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L864"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_webhooks_events_mdx",
+      "target": "webhooks_events_event_payload_structure",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_event_payload_structure",
+      "target": "webhooks_events_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_event_payload_structure",
+      "target": "webhooks_events_top_level_fields",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_event_payload_structure",
+      "target": "webhooks_events_payload_fields",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_event_payload_structure",
+      "target": "webhooks_events_document_metadata_fields",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_event_payload_structure",
+      "target": "webhooks_events_recipient_fields",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_webhooks_events_mdx",
+      "target": "webhooks_events_document_lifecycle_events",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_lifecycle_events",
+      "target": "webhooks_events_document_created",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_created",
+      "target": "webhooks_events_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_lifecycle_events",
+      "target": "webhooks_events_document_sent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_sent",
+      "target": "webhooks_events_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L201",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_lifecycle_events",
+      "target": "webhooks_events_document_opened",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L285",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_opened",
+      "target": "webhooks_events_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L293",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_lifecycle_events",
+      "target": "webhooks_events_document_signed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L318",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_signed",
+      "target": "webhooks_events_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L326",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_lifecycle_events",
+      "target": "webhooks_events_document_recipient_completed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L353",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_recipient_completed",
+      "target": "webhooks_events_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L359",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_lifecycle_events",
+      "target": "webhooks_events_document_completed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L385",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_completed",
+      "target": "webhooks_events_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L393",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_lifecycle_events",
+      "target": "webhooks_events_document_rejected",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L527",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_rejected",
+      "target": "webhooks_events_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L535",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_lifecycle_events",
+      "target": "webhooks_events_document_cancelled",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L562",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_cancelled",
+      "target": "webhooks_events_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L570",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_lifecycle_events",
+      "target": "webhooks_events_document_reminder_sent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L654",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_document_reminder_sent",
+      "target": "webhooks_events_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L660",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_webhooks_events_mdx",
+      "target": "webhooks_events_template_events",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L687",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_template_events",
+      "target": "webhooks_events_template_created",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L691",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_template_created",
+      "target": "webhooks_events_codeblock_11",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L697",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_template_events",
+      "target": "webhooks_events_template_updated",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L713",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_template_updated",
+      "target": "webhooks_events_codeblock_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L719",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_template_events",
+      "target": "webhooks_events_template_deleted",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L735",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_template_deleted",
+      "target": "webhooks_events_codeblock_13",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L741",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_template_events",
+      "target": "webhooks_events_template_used",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L757",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_template_used",
+      "target": "webhooks_events_codeblock_14",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L763",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_webhooks_events_mdx",
+      "target": "webhooks_events_event_summary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L781",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_event_summary",
+      "target": "webhooks_events_document_events",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L783",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_event_summary",
+      "target": "webhooks_events_template_events_797",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L797",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_webhooks_events_mdx",
+      "target": "webhooks_events_handling_events",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L808",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_events_handling_events",
+      "target": "webhooks_events_codeblock_15",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L828",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_webhooks_events_mdx",
+      "target": "webhooks_events_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/events.mdx",
+      "source_location": "L864",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

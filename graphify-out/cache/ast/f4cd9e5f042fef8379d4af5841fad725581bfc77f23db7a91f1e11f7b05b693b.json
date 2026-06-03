@@ -1,0 +1,447 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_advanced_document_conversion_mdx",
+      "label": "document-conversion.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "advanced_document_conversion_overview",
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L11"
+    },
+    {
+      "id": "advanced_document_conversion_requirements",
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L33"
+    },
+    {
+      "id": "advanced_document_conversion_build_the_gotenberg_image",
+      "label": "Build the Gotenberg Image",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L39"
+    },
+    {
+      "id": "advanced_document_conversion_codeblock_1",
+      "label": "code:dockerfile (FROM gotenberg/gotenberg:8-libreoffice)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L45"
+    },
+    {
+      "id": "advanced_document_conversion_codeblock_2",
+      "label": "code:bash (docker build -t registry.example.com/documenso/gotenberg:8 \\)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L82"
+    },
+    {
+      "id": "advanced_document_conversion_deploy_the_service",
+      "label": "Deploy the Service",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L90"
+    },
+    {
+      "id": "advanced_document_conversion_codeblock_3",
+      "label": "code:yaml (services:)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L99"
+    },
+    {
+      "id": "advanced_document_conversion_codeblock_4",
+      "label": "code:yaml (apiVersion: v1)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L143"
+    },
+    {
+      "id": "advanced_document_conversion_codeblock_5",
+      "label": "code:block5 (NEXT_PRIVATE_DOCUMENT_CONVERSION_URL=http://gotenberg.docume)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L205"
+    },
+    {
+      "id": "advanced_document_conversion_codeblock_6",
+      "label": "code:bash (NEXT_PRIVATE_DOCUMENT_CONVERSION_URL=https://gotenberg.inter)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L216"
+    },
+    {
+      "id": "advanced_document_conversion_recommended_gotenberg_flags",
+      "label": "Recommended Gotenberg Flags",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L231"
+    },
+    {
+      "id": "advanced_document_conversion_configure_documenso",
+      "label": "Configure Documenso",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L245"
+    },
+    {
+      "id": "advanced_document_conversion_required",
+      "label": "Required",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L249"
+    },
+    {
+      "id": "advanced_document_conversion_optional",
+      "label": "Optional",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L255"
+    },
+    {
+      "id": "advanced_document_conversion_example_env_snippet",
+      "label": "Example `.env` Snippet",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L269"
+    },
+    {
+      "id": "advanced_document_conversion_codeblock_7",
+      "label": "code:bash (# Document conversion (DOCX -> PDF))",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L271"
+    },
+    {
+      "id": "advanced_document_conversion_verify_the_setup",
+      "label": "Verify the Setup",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L279"
+    },
+    {
+      "id": "advanced_document_conversion_restart_the_documenso_container",
+      "label": "Restart the Documenso container",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L284"
+    },
+    {
+      "id": "advanced_document_conversion_confirm_gotenberg_is_healthy",
+      "label": "Confirm Gotenberg is healthy",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L290"
+    },
+    {
+      "id": "advanced_document_conversion_codeblock_8",
+      "label": "code:bash (curl -fsS http://gotenberg:3000/health)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L294"
+    },
+    {
+      "id": "advanced_document_conversion_upload_a_test_docx",
+      "label": "Upload a test DOCX",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L302"
+    },
+    {
+      "id": "advanced_document_conversion_check_the_server_logs",
+      "label": "Check the server logs",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L308"
+    },
+    {
+      "id": "advanced_document_conversion_security_considerations",
+      "label": "Security Considerations",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L315"
+    },
+    {
+      "id": "advanced_document_conversion_resource_sizing",
+      "label": "Resource Sizing",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L323"
+    },
+    {
+      "id": "advanced_document_conversion_troubleshooting",
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L335"
+    },
+    {
+      "id": "advanced_document_conversion_codeblock_9",
+      "label": "code:bash (docker compose logs -f gotenberg)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L360"
+    },
+    {
+      "id": "advanced_document_conversion_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L403"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_advanced_document_conversion_mdx",
+      "target": "advanced_document_conversion_overview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_advanced_document_conversion_mdx",
+      "target": "advanced_document_conversion_requirements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_advanced_document_conversion_mdx",
+      "target": "advanced_document_conversion_build_the_gotenberg_image",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_document_conversion_build_the_gotenberg_image",
+      "target": "advanced_document_conversion_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_document_conversion_build_the_gotenberg_image",
+      "target": "advanced_document_conversion_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_advanced_document_conversion_mdx",
+      "target": "advanced_document_conversion_deploy_the_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_document_conversion_deploy_the_service",
+      "target": "advanced_document_conversion_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_document_conversion_deploy_the_service",
+      "target": "advanced_document_conversion_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_document_conversion_deploy_the_service",
+      "target": "advanced_document_conversion_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L205",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_document_conversion_deploy_the_service",
+      "target": "advanced_document_conversion_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L216",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_advanced_document_conversion_mdx",
+      "target": "advanced_document_conversion_recommended_gotenberg_flags",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L231",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_advanced_document_conversion_mdx",
+      "target": "advanced_document_conversion_configure_documenso",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L245",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_document_conversion_configure_documenso",
+      "target": "advanced_document_conversion_required",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L249",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_document_conversion_configure_documenso",
+      "target": "advanced_document_conversion_optional",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L255",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_document_conversion_configure_documenso",
+      "target": "advanced_document_conversion_example_env_snippet",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L269",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_document_conversion_example_env_snippet",
+      "target": "advanced_document_conversion_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L271",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_advanced_document_conversion_mdx",
+      "target": "advanced_document_conversion_verify_the_setup",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L279",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_document_conversion_verify_the_setup",
+      "target": "advanced_document_conversion_restart_the_documenso_container",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L284",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_document_conversion_verify_the_setup",
+      "target": "advanced_document_conversion_confirm_gotenberg_is_healthy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L290",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_document_conversion_confirm_gotenberg_is_healthy",
+      "target": "advanced_document_conversion_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L294",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_document_conversion_verify_the_setup",
+      "target": "advanced_document_conversion_upload_a_test_docx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L302",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_document_conversion_verify_the_setup",
+      "target": "advanced_document_conversion_check_the_server_logs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L308",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_advanced_document_conversion_mdx",
+      "target": "advanced_document_conversion_security_considerations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L315",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_advanced_document_conversion_mdx",
+      "target": "advanced_document_conversion_resource_sizing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L323",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_advanced_document_conversion_mdx",
+      "target": "advanced_document_conversion_troubleshooting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L335",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_document_conversion_troubleshooting",
+      "target": "advanced_document_conversion_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L360",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_advanced_document_conversion_mdx",
+      "target": "advanced_document_conversion_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/advanced/document-conversion.mdx",
+      "source_location": "L403",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

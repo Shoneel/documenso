@@ -1,0 +1,95 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_deployment_meta_json",
+      "label": "meta.json",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/meta.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "deployment_meta_title",
+      "label": "title",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/meta.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "deployment_meta_pages",
+      "label": "pages",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/meta.json",
+      "source_location": "L3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_deployment_meta_json",
+      "target": "deployment_meta_title",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/meta.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_deployment_meta_json",
+      "target": "deployment_meta_pages",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/meta.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_meta_pages",
+      "target": "ref_docker",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "deployment_meta_pages",
+      "target": "ref_docker_compose",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "deployment_meta_pages",
+      "target": "ref_railway",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "deployment_meta_pages",
+      "target": "ref_kubernetes",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "deployment_meta_pages",
+      "target": "ref_manual",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    }
+  ]
+}

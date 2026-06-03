@@ -1,0 +1,175 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_concepts_signing_certificates_mdx",
+      "label": "signing-certificates.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "concepts_signing_certificates_how_documenso_signs_documents",
+      "label": "How Documenso Signs Documents",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L10"
+    },
+    {
+      "id": "concepts_signing_certificates_create_hash",
+      "label": "Create hash",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L17"
+    },
+    {
+      "id": "concepts_signing_certificates_sign_the_hash",
+      "label": "Sign the hash",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L24"
+    },
+    {
+      "id": "concepts_signing_certificates_embed_signature",
+      "label": "Embed signature",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L31"
+    },
+    {
+      "id": "concepts_signing_certificates_what_the_signature_proves",
+      "label": "What the Signature Proves",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L40"
+    },
+    {
+      "id": "concepts_signing_certificates_timestamps",
+      "label": "Timestamps",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L51"
+    },
+    {
+      "id": "concepts_signing_certificates_viewing_the_signature_in_pdf_readers",
+      "label": "Viewing the Signature in PDF Readers",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L59"
+    },
+    {
+      "id": "concepts_signing_certificates_certificate_trust_and_validation",
+      "label": "Certificate Trust and Validation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L80"
+    },
+    {
+      "id": "concepts_signing_certificates_using_custom_certificates",
+      "label": "Using Custom Certificates",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L96"
+    },
+    {
+      "id": "concepts_signing_certificates_related",
+      "label": "Related",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L119"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_concepts_signing_certificates_mdx",
+      "target": "concepts_signing_certificates_how_documenso_signs_documents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "concepts_signing_certificates_how_documenso_signs_documents",
+      "target": "concepts_signing_certificates_create_hash",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "concepts_signing_certificates_how_documenso_signs_documents",
+      "target": "concepts_signing_certificates_sign_the_hash",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "concepts_signing_certificates_how_documenso_signs_documents",
+      "target": "concepts_signing_certificates_embed_signature",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_concepts_signing_certificates_mdx",
+      "target": "concepts_signing_certificates_what_the_signature_proves",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_concepts_signing_certificates_mdx",
+      "target": "concepts_signing_certificates_timestamps",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_concepts_signing_certificates_mdx",
+      "target": "concepts_signing_certificates_viewing_the_signature_in_pdf_readers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_concepts_signing_certificates_mdx",
+      "target": "concepts_signing_certificates_certificate_trust_and_validation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_concepts_signing_certificates_mdx",
+      "target": "concepts_signing_certificates_using_custom_certificates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_concepts_signing_certificates_mdx",
+      "target": "concepts_signing_certificates_related",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/signing-certificates.mdx",
+      "source_location": "L119",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

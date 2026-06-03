@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_agents_plans_smooth_ivory_sky_partial_signed_pdf_download_md",
+      "label": "smooth-ivory-sky-partial-signed-pdf-download.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-ivory-sky-partial-signed-pdf-download.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "plans_smooth_ivory_sky_partial_signed_pdf_download_summary",
+      "label": "Summary",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-ivory-sky-partial-signed-pdf-download.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "plans_smooth_ivory_sky_partial_signed_pdf_download_scope",
+      "label": "Scope",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-ivory-sky-partial-signed-pdf-download.md",
+      "source_location": "L15"
+    },
+    {
+      "id": "plans_smooth_ivory_sky_partial_signed_pdf_download_behaviour",
+      "label": "Behaviour",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-ivory-sky-partial-signed-pdf-download.md",
+      "source_location": "L23"
+    },
+    {
+      "id": "plans_smooth_ivory_sky_partial_signed_pdf_download_ui",
+      "label": "UI",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-ivory-sky-partial-signed-pdf-download.md",
+      "source_location": "L45"
+    },
+    {
+      "id": "plans_smooth_ivory_sky_partial_signed_pdf_download_files",
+      "label": "Files",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-ivory-sky-partial-signed-pdf-download.md",
+      "source_location": "L57"
+    },
+    {
+      "id": "plans_smooth_ivory_sky_partial_signed_pdf_download_verification",
+      "label": "Verification",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-ivory-sky-partial-signed-pdf-download.md",
+      "source_location": "L77"
+    },
+    {
+      "id": "plans_smooth_ivory_sky_partial_signed_pdf_download_out_of_scope_follow_ups",
+      "label": "Out of Scope / Follow-ups",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-ivory-sky-partial-signed-pdf-download.md",
+      "source_location": "L88"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_smooth_ivory_sky_partial_signed_pdf_download_md",
+      "target": "plans_smooth_ivory_sky_partial_signed_pdf_download_summary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-ivory-sky-partial-signed-pdf-download.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_smooth_ivory_sky_partial_signed_pdf_download_md",
+      "target": "plans_smooth_ivory_sky_partial_signed_pdf_download_scope",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-ivory-sky-partial-signed-pdf-download.md",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_smooth_ivory_sky_partial_signed_pdf_download_md",
+      "target": "plans_smooth_ivory_sky_partial_signed_pdf_download_behaviour",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-ivory-sky-partial-signed-pdf-download.md",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_smooth_ivory_sky_partial_signed_pdf_download_md",
+      "target": "plans_smooth_ivory_sky_partial_signed_pdf_download_ui",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-ivory-sky-partial-signed-pdf-download.md",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_smooth_ivory_sky_partial_signed_pdf_download_md",
+      "target": "plans_smooth_ivory_sky_partial_signed_pdf_download_files",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-ivory-sky-partial-signed-pdf-download.md",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_smooth_ivory_sky_partial_signed_pdf_download_md",
+      "target": "plans_smooth_ivory_sky_partial_signed_pdf_download_verification",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-ivory-sky-partial-signed-pdf-download.md",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_smooth_ivory_sky_partial_signed_pdf_download_md",
+      "target": "plans_smooth_ivory_sky_partial_signed_pdf_download_out_of_scope_follow_ups",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/smooth-ivory-sky-partial-signed-pdf-download.md",
+      "source_location": "L88",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

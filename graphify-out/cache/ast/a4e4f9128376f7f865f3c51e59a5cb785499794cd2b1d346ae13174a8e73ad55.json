@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_meta_json",
+      "label": "meta.json",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/meta.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "api_meta_title",
+      "label": "title",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/meta.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "api_meta_pages",
+      "label": "pages",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/meta.json",
+      "source_location": "L3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_meta_json",
+      "target": "api_meta_title",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/meta.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_meta_json",
+      "target": "api_meta_pages",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/meta.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "api_meta_pages",
+      "target": "ref_documents",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "api_meta_pages",
+      "target": "ref_recipients",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "api_meta_pages",
+      "target": "ref_fields",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "api_meta_pages",
+      "target": "ref_templates",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "api_meta_pages",
+      "target": "ref_teams",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "api_meta_pages",
+      "target": "ref_rate_limits",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "api_meta_pages",
+      "target": "ref_versioning",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "api_meta_pages",
+      "target": "ref_developer_mode",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "api_meta_pages",
+      "target": "ref_common_errors",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    }
+  ]
+}

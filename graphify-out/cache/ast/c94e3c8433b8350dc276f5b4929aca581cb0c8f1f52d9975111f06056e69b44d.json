@@ -1,0 +1,991 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_fields_mdx",
+      "label": "fields.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "api_fields_field_object",
+      "label": "Field Object",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L14"
+    },
+    {
+      "id": "api_fields_example_field_object",
+      "label": "Example Field Object",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L33"
+    },
+    {
+      "id": "api_fields_codeblock_1",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L35"
+    },
+    {
+      "id": "api_fields_field_types",
+      "label": "Field Types",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L59"
+    },
+    {
+      "id": "api_fields_get_field",
+      "label": "Get Field",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L77"
+    },
+    {
+      "id": "api_fields_codeblock_2",
+      "label": "code:block2 (GET /envelope/field/{fieldId})",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L81"
+    },
+    {
+      "id": "api_fields_path_parameters",
+      "label": "Path Parameters",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L85"
+    },
+    {
+      "id": "api_fields_code_examples",
+      "label": "Code Examples",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L91"
+    },
+    {
+      "id": "api_fields_codeblock_3",
+      "label": "code:bash (curl -X GET \"https://app.documenso.com/api/v2/envelope/field)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L95"
+    },
+    {
+      "id": "api_fields_codeblock_4",
+      "label": "code:typescript (const response = await fetch()",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L101"
+    },
+    {
+      "id": "api_fields_response",
+      "label": "Response",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L119"
+    },
+    {
+      "id": "api_fields_create_fields",
+      "label": "Create Fields",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L125"
+    },
+    {
+      "id": "api_fields_codeblock_5",
+      "label": "code:block5",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L129"
+    },
+    {
+      "id": "api_fields_request_body",
+      "label": "Request Body",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L135"
+    },
+    {
+      "id": "api_fields_code_examples_142",
+      "label": "Code Examples",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L142"
+    },
+    {
+      "id": "api_fields_codeblock_6",
+      "label": "code:bash (curl -X POST \"https://app.documenso.com/api/v2/envelope/fiel)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L146"
+    },
+    {
+      "id": "api_fields_codeblock_7",
+      "label": "code:typescript (const response = await fetch()",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L192"
+    },
+    {
+      "id": "api_fields_response_249",
+      "label": "Response",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L249"
+    },
+    {
+      "id": "api_fields_codeblock_8",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L251"
+    },
+    {
+      "id": "api_fields_update_fields",
+      "label": "Update Fields",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L290"
+    },
+    {
+      "id": "api_fields_codeblock_9",
+      "label": "code:block9 (POST /envelope/field/update-many)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L294"
+    },
+    {
+      "id": "api_fields_request_body_298",
+      "label": "Request Body",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L298"
+    },
+    {
+      "id": "api_fields_code_examples_305",
+      "label": "Code Examples",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L305"
+    },
+    {
+      "id": "api_fields_codeblock_10",
+      "label": "code:bash (curl -X POST \"https://app.documenso.com/api/v2/envelope/fiel)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L309"
+    },
+    {
+      "id": "api_fields_codeblock_11",
+      "label": "code:typescript (const response = await fetch()",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L331"
+    },
+    {
+      "id": "api_fields_response_356",
+      "label": "Response",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L356"
+    },
+    {
+      "id": "api_fields_codeblock_12",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L358"
+    },
+    {
+      "id": "api_fields_delete_field",
+      "label": "Delete Field",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L369"
+    },
+    {
+      "id": "api_fields_codeblock_13",
+      "label": "code:block13 (POST /envelope/field/delete)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L373"
+    },
+    {
+      "id": "api_fields_request_body_377",
+      "label": "Request Body",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L377"
+    },
+    {
+      "id": "api_fields_code_examples_383",
+      "label": "Code Examples",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L383"
+    },
+    {
+      "id": "api_fields_codeblock_14",
+      "label": "code:bash (curl -X POST \"https://app.documenso.com/api/v2/envelope/fiel)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L387"
+    },
+    {
+      "id": "api_fields_codeblock_15",
+      "label": "code:typescript (const response = await fetch()",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L397"
+    },
+    {
+      "id": "api_fields_response_418",
+      "label": "Response",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L418"
+    },
+    {
+      "id": "api_fields_codeblock_16",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L420"
+    },
+    {
+      "id": "api_fields_field_positioning",
+      "label": "Field Positioning",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L428"
+    },
+    {
+      "id": "api_fields_coordinate_system",
+      "label": "Coordinate System",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L440"
+    },
+    {
+      "id": "api_fields_codeblock_17",
+      "label": "code:block17 ((0,0) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 (100,0))",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L442"
+    },
+    {
+      "id": "api_fields_example_position_a_signature_at_bottom_right",
+      "label": "Example: Position a Signature at Bottom Right",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L454"
+    },
+    {
+      "id": "api_fields_codeblock_18",
+      "label": "code:typescript (const field = {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L456"
+    },
+    {
+      "id": "api_fields_placeholder_based_field_positioning",
+      "label": "Placeholder-Based Field Positioning",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L470"
+    },
+    {
+      "id": "api_fields_field_meta_options",
+      "label": "Field Meta Options",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L484"
+    },
+    {
+      "id": "api_fields_common_options",
+      "label": "Common Options",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L488"
+    },
+    {
+      "id": "api_fields_signature_field",
+      "label": "Signature Field",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L500"
+    },
+    {
+      "id": "api_fields_codeblock_19",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L502"
+    },
+    {
+      "id": "api_fields_text_field",
+      "label": "Text Field",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L512"
+    },
+    {
+      "id": "api_fields_codeblock_20",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L514"
+    },
+    {
+      "id": "api_fields_number_field",
+      "label": "Number Field",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L537"
+    },
+    {
+      "id": "api_fields_codeblock_21",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L539"
+    },
+    {
+      "id": "api_fields_date_field",
+      "label": "Date Field",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L560"
+    },
+    {
+      "id": "api_fields_codeblock_22",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L562"
+    },
+    {
+      "id": "api_fields_checkbox_field",
+      "label": "Checkbox Field",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L573"
+    },
+    {
+      "id": "api_fields_codeblock_23",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L575"
+    },
+    {
+      "id": "api_fields_radio_field",
+      "label": "Radio Field",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L600"
+    },
+    {
+      "id": "api_fields_codeblock_24",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L602"
+    },
+    {
+      "id": "api_fields_dropdown_field",
+      "label": "Dropdown Field",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L619"
+    },
+    {
+      "id": "api_fields_codeblock_25",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L621"
+    },
+    {
+      "id": "api_fields_complete_example",
+      "label": "Complete Example",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L641"
+    },
+    {
+      "id": "api_fields_codeblock_26",
+      "label": "code:typescript (async function addSignatureBlock(documentId: number, recipie)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L645"
+    },
+    {
+      "id": "api_fields_error_responses",
+      "label": "Error Responses",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L722"
+    },
+    {
+      "id": "api_fields_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L738"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_fields_mdx",
+      "target": "api_fields_field_object",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_field_object",
+      "target": "api_fields_example_field_object",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_example_field_object",
+      "target": "api_fields_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_fields_mdx",
+      "target": "api_fields_field_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_fields_mdx",
+      "target": "api_fields_get_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_get_field",
+      "target": "api_fields_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_get_field",
+      "target": "api_fields_path_parameters",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_get_field",
+      "target": "api_fields_code_examples",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_code_examples",
+      "target": "api_fields_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_code_examples",
+      "target": "api_fields_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_get_field",
+      "target": "api_fields_response",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_fields_mdx",
+      "target": "api_fields_create_fields",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_create_fields",
+      "target": "api_fields_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_create_fields",
+      "target": "api_fields_request_body",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_create_fields",
+      "target": "api_fields_code_examples_142",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_code_examples_142",
+      "target": "api_fields_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L146",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_code_examples_142",
+      "target": "api_fields_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L192",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_create_fields",
+      "target": "api_fields_response_249",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L249",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_response_249",
+      "target": "api_fields_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L251",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_fields_mdx",
+      "target": "api_fields_update_fields",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L290",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_update_fields",
+      "target": "api_fields_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L294",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_update_fields",
+      "target": "api_fields_request_body_298",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L298",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_update_fields",
+      "target": "api_fields_code_examples_305",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L305",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_code_examples_305",
+      "target": "api_fields_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L309",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_code_examples_305",
+      "target": "api_fields_codeblock_11",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L331",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_update_fields",
+      "target": "api_fields_response_356",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L356",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_response_356",
+      "target": "api_fields_codeblock_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L358",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_fields_mdx",
+      "target": "api_fields_delete_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L369",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_delete_field",
+      "target": "api_fields_codeblock_13",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L373",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_delete_field",
+      "target": "api_fields_request_body_377",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L377",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_delete_field",
+      "target": "api_fields_code_examples_383",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L383",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_code_examples_383",
+      "target": "api_fields_codeblock_14",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L387",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_code_examples_383",
+      "target": "api_fields_codeblock_15",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L397",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_delete_field",
+      "target": "api_fields_response_418",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L418",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_response_418",
+      "target": "api_fields_codeblock_16",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L420",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_fields_mdx",
+      "target": "api_fields_field_positioning",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L428",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_field_positioning",
+      "target": "api_fields_coordinate_system",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L440",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_coordinate_system",
+      "target": "api_fields_codeblock_17",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L442",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_field_positioning",
+      "target": "api_fields_example_position_a_signature_at_bottom_right",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L454",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_example_position_a_signature_at_bottom_right",
+      "target": "api_fields_codeblock_18",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L456",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_fields_mdx",
+      "target": "api_fields_placeholder_based_field_positioning",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L470",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_fields_mdx",
+      "target": "api_fields_field_meta_options",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L484",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_field_meta_options",
+      "target": "api_fields_common_options",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L488",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_field_meta_options",
+      "target": "api_fields_signature_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L500",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_signature_field",
+      "target": "api_fields_codeblock_19",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L502",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_field_meta_options",
+      "target": "api_fields_text_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L512",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_text_field",
+      "target": "api_fields_codeblock_20",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L514",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_field_meta_options",
+      "target": "api_fields_number_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L537",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_number_field",
+      "target": "api_fields_codeblock_21",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L539",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_field_meta_options",
+      "target": "api_fields_date_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L560",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_date_field",
+      "target": "api_fields_codeblock_22",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L562",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_field_meta_options",
+      "target": "api_fields_checkbox_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L573",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_checkbox_field",
+      "target": "api_fields_codeblock_23",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L575",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_field_meta_options",
+      "target": "api_fields_radio_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L600",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_radio_field",
+      "target": "api_fields_codeblock_24",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L602",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_field_meta_options",
+      "target": "api_fields_dropdown_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L619",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_dropdown_field",
+      "target": "api_fields_codeblock_25",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L621",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_fields_mdx",
+      "target": "api_fields_complete_example",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L641",
+      "weight": 1.0
+    },
+    {
+      "source": "api_fields_complete_example",
+      "target": "api_fields_codeblock_26",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L645",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_fields_mdx",
+      "target": "api_fields_error_responses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L722",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_fields_mdx",
+      "target": "api_fields_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/fields.mdx",
+      "source_location": "L738",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

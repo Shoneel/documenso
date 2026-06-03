@@ -1,0 +1,975 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_database_mdx",
+      "label": "database.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "configuration_database_supported_databases",
+      "label": "Supported Databases",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L10"
+    },
+    {
+      "id": "configuration_database_connection_string_format",
+      "label": "Connection String Format",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L21"
+    },
+    {
+      "id": "configuration_database_codeblock_1",
+      "label": "code:block1 (postgresql://[user]:[password]@[host]:[port]/[database]?[par)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L25"
+    },
+    {
+      "id": "configuration_database_components",
+      "label": "Components",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L29"
+    },
+    {
+      "id": "configuration_database_examples",
+      "label": "Examples",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L40"
+    },
+    {
+      "id": "configuration_database_codeblock_2",
+      "label": "code:block2 (postgresql://documenso:password@localhost:5432/documenso)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L44"
+    },
+    {
+      "id": "configuration_database_codeblock_3",
+      "label": "code:block3 (postgresql://documenso:password@db.example.com:5432/documens)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L50"
+    },
+    {
+      "id": "configuration_database_codeblock_4",
+      "label": "code:block4 (postgresql://documenso:p%40ss%23word@localhost:5432/documens)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L58"
+    },
+    {
+      "id": "configuration_database_environment_variables",
+      "label": "Environment Variables",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L62"
+    },
+    {
+      "id": "configuration_database_basic_configuration",
+      "label": "Basic Configuration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L71"
+    },
+    {
+      "id": "configuration_database_codeblock_5",
+      "label": "code:bash (NEXT_PRIVATE_DATABASE_URL=postgresql://user:password@host:54)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L75"
+    },
+    {
+      "id": "configuration_database_automatic_detection",
+      "label": "Automatic Detection",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L80"
+    },
+    {
+      "id": "configuration_database_connection_pooling",
+      "label": "Connection Pooling",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L94"
+    },
+    {
+      "id": "configuration_database_when_to_use_pooling",
+      "label": "When to Use Pooling",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L98"
+    },
+    {
+      "id": "configuration_database_pgbouncer_configuration",
+      "label": "PgBouncer Configuration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L107"
+    },
+    {
+      "id": "configuration_database_codeblock_6",
+      "label": "code:bash (# Pooled connection (through PgBouncer))",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L114"
+    },
+    {
+      "id": "configuration_database_prisma_connection_pool",
+      "label": "Prisma Connection Pool",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L126"
+    },
+    {
+      "id": "configuration_database_codeblock_7",
+      "label": "code:block7 (postgresql://user:password@host:5432/documenso?connection_li)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L130"
+    },
+    {
+      "id": "configuration_database_ssl_tls_connections",
+      "label": "SSL/TLS Connections",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L139"
+    },
+    {
+      "id": "configuration_database_enabling_ssl",
+      "label": "Enabling SSL",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L141"
+    },
+    {
+      "id": "configuration_database_codeblock_8",
+      "label": "code:block8 (postgresql://user:password@host:5432/documenso?sslmode=requi)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L145"
+    },
+    {
+      "id": "configuration_database_ssl_modes",
+      "label": "SSL Modes",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L149"
+    },
+    {
+      "id": "configuration_database_custom_certificates",
+      "label": "Custom Certificates",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L162"
+    },
+    {
+      "id": "configuration_database_codeblock_9",
+      "label": "code:block9 (postgresql://user:password@host:5432/documenso?sslmode=verif)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L166"
+    },
+    {
+      "id": "configuration_database_codeblock_10",
+      "label": "code:bash (docker run -d \\)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L172"
+    },
+    {
+      "id": "configuration_database_running_migrations",
+      "label": "Running Migrations",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L179"
+    },
+    {
+      "id": "configuration_database_automatic_migrations",
+      "label": "Automatic Migrations",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L183"
+    },
+    {
+      "id": "configuration_database_manual_migrations",
+      "label": "Manual Migrations",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L187"
+    },
+    {
+      "id": "configuration_database_codeblock_11",
+      "label": "code:bash (# Apply pending migrations)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L191"
+    },
+    {
+      "id": "configuration_database_migration_commands",
+      "label": "Migration Commands",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L203"
+    },
+    {
+      "id": "configuration_database_troubleshooting_migrations",
+      "label": "Troubleshooting Migrations",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L211"
+    },
+    {
+      "id": "configuration_database_codeblock_12",
+      "label": "code:sql (SELECT * FROM _prisma_migrations WHERE finished_at IS NULL;)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L217"
+    },
+    {
+      "id": "configuration_database_codeblock_13",
+      "label": "code:sql (UPDATE _prisma_migrations SET rolled_back_at = NOW() WHERE m)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L223"
+    },
+    {
+      "id": "configuration_database_codeblock_14",
+      "label": "code:bash (NEXT_PRIVATE_DIRECT_DATABASE_URL=\"postgresql://user:password)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L233"
+    },
+    {
+      "id": "configuration_database_managed_database_services",
+      "label": "Managed Database Services",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L239"
+    },
+    {
+      "id": "configuration_database_codeblock_15",
+      "label": "code:bash (# Pooled connection (Session mode - port 5432))",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L247"
+    },
+    {
+      "id": "configuration_database_codeblock_16",
+      "label": "code:bash (# Pooled connection)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L263"
+    },
+    {
+      "id": "configuration_database_codeblock_17",
+      "label": "code:bash (NEXT_PRIVATE_DATABASE_URL=postgresql://documenso:[password]@)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L277"
+    },
+    {
+      "id": "configuration_database_codeblock_18",
+      "label": "code:bash (NEXT_PRIVATE_DATABASE_URL=postgresql://documenso:[password]@)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L293"
+    },
+    {
+      "id": "configuration_database_codeblock_19",
+      "label": "code:bash (NEXT_PRIVATE_DATABASE_URL=postgresql://documenso:[password]@)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L301"
+    },
+    {
+      "id": "configuration_database_codeblock_20",
+      "label": "code:bash (NEXT_PRIVATE_DATABASE_URL=postgresql://documenso@[server-nam)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L309"
+    },
+    {
+      "id": "configuration_database_codeblock_21",
+      "label": "code:bash (NEXT_PRIVATE_DATABASE_URL=postgresql://doadmin:[password]@[c)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L319"
+    },
+    {
+      "id": "configuration_database_backup_recommendations",
+      "label": "Backup Recommendations",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L328"
+    },
+    {
+      "id": "configuration_database_backup_strategies",
+      "label": "Backup Strategies",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L330"
+    },
+    {
+      "id": "configuration_database_postgresql_backup_commands",
+      "label": "PostgreSQL Backup Commands",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L338"
+    },
+    {
+      "id": "configuration_database_codeblock_22",
+      "label": "code:bash (pg_dump -h host -U user -d documenso -F c -f documenso_backu)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L342"
+    },
+    {
+      "id": "configuration_database_codeblock_23",
+      "label": "code:bash (pg_restore -h host -U user -d documenso -c documenso_backup.)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L348"
+    },
+    {
+      "id": "configuration_database_managed_service_backups",
+      "label": "Managed Service Backups",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L352"
+    },
+    {
+      "id": "configuration_database_performance_tuning",
+      "label": "Performance Tuning",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L368"
+    },
+    {
+      "id": "configuration_database_postgresql_configuration",
+      "label": "PostgreSQL Configuration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L370"
+    },
+    {
+      "id": "configuration_database_connection_limits",
+      "label": "Connection Limits",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L382"
+    },
+    {
+      "id": "configuration_database_codeblock_24",
+      "label": "code:block24 (max_connections = (application_instances \u00d7 connection_pool_s)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L386"
+    },
+    {
+      "id": "configuration_database_indexing",
+      "label": "Indexing",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L392"
+    },
+    {
+      "id": "configuration_database_codeblock_25",
+      "label": "code:sql (SELECT query, calls, mean_time, total_time)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L402"
+    },
+    {
+      "id": "configuration_database_monitoring",
+      "label": "Monitoring",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L409"
+    },
+    {
+      "id": "configuration_database_troubleshooting",
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L420"
+    },
+    {
+      "id": "configuration_database_codeblock_26",
+      "label": "code:bash (postgresql://user:password@host:5432/documenso?sslmode=requi)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L449"
+    },
+    {
+      "id": "configuration_database_codeblock_27",
+      "label": "code:sql (CREATE DATABASE documenso;)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L468"
+    },
+    {
+      "id": "configuration_database_codeblock_28",
+      "label": "code:sql (GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO docum)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L476"
+    },
+    {
+      "id": "configuration_database_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L485"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_database_mdx",
+      "target": "configuration_database_supported_databases",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_database_mdx",
+      "target": "configuration_database_connection_string_format",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_connection_string_format",
+      "target": "configuration_database_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_connection_string_format",
+      "target": "configuration_database_components",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_connection_string_format",
+      "target": "configuration_database_examples",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_examples",
+      "target": "configuration_database_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_examples",
+      "target": "configuration_database_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_examples",
+      "target": "configuration_database_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_database_mdx",
+      "target": "configuration_database_environment_variables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_environment_variables",
+      "target": "configuration_database_basic_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_basic_configuration",
+      "target": "configuration_database_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_environment_variables",
+      "target": "configuration_database_automatic_detection",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_database_mdx",
+      "target": "configuration_database_connection_pooling",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_connection_pooling",
+      "target": "configuration_database_when_to_use_pooling",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_connection_pooling",
+      "target": "configuration_database_pgbouncer_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_pgbouncer_configuration",
+      "target": "configuration_database_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_connection_pooling",
+      "target": "configuration_database_prisma_connection_pool",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_prisma_connection_pool",
+      "target": "configuration_database_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_database_mdx",
+      "target": "configuration_database_ssl_tls_connections",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_ssl_tls_connections",
+      "target": "configuration_database_enabling_ssl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_enabling_ssl",
+      "target": "configuration_database_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_ssl_tls_connections",
+      "target": "configuration_database_ssl_modes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_ssl_tls_connections",
+      "target": "configuration_database_custom_certificates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_custom_certificates",
+      "target": "configuration_database_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_custom_certificates",
+      "target": "configuration_database_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_database_mdx",
+      "target": "configuration_database_running_migrations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L179",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_running_migrations",
+      "target": "configuration_database_automatic_migrations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L183",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_running_migrations",
+      "target": "configuration_database_manual_migrations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_manual_migrations",
+      "target": "configuration_database_codeblock_11",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L191",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_running_migrations",
+      "target": "configuration_database_migration_commands",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L203",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_running_migrations",
+      "target": "configuration_database_troubleshooting_migrations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L211",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_troubleshooting_migrations",
+      "target": "configuration_database_codeblock_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L217",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_troubleshooting_migrations",
+      "target": "configuration_database_codeblock_13",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L223",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_troubleshooting_migrations",
+      "target": "configuration_database_codeblock_14",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_database_mdx",
+      "target": "configuration_database_managed_database_services",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L239",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_managed_database_services",
+      "target": "configuration_database_codeblock_15",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_managed_database_services",
+      "target": "configuration_database_codeblock_16",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L263",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_managed_database_services",
+      "target": "configuration_database_codeblock_17",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L277",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_managed_database_services",
+      "target": "configuration_database_codeblock_18",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L293",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_managed_database_services",
+      "target": "configuration_database_codeblock_19",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L301",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_managed_database_services",
+      "target": "configuration_database_codeblock_20",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L309",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_managed_database_services",
+      "target": "configuration_database_codeblock_21",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L319",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_database_mdx",
+      "target": "configuration_database_backup_recommendations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L328",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_backup_recommendations",
+      "target": "configuration_database_backup_strategies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L330",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_backup_recommendations",
+      "target": "configuration_database_postgresql_backup_commands",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L338",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_postgresql_backup_commands",
+      "target": "configuration_database_codeblock_22",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L342",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_postgresql_backup_commands",
+      "target": "configuration_database_codeblock_23",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L348",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_backup_recommendations",
+      "target": "configuration_database_managed_service_backups",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L352",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_database_mdx",
+      "target": "configuration_database_performance_tuning",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L368",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_performance_tuning",
+      "target": "configuration_database_postgresql_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L370",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_performance_tuning",
+      "target": "configuration_database_connection_limits",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L382",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_connection_limits",
+      "target": "configuration_database_codeblock_24",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L386",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_performance_tuning",
+      "target": "configuration_database_indexing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L392",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_indexing",
+      "target": "configuration_database_codeblock_25",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L402",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_performance_tuning",
+      "target": "configuration_database_monitoring",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L409",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_database_mdx",
+      "target": "configuration_database_troubleshooting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L420",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_troubleshooting",
+      "target": "configuration_database_codeblock_26",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L449",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_troubleshooting",
+      "target": "configuration_database_codeblock_27",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L468",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_database_troubleshooting",
+      "target": "configuration_database_codeblock_28",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L476",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_database_mdx",
+      "target": "configuration_database_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/database.mdx",
+      "source_location": "L485",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,3 +1,4 @@
+import backgroundPattern from '@documenso/assets/images/background-pattern.png';
 import { getOptionalSession } from '@documenso/auth/server/lib/utils/get-session';
 import {
   IS_GOOGLE_SSO_ENABLED,
@@ -77,44 +78,82 @@ export default function SignIn({ loaderData }: Route.ComponentProps) {
   }, []);
 
   return (
-    <div className="w-screen max-w-lg px-4">
-      <div className="z-10 rounded-xl border border-border bg-neutral-100 p-6 dark:bg-background">
-        {signupError && (
-          <Alert variant="destructive" className="mb-4">
-            <AlertDescription>{_(signupError)}</AlertDescription>
-          </Alert>
-        )}
+    <div className="fixed inset-0 w-screen overflow-hidden">
+      <div className="relative grid h-screen w-full md:grid-cols-2">
+        <section className="hidden h-full items-center justify-center bg-[#0d1117] px-6 md:flex">
+          <div className="flex max-w-[360px] flex-col items-center text-center">
+            <img src="/static/logo.png" alt="WAF eSign" width={280} height="auto" style={{ objectFit: 'contain' }} />
 
-        <h1 className="font-semibold text-2xl">
-          <Trans>Sign in to your account</Trans>
-        </h1>
+            <h1 className="mt-6 font-bold text-[2.5rem] text-white leading-none">
+              <Trans>WAF eSign</Trans>
+            </h1>
 
-        <p className="mt-2 text-muted-foreground text-sm">
-          <Trans>Welcome back, we are lucky to have you.</Trans>
-        </p>
-        <hr className="-mx-6 my-4" />
+            <p className="mt-4 max-w-[360px] text-[#6b7280] text-[0.95rem] leading-[1.6]">
+              <Trans>
+                A secure and scalable platform for digital signatures, document approvals, and enterprise workflow
+                automation, designed for modern organizations.
+              </Trans>
+            </p>
+          </div>
+        </section>
 
-        <SignInForm
-          isGoogleSSOEnabled={isGoogleSSOEnabled}
-          isMicrosoftSSOEnabled={isMicrosoftSSOEnabled}
-          isOIDCSSOEnabled={isOIDCSSOEnabled}
-          oidcProviderLabel={oidcProviderLabel}
-          returnTo={returnTo}
-        />
+        <section className="relative flex h-full items-center justify-center overflow-hidden bg-[#131c2e] px-6">
+          <div className="absolute inset-0">
+            <img
+              src={backgroundPattern}
+              alt="background pattern"
+              className="h-full w-full object-cover opacity-35 dark:brightness-95 dark:contrast-[70%] dark:invert dark:sepia"
+              style={{
+                mask: 'radial-gradient(rgba(255, 255, 255, 1) 0%, transparent 80%)',
+                WebkitMask: 'radial-gradient(rgba(255, 255, 255, 1) 0%, transparent 80%)',
+              }}
+            />
+          </div>
 
-        {!isEmbeddedRedirect && isSignupEnabled && (
-          <p className="mt-6 text-center text-muted-foreground text-sm">
-            <Trans>
-              Don't have an account?{' '}
-              <Link
-                to={returnTo ? `/signup?returnTo=${encodeURIComponent(returnTo)}` : '/signup'}
-                className="text-documenso-700 duration-200 hover:opacity-70"
-              >
-                Sign up
-              </Link>
-            </Trans>
-          </p>
-        )}
+          <div className="relative z-10 w-full max-w-[420px]">
+            <div className="z-10 rounded-xl border border-border bg-neutral-100 p-6 dark:bg-background">
+              {signupError && (
+                <Alert variant="destructive" className="mb-4">
+                  <AlertDescription>{_(signupError)}</AlertDescription>
+                </Alert>
+              )}
+
+              <h1 className="font-semibold text-2xl">
+                <Trans>Sign in to your account</Trans>
+              </h1>
+
+              <p className="mt-2 text-muted-foreground text-sm">
+                <Trans>Welcome back, we are lucky to have you.</Trans>
+              </p>
+
+              <hr className="-mx-6 my-4" />
+
+              <SignInForm
+                isGoogleSSOEnabled={isGoogleSSOEnabled}
+                isMicrosoftSSOEnabled={isMicrosoftSSOEnabled}
+                isOIDCSSOEnabled={isOIDCSSOEnabled}
+                oidcProviderLabel={oidcProviderLabel}
+                returnTo={returnTo}
+              />
+
+              {!isEmbeddedRedirect && isSignupEnabled && (
+                <p className="mt-6 text-center text-muted-foreground text-sm">
+                  <Trans>
+                    Don't have an account?{' '}
+                    <Link
+                      to={returnTo ? `/signup?returnTo=${encodeURIComponent(returnTo)}` : '/signup'}
+                      className="text-documenso-700 duration-200 hover:opacity-70"
+                    >
+                      Sign up
+                    </Link>
+                  </Trans>
+                </p>
+              )}
+            </div>
+          </div>
+        </section>
+
+        <div className="pointer-events-none absolute inset-y-0 left-1/2 hidden w-px -translate-x-px bg-slate-800/70 md:block" />
       </div>
     </div>
   );

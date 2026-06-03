@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_standards_mdx",
+      "label": "standards.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/standards.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "compliance_standards_pdf_a_for_archival",
+      "label": "PDF/A for Archival",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/standards.mdx",
+      "source_location": "L6"
+    },
+    {
+      "id": "compliance_standards_pades_pdf_advanced_electronic_signatures",
+      "label": "PAdES (PDF Advanced Electronic Signatures)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/standards.mdx",
+      "source_location": "L22"
+    },
+    {
+      "id": "compliance_standards_iso_32000_pdf_standard",
+      "label": "ISO 32000 (PDF Standard)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/standards.mdx",
+      "source_location": "L37"
+    },
+    {
+      "id": "compliance_standards_x_509_certificates",
+      "label": "X.509 Certificates",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/standards.mdx",
+      "source_location": "L51"
+    },
+    {
+      "id": "compliance_standards_rfc_3161_timestamping",
+      "label": "RFC 3161 (Timestamping)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/standards.mdx",
+      "source_location": "L73"
+    },
+    {
+      "id": "compliance_standards_what_documenso_implements",
+      "label": "What Documenso Implements",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/standards.mdx",
+      "source_location": "L91"
+    },
+    {
+      "id": "compliance_standards_related",
+      "label": "Related",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/standards.mdx",
+      "source_location": "L104"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_standards_mdx",
+      "target": "compliance_standards_pdf_a_for_archival",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/standards.mdx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_standards_mdx",
+      "target": "compliance_standards_pades_pdf_advanced_electronic_signatures",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/standards.mdx",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_standards_mdx",
+      "target": "compliance_standards_iso_32000_pdf_standard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/standards.mdx",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_standards_mdx",
+      "target": "compliance_standards_x_509_certificates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/standards.mdx",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_standards_mdx",
+      "target": "compliance_standards_rfc_3161_timestamping",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/standards.mdx",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_standards_mdx",
+      "target": "compliance_standards_what_documenso_implements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/standards.mdx",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_standards_mdx",
+      "target": "compliance_standards_related",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/standards.mdx",
+      "source_location": "L104",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

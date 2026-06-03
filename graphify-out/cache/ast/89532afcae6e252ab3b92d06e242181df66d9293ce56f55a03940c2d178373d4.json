@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_meta_json",
+      "label": "meta.json",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/meta.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "self_hosting_meta_title",
+      "label": "title",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/meta.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "self_hosting_meta_description",
+      "label": "description",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/meta.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "self_hosting_meta_root",
+      "label": "root",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/meta.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "self_hosting_meta_pages",
+      "label": "pages",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/meta.json",
+      "source_location": "L5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_meta_json",
+      "target": "self_hosting_meta_title",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/meta.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_meta_json",
+      "target": "self_hosting_meta_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/meta.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_meta_json",
+      "target": "self_hosting_meta_root",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/meta.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_meta_json",
+      "target": "self_hosting_meta_pages",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/meta.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "self_hosting_meta_pages",
+      "target": "ref_getting_started",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/meta.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "self_hosting_meta_pages",
+      "target": "ref_deployment",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/meta.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "self_hosting_meta_pages",
+      "target": "ref_configuration",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/meta.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "self_hosting_meta_pages",
+      "target": "ref_maintenance",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/meta.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "context": "import"
+    }
+  ]
+}

@@ -15,7 +15,6 @@ import { DateTime } from 'luxon';
 import { redirect } from 'react-router';
 
 import appStylesheet from '~/app.css?url';
-import { BrandingLogo } from '~/components/general/branding-logo';
 import { InternalAuditLogTable } from '~/components/tables/internal-audit-log-table';
 
 import type { Route } from './+types/audit-log';
@@ -190,7 +189,7 @@ export default function AuditLog({ loaderData }: Route.ComponentProps) {
       {!hidePoweredBy && (
         <div className="my-8 flex-row-reverse">
           <div className="flex items-end justify-end gap-x-4">
-            <BrandingLogo className="max-h-6 print:max-h-4" />
+            <img src="/static/logo.png" alt="WAF eSign" width={140} height="auto" style={{ objectFit: 'contain' }} />
           </div>
         </div>
       )}

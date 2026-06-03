@@ -1,0 +1,495 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_readme_md",
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "documenso_readme_about_documenso",
+      "label": "About Documenso",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L39"
+    },
+    {
+      "id": "documenso_readme_recognition",
+      "label": "Recognition",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L45"
+    },
+    {
+      "id": "documenso_readme_community_and_next_steps",
+      "label": "Community and Next Steps \ud83c\udfaf",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L52"
+    },
+    {
+      "id": "documenso_readme_contributing",
+      "label": "Contributing",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L61"
+    },
+    {
+      "id": "documenso_readme_contact_us",
+      "label": "Contact us",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L65"
+    },
+    {
+      "id": "documenso_readme_tech_stack",
+      "label": "Tech Stack",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L71"
+    },
+    {
+      "id": "documenso_readme_local_development",
+      "label": "Local Development",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L98"
+    },
+    {
+      "id": "documenso_readme_requirements",
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L100"
+    },
+    {
+      "id": "documenso_readme_developer_quickstart",
+      "label": "Developer Quickstart",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L108"
+    },
+    {
+      "id": "documenso_readme_codeblock_1",
+      "label": "code:sh (git clone https://github.com/<your-username>/documenso)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L118"
+    },
+    {
+      "id": "documenso_readme_codeblock_2",
+      "label": "code:sh (npm run d)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L132"
+    },
+    {
+      "id": "documenso_readme_access_points_for_your_application",
+      "label": "Access Points for Your Application",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L136"
+    },
+    {
+      "id": "documenso_readme_developer_setup",
+      "label": "Developer Setup",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L147"
+    },
+    {
+      "id": "documenso_readme_manual_setup",
+      "label": "Manual Setup",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L149"
+    },
+    {
+      "id": "documenso_readme_run_in_gitpod",
+      "label": "Run in Gitpod",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L153"
+    },
+    {
+      "id": "documenso_readme_run_in_devcontainer",
+      "label": "Run in DevContainer",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L159"
+    },
+    {
+      "id": "documenso_readme_video_walkthrough",
+      "label": "Video walkthrough",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L163"
+    },
+    {
+      "id": "documenso_readme_docker",
+      "label": "Docker",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L169"
+    },
+    {
+      "id": "documenso_readme_self_hosting",
+      "label": "Self Hosting",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L175"
+    },
+    {
+      "id": "documenso_readme_one_click_deploys",
+      "label": "One-Click Deploys",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L181"
+    },
+    {
+      "id": "documenso_readme_railway",
+      "label": "Railway",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L183"
+    },
+    {
+      "id": "documenso_readme_render",
+      "label": "Render",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L187"
+    },
+    {
+      "id": "documenso_readme_koyeb",
+      "label": "Koyeb",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L191"
+    },
+    {
+      "id": "documenso_readme_elestio",
+      "label": "Elestio",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L195"
+    },
+    {
+      "id": "documenso_readme_troubleshooting",
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L199"
+    },
+    {
+      "id": "documenso_readme_i_m_not_receiving_any_emails_when_using_the_developer_quickstart",
+      "label": "I'm not receiving any emails when using the developer quickstart.",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L203"
+    },
+    {
+      "id": "documenso_readme_i_can_t_see_environment_variables_in_my_package_scripts",
+      "label": "I can't see environment variables in my package scripts.",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L209"
+    },
+    {
+      "id": "documenso_readme_codeblock_3",
+      "label": "code:block3 (npm run with:env -- npm run myscript)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L213"
+    },
+    {
+      "id": "documenso_readme_codeblock_4",
+      "label": "code:block4 (npm run with:env -- npx myscript)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L219"
+    },
+    {
+      "id": "documenso_readme_repo_activity",
+      "label": "Repo Activity",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L225"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_readme_md",
+      "target": "documenso_readme_about_documenso",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_readme_md",
+      "target": "documenso_readme_recognition",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_readme_md",
+      "target": "documenso_readme_community_and_next_steps",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_readme_md",
+      "target": "documenso_readme_contributing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_readme_md",
+      "target": "documenso_readme_contact_us",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_readme_md",
+      "target": "documenso_readme_tech_stack",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_readme_md",
+      "target": "documenso_readme_local_development",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_local_development",
+      "target": "documenso_readme_requirements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_local_development",
+      "target": "documenso_readme_developer_quickstart",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_developer_quickstart",
+      "target": "documenso_readme_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_developer_quickstart",
+      "target": "documenso_readme_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_developer_quickstart",
+      "target": "documenso_readme_access_points_for_your_application",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_readme_md",
+      "target": "documenso_readme_developer_setup",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_developer_setup",
+      "target": "documenso_readme_manual_setup",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_developer_setup",
+      "target": "documenso_readme_run_in_gitpod",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_developer_setup",
+      "target": "documenso_readme_run_in_devcontainer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L159",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_developer_setup",
+      "target": "documenso_readme_video_walkthrough",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_readme_md",
+      "target": "documenso_readme_docker",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_readme_md",
+      "target": "documenso_readme_self_hosting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L175",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_self_hosting",
+      "target": "documenso_readme_one_click_deploys",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_one_click_deploys",
+      "target": "documenso_readme_railway",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L183",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_one_click_deploys",
+      "target": "documenso_readme_render",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_one_click_deploys",
+      "target": "documenso_readme_koyeb",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L191",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_one_click_deploys",
+      "target": "documenso_readme_elestio",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_readme_md",
+      "target": "documenso_readme_troubleshooting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L199",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_troubleshooting",
+      "target": "documenso_readme_i_m_not_receiving_any_emails_when_using_the_developer_quickstart",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L203",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_troubleshooting",
+      "target": "documenso_readme_i_can_t_see_environment_variables_in_my_package_scripts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L209",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_i_can_t_see_environment_variables_in_my_package_scripts",
+      "target": "documenso_readme_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L213",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_readme_i_can_t_see_environment_variables_in_my_package_scripts",
+      "target": "documenso_readme_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L219",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_readme_md",
+      "target": "documenso_readme_repo_activity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/README.md",
+      "source_location": "L225",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

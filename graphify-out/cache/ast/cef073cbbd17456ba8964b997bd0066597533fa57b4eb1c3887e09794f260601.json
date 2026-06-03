@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_default_recipients_mdx",
+      "label": "default-recipients.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/default-recipients.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "advanced_default_recipients_overview",
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/default-recipients.mdx",
+      "source_location": "L9"
+    },
+    {
+      "id": "advanced_default_recipients_organisation_level",
+      "label": "Organisation level",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/default-recipients.mdx",
+      "source_location": "L24"
+    },
+    {
+      "id": "advanced_default_recipients_team_level",
+      "label": "Team level",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/default-recipients.mdx",
+      "source_location": "L36"
+    },
+    {
+      "id": "advanced_default_recipients_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/default-recipients.mdx",
+      "source_location": "L50"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_default_recipients_mdx",
+      "target": "advanced_default_recipients_overview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/default-recipients.mdx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_default_recipients_overview",
+      "target": "advanced_default_recipients_organisation_level",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/default-recipients.mdx",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_default_recipients_overview",
+      "target": "advanced_default_recipients_team_level",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/default-recipients.mdx",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_default_recipients_mdx",
+      "target": "advanced_default_recipients_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/default-recipients.mdx",
+      "source_location": "L50",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

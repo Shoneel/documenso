@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_concepts_document_lifecycle_mdx",
+      "label": "document-lifecycle.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "concepts_document_lifecycle_document_states",
+      "label": "Document States",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx",
+      "source_location": "L8"
+    },
+    {
+      "id": "concepts_document_lifecycle_how_a_document_moves_through_states",
+      "label": "How a Document Moves Through States",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx",
+      "source_location": "L19"
+    },
+    {
+      "id": "concepts_document_lifecycle_codeblock_1",
+      "label": "code:mermaid (flowchart LR)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx",
+      "source_location": "L21"
+    },
+    {
+      "id": "concepts_document_lifecycle_draft",
+      "label": "Draft",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx",
+      "source_location": "L28"
+    },
+    {
+      "id": "concepts_document_lifecycle_pending",
+      "label": "Pending",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx",
+      "source_location": "L43"
+    },
+    {
+      "id": "concepts_document_lifecycle_completed",
+      "label": "Completed",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx",
+      "source_location": "L62"
+    },
+    {
+      "id": "concepts_document_lifecycle_rejected",
+      "label": "Rejected",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx",
+      "source_location": "L80"
+    },
+    {
+      "id": "concepts_document_lifecycle_related_concepts",
+      "label": "Related Concepts",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx",
+      "source_location": "L93"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_concepts_document_lifecycle_mdx",
+      "target": "concepts_document_lifecycle_document_states",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_concepts_document_lifecycle_mdx",
+      "target": "concepts_document_lifecycle_how_a_document_moves_through_states",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "concepts_document_lifecycle_how_a_document_moves_through_states",
+      "target": "concepts_document_lifecycle_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_concepts_document_lifecycle_mdx",
+      "target": "concepts_document_lifecycle_draft",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_concepts_document_lifecycle_mdx",
+      "target": "concepts_document_lifecycle_pending",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_concepts_document_lifecycle_mdx",
+      "target": "concepts_document_lifecycle_completed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_concepts_document_lifecycle_mdx",
+      "target": "concepts_document_lifecycle_rejected",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_concepts_document_lifecycle_mdx",
+      "target": "concepts_document_lifecycle_related_concepts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx",
+      "source_location": "L93",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,431 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_getting_started_quick_start_mdx",
+      "label": "quick-start.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "getting_started_quick_start_limitations",
+      "label": "Limitations",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L10"
+    },
+    {
+      "id": "getting_started_quick_start_prerequisites",
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L22"
+    },
+    {
+      "id": "getting_started_quick_start_codeblock_1",
+      "label": "code:bash (docker --version)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L30"
+    },
+    {
+      "id": "getting_started_quick_start_quick_start",
+      "label": "Quick Start",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L35"
+    },
+    {
+      "id": "getting_started_quick_start_clone_the_repository",
+      "label": "Clone the repository",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L40"
+    },
+    {
+      "id": "getting_started_quick_start_codeblock_2",
+      "label": "code:bash (git clone https://github.com/documenso/documenso.git)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L42"
+    },
+    {
+      "id": "getting_started_quick_start_create_the_environment_file",
+      "label": "Create the environment file",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L50"
+    },
+    {
+      "id": "getting_started_quick_start_codeblock_3",
+      "label": "code:bash (cp .env.example .env)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L54"
+    },
+    {
+      "id": "getting_started_quick_start_start_documenso",
+      "label": "Start Documenso",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L63"
+    },
+    {
+      "id": "getting_started_quick_start_codeblock_4",
+      "label": "code:bash (docker compose -f docker/development/compose.yml up -d)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L65"
+    },
+    {
+      "id": "getting_started_quick_start_access_the_application",
+      "label": "Access the application",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L74"
+    },
+    {
+      "id": "getting_started_quick_start_create_your_first_account",
+      "label": "Create Your First Account",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L81"
+    },
+    {
+      "id": "getting_started_quick_start_sign_up",
+      "label": "Sign up",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L87"
+    },
+    {
+      "id": "getting_started_quick_start_verify_your_email",
+      "label": "Verify your email",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L94"
+    },
+    {
+      "id": "getting_started_quick_start_codeblock_5",
+      "label": "code:bash (docker compose -f docker/development/compose.yml logs -f)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L98"
+    },
+    {
+      "id": "getting_started_quick_start_log_in",
+      "label": "Log in",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L107"
+    },
+    {
+      "id": "getting_started_quick_start_granting_admin_access",
+      "label": "Granting Admin Access",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L114"
+    },
+    {
+      "id": "getting_started_quick_start_codeblock_6",
+      "label": "code:bash (docker compose -f docker/development/compose.yml exec databa)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L118"
+    },
+    {
+      "id": "getting_started_quick_start_what_s_included",
+      "label": "What's Included",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L123"
+    },
+    {
+      "id": "getting_started_quick_start_useful_commands",
+      "label": "Useful Commands",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L134"
+    },
+    {
+      "id": "getting_started_quick_start_codeblock_7",
+      "label": "code:bash (docker compose -f docker/development/compose.yml logs -f)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L138"
+    },
+    {
+      "id": "getting_started_quick_start_codeblock_8",
+      "label": "code:bash (docker compose -f docker/development/compose.yml down)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L144"
+    },
+    {
+      "id": "getting_started_quick_start_codeblock_9",
+      "label": "code:bash (docker compose -f docker/development/compose.yml down -v)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L150"
+    },
+    {
+      "id": "getting_started_quick_start_codeblock_10",
+      "label": "code:bash (docker compose -f docker/development/compose.yml up -d --bui)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L156"
+    },
+    {
+      "id": "getting_started_quick_start_troubleshooting",
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L160"
+    },
+    {
+      "id": "getting_started_quick_start_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L181"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_getting_started_quick_start_mdx",
+      "target": "getting_started_quick_start_limitations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_getting_started_quick_start_mdx",
+      "target": "getting_started_quick_start_prerequisites",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_prerequisites",
+      "target": "getting_started_quick_start_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_getting_started_quick_start_mdx",
+      "target": "getting_started_quick_start_quick_start",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_quick_start",
+      "target": "getting_started_quick_start_clone_the_repository",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_clone_the_repository",
+      "target": "getting_started_quick_start_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_quick_start",
+      "target": "getting_started_quick_start_create_the_environment_file",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_create_the_environment_file",
+      "target": "getting_started_quick_start_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_quick_start",
+      "target": "getting_started_quick_start_start_documenso",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_start_documenso",
+      "target": "getting_started_quick_start_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_quick_start",
+      "target": "getting_started_quick_start_access_the_application",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_getting_started_quick_start_mdx",
+      "target": "getting_started_quick_start_create_your_first_account",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_create_your_first_account",
+      "target": "getting_started_quick_start_sign_up",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_create_your_first_account",
+      "target": "getting_started_quick_start_verify_your_email",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_verify_your_email",
+      "target": "getting_started_quick_start_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_create_your_first_account",
+      "target": "getting_started_quick_start_log_in",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_create_your_first_account",
+      "target": "getting_started_quick_start_granting_admin_access",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_granting_admin_access",
+      "target": "getting_started_quick_start_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_getting_started_quick_start_mdx",
+      "target": "getting_started_quick_start_what_s_included",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_getting_started_quick_start_mdx",
+      "target": "getting_started_quick_start_useful_commands",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_useful_commands",
+      "target": "getting_started_quick_start_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_useful_commands",
+      "target": "getting_started_quick_start_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_useful_commands",
+      "target": "getting_started_quick_start_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_quick_start_useful_commands",
+      "target": "getting_started_quick_start_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L156",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_getting_started_quick_start_mdx",
+      "target": "getting_started_quick_start_troubleshooting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_getting_started_quick_start_mdx",
+      "target": "getting_started_quick_start_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/getting-started/quick-start.mdx",
+      "source_location": "L181",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_signing_certificate_troubleshooting_mdx",
+      "label": "troubleshooting.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/troubleshooting.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "signing_certificate_troubleshooting_codeblock_1",
+      "label": "code:bash (openssl pkcs12 -export -out new-certificate.p12 -inkey priva)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/troubleshooting.mdx",
+      "source_location": "L17"
+    },
+    {
+      "id": "signing_certificate_troubleshooting_codeblock_2",
+      "label": "code:bash (openssl pkcs12 -in certificate.p12 -nokeys | openssl x509 -n)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/troubleshooting.mdx",
+      "source_location": "L59"
+    },
+    {
+      "id": "signing_certificate_troubleshooting_codeblock_3",
+      "label": "code:bash (# macOS)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/troubleshooting.mdx",
+      "source_location": "L71"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_signing_certificate_troubleshooting_mdx",
+      "target": "signing_certificate_troubleshooting_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/troubleshooting.mdx",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_signing_certificate_troubleshooting_mdx",
+      "target": "signing_certificate_troubleshooting_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/troubleshooting.mdx",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_signing_certificate_troubleshooting_mdx",
+      "target": "signing_certificate_troubleshooting_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/signing-certificate/troubleshooting.mdx",
+      "source_location": "L71",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

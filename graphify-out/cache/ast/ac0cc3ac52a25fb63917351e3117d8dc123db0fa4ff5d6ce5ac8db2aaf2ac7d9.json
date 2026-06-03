@@ -1,0 +1,511 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_teams_mdx",
+      "label": "teams.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "api_teams_team_object",
+      "label": "Team Object",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L15"
+    },
+    {
+      "id": "api_teams_example_team_object",
+      "label": "Example Team Object",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L29"
+    },
+    {
+      "id": "api_teams_codeblock_1",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L31"
+    },
+    {
+      "id": "api_teams_team_scoped_api_tokens",
+      "label": "Team-Scoped API Tokens",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L43"
+    },
+    {
+      "id": "api_teams_how_team_scoping_works",
+      "label": "How Team Scoping Works",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L47"
+    },
+    {
+      "id": "api_teams_creating_team_scoped_tokens",
+      "label": "Creating Team-Scoped Tokens",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L54"
+    },
+    {
+      "id": "api_teams_token_permissions",
+      "label": "Token Permissions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L76"
+    },
+    {
+      "id": "api_teams_working_with_team_documents",
+      "label": "Working with Team Documents",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L86"
+    },
+    {
+      "id": "api_teams_create_a_team_document",
+      "label": "Create a Team Document",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L90"
+    },
+    {
+      "id": "api_teams_codeblock_2",
+      "label": "code:bash (curl -X POST \"https://app.documenso.com/api/v2/envelope/crea)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L96"
+    },
+    {
+      "id": "api_teams_codeblock_3",
+      "label": "code:typescript (const TEAM_API_TOKEN = process.env.DOCUMENSO_TEAM_API_TOKEN;)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L115"
+    },
+    {
+      "id": "api_teams_list_team_documents",
+      "label": "List Team Documents",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L151"
+    },
+    {
+      "id": "api_teams_codeblock_4",
+      "label": "code:bash (# List all team documents)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L157"
+    },
+    {
+      "id": "api_teams_codeblock_5",
+      "label": "code:typescript (const response = await fetch('https://app.documenso.com/api/)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L169"
+    },
+    {
+      "id": "api_teams_working_with_team_templates",
+      "label": "Working with Team Templates",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L184"
+    },
+    {
+      "id": "api_teams_create_a_team_template",
+      "label": "Create a Team Template",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L188"
+    },
+    {
+      "id": "api_teams_codeblock_6",
+      "label": "code:bash (curl -X POST \"https://app.documenso.com/api/v2/template/crea)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L192"
+    },
+    {
+      "id": "api_teams_codeblock_7",
+      "label": "code:typescript (const form = new FormData();)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L222"
+    },
+    {
+      "id": "api_teams_list_team_templates",
+      "label": "List Team Templates",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L266"
+    },
+    {
+      "id": "api_teams_codeblock_8",
+      "label": "code:bash (curl -X GET \"https://app.documenso.com/api/v2/template\" \\)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L270"
+    },
+    {
+      "id": "api_teams_codeblock_9",
+      "label": "code:typescript (const response = await fetch('https://app.documenso.com/api/)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L277"
+    },
+    {
+      "id": "api_teams_team_member_roles",
+      "label": "Team Member Roles",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L292"
+    },
+    {
+      "id": "api_teams_document_visibility",
+      "label": "Document Visibility",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L300"
+    },
+    {
+      "id": "api_teams_codeblock_10",
+      "label": "code:typescript (const payload = {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L312"
+    },
+    {
+      "id": "api_teams_multi_team_workflow",
+      "label": "Multi-Team Workflow",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L321"
+    },
+    {
+      "id": "api_teams_example_sync_documents_across_teams",
+      "label": "Example: Sync Documents Across Teams",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L325"
+    },
+    {
+      "id": "api_teams_codeblock_11",
+      "label": "code:typescript (// Tokens for different teams)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L327"
+    },
+    {
+      "id": "api_teams_error_responses",
+      "label": "Error Responses",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L348"
+    },
+    {
+      "id": "api_teams_example_error_response",
+      "label": "Example Error Response",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L356"
+    },
+    {
+      "id": "api_teams_codeblock_12",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L358"
+    },
+    {
+      "id": "api_teams_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L369"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_teams_mdx",
+      "target": "api_teams_team_object",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_team_object",
+      "target": "api_teams_example_team_object",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_example_team_object",
+      "target": "api_teams_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_teams_mdx",
+      "target": "api_teams_team_scoped_api_tokens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_team_scoped_api_tokens",
+      "target": "api_teams_how_team_scoping_works",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_team_scoped_api_tokens",
+      "target": "api_teams_creating_team_scoped_tokens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_team_scoped_api_tokens",
+      "target": "api_teams_token_permissions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_teams_mdx",
+      "target": "api_teams_working_with_team_documents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_working_with_team_documents",
+      "target": "api_teams_create_a_team_document",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_create_a_team_document",
+      "target": "api_teams_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_create_a_team_document",
+      "target": "api_teams_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_working_with_team_documents",
+      "target": "api_teams_list_team_documents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_list_team_documents",
+      "target": "api_teams_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_list_team_documents",
+      "target": "api_teams_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_teams_mdx",
+      "target": "api_teams_working_with_team_templates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L184",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_working_with_team_templates",
+      "target": "api_teams_create_a_team_template",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_create_a_team_template",
+      "target": "api_teams_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L192",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_create_a_team_template",
+      "target": "api_teams_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L222",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_working_with_team_templates",
+      "target": "api_teams_list_team_templates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L266",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_list_team_templates",
+      "target": "api_teams_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L270",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_list_team_templates",
+      "target": "api_teams_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L277",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_teams_mdx",
+      "target": "api_teams_team_member_roles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L292",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_team_member_roles",
+      "target": "api_teams_document_visibility",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L300",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_document_visibility",
+      "target": "api_teams_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L312",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_teams_mdx",
+      "target": "api_teams_multi_team_workflow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L321",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_multi_team_workflow",
+      "target": "api_teams_example_sync_documents_across_teams",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L325",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_example_sync_documents_across_teams",
+      "target": "api_teams_codeblock_11",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L327",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_teams_mdx",
+      "target": "api_teams_error_responses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L348",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_error_responses",
+      "target": "api_teams_example_error_response",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L356",
+      "weight": 1.0
+    },
+    {
+      "source": "api_teams_example_error_response",
+      "target": "api_teams_codeblock_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L358",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_teams_mdx",
+      "target": "api_teams_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/teams.mdx",
+      "source_location": "L369",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

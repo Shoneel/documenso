@@ -1,0 +1,351 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_agents_plans_bright_emerald_flower_bullmq_background_jobs_md",
+      "label": "bright-emerald-flower-bullmq-background-jobs.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_context",
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_current_architecture",
+      "label": "Current Architecture",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L15"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_local_provider_limitations",
+      "label": "Local Provider Limitations",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L33"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_provider_evaluation",
+      "label": "Provider Evaluation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L46"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_bullmq_redis_backed_recommended",
+      "label": "BullMQ (Redis-backed) \u2014 Recommended",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L50"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_pg_boss_postgresql_backed_strong_alternative",
+      "label": "pg-boss (PostgreSQL-backed) \u2014 Strong Alternative",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L69"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_graphile_worker_postgresql_backed_less_suitable",
+      "label": "Graphile Worker (PostgreSQL-backed) \u2014 Less Suitable",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L84"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_improving_the_local_provider_not_recommended",
+      "label": "Improving the Local Provider \u2014 Not Recommended",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L88"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_recommendation",
+      "label": "Recommendation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L94"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_implementation_plan",
+      "label": "Implementation Plan",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L102"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_phase_1_bullmq_provider_core",
+      "label": "Phase 1: BullMQ Provider Core",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L104"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_phase_2_provider_registration",
+      "label": "Phase 2: Provider Registration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L145"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_codeblock_1",
+      "label": "code:typescript (this._provider = match(env('NEXT_PRIVATE_JOBS_PROVIDER')))",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L151"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_codeblock_2",
+      "label": "code:typescript (NEXT_PRIVATE_JOBS_PROVIDER?: 'inngest' | 'local' | 'bullmq';)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L162"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_codeblock_3",
+      "label": "code:env (NEXT_PRIVATE_JOBS_PROVIDER=\"local\"  # Options: local, innges)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L173"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_phase_3_infrastructure_dependencies",
+      "label": "Phase 3: Infrastructure & Dependencies",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L183"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_codeblock_4",
+      "label": "code:yaml (redis:)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L196"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_phase_4_optional_enhancements",
+      "label": "Phase 4: Optional Enhancements",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L203"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_files_to_create_modify",
+      "label": "Files to Create/Modify",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L217"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_open_questions",
+      "label": "Open Questions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L231"
+    },
+    {
+      "id": "plans_bright_emerald_flower_bullmq_background_jobs_resolved_questions",
+      "label": "Resolved Questions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L237"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_bright_emerald_flower_bullmq_background_jobs_md",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_context",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_bright_emerald_flower_bullmq_background_jobs_context",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_current_architecture",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_bright_emerald_flower_bullmq_background_jobs_context",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_local_provider_limitations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_bright_emerald_flower_bullmq_background_jobs_md",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_provider_evaluation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_bright_emerald_flower_bullmq_background_jobs_provider_evaluation",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_bullmq_redis_backed_recommended",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_bright_emerald_flower_bullmq_background_jobs_provider_evaluation",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_pg_boss_postgresql_backed_strong_alternative",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_bright_emerald_flower_bullmq_background_jobs_provider_evaluation",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_graphile_worker_postgresql_backed_less_suitable",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_bright_emerald_flower_bullmq_background_jobs_provider_evaluation",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_improving_the_local_provider_not_recommended",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_bright_emerald_flower_bullmq_background_jobs_md",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_recommendation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_bright_emerald_flower_bullmq_background_jobs_md",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_implementation_plan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_bright_emerald_flower_bullmq_background_jobs_implementation_plan",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_phase_1_bullmq_provider_core",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_bright_emerald_flower_bullmq_background_jobs_implementation_plan",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_phase_2_provider_registration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_bright_emerald_flower_bullmq_background_jobs_phase_2_provider_registration",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_bright_emerald_flower_bullmq_background_jobs_phase_2_provider_registration",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_bright_emerald_flower_bullmq_background_jobs_phase_2_provider_registration",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_bright_emerald_flower_bullmq_background_jobs_implementation_plan",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_phase_3_infrastructure_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L183",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_bright_emerald_flower_bullmq_background_jobs_phase_3_infrastructure_dependencies",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L196",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_bright_emerald_flower_bullmq_background_jobs_implementation_plan",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_phase_4_optional_enhancements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L203",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_bright_emerald_flower_bullmq_background_jobs_md",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_files_to_create_modify",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L217",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_bright_emerald_flower_bullmq_background_jobs_md",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_open_questions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L231",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_bright_emerald_flower_bullmq_background_jobs_md",
+      "target": "plans_bright_emerald_flower_bullmq_background_jobs_resolved_questions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/bright-emerald-flower-bullmq-background-jobs.md",
+      "source_location": "L237",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

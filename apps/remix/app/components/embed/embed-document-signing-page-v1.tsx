@@ -29,7 +29,6 @@ import { type Field, RecipientRole, SigningStatus } from '@prisma/client';
 import { LucideChevronDown, LucideChevronUp } from 'lucide-react';
 import { useEffect, useId, useLayoutEffect, useMemo, useState } from 'react';
 
-import { BrandingLogo } from '~/components/general/branding-logo';
 import PDFViewerLazy from '~/components/general/pdf-viewer/pdf-viewer-lazy';
 import { injectCss } from '~/utils/css-vars';
 
@@ -510,7 +509,14 @@ export const EmbedSignDocumentV1ClientPage = ({
             <span>
               <Trans>Powered by</Trans>
             </span>
-            <BrandingLogo className="ml-2 inline-block h-[14px]" />
+            <img
+              src="/static/logo.png"
+              alt="WAF eSign"
+              width={140}
+              height="auto"
+              style={{ objectFit: 'contain' }}
+              className="ml-2 inline-block"
+            />
           </div>
         )}
       </div>

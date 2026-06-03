@@ -1,0 +1,303 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_pdf_placeholders_mdx",
+      "label": "pdf-placeholders.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "advanced_pdf_placeholders_overview",
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L9"
+    },
+    {
+      "id": "advanced_pdf_placeholders_how_it_works",
+      "label": "How It Works",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L13"
+    },
+    {
+      "id": "advanced_pdf_placeholders_placeholder_format",
+      "label": "Placeholder Format",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L23"
+    },
+    {
+      "id": "advanced_pdf_placeholders_codeblock_1",
+      "label": "code:block1 ({{FIELD_TYPE, RECIPIENT, option1=value1, option2=value2}})",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L27"
+    },
+    {
+      "id": "advanced_pdf_placeholders_examples",
+      "label": "Examples",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L31"
+    },
+    {
+      "id": "advanced_pdf_placeholders_supported_field_types",
+      "label": "Supported Field Types",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L42"
+    },
+    {
+      "id": "advanced_pdf_placeholders_recipient_identifiers",
+      "label": "Recipient Identifiers",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L63"
+    },
+    {
+      "id": "advanced_pdf_placeholders_field_options",
+      "label": "Field Options",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L81"
+    },
+    {
+      "id": "advanced_pdf_placeholders_common_options",
+      "label": "Common Options",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L85"
+    },
+    {
+      "id": "advanced_pdf_placeholders_text_field_options",
+      "label": "Text Field Options",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L94"
+    },
+    {
+      "id": "advanced_pdf_placeholders_number_field_options",
+      "label": "Number Field Options",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L103"
+    },
+    {
+      "id": "advanced_pdf_placeholders_examples_with_options",
+      "label": "Examples with Options",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L112"
+    },
+    {
+      "id": "advanced_pdf_placeholders_codeblock_2",
+      "label": "code:block2 ({{text, r1, required=true, label=Company Name}})",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L114"
+    },
+    {
+      "id": "advanced_pdf_placeholders_multiple_recipients_example",
+      "label": "Multiple Recipients Example",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L126"
+    },
+    {
+      "id": "advanced_pdf_placeholders_codeblock_3",
+      "label": "code:block3 (AGREEMENT)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L130"
+    },
+    {
+      "id": "advanced_pdf_placeholders_tips_for_creating_documents",
+      "label": "Tips for Creating Documents",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L148"
+    },
+    {
+      "id": "advanced_pdf_placeholders_troubleshooting",
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L163"
+    },
+    {
+      "id": "advanced_pdf_placeholders_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L184"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_pdf_placeholders_mdx",
+      "target": "advanced_pdf_placeholders_overview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_pdf_placeholders_mdx",
+      "target": "advanced_pdf_placeholders_how_it_works",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_pdf_placeholders_mdx",
+      "target": "advanced_pdf_placeholders_placeholder_format",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_pdf_placeholders_placeholder_format",
+      "target": "advanced_pdf_placeholders_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_pdf_placeholders_placeholder_format",
+      "target": "advanced_pdf_placeholders_examples",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_pdf_placeholders_mdx",
+      "target": "advanced_pdf_placeholders_supported_field_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_pdf_placeholders_mdx",
+      "target": "advanced_pdf_placeholders_recipient_identifiers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_pdf_placeholders_mdx",
+      "target": "advanced_pdf_placeholders_field_options",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_pdf_placeholders_field_options",
+      "target": "advanced_pdf_placeholders_common_options",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_pdf_placeholders_field_options",
+      "target": "advanced_pdf_placeholders_text_field_options",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_pdf_placeholders_field_options",
+      "target": "advanced_pdf_placeholders_number_field_options",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_pdf_placeholders_field_options",
+      "target": "advanced_pdf_placeholders_examples_with_options",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_pdf_placeholders_examples_with_options",
+      "target": "advanced_pdf_placeholders_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_pdf_placeholders_mdx",
+      "target": "advanced_pdf_placeholders_multiple_recipients_example",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_pdf_placeholders_multiple_recipients_example",
+      "target": "advanced_pdf_placeholders_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_pdf_placeholders_mdx",
+      "target": "advanced_pdf_placeholders_tips_for_creating_documents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_pdf_placeholders_mdx",
+      "target": "advanced_pdf_placeholders_troubleshooting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_pdf_placeholders_mdx",
+      "target": "advanced_pdf_placeholders_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/pdf-placeholders.mdx",
+      "source_location": "L184",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

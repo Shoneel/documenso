@@ -1,0 +1,383 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_examples_common_workflows_mdx",
+      "label": "common-workflows.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "examples_common_workflows_workflow_1_send_a_document_for_signature",
+      "label": "Workflow 1: Send a Document for Signature",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L11"
+    },
+    {
+      "id": "examples_common_workflows_codeblock_1",
+      "label": "code:typescript (const API_TOKEN = process.env.DOCUMENSO_API_TOKEN;)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L30"
+    },
+    {
+      "id": "examples_common_workflows_codeblock_2",
+      "label": "code:bash (#!/bin/bash)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L158"
+    },
+    {
+      "id": "examples_common_workflows_workflow_2_create_document_from_template_with_custom_data",
+      "label": "Workflow 2: Create Document from Template with Custom Data",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L244"
+    },
+    {
+      "id": "examples_common_workflows_codeblock_3",
+      "label": "code:typescript (const API_TOKEN = process.env.DOCUMENSO_API_TOKEN;)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L264"
+    },
+    {
+      "id": "examples_common_workflows_codeblock_4",
+      "label": "code:bash (#!/bin/bash)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L401"
+    },
+    {
+      "id": "examples_common_workflows_workflow_3_bulk_send_documents",
+      "label": "Workflow 3: Bulk Send Documents",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L461"
+    },
+    {
+      "id": "examples_common_workflows_codeblock_5",
+      "label": "code:typescript (const API_TOKEN = process.env.DOCUMENSO_API_TOKEN;)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L481"
+    },
+    {
+      "id": "examples_common_workflows_codeblock_6",
+      "label": "code:bash (#!/bin/bash)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L587"
+    },
+    {
+      "id": "examples_common_workflows_workflow_4_wait_for_completion_with_webhooks",
+      "label": "Workflow 4: Wait for Completion with Webhooks",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L647"
+    },
+    {
+      "id": "examples_common_workflows_create_a_webhook_endpoint",
+      "label": "Create a Webhook Endpoint",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L666"
+    },
+    {
+      "id": "examples_common_workflows_codeblock_7",
+      "label": "code:typescript (// Express.js webhook handler)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L668"
+    },
+    {
+      "id": "examples_common_workflows_register_the_webhook",
+      "label": "Register the Webhook",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L751"
+    },
+    {
+      "id": "examples_common_workflows_poll_as_fallback",
+      "label": "Poll as Fallback",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L780"
+    },
+    {
+      "id": "examples_common_workflows_codeblock_8",
+      "label": "code:typescript (async function pollForCompletion()",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L784"
+    },
+    {
+      "id": "examples_common_workflows_workflow_5_download_signed_documents",
+      "label": "Workflow 5: Download Signed Documents",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L816"
+    },
+    {
+      "id": "examples_common_workflows_codeblock_9",
+      "label": "code:typescript (const API_TOKEN = process.env.DOCUMENSO_API_TOKEN;)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L834"
+    },
+    {
+      "id": "examples_common_workflows_codeblock_10",
+      "label": "code:bash (#!/bin/bash)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L918"
+    },
+    {
+      "id": "examples_common_workflows_error_handling_patterns",
+      "label": "Error Handling Patterns",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L970"
+    },
+    {
+      "id": "examples_common_workflows_codeblock_11",
+      "label": "code:typescript (type RetryOptions = {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L978"
+    },
+    {
+      "id": "examples_common_workflows_codeblock_12",
+      "label": "code:typescript (type ApiError = {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L1032"
+    },
+    {
+      "id": "examples_common_workflows_codeblock_13",
+      "label": "code:typescript (function validateRecipients(recipients: Array<{ email: strin)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L1107"
+    },
+    {
+      "id": "examples_common_workflows_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L1151"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_examples_common_workflows_mdx",
+      "target": "examples_common_workflows_workflow_1_send_a_document_for_signature",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "examples_common_workflows_workflow_1_send_a_document_for_signature",
+      "target": "examples_common_workflows_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "examples_common_workflows_workflow_1_send_a_document_for_signature",
+      "target": "examples_common_workflows_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L158",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_examples_common_workflows_mdx",
+      "target": "examples_common_workflows_workflow_2_create_document_from_template_with_custom_data",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L244",
+      "weight": 1.0
+    },
+    {
+      "source": "examples_common_workflows_workflow_2_create_document_from_template_with_custom_data",
+      "target": "examples_common_workflows_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L264",
+      "weight": 1.0
+    },
+    {
+      "source": "examples_common_workflows_workflow_2_create_document_from_template_with_custom_data",
+      "target": "examples_common_workflows_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L401",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_examples_common_workflows_mdx",
+      "target": "examples_common_workflows_workflow_3_bulk_send_documents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L461",
+      "weight": 1.0
+    },
+    {
+      "source": "examples_common_workflows_workflow_3_bulk_send_documents",
+      "target": "examples_common_workflows_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L481",
+      "weight": 1.0
+    },
+    {
+      "source": "examples_common_workflows_workflow_3_bulk_send_documents",
+      "target": "examples_common_workflows_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L587",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_examples_common_workflows_mdx",
+      "target": "examples_common_workflows_workflow_4_wait_for_completion_with_webhooks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L647",
+      "weight": 1.0
+    },
+    {
+      "source": "examples_common_workflows_workflow_4_wait_for_completion_with_webhooks",
+      "target": "examples_common_workflows_create_a_webhook_endpoint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L666",
+      "weight": 1.0
+    },
+    {
+      "source": "examples_common_workflows_create_a_webhook_endpoint",
+      "target": "examples_common_workflows_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L668",
+      "weight": 1.0
+    },
+    {
+      "source": "examples_common_workflows_workflow_4_wait_for_completion_with_webhooks",
+      "target": "examples_common_workflows_register_the_webhook",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L751",
+      "weight": 1.0
+    },
+    {
+      "source": "examples_common_workflows_workflow_4_wait_for_completion_with_webhooks",
+      "target": "examples_common_workflows_poll_as_fallback",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L780",
+      "weight": 1.0
+    },
+    {
+      "source": "examples_common_workflows_poll_as_fallback",
+      "target": "examples_common_workflows_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L784",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_examples_common_workflows_mdx",
+      "target": "examples_common_workflows_workflow_5_download_signed_documents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L816",
+      "weight": 1.0
+    },
+    {
+      "source": "examples_common_workflows_workflow_5_download_signed_documents",
+      "target": "examples_common_workflows_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L834",
+      "weight": 1.0
+    },
+    {
+      "source": "examples_common_workflows_workflow_5_download_signed_documents",
+      "target": "examples_common_workflows_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L918",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_examples_common_workflows_mdx",
+      "target": "examples_common_workflows_error_handling_patterns",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L970",
+      "weight": 1.0
+    },
+    {
+      "source": "examples_common_workflows_error_handling_patterns",
+      "target": "examples_common_workflows_codeblock_11",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L978",
+      "weight": 1.0
+    },
+    {
+      "source": "examples_common_workflows_error_handling_patterns",
+      "target": "examples_common_workflows_codeblock_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L1032",
+      "weight": 1.0
+    },
+    {
+      "source": "examples_common_workflows_error_handling_patterns",
+      "target": "examples_common_workflows_codeblock_13",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L1107",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_examples_common_workflows_mdx",
+      "target": "examples_common_workflows_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/examples/common-workflows.mdx",
+      "source_location": "L1151",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

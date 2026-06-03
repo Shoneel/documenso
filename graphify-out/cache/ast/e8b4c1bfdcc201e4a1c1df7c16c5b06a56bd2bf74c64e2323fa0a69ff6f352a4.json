@@ -1,0 +1,191 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_local_development_signing_certificate_mdx",
+      "label": "signing-certificate.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "local_development_signing_certificate_create_your_signing_certificate",
+      "label": "Create Your Signing Certificate",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L9"
+    },
+    {
+      "id": "local_development_signing_certificate_generate_private_key",
+      "label": "Generate private key",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L23"
+    },
+    {
+      "id": "local_development_signing_certificate_codeblock_1",
+      "label": "code:bash (openssl genrsa -out private.key 2048)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L27"
+    },
+    {
+      "id": "local_development_signing_certificate_generate_self_signed_certificate",
+      "label": "Generate self-signed certificate",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L36"
+    },
+    {
+      "id": "local_development_signing_certificate_codeblock_2",
+      "label": "code:bash (openssl req -new -x509 -key private.key -out certificate.crt)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L40"
+    },
+    {
+      "id": "local_development_signing_certificate_create_p12_certificate",
+      "label": "Create `p12` certificate",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L49"
+    },
+    {
+      "id": "local_development_signing_certificate_codeblock_3",
+      "label": "code:bash (openssl pkcs12 -export -out certificate.p12 -inkey private.k)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L53"
+    },
+    {
+      "id": "local_development_signing_certificate_codeblock_4",
+      "label": "code:bash (sudo chown 1001 certificate.p12)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L62"
+    },
+    {
+      "id": "local_development_signing_certificate_p12_certificate_password",
+      "label": "`p12` certificate password",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L70"
+    },
+    {
+      "id": "local_development_signing_certificate_add_certificate_to_the_project",
+      "label": "Add certificate to the project",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L79"
+    },
+    {
+      "id": "local_development_signing_certificate_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L89"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_local_development_signing_certificate_mdx",
+      "target": "local_development_signing_certificate_create_your_signing_certificate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_signing_certificate_create_your_signing_certificate",
+      "target": "local_development_signing_certificate_generate_private_key",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_signing_certificate_generate_private_key",
+      "target": "local_development_signing_certificate_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_signing_certificate_create_your_signing_certificate",
+      "target": "local_development_signing_certificate_generate_self_signed_certificate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_signing_certificate_generate_self_signed_certificate",
+      "target": "local_development_signing_certificate_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_signing_certificate_create_your_signing_certificate",
+      "target": "local_development_signing_certificate_create_p12_certificate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_signing_certificate_create_p12_certificate",
+      "target": "local_development_signing_certificate_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_signing_certificate_create_p12_certificate",
+      "target": "local_development_signing_certificate_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_signing_certificate_create_your_signing_certificate",
+      "target": "local_development_signing_certificate_p12_certificate_password",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_signing_certificate_create_your_signing_certificate",
+      "target": "local_development_signing_certificate_add_certificate_to_the_project",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_signing_certificate_create_your_signing_certificate",
+      "target": "local_development_signing_certificate_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/signing-certificate.mdx",
+      "source_location": "L89",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

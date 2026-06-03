@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_gdpr_mdx",
+      "label": "gdpr.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "compliance_gdpr_documenso_s_role",
+      "label": "Documenso's Role",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L9"
+    },
+    {
+      "id": "compliance_gdpr_data_processing",
+      "label": "Data Processing",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L32"
+    },
+    {
+      "id": "compliance_gdpr_data_storage_locations",
+      "label": "Data Storage Locations",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L50"
+    },
+    {
+      "id": "compliance_gdpr_data_subject_rights",
+      "label": "Data Subject Rights",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L79"
+    },
+    {
+      "id": "compliance_gdpr_data_deletion",
+      "label": "Data Deletion",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L98"
+    },
+    {
+      "id": "compliance_gdpr_self_hosting_for_gdpr_compliance",
+      "label": "Self-Hosting for GDPR Compliance",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L125"
+    },
+    {
+      "id": "compliance_gdpr_data_processing_agreement",
+      "label": "Data Processing Agreement",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L136"
+    },
+    {
+      "id": "compliance_gdpr_disclaimer",
+      "label": "Disclaimer",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L157"
+    },
+    {
+      "id": "compliance_gdpr_related",
+      "label": "Related",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L170"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_gdpr_mdx",
+      "target": "compliance_gdpr_documenso_s_role",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_gdpr_mdx",
+      "target": "compliance_gdpr_data_processing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_gdpr_mdx",
+      "target": "compliance_gdpr_data_storage_locations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_gdpr_mdx",
+      "target": "compliance_gdpr_data_subject_rights",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_gdpr_mdx",
+      "target": "compliance_gdpr_data_deletion",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_gdpr_mdx",
+      "target": "compliance_gdpr_self_hosting_for_gdpr_compliance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_gdpr_mdx",
+      "target": "compliance_gdpr_data_processing_agreement",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_gdpr_mdx",
+      "target": "compliance_gdpr_disclaimer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_gdpr_mdx",
+      "target": "compliance_gdpr_related",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/gdpr.mdx",
+      "source_location": "L170",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

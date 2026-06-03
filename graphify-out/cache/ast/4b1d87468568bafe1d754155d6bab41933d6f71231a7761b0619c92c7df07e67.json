@@ -1,0 +1,239 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_contributing_md",
+      "label": "CONTRIBUTING.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "documenso_contributing_contributing_to_documenso",
+      "label": "Contributing to Documenso",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "documenso_contributing_before_getting_started",
+      "label": "Before getting started",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "documenso_contributing_english_only_prs_and_issues",
+      "label": "English only PRs and Issues",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "documenso_contributing_taking_issues",
+      "label": "Taking issues",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "documenso_contributing_developing",
+      "label": "Developing",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L32"
+    },
+    {
+      "id": "documenso_contributing_codeblock_1",
+      "label": "code:sh (git checkout -b feat/doc-999-somefeature-that-rocks)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L43"
+    },
+    {
+      "id": "documenso_contributing_building",
+      "label": "Building",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "documenso_contributing_codeblock_2",
+      "label": "code:bash (npm run build)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L56"
+    },
+    {
+      "id": "documenso_contributing_ai_assisted_development_with_opencode",
+      "label": "AI-Assisted Development with OpenCode",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L60"
+    },
+    {
+      "id": "documenso_contributing_getting_started",
+      "label": "Getting Started",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L68"
+    },
+    {
+      "id": "documenso_contributing_codeblock_3",
+      "label": "code:bash (curl -fsSL https://opencode.ai/install | bash)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L71"
+    },
+    {
+      "id": "documenso_contributing_available_commands",
+      "label": "Available Commands",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L77"
+    },
+    {
+      "id": "documenso_contributing_typical_workflow",
+      "label": "Typical Workflow",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L92"
+    },
+    {
+      "id": "documenso_contributing_agent_files",
+      "label": "Agent Files",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L100"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_contributing_md",
+      "target": "documenso_contributing_contributing_to_documenso",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_contributing_contributing_to_documenso",
+      "target": "documenso_contributing_before_getting_started",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_contributing_contributing_to_documenso",
+      "target": "documenso_contributing_english_only_prs_and_issues",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_contributing_contributing_to_documenso",
+      "target": "documenso_contributing_taking_issues",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_contributing_contributing_to_documenso",
+      "target": "documenso_contributing_developing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_contributing_developing",
+      "target": "documenso_contributing_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_contributing_contributing_to_documenso",
+      "target": "documenso_contributing_building",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_contributing_building",
+      "target": "documenso_contributing_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_contributing_contributing_to_documenso",
+      "target": "documenso_contributing_ai_assisted_development_with_opencode",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_contributing_ai_assisted_development_with_opencode",
+      "target": "documenso_contributing_getting_started",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_contributing_getting_started",
+      "target": "documenso_contributing_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_contributing_ai_assisted_development_with_opencode",
+      "target": "documenso_contributing_available_commands",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_contributing_ai_assisted_development_with_opencode",
+      "target": "documenso_contributing_typical_workflow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_contributing_ai_assisted_development_with_opencode",
+      "target": "documenso_contributing_agent_files",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CONTRIBUTING.md",
+      "source_location": "L100",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,431 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_embedding_editor_v2_mdx",
+      "label": "v2.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "editor_v2_components",
+      "label": "Components",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L16"
+    },
+    {
+      "id": "editor_v2_presign_tokens",
+      "label": "Presign Tokens",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L27"
+    },
+    {
+      "id": "editor_v2_creating_envelopes",
+      "label": "Creating Envelopes",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L37"
+    },
+    {
+      "id": "editor_v2_codeblock_1",
+      "label": "code:jsx (import { EmbedCreateEnvelope } from '@documenso/embed-react')",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L41"
+    },
+    {
+      "id": "editor_v2_codeblock_2",
+      "label": "code:jsx (<EmbedCreateEnvelope)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L63"
+    },
+    {
+      "id": "editor_v2_editing_envelopes",
+      "label": "Editing Envelopes",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L76"
+    },
+    {
+      "id": "editor_v2_codeblock_3",
+      "label": "code:jsx (import { EmbedUpdateEnvelope } from '@documenso/embed-react')",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L80"
+    },
+    {
+      "id": "editor_v2_props",
+      "label": "Props",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L101"
+    },
+    {
+      "id": "editor_v2_all_v2_editor_components",
+      "label": "All V2 Editor Components",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L103"
+    },
+    {
+      "id": "editor_v2_create_component_only",
+      "label": "Create Component Only",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L118"
+    },
+    {
+      "id": "editor_v2_update_component_only",
+      "label": "Update Component Only",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L125"
+    },
+    {
+      "id": "editor_v2_feature_toggles",
+      "label": "Feature Toggles",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L133"
+    },
+    {
+      "id": "editor_v2_codeblock_4",
+      "label": "code:jsx (<EmbedCreateEnvelope)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L137"
+    },
+    {
+      "id": "editor_v2_general",
+      "label": "General",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L161"
+    },
+    {
+      "id": "editor_v2_settings",
+      "label": "Settings",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L173"
+    },
+    {
+      "id": "editor_v2_actions",
+      "label": "Actions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L189"
+    },
+    {
+      "id": "editor_v2_envelope_items",
+      "label": "Envelope Items",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L197"
+    },
+    {
+      "id": "editor_v2_recipients",
+      "label": "Recipients",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L209"
+    },
+    {
+      "id": "editor_v2_disabling_steps",
+      "label": "Disabling Steps",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L222"
+    },
+    {
+      "id": "editor_v2_codeblock_5",
+      "label": "code:jsx (<EmbedCreateEnvelope)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L226"
+    },
+    {
+      "id": "editor_v2_event_callbacks",
+      "label": "Event Callbacks",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L245"
+    },
+    {
+      "id": "editor_v2_onenvelopecreated",
+      "label": "`onEnvelopeCreated`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L247"
+    },
+    {
+      "id": "editor_v2_onenvelopeupdated",
+      "label": "`onEnvelopeUpdated`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L256"
+    },
+    {
+      "id": "editor_v2_complete_integration_example",
+      "label": "Complete Integration Example",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L267"
+    },
+    {
+      "id": "editor_v2_codeblock_6",
+      "label": "code:tsx (import { useState } from 'react';)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L271"
+    },
+    {
+      "id": "editor_v2_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L339"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_embedding_editor_v2_mdx",
+      "target": "editor_v2_components",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_embedding_editor_v2_mdx",
+      "target": "editor_v2_presign_tokens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_embedding_editor_v2_mdx",
+      "target": "editor_v2_creating_envelopes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "editor_v2_creating_envelopes",
+      "target": "editor_v2_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "editor_v2_creating_envelopes",
+      "target": "editor_v2_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_embedding_editor_v2_mdx",
+      "target": "editor_v2_editing_envelopes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "editor_v2_editing_envelopes",
+      "target": "editor_v2_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_embedding_editor_v2_mdx",
+      "target": "editor_v2_props",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "editor_v2_props",
+      "target": "editor_v2_all_v2_editor_components",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "editor_v2_props",
+      "target": "editor_v2_create_component_only",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "editor_v2_props",
+      "target": "editor_v2_update_component_only",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_embedding_editor_v2_mdx",
+      "target": "editor_v2_feature_toggles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "editor_v2_feature_toggles",
+      "target": "editor_v2_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L137",
+      "weight": 1.0
+    },
+    {
+      "source": "editor_v2_feature_toggles",
+      "target": "editor_v2_general",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "editor_v2_feature_toggles",
+      "target": "editor_v2_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "editor_v2_feature_toggles",
+      "target": "editor_v2_actions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L189",
+      "weight": 1.0
+    },
+    {
+      "source": "editor_v2_feature_toggles",
+      "target": "editor_v2_envelope_items",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "editor_v2_feature_toggles",
+      "target": "editor_v2_recipients",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L209",
+      "weight": 1.0
+    },
+    {
+      "source": "editor_v2_feature_toggles",
+      "target": "editor_v2_disabling_steps",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L222",
+      "weight": 1.0
+    },
+    {
+      "source": "editor_v2_disabling_steps",
+      "target": "editor_v2_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L226",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_embedding_editor_v2_mdx",
+      "target": "editor_v2_event_callbacks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L245",
+      "weight": 1.0
+    },
+    {
+      "source": "editor_v2_event_callbacks",
+      "target": "editor_v2_onenvelopecreated",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "editor_v2_event_callbacks",
+      "target": "editor_v2_onenvelopeupdated",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L256",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_embedding_editor_v2_mdx",
+      "target": "editor_v2_complete_integration_example",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L267",
+      "weight": 1.0
+    },
+    {
+      "source": "editor_v2_complete_integration_example",
+      "target": "editor_v2_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L271",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_embedding_editor_v2_mdx",
+      "target": "editor_v2_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/editor/v2.mdx",
+      "source_location": "L339",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

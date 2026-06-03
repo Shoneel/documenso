@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_demo_environment_index_mdx",
+      "label": "index.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/demo-environment/index.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "demo_environment_index_overview",
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/demo-environment/index.mdx",
+      "source_location": "L8"
+    },
+    {
+      "id": "demo_environment_index_how_to_use_the_demo_environment",
+      "label": "How to Use the Demo Environment",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/demo-environment/index.mdx",
+      "source_location": "L14"
+    },
+    {
+      "id": "demo_environment_index_codeblock_1",
+      "label": "code:block1 (Card number: 4242 4242 4242 4242)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/demo-environment/index.mdx",
+      "source_location": "L45"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_demo_environment_index_mdx",
+      "target": "demo_environment_index_overview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/demo-environment/index.mdx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_demo_environment_index_mdx",
+      "target": "demo_environment_index_how_to_use_the_demo_environment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/demo-environment/index.mdx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_environment_index_how_to_use_the_demo_environment",
+      "target": "demo_environment_index_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/demo-environment/index.mdx",
+      "source_location": "L45",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

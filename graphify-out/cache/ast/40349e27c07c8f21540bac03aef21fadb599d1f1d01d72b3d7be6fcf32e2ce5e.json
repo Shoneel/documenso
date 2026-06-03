@@ -1,0 +1,191 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_local_development_quickstart_mdx",
+      "label": "quickstart.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "local_development_quickstart_quickstart",
+      "label": "Quickstart",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L9"
+    },
+    {
+      "id": "local_development_quickstart_fork_documenso",
+      "label": "Fork Documenso",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L22"
+    },
+    {
+      "id": "local_development_quickstart_clone_repository",
+      "label": "Clone repository",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L29"
+    },
+    {
+      "id": "local_development_quickstart_codeblock_1",
+      "label": "code:bash (git clone https://github.com/<your-username>/documenso)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L33"
+    },
+    {
+      "id": "local_development_quickstart_set_up_environment_variables",
+      "label": "Set up environment variables",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L40"
+    },
+    {
+      "id": "local_development_quickstart_start_database_and_mail_server",
+      "label": "Start database and mail server",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L49"
+    },
+    {
+      "id": "local_development_quickstart_start_the_application",
+      "label": "Start the application",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L58"
+    },
+    {
+      "id": "local_development_quickstart_optional_fasten_the_process",
+      "label": "(Optional) Fasten the Process",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L65"
+    },
+    {
+      "id": "local_development_quickstart_codeblock_2",
+      "label": "code:sh (npm run d)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L69"
+    },
+    {
+      "id": "local_development_quickstart_access_points_for_the_project",
+      "label": "Access Points for the Project",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L77"
+    },
+    {
+      "id": "local_development_quickstart_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L88"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_local_development_quickstart_mdx",
+      "target": "local_development_quickstart_quickstart",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_quickstart_quickstart",
+      "target": "local_development_quickstart_fork_documenso",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_quickstart_quickstart",
+      "target": "local_development_quickstart_clone_repository",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_quickstart_clone_repository",
+      "target": "local_development_quickstart_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_quickstart_quickstart",
+      "target": "local_development_quickstart_set_up_environment_variables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_quickstart_quickstart",
+      "target": "local_development_quickstart_start_database_and_mail_server",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_quickstart_quickstart",
+      "target": "local_development_quickstart_start_the_application",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_quickstart_quickstart",
+      "target": "local_development_quickstart_optional_fasten_the_process",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_quickstart_optional_fasten_the_process",
+      "target": "local_development_quickstart_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "local_development_quickstart_quickstart",
+      "target": "local_development_quickstart_access_points_for_the_project",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_local_development_quickstart_mdx",
+      "target": "local_development_quickstart_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/local-development/quickstart.mdx",
+      "source_location": "L88",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

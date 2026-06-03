@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_packages_tsconfig_readme_md",
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/packages/tsconfig/README.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "tsconfig_readme_tsconfig",
+      "label": "`tsconfig`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/packages/tsconfig/README.md",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_packages_tsconfig_readme_md",
+      "target": "tsconfig_readme_tsconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/packages/tsconfig/README.md",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

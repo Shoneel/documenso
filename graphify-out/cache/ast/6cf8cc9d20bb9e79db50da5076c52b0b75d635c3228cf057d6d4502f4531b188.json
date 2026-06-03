@@ -1,0 +1,367 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_esign_mdx",
+      "label": "esign.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "compliance_esign_esign_act_united_states",
+      "label": "ESIGN Act (United States)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L6"
+    },
+    {
+      "id": "compliance_esign_key_requirements",
+      "label": "Key Requirements",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L10"
+    },
+    {
+      "id": "compliance_esign_exclusions",
+      "label": "Exclusions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L20"
+    },
+    {
+      "id": "compliance_esign_ueta_united_states",
+      "label": "UETA (United States)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L32"
+    },
+    {
+      "id": "compliance_esign_relationship_to_esign",
+      "label": "Relationship to ESIGN",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L36"
+    },
+    {
+      "id": "compliance_esign_key_requirements_40",
+      "label": "Key Requirements",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L40"
+    },
+    {
+      "id": "compliance_esign_eidas_european_union",
+      "label": "eIDAS (European Union)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L49"
+    },
+    {
+      "id": "compliance_esign_signature_levels",
+      "label": "Signature Levels",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L53"
+    },
+    {
+      "id": "compliance_esign_simple_electronic_signatures_ses",
+      "label": "Simple Electronic Signatures (SES)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L61"
+    },
+    {
+      "id": "compliance_esign_advanced_electronic_signatures_aes",
+      "label": "Advanced Electronic Signatures (AES)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L65"
+    },
+    {
+      "id": "compliance_esign_qualified_electronic_signatures_qes",
+      "label": "Qualified Electronic Signatures (QES)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L74"
+    },
+    {
+      "id": "compliance_esign_other_jurisdictions",
+      "label": "Other Jurisdictions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L86"
+    },
+    {
+      "id": "compliance_esign_how_documenso_supports_compliance",
+      "label": "How Documenso Supports Compliance",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L105"
+    },
+    {
+      "id": "compliance_esign_intent_to_sign",
+      "label": "Intent to Sign",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L109"
+    },
+    {
+      "id": "compliance_esign_consent",
+      "label": "Consent",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L115"
+    },
+    {
+      "id": "compliance_esign_record_retention",
+      "label": "Record Retention",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L120"
+    },
+    {
+      "id": "compliance_esign_document_integrity",
+      "label": "Document Integrity",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L126"
+    },
+    {
+      "id": "compliance_esign_signer_identification",
+      "label": "Signer Identification",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L132"
+    },
+    {
+      "id": "compliance_esign_audit_trails",
+      "label": "Audit Trails",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L140"
+    },
+    {
+      "id": "compliance_esign_what_documenso_does_not_provide",
+      "label": "What Documenso Does NOT Provide",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L157"
+    },
+    {
+      "id": "compliance_esign_disclaimer",
+      "label": "Disclaimer",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L173"
+    },
+    {
+      "id": "compliance_esign_related",
+      "label": "Related",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L183"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_esign_mdx",
+      "target": "compliance_esign_esign_act_united_states",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_esign_esign_act_united_states",
+      "target": "compliance_esign_key_requirements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_esign_esign_act_united_states",
+      "target": "compliance_esign_exclusions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_esign_mdx",
+      "target": "compliance_esign_ueta_united_states",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_esign_ueta_united_states",
+      "target": "compliance_esign_relationship_to_esign",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_esign_ueta_united_states",
+      "target": "compliance_esign_key_requirements_40",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_esign_mdx",
+      "target": "compliance_esign_eidas_european_union",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_esign_eidas_european_union",
+      "target": "compliance_esign_signature_levels",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_esign_eidas_european_union",
+      "target": "compliance_esign_simple_electronic_signatures_ses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_esign_eidas_european_union",
+      "target": "compliance_esign_advanced_electronic_signatures_aes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_esign_eidas_european_union",
+      "target": "compliance_esign_qualified_electronic_signatures_qes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_esign_mdx",
+      "target": "compliance_esign_other_jurisdictions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_esign_mdx",
+      "target": "compliance_esign_how_documenso_supports_compliance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_esign_how_documenso_supports_compliance",
+      "target": "compliance_esign_intent_to_sign",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_esign_how_documenso_supports_compliance",
+      "target": "compliance_esign_consent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_esign_how_documenso_supports_compliance",
+      "target": "compliance_esign_record_retention",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_esign_how_documenso_supports_compliance",
+      "target": "compliance_esign_document_integrity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_esign_how_documenso_supports_compliance",
+      "target": "compliance_esign_signer_identification",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_esign_mdx",
+      "target": "compliance_esign_audit_trails",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_esign_mdx",
+      "target": "compliance_esign_what_documenso_does_not_provide",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_esign_mdx",
+      "target": "compliance_esign_disclaimer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_compliance_esign_mdx",
+      "target": "compliance_esign_related",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx",
+      "source_location": "L183",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

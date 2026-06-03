@@ -1,0 +1,85 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_organisations_preferences_meta_json",
+      "label": "meta.json",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/preferences/meta.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "preferences_meta_title",
+      "label": "title",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/preferences/meta.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "preferences_meta_pages",
+      "label": "pages",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/preferences/meta.json",
+      "source_location": "L3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_organisations_preferences_meta_json",
+      "target": "preferences_meta_title",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/preferences/meta.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_organisations_preferences_meta_json",
+      "target": "preferences_meta_pages",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/preferences/meta.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "preferences_meta_pages",
+      "target": "ref_index",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/preferences/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "preferences_meta_pages",
+      "target": "ref_document",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/preferences/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "preferences_meta_pages",
+      "target": "ref_branding",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/preferences/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "preferences_meta_pages",
+      "target": "ref_email",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/preferences/meta.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    }
+  ]
+}

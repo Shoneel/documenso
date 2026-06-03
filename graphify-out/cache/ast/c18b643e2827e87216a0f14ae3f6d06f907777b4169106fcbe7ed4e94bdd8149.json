@@ -1,0 +1,335 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_agents_plans_fresh_gold_rock_cert_page_width_mismatch_md",
+      "label": "fresh-gold-rock-cert-page-width-mismatch.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_problem",
+      "label": "Problem",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_codeblock_1",
+      "label": "code:ts (pageWidth: PDF_SIZE_A4_72PPI.width,  // 595)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_key_files",
+      "label": "Key Files",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L21"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_architecture",
+      "label": "Architecture",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L35"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_current_flow",
+      "label": "Current Flow",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L37"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_multi_document_envelopes",
+      "label": "Multi-Document Envelopes",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L43"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_reading_page_dimensions_libpdf_core_only",
+      "label": "Reading Page Dimensions (`@libpdf/core` only)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L50"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_codeblock_2",
+      "label": "code:ts (const pdfDoc = await PDF.load(pdfData);)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L54"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_content_layout_adaptation",
+      "label": "Content Layout Adaptation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L63"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_playwright_pdf_path_out_of_scope",
+      "label": "Playwright PDF Path \u2014 Out of Scope",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L70"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_plan",
+      "label": "Plan",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L80"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_1_extend_get_page_size_ts_with_libpdf_core_utility",
+      "label": "1. Extend `get-page-size.ts` with `@libpdf/core` utility",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L82"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_codeblock_3",
+      "label": "code:ts (export const getLastPageDimensions = (pdfDoc: PDF): { width:)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L86"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_2_read_last_page_dimensions_from_each_envelope_item_s_pdf",
+      "label": "2. Read last page dimensions from each envelope item's PDF",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L104"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_3_generate_cert_audit_pdfs_per_unique_page_size",
+      "label": "3. Generate cert/audit PDFs per unique page size",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L113"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_4_thread_the_correct_docs_into_decorateandsignpdf",
+      "label": "4. Thread the correct docs into `decorateAndSignPdf`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L124"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_5_update_standalone_download_routes",
+      "label": "5. Update standalone download routes",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L128"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_6_edge_cases",
+      "label": "6. Edge cases",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L137"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_7_tests",
+      "label": "7. Tests",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L151"
+    },
+    {
+      "id": "plans_fresh_gold_rock_cert_page_width_mismatch_implementation_steps",
+      "label": "Implementation Steps",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L158"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_fresh_gold_rock_cert_page_width_mismatch_md",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_problem",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_fresh_gold_rock_cert_page_width_mismatch_problem",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_fresh_gold_rock_cert_page_width_mismatch_md",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_key_files",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_fresh_gold_rock_cert_page_width_mismatch_md",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_architecture",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_fresh_gold_rock_cert_page_width_mismatch_architecture",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_current_flow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_fresh_gold_rock_cert_page_width_mismatch_architecture",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_multi_document_envelopes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_fresh_gold_rock_cert_page_width_mismatch_architecture",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_reading_page_dimensions_libpdf_core_only",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_fresh_gold_rock_cert_page_width_mismatch_reading_page_dimensions_libpdf_core_only",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_fresh_gold_rock_cert_page_width_mismatch_architecture",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_content_layout_adaptation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_fresh_gold_rock_cert_page_width_mismatch_architecture",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_playwright_pdf_path_out_of_scope",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_fresh_gold_rock_cert_page_width_mismatch_md",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_plan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_fresh_gold_rock_cert_page_width_mismatch_plan",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_1_extend_get_page_size_ts_with_libpdf_core_utility",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_fresh_gold_rock_cert_page_width_mismatch_1_extend_get_page_size_ts_with_libpdf_core_utility",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_fresh_gold_rock_cert_page_width_mismatch_plan",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_2_read_last_page_dimensions_from_each_envelope_item_s_pdf",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_fresh_gold_rock_cert_page_width_mismatch_plan",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_3_generate_cert_audit_pdfs_per_unique_page_size",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_fresh_gold_rock_cert_page_width_mismatch_plan",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_4_thread_the_correct_docs_into_decorateandsignpdf",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_fresh_gold_rock_cert_page_width_mismatch_plan",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_5_update_standalone_download_routes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L128",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_fresh_gold_rock_cert_page_width_mismatch_plan",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_6_edge_cases",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L137",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_fresh_gold_rock_cert_page_width_mismatch_plan",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_7_tests",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_fresh_gold_rock_cert_page_width_mismatch_md",
+      "target": "plans_fresh_gold_rock_cert_page_width_mismatch_implementation_steps",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/fresh-gold-rock-cert-page-width-mismatch.md",
+      "source_location": "L158",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

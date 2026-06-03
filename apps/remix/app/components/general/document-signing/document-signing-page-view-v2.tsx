@@ -32,7 +32,6 @@ import { useEmbedSigningContext } from '~/components/embed/embed-signing-context
 import { EnvelopeSignerPageRenderer } from '~/components/general/envelope-signing/envelope-signer-page-renderer';
 import { EnvelopePdfViewer } from '~/components/general/pdf-viewer/envelope-pdf-viewer';
 
-import { BrandingLogo } from '../branding-logo';
 import { DocumentSigningAttachmentsPopover } from '../document-signing/document-signing-attachments-popover';
 import { EnvelopeItemSelector } from '../envelope-editor/envelope-file-selector';
 import EnvelopeSignerForm from '../envelope-signing/envelope-signer-form';
@@ -291,7 +290,14 @@ export const DocumentSigningPageViewV2 = () => {
                   <span>
                     <Trans>Powered by</Trans>
                   </span>
-                  <BrandingLogo className="ml-2 inline-block h-[14px]" />
+                  <img
+                    src="/static/logo.png"
+                    alt="WAF eSign"
+                    width={140}
+                    height="auto"
+                    style={{ objectFit: 'contain' }}
+                    className="ml-2 inline-block"
+                  />
                 </a>
               )}
             </div>

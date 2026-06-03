@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_devcontainer_post_start_sh",
+      "label": "post-start.sh",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.devcontainer/post-start.sh",
+      "source_location": "L1",
+      "metadata": { "language": "bash", "kind": "file" }
+    },
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_devcontainer_post_start_sh__entry",
+      "label": "post-start.sh script",
+      "file_type": "code",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.devcontainer/post-start.sh",
+      "source_location": "L1",
+      "metadata": { "language": "bash", "kind": "bash_entrypoint" }
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_devcontainer_post_start_sh",
+      "target": "home_shonzi_waf_dev_code_documenso_devcontainer_post_start_sh__entry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.devcontainer/post-start.sh",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ]
+}

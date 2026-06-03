@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_agents_md",
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/AGENTS.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "documenso_agents_agent_guidelines_for_documenso",
+      "label": "Agent Guidelines for Documenso",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/AGENTS.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "documenso_agents_build_test_lint_commands",
+      "label": "Build/Test/Lint Commands",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/AGENTS.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "documenso_agents_code_style_guidelines",
+      "label": "Code Style Guidelines",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/AGENTS.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "documenso_agents_error_handling_validation",
+      "label": "Error Handling & Validation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/AGENTS.md",
+      "source_location": "L28"
+    },
+    {
+      "id": "documenso_agents_ui_styling",
+      "label": "UI & Styling",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/AGENTS.md",
+      "source_location": "L36"
+    },
+    {
+      "id": "documenso_agents_trpc_routes",
+      "label": "TRPC Routes",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/AGENTS.md",
+      "source_location": "L42"
+    },
+    {
+      "id": "documenso_agents_translations_remix",
+      "label": "Translations & Remix",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/AGENTS.md",
+      "source_location": "L53"
+    },
+    {
+      "id": "documenso_agents_graphify",
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/AGENTS.md",
+      "source_location": "L61"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_md",
+      "target": "documenso_agents_agent_guidelines_for_documenso",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_agents_agent_guidelines_for_documenso",
+      "target": "documenso_agents_build_test_lint_commands",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/AGENTS.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_agents_agent_guidelines_for_documenso",
+      "target": "documenso_agents_code_style_guidelines",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/AGENTS.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_agents_agent_guidelines_for_documenso",
+      "target": "documenso_agents_error_handling_validation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/AGENTS.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_agents_agent_guidelines_for_documenso",
+      "target": "documenso_agents_ui_styling",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/AGENTS.md",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_agents_agent_guidelines_for_documenso",
+      "target": "documenso_agents_trpc_routes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/AGENTS.md",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_agents_agent_guidelines_for_documenso",
+      "target": "documenso_agents_translations_remix",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/AGENTS.md",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_agents_agent_guidelines_for_documenso",
+      "target": "documenso_agents_graphify",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/AGENTS.md",
+      "source_location": "L61",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

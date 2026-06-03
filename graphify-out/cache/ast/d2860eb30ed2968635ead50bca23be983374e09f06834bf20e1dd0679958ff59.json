@@ -1,0 +1,271 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_signing_reminders_mdx",
+      "label": "signing-reminders.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "advanced_signing_reminders_overview",
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L10"
+    },
+    {
+      "id": "advanced_signing_reminders_default_behaviour",
+      "label": "Default Behaviour",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L24"
+    },
+    {
+      "id": "advanced_signing_reminders_settings_cascade",
+      "label": "Settings Cascade",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L40"
+    },
+    {
+      "id": "advanced_signing_reminders_set_reminders_for_a_document",
+      "label": "Set Reminders for a Document",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L70"
+    },
+    {
+      "id": "advanced_signing_reminders_open_the_document_settings",
+      "label": "Open the document settings",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L76"
+    },
+    {
+      "id": "advanced_signing_reminders_choose_a_mode",
+      "label": "Choose a mode",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L83"
+    },
+    {
+      "id": "advanced_signing_reminders_configure_the_schedule",
+      "label": "Configure the schedule",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L92"
+    },
+    {
+      "id": "advanced_signing_reminders_send_the_document",
+      "label": "Send the document",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L102"
+    },
+    {
+      "id": "advanced_signing_reminders_set_a_default_reminder_schedule",
+      "label": "Set a Default Reminder Schedule",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L114"
+    },
+    {
+      "id": "advanced_signing_reminders_navigate_to_document_preferences",
+      "label": "Navigate to document preferences",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L120"
+    },
+    {
+      "id": "advanced_signing_reminders_configure_the_default",
+      "label": "Configure the default",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L127"
+    },
+    {
+      "id": "advanced_signing_reminders_save",
+      "label": "Save",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L138"
+    },
+    {
+      "id": "advanced_signing_reminders_what_happens_when_a_reminder_fires",
+      "label": "What Happens When a Reminder Fires",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L145"
+    },
+    {
+      "id": "advanced_signing_reminders_when_reminders_are_skipped",
+      "label": "When Reminders Are Skipped",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L156"
+    },
+    {
+      "id": "advanced_signing_reminders_reminder_options_reference",
+      "label": "Reminder Options Reference",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L178"
+    },
+    {
+      "id": "advanced_signing_reminders_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L190"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_signing_reminders_mdx",
+      "target": "advanced_signing_reminders_overview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_signing_reminders_mdx",
+      "target": "advanced_signing_reminders_default_behaviour",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_signing_reminders_mdx",
+      "target": "advanced_signing_reminders_settings_cascade",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_signing_reminders_mdx",
+      "target": "advanced_signing_reminders_set_reminders_for_a_document",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_signing_reminders_set_reminders_for_a_document",
+      "target": "advanced_signing_reminders_open_the_document_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_signing_reminders_set_reminders_for_a_document",
+      "target": "advanced_signing_reminders_choose_a_mode",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_signing_reminders_set_reminders_for_a_document",
+      "target": "advanced_signing_reminders_configure_the_schedule",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_signing_reminders_set_reminders_for_a_document",
+      "target": "advanced_signing_reminders_send_the_document",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_signing_reminders_mdx",
+      "target": "advanced_signing_reminders_set_a_default_reminder_schedule",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_signing_reminders_set_a_default_reminder_schedule",
+      "target": "advanced_signing_reminders_navigate_to_document_preferences",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_signing_reminders_set_a_default_reminder_schedule",
+      "target": "advanced_signing_reminders_configure_the_default",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_signing_reminders_set_a_default_reminder_schedule",
+      "target": "advanced_signing_reminders_save",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_signing_reminders_mdx",
+      "target": "advanced_signing_reminders_what_happens_when_a_reminder_fires",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_signing_reminders_mdx",
+      "target": "advanced_signing_reminders_when_reminders_are_skipped",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L156",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_signing_reminders_mdx",
+      "target": "advanced_signing_reminders_reminder_options_reference",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L178",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_signing_reminders_mdx",
+      "target": "advanced_signing_reminders_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/signing-reminders.mdx",
+      "source_location": "L190",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -9,7 +9,6 @@ import { match } from 'ts-pattern';
 
 import { useEmbedSigningContext } from '~/components/embed/embed-signing-context';
 
-import { BrandingLogo } from '../branding-logo';
 import EnvelopeSignerForm from '../envelope-signing/envelope-signer-form';
 import { EnvelopeSignerCompleteDialog } from '../envelope-signing/envelope-signing-complete-dialog';
 import { useRequiredEnvelopeSigningContext } from './envelope-signing-provider';
@@ -114,7 +113,14 @@ export const DocumentSigningMobileWidget = () => {
                   <span>
                     <Trans>Powered by</Trans>
                   </span>
-                  <BrandingLogo className="ml-2 inline-block h-[14px]" />
+                  <img
+                    src="/static/logo.png"
+                    alt="WAF eSign"
+                    width={140}
+                    height="auto"
+                    style={{ objectFit: 'contain' }}
+                    className="ml-2 inline-block"
+                  />
                 </div>
               )}
             </div>

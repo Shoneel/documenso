@@ -1,0 +1,1359 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_code_style_md",
+      "label": "CODE_STYLE.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "documenso_code_style_documenso_code_style_guide",
+      "label": "Documenso Code Style Guide",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "documenso_code_style_table_of_contents",
+      "label": "Table of Contents",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "documenso_code_style_general_principles",
+      "label": "General Principles",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L22"
+    },
+    {
+      "id": "documenso_code_style_typescript_conventions",
+      "label": "TypeScript Conventions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L31"
+    },
+    {
+      "id": "documenso_code_style_type_definitions",
+      "label": "Type Definitions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L33"
+    },
+    {
+      "id": "documenso_code_style_codeblock_1",
+      "label": "code:typescript (// \u2705 Prefer `type` over `interface`)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L35"
+    },
+    {
+      "id": "documenso_code_style_type_imports",
+      "label": "Type Imports",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "documenso_code_style_codeblock_2",
+      "label": "code:typescript (// \u2705 Use `type` keyword for type-only imports)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L51"
+    },
+    {
+      "id": "documenso_code_style_inline_types_for_function_parameters",
+      "label": "Inline Types for Function Parameters",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L62"
+    },
+    {
+      "id": "documenso_code_style_codeblock_3",
+      "label": "code:typescript (// \u2705 Extract inline types to named types)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L64"
+    },
+    {
+      "id": "documenso_code_style_imports_dependencies",
+      "label": "Imports & Dependencies",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L76"
+    },
+    {
+      "id": "documenso_code_style_import_organization",
+      "label": "Import Organization",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L78"
+    },
+    {
+      "id": "documenso_code_style_codeblock_4",
+      "label": "code:typescript (// 1. React imports)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L82"
+    },
+    {
+      "id": "documenso_code_style_destructuring_imports",
+      "label": "Destructuring Imports",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L103"
+    },
+    {
+      "id": "documenso_code_style_codeblock_5",
+      "label": "code:typescript (// \u2705 Destructure specific exports)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L105"
+    },
+    {
+      "id": "documenso_code_style_functions_methods",
+      "label": "Functions & Methods",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L116"
+    },
+    {
+      "id": "documenso_code_style_arrow_functions",
+      "label": "Arrow Functions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L118"
+    },
+    {
+      "id": "documenso_code_style_codeblock_6",
+      "label": "code:typescript (// \u2705 Always use arrow functions for functions)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L120"
+    },
+    {
+      "id": "documenso_code_style_function_parameters",
+      "label": "Function Parameters",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L140"
+    },
+    {
+      "id": "documenso_code_style_codeblock_7",
+      "label": "code:typescript (// \u2705 Use destructured object parameters for multiple params)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L142"
+    },
+    {
+      "id": "documenso_code_style_react_components",
+      "label": "React & Components",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L164"
+    },
+    {
+      "id": "documenso_code_style_component_definition",
+      "label": "Component Definition",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L166"
+    },
+    {
+      "id": "documenso_code_style_codeblock_8",
+      "label": "code:typescript (// \u2705 Use const with arrow function)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L168"
+    },
+    {
+      "id": "documenso_code_style_hooks",
+      "label": "Hooks",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L185"
+    },
+    {
+      "id": "documenso_code_style_codeblock_9",
+      "label": "code:typescript (// \u2705 Group related hooks together with blank line separation)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L187"
+    },
+    {
+      "id": "documenso_code_style_event_handlers",
+      "label": "Event Handlers",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L202"
+    },
+    {
+      "id": "documenso_code_style_codeblock_10",
+      "label": "code:typescript (// \u2705 Use arrow functions with descriptive names)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L204"
+    },
+    {
+      "id": "documenso_code_style_state_management",
+      "label": "State Management",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L223"
+    },
+    {
+      "id": "documenso_code_style_codeblock_11",
+      "label": "code:typescript (// \u2705 Descriptive state names with auxiliary verbs)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L225"
+    },
+    {
+      "id": "documenso_code_style_error_handling",
+      "label": "Error Handling",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L240"
+    },
+    {
+      "id": "documenso_code_style_try_catch_blocks",
+      "label": "Try-Catch Blocks",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L242"
+    },
+    {
+      "id": "documenso_code_style_codeblock_12",
+      "label": "code:typescript (// \u2705 Use try-catch for operations that might fail)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L244"
+    },
+    {
+      "id": "documenso_code_style_throwing_errors",
+      "label": "Throwing Errors",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L266"
+    },
+    {
+      "id": "documenso_code_style_codeblock_13",
+      "label": "code:typescript (// \u2705 Use AppError for application errors)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L268"
+    },
+    {
+      "id": "documenso_code_style_error_parsing_on_frontend",
+      "label": "Error Parsing on Frontend",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L282"
+    },
+    {
+      "id": "documenso_code_style_codeblock_14",
+      "label": "code:typescript (// \u2705 Parse errors on the frontend)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L284"
+    },
+    {
+      "id": "documenso_code_style_async_await_patterns",
+      "label": "Async/Await Patterns",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L302"
+    },
+    {
+      "id": "documenso_code_style_async_function_definitions",
+      "label": "Async Function Definitions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L304"
+    },
+    {
+      "id": "documenso_code_style_codeblock_15",
+      "label": "code:typescript (// \u2705 Mark async functions clearly)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L306"
+    },
+    {
+      "id": "documenso_code_style_void_for_fire_and_forget",
+      "label": "Void for Fire-and-Forget",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L325"
+    },
+    {
+      "id": "documenso_code_style_codeblock_16",
+      "label": "code:typescript (// \u2705 Use void for intentionally unwaited promises)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L327"
+    },
+    {
+      "id": "documenso_code_style_whitespace_formatting",
+      "label": "Whitespace & Formatting",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L337"
+    },
+    {
+      "id": "documenso_code_style_blank_lines_between_concepts",
+      "label": "Blank Lines Between Concepts",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L339"
+    },
+    {
+      "id": "documenso_code_style_codeblock_17",
+      "label": "code:typescript (// \u2705 Blank line after imports)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L341"
+    },
+    {
+      "id": "documenso_code_style_function_method_spacing",
+      "label": "Function/Method Spacing",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L364"
+    },
+    {
+      "id": "documenso_code_style_codeblock_18",
+      "label": "code:typescript (// \u2705 No blank lines between chained methods in same operatio)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L366"
+    },
+    {
+      "id": "documenso_code_style_object_and_array_formatting",
+      "label": "Object and Array Formatting",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L380"
+    },
+    {
+      "id": "documenso_code_style_codeblock_19",
+      "label": "code:typescript (// \u2705 Multi-line when complex)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L382"
+    },
+    {
+      "id": "documenso_code_style_naming_conventions",
+      "label": "Naming Conventions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L409"
+    },
+    {
+      "id": "documenso_code_style_variables",
+      "label": "Variables",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L411"
+    },
+    {
+      "id": "documenso_code_style_codeblock_20",
+      "label": "code:typescript (// \u2705 camelCase for variables and functions)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L413"
+    },
+    {
+      "id": "documenso_code_style_types_and_schemas",
+      "label": "Types and Schemas",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L429"
+    },
+    {
+      "id": "documenso_code_style_codeblock_21",
+      "label": "code:typescript (// \u2705 PascalCase for types)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L431"
+    },
+    {
+      "id": "documenso_code_style_constants",
+      "label": "Constants",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L446"
+    },
+    {
+      "id": "documenso_code_style_codeblock_22",
+      "label": "code:typescript (// \u2705 UPPER_SNAKE_CASE for true constants)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L448"
+    },
+    {
+      "id": "documenso_code_style_functions",
+      "label": "Functions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L457"
+    },
+    {
+      "id": "documenso_code_style_codeblock_23",
+      "label": "code:typescript (// \u2705 Verb-based names for functions)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L459"
+    },
+    {
+      "id": "documenso_code_style_clarity_over_brevity",
+      "label": "Clarity Over Brevity",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L472"
+    },
+    {
+      "id": "documenso_code_style_codeblock_24",
+      "label": "code:typescript (// \u2705 Prefer descriptive names over abbreviations)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L474"
+    },
+    {
+      "id": "documenso_code_style_pattern_matching",
+      "label": "Pattern Matching",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L493"
+    },
+    {
+      "id": "documenso_code_style_using_ts_pattern",
+      "label": "Using ts-pattern",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L495"
+    },
+    {
+      "id": "documenso_code_style_codeblock_25",
+      "label": "code:typescript (import { match } from 'ts-pattern';)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L497"
+    },
+    {
+      "id": "documenso_code_style_database_prisma",
+      "label": "Database & Prisma",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L522"
+    },
+    {
+      "id": "documenso_code_style_query_structure",
+      "label": "Query Structure",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L524"
+    },
+    {
+      "id": "documenso_code_style_codeblock_26",
+      "label": "code:typescript (// \u2705 Destructure commonly used fields)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L526"
+    },
+    {
+      "id": "documenso_code_style_transactions",
+      "label": "Transactions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L550"
+    },
+    {
+      "id": "documenso_code_style_codeblock_27",
+      "label": "code:typescript (// \u2705 Use transactions for related operations)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L552"
+    },
+    {
+      "id": "documenso_code_style_where_clauses",
+      "label": "Where Clauses",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L565"
+    },
+    {
+      "id": "documenso_code_style_codeblock_28",
+      "label": "code:typescript (// \u2705 Build complex where clauses separately)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L567"
+    },
+    {
+      "id": "documenso_code_style_trpc_patterns",
+      "label": "TRPC Patterns",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L584"
+    },
+    {
+      "id": "documenso_code_style_router_structure",
+      "label": "Router Structure",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L586"
+    },
+    {
+      "id": "documenso_code_style_codeblock_29",
+      "label": "code:typescript (// \u2705 Destructure context and input at start)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L588"
+    },
+    {
+      "id": "documenso_code_style_request_response_schemas",
+      "label": "Request/Response Schemas",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L606"
+    },
+    {
+      "id": "documenso_code_style_codeblock_30",
+      "label": "code:typescript (// \u2705 Name schemas clearly)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L608"
+    },
+    {
+      "id": "documenso_code_style_error_handling_in_trpc",
+      "label": "Error Handling in TRPC",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L621"
+    },
+    {
+      "id": "documenso_code_style_codeblock_31",
+      "label": "code:typescript (// \u2705 Catch and transform errors appropriately)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L623"
+    },
+    {
+      "id": "documenso_code_style_additional_patterns",
+      "label": "Additional Patterns",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L643"
+    },
+    {
+      "id": "documenso_code_style_optional_chaining",
+      "label": "Optional Chaining",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L645"
+    },
+    {
+      "id": "documenso_code_style_codeblock_32",
+      "label": "code:typescript (// \u2705 Use optional chaining for potentially undefined values)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L647"
+    },
+    {
+      "id": "documenso_code_style_array_operations",
+      "label": "Array Operations",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L657"
+    },
+    {
+      "id": "documenso_code_style_codeblock_33",
+      "label": "code:typescript (// \u2705 Use functional array methods)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L659"
+    },
+    {
+      "id": "documenso_code_style_conditional_rendering",
+      "label": "Conditional Rendering",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L669"
+    },
+    {
+      "id": "documenso_code_style_codeblock_34",
+      "label": "code:typescript (// \u2705 Use && for conditional rendering)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L671"
+    },
+    {
+      "id": "documenso_code_style_when_in_doubt",
+      "label": "When in Doubt",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L685"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_code_style_md",
+      "target": "documenso_code_style_documenso_code_style_guide",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_documenso_code_style_guide",
+      "target": "documenso_code_style_table_of_contents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_documenso_code_style_guide",
+      "target": "documenso_code_style_general_principles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_documenso_code_style_guide",
+      "target": "documenso_code_style_typescript_conventions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_typescript_conventions",
+      "target": "documenso_code_style_type_definitions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_type_definitions",
+      "target": "documenso_code_style_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_typescript_conventions",
+      "target": "documenso_code_style_type_imports",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_type_imports",
+      "target": "documenso_code_style_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_typescript_conventions",
+      "target": "documenso_code_style_inline_types_for_function_parameters",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_inline_types_for_function_parameters",
+      "target": "documenso_code_style_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_documenso_code_style_guide",
+      "target": "documenso_code_style_imports_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_imports_dependencies",
+      "target": "documenso_code_style_import_organization",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_import_organization",
+      "target": "documenso_code_style_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_imports_dependencies",
+      "target": "documenso_code_style_destructuring_imports",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_destructuring_imports",
+      "target": "documenso_code_style_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_documenso_code_style_guide",
+      "target": "documenso_code_style_functions_methods",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_functions_methods",
+      "target": "documenso_code_style_arrow_functions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_arrow_functions",
+      "target": "documenso_code_style_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_functions_methods",
+      "target": "documenso_code_style_function_parameters",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_function_parameters",
+      "target": "documenso_code_style_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_documenso_code_style_guide",
+      "target": "documenso_code_style_react_components",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L164",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_react_components",
+      "target": "documenso_code_style_component_definition",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_component_definition",
+      "target": "documenso_code_style_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_react_components",
+      "target": "documenso_code_style_hooks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_hooks",
+      "target": "documenso_code_style_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_react_components",
+      "target": "documenso_code_style_event_handlers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_event_handlers",
+      "target": "documenso_code_style_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L204",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_react_components",
+      "target": "documenso_code_style_state_management",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L223",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_state_management",
+      "target": "documenso_code_style_codeblock_11",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L225",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_documenso_code_style_guide",
+      "target": "documenso_code_style_error_handling",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L240",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_error_handling",
+      "target": "documenso_code_style_try_catch_blocks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L242",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_try_catch_blocks",
+      "target": "documenso_code_style_codeblock_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L244",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_error_handling",
+      "target": "documenso_code_style_throwing_errors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L266",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_throwing_errors",
+      "target": "documenso_code_style_codeblock_13",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L268",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_error_handling",
+      "target": "documenso_code_style_error_parsing_on_frontend",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L282",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_error_parsing_on_frontend",
+      "target": "documenso_code_style_codeblock_14",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L284",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_documenso_code_style_guide",
+      "target": "documenso_code_style_async_await_patterns",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L302",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_async_await_patterns",
+      "target": "documenso_code_style_async_function_definitions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L304",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_async_function_definitions",
+      "target": "documenso_code_style_codeblock_15",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L306",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_async_await_patterns",
+      "target": "documenso_code_style_void_for_fire_and_forget",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L325",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_void_for_fire_and_forget",
+      "target": "documenso_code_style_codeblock_16",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L327",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_documenso_code_style_guide",
+      "target": "documenso_code_style_whitespace_formatting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L337",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_whitespace_formatting",
+      "target": "documenso_code_style_blank_lines_between_concepts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L339",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_blank_lines_between_concepts",
+      "target": "documenso_code_style_codeblock_17",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L341",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_whitespace_formatting",
+      "target": "documenso_code_style_function_method_spacing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L364",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_function_method_spacing",
+      "target": "documenso_code_style_codeblock_18",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L366",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_whitespace_formatting",
+      "target": "documenso_code_style_object_and_array_formatting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L380",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_object_and_array_formatting",
+      "target": "documenso_code_style_codeblock_19",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L382",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_documenso_code_style_guide",
+      "target": "documenso_code_style_naming_conventions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L409",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_naming_conventions",
+      "target": "documenso_code_style_variables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L411",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_variables",
+      "target": "documenso_code_style_codeblock_20",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L413",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_naming_conventions",
+      "target": "documenso_code_style_types_and_schemas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L429",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_types_and_schemas",
+      "target": "documenso_code_style_codeblock_21",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L431",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_naming_conventions",
+      "target": "documenso_code_style_constants",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L446",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_constants",
+      "target": "documenso_code_style_codeblock_22",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L448",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_naming_conventions",
+      "target": "documenso_code_style_functions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L457",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_functions",
+      "target": "documenso_code_style_codeblock_23",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L459",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_naming_conventions",
+      "target": "documenso_code_style_clarity_over_brevity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L472",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_clarity_over_brevity",
+      "target": "documenso_code_style_codeblock_24",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L474",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_documenso_code_style_guide",
+      "target": "documenso_code_style_pattern_matching",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L493",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_pattern_matching",
+      "target": "documenso_code_style_using_ts_pattern",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L495",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_using_ts_pattern",
+      "target": "documenso_code_style_codeblock_25",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L497",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_documenso_code_style_guide",
+      "target": "documenso_code_style_database_prisma",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L522",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_database_prisma",
+      "target": "documenso_code_style_query_structure",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L524",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_query_structure",
+      "target": "documenso_code_style_codeblock_26",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L526",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_database_prisma",
+      "target": "documenso_code_style_transactions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L550",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_transactions",
+      "target": "documenso_code_style_codeblock_27",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L552",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_database_prisma",
+      "target": "documenso_code_style_where_clauses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L565",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_where_clauses",
+      "target": "documenso_code_style_codeblock_28",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L567",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_documenso_code_style_guide",
+      "target": "documenso_code_style_trpc_patterns",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L584",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_trpc_patterns",
+      "target": "documenso_code_style_router_structure",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L586",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_router_structure",
+      "target": "documenso_code_style_codeblock_29",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L588",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_trpc_patterns",
+      "target": "documenso_code_style_request_response_schemas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L606",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_request_response_schemas",
+      "target": "documenso_code_style_codeblock_30",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L608",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_trpc_patterns",
+      "target": "documenso_code_style_error_handling_in_trpc",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L621",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_error_handling_in_trpc",
+      "target": "documenso_code_style_codeblock_31",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L623",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_documenso_code_style_guide",
+      "target": "documenso_code_style_additional_patterns",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L643",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_additional_patterns",
+      "target": "documenso_code_style_optional_chaining",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L645",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_optional_chaining",
+      "target": "documenso_code_style_codeblock_32",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L647",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_additional_patterns",
+      "target": "documenso_code_style_array_operations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L657",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_array_operations",
+      "target": "documenso_code_style_codeblock_33",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L659",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_additional_patterns",
+      "target": "documenso_code_style_conditional_rendering",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L669",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_conditional_rendering",
+      "target": "documenso_code_style_codeblock_34",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L671",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_code_style_documenso_code_style_guide",
+      "target": "documenso_code_style_when_in_doubt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/CODE_STYLE.md",
+      "source_location": "L685",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -2,7 +2,6 @@ import { Alert, AlertDescription } from '@documenso/ui/primitives/alert';
 import { Trans } from '@lingui/react/macro';
 
 import { SignInForm } from '~/components/forms/signin';
-import { BrandingLogo } from '~/components/general/branding-logo';
 
 export type EmbedAuthenticationRequiredProps = {
   email?: string;
@@ -24,7 +23,7 @@ export const EmbedAuthenticationRequired = ({
   return (
     <div className="flex min-h-[100dvh] w-full items-center justify-center">
       <div className="flex w-full max-w-md flex-col">
-        <BrandingLogo className="h-8" />
+        <img src="/static/logo.png" alt="WAF eSign" width={140} height="auto" style={{ objectFit: 'contain' }} />
 
         <Alert className="mt-8" variant="warning">
           <AlertDescription>

@@ -22,8 +22,6 @@ import { match } from 'ts-pattern';
 import { UAParser } from 'ua-parser-js';
 import { renderSVG } from 'uqr';
 
-import { BrandingLogo } from '~/components/general/branding-logo';
-
 import type { Route } from './+types/certificate';
 
 const FRIENDLY_SIGNING_REASONS = {
@@ -380,7 +378,7 @@ export default function SigningCertificate({ loaderData }: Route.ComponentProps)
             <p className="flex-shrink-0 font-medium text-sm print:text-xs">
               {_(msg`Signing certificate provided by`)}:
             </p>
-            <BrandingLogo className="max-h-6 print:max-h-4" />
+            <img src="/static/logo.png" alt="WAF eSign" width={140} height="auto" style={{ objectFit: 'contain' }} />
           </div>
         </div>
       )}

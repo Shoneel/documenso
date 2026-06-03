@@ -1,0 +1,687 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_email_mdx",
+      "label": "email.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "configuration_email_supported_email_transports",
+      "label": "Supported Email Transports",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L10"
+    },
+    {
+      "id": "configuration_email_sender_configuration",
+      "label": "Sender Configuration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L23"
+    },
+    {
+      "id": "configuration_email_codeblock_1",
+      "label": "code:bash (NEXT_PRIVATE_SMTP_FROM_ADDRESS=\"noreply@example.com\")",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L32"
+    },
+    {
+      "id": "configuration_email_smtp_configuration",
+      "label": "SMTP Configuration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L42"
+    },
+    {
+      "id": "configuration_email_smtp_with_username_password_smtp_auth",
+      "label": "SMTP with Username/Password (smtp-auth)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L46"
+    },
+    {
+      "id": "configuration_email_codeblock_2",
+      "label": "code:bash (NEXT_PRIVATE_SMTP_TRANSPORT=\"smtp-auth\")",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L65"
+    },
+    {
+      "id": "configuration_email_common_smtp_provider_examples",
+      "label": "Common SMTP Provider Examples",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L75"
+    },
+    {
+      "id": "configuration_email_codeblock_3",
+      "label": "code:bash (NEXT_PRIVATE_SMTP_TRANSPORT=\"smtp-auth\")",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L79"
+    },
+    {
+      "id": "configuration_email_codeblock_4",
+      "label": "code:bash (NEXT_PRIVATE_SMTP_TRANSPORT=\"smtp-auth\")",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L96"
+    },
+    {
+      "id": "configuration_email_codeblock_5",
+      "label": "code:bash (NEXT_PRIVATE_SMTP_TRANSPORT=\"smtp-auth\")",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L108"
+    },
+    {
+      "id": "configuration_email_codeblock_6",
+      "label": "code:bash (NEXT_PRIVATE_SMTP_TRANSPORT=\"smtp-auth\")",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L120"
+    },
+    {
+      "id": "configuration_email_smtp_with_api_key_smtp_api",
+      "label": "SMTP with API Key (smtp-api)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L130"
+    },
+    {
+      "id": "configuration_email_codeblock_7",
+      "label": "code:bash (NEXT_PRIVATE_SMTP_TRANSPORT=\"smtp-api\")",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L147"
+    },
+    {
+      "id": "configuration_email_resend_configuration",
+      "label": "Resend Configuration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L157"
+    },
+    {
+      "id": "configuration_email_codeblock_8",
+      "label": "code:bash (NEXT_PRIVATE_SMTP_TRANSPORT=\"resend\")",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L170"
+    },
+    {
+      "id": "configuration_email_create_an_account",
+      "label": "Create an account",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L182"
+    },
+    {
+      "id": "configuration_email_add_and_verify_your_sending_domain",
+      "label": "Add and verify your sending domain",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L188"
+    },
+    {
+      "id": "configuration_email_create_an_api_key",
+      "label": "Create an API key",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L194"
+    },
+    {
+      "id": "configuration_email_configure_environment_variables",
+      "label": "Configure environment variables",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L200"
+    },
+    {
+      "id": "configuration_email_mailchannels_configuration",
+      "label": "MailChannels Configuration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L207"
+    },
+    {
+      "id": "configuration_email_codeblock_9",
+      "label": "code:bash (NEXT_PRIVATE_SMTP_TRANSPORT=\"mailchannels\")",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L224"
+    },
+    {
+      "id": "configuration_email_codeblock_10",
+      "label": "code:bash (NEXT_PRIVATE_SMTP_TRANSPORT=\"mailchannels\")",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L233"
+    },
+    {
+      "id": "configuration_email_email_templates",
+      "label": "Email Templates",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L243"
+    },
+    {
+      "id": "configuration_email_branding_customization",
+      "label": "Branding Customization",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L259"
+    },
+    {
+      "id": "configuration_email_testing_email_delivery",
+      "label": "Testing Email Delivery",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L273"
+    },
+    {
+      "id": "configuration_email_verify_configuration",
+      "label": "Verify Configuration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L275"
+    },
+    {
+      "id": "configuration_email_using_a_test_smtp_server",
+      "label": "Using a Test SMTP Server",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L279"
+    },
+    {
+      "id": "configuration_email_codeblock_11",
+      "label": "code:bash (# Using Docker)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L283"
+    },
+    {
+      "id": "configuration_email_codeblock_12",
+      "label": "code:bash (NEXT_PRIVATE_SMTP_TRANSPORT=\"smtp-auth\")",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L290"
+    },
+    {
+      "id": "configuration_email_checking_logs",
+      "label": "Checking Logs",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L300"
+    },
+    {
+      "id": "configuration_email_codeblock_13",
+      "label": "code:bash (# Docker)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L304"
+    },
+    {
+      "id": "configuration_email_email_deliverability",
+      "label": "Email Deliverability",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L312"
+    },
+    {
+      "id": "configuration_email_spf_configuration",
+      "label": "SPF Configuration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L314"
+    },
+    {
+      "id": "configuration_email_codeblock_14",
+      "label": "code:block14 (v=spf1 include:_spf.example.com ~all)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L318"
+    },
+    {
+      "id": "configuration_email_dkim_configuration",
+      "label": "DKIM Configuration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L333"
+    },
+    {
+      "id": "configuration_email_generate_dkim_keys",
+      "label": "Generate DKIM keys",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L340"
+    },
+    {
+      "id": "configuration_email_add_the_txt_record_to_dns",
+      "label": "Add the TXT record to DNS",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L346"
+    },
+    {
+      "id": "configuration_email_enable_dkim_signing",
+      "label": "Enable DKIM signing",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L352"
+    },
+    {
+      "id": "configuration_email_dmarc_configuration",
+      "label": "DMARC Configuration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L361"
+    },
+    {
+      "id": "configuration_email_codeblock_15",
+      "label": "code:block15 (_dmarc.yourdomain.com  TXT  \"v=DMARC1; p=quarantine; rua=mai)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L365"
+    },
+    {
+      "id": "configuration_email_common_issues",
+      "label": "Common Issues",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L379"
+    },
+    {
+      "id": "configuration_email_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L468"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_email_mdx",
+      "target": "configuration_email_supported_email_transports",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_email_mdx",
+      "target": "configuration_email_sender_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_sender_configuration",
+      "target": "configuration_email_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_email_mdx",
+      "target": "configuration_email_smtp_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_smtp_configuration",
+      "target": "configuration_email_smtp_with_username_password_smtp_auth",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_smtp_with_username_password_smtp_auth",
+      "target": "configuration_email_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_smtp_configuration",
+      "target": "configuration_email_common_smtp_provider_examples",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_common_smtp_provider_examples",
+      "target": "configuration_email_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_common_smtp_provider_examples",
+      "target": "configuration_email_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_common_smtp_provider_examples",
+      "target": "configuration_email_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_common_smtp_provider_examples",
+      "target": "configuration_email_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_smtp_configuration",
+      "target": "configuration_email_smtp_with_api_key_smtp_api",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_smtp_with_api_key_smtp_api",
+      "target": "configuration_email_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_email_mdx",
+      "target": "configuration_email_resend_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_resend_configuration",
+      "target": "configuration_email_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_resend_configuration",
+      "target": "configuration_email_create_an_account",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L182",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_resend_configuration",
+      "target": "configuration_email_add_and_verify_your_sending_domain",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_resend_configuration",
+      "target": "configuration_email_create_an_api_key",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L194",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_resend_configuration",
+      "target": "configuration_email_configure_environment_variables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L200",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_email_mdx",
+      "target": "configuration_email_mailchannels_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L207",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_mailchannels_configuration",
+      "target": "configuration_email_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L224",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_mailchannels_configuration",
+      "target": "configuration_email_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_email_mdx",
+      "target": "configuration_email_email_templates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L243",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_email_templates",
+      "target": "configuration_email_branding_customization",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L259",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_email_mdx",
+      "target": "configuration_email_testing_email_delivery",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L273",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_testing_email_delivery",
+      "target": "configuration_email_verify_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L275",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_testing_email_delivery",
+      "target": "configuration_email_using_a_test_smtp_server",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L279",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_using_a_test_smtp_server",
+      "target": "configuration_email_codeblock_11",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L283",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_using_a_test_smtp_server",
+      "target": "configuration_email_codeblock_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L290",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_testing_email_delivery",
+      "target": "configuration_email_checking_logs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L300",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_checking_logs",
+      "target": "configuration_email_codeblock_13",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L304",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_email_mdx",
+      "target": "configuration_email_email_deliverability",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L312",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_email_deliverability",
+      "target": "configuration_email_spf_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L314",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_spf_configuration",
+      "target": "configuration_email_codeblock_14",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L318",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_email_deliverability",
+      "target": "configuration_email_dkim_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L333",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_email_deliverability",
+      "target": "configuration_email_generate_dkim_keys",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L340",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_email_deliverability",
+      "target": "configuration_email_add_the_txt_record_to_dns",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L346",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_email_deliverability",
+      "target": "configuration_email_enable_dkim_signing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L352",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_email_deliverability",
+      "target": "configuration_email_dmarc_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L361",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_email_dmarc_configuration",
+      "target": "configuration_email_codeblock_15",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L365",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_email_mdx",
+      "target": "configuration_email_common_issues",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L379",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_email_mdx",
+      "target": "configuration_email_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/email.mdx",
+      "source_location": "L468",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

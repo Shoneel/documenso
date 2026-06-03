@@ -1,0 +1,959 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_agents_plans_calm_violet_tide_envelope_expiration_md",
+      "label": "calm-violet-tide-envelope-expiration.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_summary",
+      "label": "Summary",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_1_database_schema_changes",
+      "label": "1. Database Schema Changes",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L15"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_1_1_expiration_period_data_shape",
+      "label": "1.1 Expiration period data shape",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L17"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_codeblock_1",
+      "label": "code:typescript (export const ZEnvelopeExpirationPeriod = z.union([)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L23"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_1_2_add_expiration_fields_to_recipient",
+      "label": "1.2 Add expiration fields to `Recipient`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L40"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_codeblock_2",
+      "label": "code:prisma (model Recipient {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L42"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_1_3_add_expiration_period_to_settings_models",
+      "label": "1.3 Add expiration period to settings models",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L61"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_codeblock_3",
+      "label": "code:prisma (model OrganisationGlobalSettings {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L65"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_codeblock_4",
+      "label": "code:prisma (model TeamGlobalSettings {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L76"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_1_4_add_expiration_period_to_documentmeta",
+      "label": "1.4 Add expiration period to DocumentMeta",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L83"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_codeblock_5",
+      "label": "code:prisma (model DocumentMeta {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L87"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_2_expiration_period_resolution",
+      "label": "2. Expiration Period Resolution",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L100"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_2_1_duration_mapping",
+      "label": "2.1 Duration mapping",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L102"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_codeblock_6",
+      "label": "code:typescript (import { Duration } from 'luxon';)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L106"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_2_2_settings_cascade_integration",
+      "label": "2.2 Settings cascade integration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L126"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_codeblock_7",
+      "label": "code:typescript (envelopeExpirationPeriod: meta.envelopeExpirationPeriod ?? s)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L132"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_2_3_compute_expiresat_at_send_time",
+      "label": "2.3 Compute `expiresAt` at send time",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L136"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_codeblock_8",
+      "label": "code:typescript (// Resolve effective period: document meta -> team/org setti)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L142"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_2_4_compute_expiresat_in_the_direct_template_flow",
+      "label": "2.4 Compute `expiresAt` in the direct template flow",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L156"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_3_cron_job_infrastructure_new",
+      "label": "3. Cron Job Infrastructure (New)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L162"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_3_1_extend_jobdefinition_with_cron_support",
+      "label": "3.1 Extend `JobDefinition` with cron support",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L166"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_codeblock_9",
+      "label": "code:typescript (export type JobDefinition<Name extends string = string, Sche)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L170"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_3_2_inngest_provider_wire_up_native_cron",
+      "label": "3.2 Inngest provider: wire up native cron",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L187"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_codeblock_10",
+      "label": "code:typescript (defineJob(job) {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L191"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_3_3_local_provider_poller_deterministic_backgroundjob_ids",
+      "label": "3.3 Local provider: poller + deterministic `BackgroundJob` IDs",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L210"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_3_4_summary_of_changes_to_the_job_system",
+      "label": "3.4 Summary of changes to the job system",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L224"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_4_expiration_processing",
+      "label": "4. Expiration Processing",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L235"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_4_1_two_job_architecture",
+      "label": "4.1 Two-job architecture",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L237"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_4_2_sweep_job_expire_recipients_sweep_job",
+      "label": "4.2 Sweep job: `EXPIRE_RECIPIENTS_SWEEP_JOB`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L245"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_codeblock_11",
+      "label": "code:typescript (const expiredRecipients = await prisma.recipient.findMany({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L253"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_4_3_individual_notification_job_notify_recipient_expired_job",
+      "label": "4.3 Individual notification job: `NOTIFY_RECIPIENT_EXPIRED_JOB`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L273"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_4_4_register_in_job_client",
+      "label": "4.4 Register in job client",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L289"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_4_5_email_template_recipient_expired",
+      "label": "4.5 Email template: Recipient Expired",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L293"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_4_6_recipient_signing_guard",
+      "label": "4.6 Recipient signing guard",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L306"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_codeblock_12",
+      "label": "code:typescript (if (recipient.expiresAt && recipient.expiresAt <= new Date())",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L310"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_5_ui_design",
+      "label": "5. UI Design",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L327"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_5_1_expiration_period_selector_component",
+      "label": "5.1 Expiration Period Selector Component",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L329"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_5_2_organisation_settings_document_preferences",
+      "label": "5.2 Organisation Settings \u2192 Document Preferences",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L343"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_5_3_team_settings_document_preferences",
+      "label": "5.3 Team Settings \u2192 Document Preferences",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L347"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_5_4_document_editor_settings_step",
+      "label": "5.4 Document Editor \u2192 Settings Step",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L351"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_5_5_recipient_signing_page_expired_state",
+      "label": "5.5 Recipient Signing Page \u2014 Expired State",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L358"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_5_6_embed_signing_expired_state",
+      "label": "5.6 Embed Signing \u2014 Expired State",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L367"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_6_api_trpc_changes",
+      "label": "6. API / TRPC Changes",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L377"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_6_1_update_settings_mutation_schemas",
+      "label": "6.1 Update settings mutation schemas",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L379"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_6_2_update_document_mutation_schemas",
+      "label": "6.2 Update document mutation schemas",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L384"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_6_3_expose_expiresat_in_recipient_responses",
+      "label": "6.3 Expose `expiresAt` in recipient responses",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L391"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_6_4_webhook_api_schema_updates",
+      "label": "6.4 Webhook / API schema updates",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L395"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_7_edge_cases_considerations",
+      "label": "7. Edge Cases & Considerations",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L402"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_7_1_already_sent_documents",
+      "label": "7.1 Already-sent documents",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L404"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_7_2_re_sending_redistributing",
+      "label": "7.2 Re-sending / redistributing",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L408"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_7_3_multi_recipient_partial_expiration",
+      "label": "7.3 Multi-recipient partial expiration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L414"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_7_4_partial_completion",
+      "label": "7.4 Partial completion",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L418"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_7_5_timezone_handling",
+      "label": "7.5 Timezone handling",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L422"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_7_6_race_condition_signing_at_expiration_time",
+      "label": "7.6 Race condition: signing at expiration time",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L426"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_7_7_direct_template_flow",
+      "label": "7.7 Direct template flow",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L430"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_8_migration_plan",
+      "label": "8. Migration Plan",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L436"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_9_files_to_create_or_modify",
+      "label": "9. Files to Create or Modify",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L447"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_new_files",
+      "label": "New Files",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L449"
+    },
+    {
+      "id": "plans_calm_violet_tide_envelope_expiration_modified_files",
+      "label": "Modified Files",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L460"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_calm_violet_tide_envelope_expiration_md",
+      "target": "plans_calm_violet_tide_envelope_expiration_summary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_calm_violet_tide_envelope_expiration_md",
+      "target": "plans_calm_violet_tide_envelope_expiration_1_database_schema_changes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_1_database_schema_changes",
+      "target": "plans_calm_violet_tide_envelope_expiration_1_1_expiration_period_data_shape",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_1_1_expiration_period_data_shape",
+      "target": "plans_calm_violet_tide_envelope_expiration_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_1_database_schema_changes",
+      "target": "plans_calm_violet_tide_envelope_expiration_1_2_add_expiration_fields_to_recipient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_1_2_add_expiration_fields_to_recipient",
+      "target": "plans_calm_violet_tide_envelope_expiration_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_1_database_schema_changes",
+      "target": "plans_calm_violet_tide_envelope_expiration_1_3_add_expiration_period_to_settings_models",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_1_3_add_expiration_period_to_settings_models",
+      "target": "plans_calm_violet_tide_envelope_expiration_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_1_3_add_expiration_period_to_settings_models",
+      "target": "plans_calm_violet_tide_envelope_expiration_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_1_database_schema_changes",
+      "target": "plans_calm_violet_tide_envelope_expiration_1_4_add_expiration_period_to_documentmeta",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_1_4_add_expiration_period_to_documentmeta",
+      "target": "plans_calm_violet_tide_envelope_expiration_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_calm_violet_tide_envelope_expiration_md",
+      "target": "plans_calm_violet_tide_envelope_expiration_2_expiration_period_resolution",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_2_expiration_period_resolution",
+      "target": "plans_calm_violet_tide_envelope_expiration_2_1_duration_mapping",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_2_1_duration_mapping",
+      "target": "plans_calm_violet_tide_envelope_expiration_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_2_expiration_period_resolution",
+      "target": "plans_calm_violet_tide_envelope_expiration_2_2_settings_cascade_integration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_2_2_settings_cascade_integration",
+      "target": "plans_calm_violet_tide_envelope_expiration_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_2_expiration_period_resolution",
+      "target": "plans_calm_violet_tide_envelope_expiration_2_3_compute_expiresat_at_send_time",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_2_3_compute_expiresat_at_send_time",
+      "target": "plans_calm_violet_tide_envelope_expiration_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_2_expiration_period_resolution",
+      "target": "plans_calm_violet_tide_envelope_expiration_2_4_compute_expiresat_in_the_direct_template_flow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L156",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_calm_violet_tide_envelope_expiration_md",
+      "target": "plans_calm_violet_tide_envelope_expiration_3_cron_job_infrastructure_new",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_3_cron_job_infrastructure_new",
+      "target": "plans_calm_violet_tide_envelope_expiration_3_1_extend_jobdefinition_with_cron_support",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_3_1_extend_jobdefinition_with_cron_support",
+      "target": "plans_calm_violet_tide_envelope_expiration_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_3_cron_job_infrastructure_new",
+      "target": "plans_calm_violet_tide_envelope_expiration_3_2_inngest_provider_wire_up_native_cron",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_3_2_inngest_provider_wire_up_native_cron",
+      "target": "plans_calm_violet_tide_envelope_expiration_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L191",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_3_cron_job_infrastructure_new",
+      "target": "plans_calm_violet_tide_envelope_expiration_3_3_local_provider_poller_deterministic_backgroundjob_ids",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L210",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_3_cron_job_infrastructure_new",
+      "target": "plans_calm_violet_tide_envelope_expiration_3_4_summary_of_changes_to_the_job_system",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L224",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_calm_violet_tide_envelope_expiration_md",
+      "target": "plans_calm_violet_tide_envelope_expiration_4_expiration_processing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L235",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_4_expiration_processing",
+      "target": "plans_calm_violet_tide_envelope_expiration_4_1_two_job_architecture",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L237",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_4_expiration_processing",
+      "target": "plans_calm_violet_tide_envelope_expiration_4_2_sweep_job_expire_recipients_sweep_job",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L245",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_4_2_sweep_job_expire_recipients_sweep_job",
+      "target": "plans_calm_violet_tide_envelope_expiration_codeblock_11",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L253",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_4_expiration_processing",
+      "target": "plans_calm_violet_tide_envelope_expiration_4_3_individual_notification_job_notify_recipient_expired_job",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L273",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_4_expiration_processing",
+      "target": "plans_calm_violet_tide_envelope_expiration_4_4_register_in_job_client",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L289",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_4_expiration_processing",
+      "target": "plans_calm_violet_tide_envelope_expiration_4_5_email_template_recipient_expired",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L293",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_4_expiration_processing",
+      "target": "plans_calm_violet_tide_envelope_expiration_4_6_recipient_signing_guard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L306",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_4_6_recipient_signing_guard",
+      "target": "plans_calm_violet_tide_envelope_expiration_codeblock_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L310",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_calm_violet_tide_envelope_expiration_md",
+      "target": "plans_calm_violet_tide_envelope_expiration_5_ui_design",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L327",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_5_ui_design",
+      "target": "plans_calm_violet_tide_envelope_expiration_5_1_expiration_period_selector_component",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L329",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_5_ui_design",
+      "target": "plans_calm_violet_tide_envelope_expiration_5_2_organisation_settings_document_preferences",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L343",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_5_ui_design",
+      "target": "plans_calm_violet_tide_envelope_expiration_5_3_team_settings_document_preferences",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L347",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_5_ui_design",
+      "target": "plans_calm_violet_tide_envelope_expiration_5_4_document_editor_settings_step",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L351",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_5_ui_design",
+      "target": "plans_calm_violet_tide_envelope_expiration_5_5_recipient_signing_page_expired_state",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L358",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_5_ui_design",
+      "target": "plans_calm_violet_tide_envelope_expiration_5_6_embed_signing_expired_state",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L367",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_calm_violet_tide_envelope_expiration_md",
+      "target": "plans_calm_violet_tide_envelope_expiration_6_api_trpc_changes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L377",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_6_api_trpc_changes",
+      "target": "plans_calm_violet_tide_envelope_expiration_6_1_update_settings_mutation_schemas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L379",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_6_api_trpc_changes",
+      "target": "plans_calm_violet_tide_envelope_expiration_6_2_update_document_mutation_schemas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L384",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_6_api_trpc_changes",
+      "target": "plans_calm_violet_tide_envelope_expiration_6_3_expose_expiresat_in_recipient_responses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L391",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_6_api_trpc_changes",
+      "target": "plans_calm_violet_tide_envelope_expiration_6_4_webhook_api_schema_updates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L395",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_calm_violet_tide_envelope_expiration_md",
+      "target": "plans_calm_violet_tide_envelope_expiration_7_edge_cases_considerations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L402",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_7_edge_cases_considerations",
+      "target": "plans_calm_violet_tide_envelope_expiration_7_1_already_sent_documents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L404",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_7_edge_cases_considerations",
+      "target": "plans_calm_violet_tide_envelope_expiration_7_2_re_sending_redistributing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L408",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_7_edge_cases_considerations",
+      "target": "plans_calm_violet_tide_envelope_expiration_7_3_multi_recipient_partial_expiration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L414",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_7_edge_cases_considerations",
+      "target": "plans_calm_violet_tide_envelope_expiration_7_4_partial_completion",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L418",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_7_edge_cases_considerations",
+      "target": "plans_calm_violet_tide_envelope_expiration_7_5_timezone_handling",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L422",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_7_edge_cases_considerations",
+      "target": "plans_calm_violet_tide_envelope_expiration_7_6_race_condition_signing_at_expiration_time",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L426",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_7_edge_cases_considerations",
+      "target": "plans_calm_violet_tide_envelope_expiration_7_7_direct_template_flow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L430",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_calm_violet_tide_envelope_expiration_md",
+      "target": "plans_calm_violet_tide_envelope_expiration_8_migration_plan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L436",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_plans_calm_violet_tide_envelope_expiration_md",
+      "target": "plans_calm_violet_tide_envelope_expiration_9_files_to_create_or_modify",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L447",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_9_files_to_create_or_modify",
+      "target": "plans_calm_violet_tide_envelope_expiration_new_files",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L449",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_calm_violet_tide_envelope_expiration_9_files_to_create_or_modify",
+      "target": "plans_calm_violet_tide_envelope_expiration_modified_files",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/plans/calm-violet-tide-envelope-expiration.md",
+      "source_location": "L460",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

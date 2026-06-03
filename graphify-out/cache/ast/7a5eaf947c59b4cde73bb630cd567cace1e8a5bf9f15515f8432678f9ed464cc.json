@@ -1,0 +1,95 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_github_pull_request_template_test_addition_md",
+      "label": "test-addition.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.github/PULL_REQUEST_TEMPLATE/test-addition.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "pull_request_template_test_addition_description",
+      "label": "Description",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.github/PULL_REQUEST_TEMPLATE/test-addition.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "pull_request_template_test_addition_related_issue",
+      "label": "Related Issue",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.github/PULL_REQUEST_TEMPLATE/test-addition.md",
+      "source_location": "L11"
+    },
+    {
+      "id": "pull_request_template_test_addition_test_details",
+      "label": "Test Details",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.github/PULL_REQUEST_TEMPLATE/test-addition.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "pull_request_template_test_addition_checklist",
+      "label": "Checklist",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.github/PULL_REQUEST_TEMPLATE/test-addition.md",
+      "source_location": "L27"
+    },
+    {
+      "id": "pull_request_template_test_addition_additional_notes",
+      "label": "Additional Notes",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.github/PULL_REQUEST_TEMPLATE/test-addition.md",
+      "source_location": "L37"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_github_pull_request_template_test_addition_md",
+      "target": "pull_request_template_test_addition_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.github/PULL_REQUEST_TEMPLATE/test-addition.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_github_pull_request_template_test_addition_md",
+      "target": "pull_request_template_test_addition_related_issue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.github/PULL_REQUEST_TEMPLATE/test-addition.md",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_github_pull_request_template_test_addition_md",
+      "target": "pull_request_template_test_addition_test_details",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.github/PULL_REQUEST_TEMPLATE/test-addition.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_github_pull_request_template_test_addition_md",
+      "target": "pull_request_template_test_addition_checklist",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.github/PULL_REQUEST_TEMPLATE/test-addition.md",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_github_pull_request_template_test_addition_md",
+      "target": "pull_request_template_test_addition_additional_notes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.github/PULL_REQUEST_TEMPLATE/test-addition.md",
+      "source_location": "L37",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

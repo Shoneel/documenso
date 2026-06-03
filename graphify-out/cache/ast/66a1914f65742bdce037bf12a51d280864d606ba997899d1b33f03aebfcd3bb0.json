@@ -1,0 +1,895 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_deployment_docker_compose_mdx",
+      "label": "docker-compose.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "deployment_docker_compose_prerequisites",
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L10"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_1",
+      "label": "code:bash (docker --version)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L22"
+    },
+    {
+      "id": "deployment_docker_compose_clone_and_configure",
+      "label": "Clone and Configure",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L27"
+    },
+    {
+      "id": "deployment_docker_compose_download_the_compose_file",
+      "label": "Download the compose file",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L32"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_2",
+      "label": "code:bash (mkdir documenso && cd documenso)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L36"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_3",
+      "label": "code:bash (git clone https://github.com/documenso/documenso.git)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L43"
+    },
+    {
+      "id": "deployment_docker_compose_create_environment_file",
+      "label": "Create environment file",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L51"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_4",
+      "label": "code:bash (touch .env)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L55"
+    },
+    {
+      "id": "deployment_docker_compose_docker_compose_file_overview",
+      "label": "Docker Compose File Overview",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L69"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_5",
+      "label": "code:yaml (name: documenso-production)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L73"
+    },
+    {
+      "id": "deployment_docker_compose_environment_configuration",
+      "label": "Environment Configuration",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L114"
+    },
+    {
+      "id": "deployment_docker_compose_required_variables",
+      "label": "Required Variables",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L118"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_6",
+      "label": "code:bash (# Database (used by both database and documenso services))",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L120"
+    },
+    {
+      "id": "deployment_docker_compose_optional_variables",
+      "label": "Optional Variables",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L148"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_7",
+      "label": "code:bash (# Application port (default: 3000))",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L150"
+    },
+    {
+      "id": "deployment_docker_compose_generating_secrets",
+      "label": "Generating Secrets",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L172"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_8",
+      "label": "code:bash (# Generate NEXTAUTH_SECRET)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L176"
+    },
+    {
+      "id": "deployment_docker_compose_signing_certificate",
+      "label": "Signing Certificate",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L188"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_9",
+      "label": "code:bash (sudo mkdir -p /opt/documenso)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L194"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_10",
+      "label": "code:bash (NEXT_PRIVATE_SIGNING_PASSPHRASE=your-certificate-password)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L203"
+    },
+    {
+      "id": "deployment_docker_compose_starting_services",
+      "label": "Starting Services",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L217"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_11",
+      "label": "code:bash (docker compose --env-file .env up -d)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L221"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_12",
+      "label": "code:bash (docker compose ps)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L227"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_13",
+      "label": "code:block13 (NAME                             STATUS              PORTS)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L233"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_14",
+      "label": "code:bash (docker compose logs -f documenso)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L241"
+    },
+    {
+      "id": "deployment_docker_compose_accessing_documenso",
+      "label": "Accessing Documenso",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L247"
+    },
+    {
+      "id": "deployment_docker_compose_first_account_setup",
+      "label": "First Account Setup",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L254"
+    },
+    {
+      "id": "deployment_docker_compose_managing_services",
+      "label": "Managing Services",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L268"
+    },
+    {
+      "id": "deployment_docker_compose_view_logs",
+      "label": "View Logs",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L270"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_15",
+      "label": "code:bash (docker compose logs -f)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L274"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_16",
+      "label": "code:bash (docker compose logs -f documenso)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L280"
+    },
+    {
+      "id": "deployment_docker_compose_restart_services",
+      "label": "Restart Services",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L285"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_17",
+      "label": "code:bash (docker compose --env-file .env restart)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L289"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_18",
+      "label": "code:bash (docker compose --env-file .env restart documenso)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L295"
+    },
+    {
+      "id": "deployment_docker_compose_stop_services",
+      "label": "Stop Services",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L299"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_19",
+      "label": "code:bash (docker compose stop)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L303"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_20",
+      "label": "code:bash (docker compose down)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L309"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_21",
+      "label": "code:bash (docker compose down -v)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L315"
+    },
+    {
+      "id": "deployment_docker_compose_update_documenso",
+      "label": "Update Documenso",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L323"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_22",
+      "label": "code:bash (docker compose pull)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L330"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_23",
+      "label": "code:bash (docker compose --env-file .env up -d)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L338"
+    },
+    {
+      "id": "deployment_docker_compose_production_considerations",
+      "label": "Production Considerations",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L351"
+    },
+    {
+      "id": "deployment_docker_compose_reverse_proxy",
+      "label": "Reverse Proxy",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L353"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_24",
+      "label": "code:nginx (server {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L359"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_25",
+      "label": "code:block25 (sign.example.com {)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L383"
+    },
+    {
+      "id": "deployment_docker_compose_database_backups",
+      "label": "Database Backups",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L389"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_26",
+      "label": "code:bash (# Manual backup)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L393"
+    },
+    {
+      "id": "deployment_docker_compose_resource_limits",
+      "label": "Resource Limits",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L403"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_27",
+      "label": "code:yaml (services:)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L407"
+    },
+    {
+      "id": "deployment_docker_compose_external_database",
+      "label": "External Database",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L420"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_28",
+      "label": "code:bash (NEXT_PRIVATE_DATABASE_URL=postgresql://user:password@your-db)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L432"
+    },
+    {
+      "id": "deployment_docker_compose_s3_storage",
+      "label": "S3 Storage",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L440"
+    },
+    {
+      "id": "deployment_docker_compose_codeblock_29",
+      "label": "code:bash (NEXT_PUBLIC_UPLOAD_TRANSPORT=s3)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L444"
+    },
+    {
+      "id": "deployment_docker_compose_troubleshooting",
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L454"
+    },
+    {
+      "id": "deployment_docker_compose_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L487"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_deployment_docker_compose_mdx",
+      "target": "deployment_docker_compose_prerequisites",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_prerequisites",
+      "target": "deployment_docker_compose_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_deployment_docker_compose_mdx",
+      "target": "deployment_docker_compose_clone_and_configure",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_clone_and_configure",
+      "target": "deployment_docker_compose_download_the_compose_file",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_download_the_compose_file",
+      "target": "deployment_docker_compose_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_download_the_compose_file",
+      "target": "deployment_docker_compose_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_clone_and_configure",
+      "target": "deployment_docker_compose_create_environment_file",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_create_environment_file",
+      "target": "deployment_docker_compose_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_deployment_docker_compose_mdx",
+      "target": "deployment_docker_compose_docker_compose_file_overview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_docker_compose_file_overview",
+      "target": "deployment_docker_compose_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_deployment_docker_compose_mdx",
+      "target": "deployment_docker_compose_environment_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_environment_configuration",
+      "target": "deployment_docker_compose_required_variables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_required_variables",
+      "target": "deployment_docker_compose_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_environment_configuration",
+      "target": "deployment_docker_compose_optional_variables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_optional_variables",
+      "target": "deployment_docker_compose_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_environment_configuration",
+      "target": "deployment_docker_compose_generating_secrets",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_generating_secrets",
+      "target": "deployment_docker_compose_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_deployment_docker_compose_mdx",
+      "target": "deployment_docker_compose_signing_certificate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_signing_certificate",
+      "target": "deployment_docker_compose_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L194",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_signing_certificate",
+      "target": "deployment_docker_compose_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L203",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_deployment_docker_compose_mdx",
+      "target": "deployment_docker_compose_starting_services",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L217",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_starting_services",
+      "target": "deployment_docker_compose_codeblock_11",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L221",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_starting_services",
+      "target": "deployment_docker_compose_codeblock_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L227",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_starting_services",
+      "target": "deployment_docker_compose_codeblock_13",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_starting_services",
+      "target": "deployment_docker_compose_codeblock_14",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L241",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_deployment_docker_compose_mdx",
+      "target": "deployment_docker_compose_accessing_documenso",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_accessing_documenso",
+      "target": "deployment_docker_compose_first_account_setup",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L254",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_deployment_docker_compose_mdx",
+      "target": "deployment_docker_compose_managing_services",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L268",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_managing_services",
+      "target": "deployment_docker_compose_view_logs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L270",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_view_logs",
+      "target": "deployment_docker_compose_codeblock_15",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L274",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_view_logs",
+      "target": "deployment_docker_compose_codeblock_16",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L280",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_managing_services",
+      "target": "deployment_docker_compose_restart_services",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L285",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_restart_services",
+      "target": "deployment_docker_compose_codeblock_17",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L289",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_restart_services",
+      "target": "deployment_docker_compose_codeblock_18",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L295",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_managing_services",
+      "target": "deployment_docker_compose_stop_services",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L299",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_stop_services",
+      "target": "deployment_docker_compose_codeblock_19",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L303",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_stop_services",
+      "target": "deployment_docker_compose_codeblock_20",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L309",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_stop_services",
+      "target": "deployment_docker_compose_codeblock_21",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L315",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_managing_services",
+      "target": "deployment_docker_compose_update_documenso",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L323",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_update_documenso",
+      "target": "deployment_docker_compose_codeblock_22",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L330",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_update_documenso",
+      "target": "deployment_docker_compose_codeblock_23",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L338",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_deployment_docker_compose_mdx",
+      "target": "deployment_docker_compose_production_considerations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L351",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_production_considerations",
+      "target": "deployment_docker_compose_reverse_proxy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L353",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_reverse_proxy",
+      "target": "deployment_docker_compose_codeblock_24",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L359",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_reverse_proxy",
+      "target": "deployment_docker_compose_codeblock_25",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L383",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_production_considerations",
+      "target": "deployment_docker_compose_database_backups",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L389",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_database_backups",
+      "target": "deployment_docker_compose_codeblock_26",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L393",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_production_considerations",
+      "target": "deployment_docker_compose_resource_limits",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L403",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_resource_limits",
+      "target": "deployment_docker_compose_codeblock_27",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L407",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_production_considerations",
+      "target": "deployment_docker_compose_external_database",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L420",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_external_database",
+      "target": "deployment_docker_compose_codeblock_28",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L432",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_production_considerations",
+      "target": "deployment_docker_compose_s3_storage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L440",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_docker_compose_s3_storage",
+      "target": "deployment_docker_compose_codeblock_29",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L444",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_deployment_docker_compose_mdx",
+      "target": "deployment_docker_compose_troubleshooting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L454",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_deployment_docker_compose_mdx",
+      "target": "deployment_docker_compose_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/deployment/docker-compose.mdx",
+      "source_location": "L487",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

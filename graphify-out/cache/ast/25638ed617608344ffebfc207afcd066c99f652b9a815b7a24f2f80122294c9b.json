@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_ai_detection_mdx",
+      "label": "ai-detection.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/ai-detection.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "advanced_ai_detection_overview",
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/ai-detection.mdx",
+      "source_location": "L11"
+    },
+    {
+      "id": "advanced_ai_detection_requirements",
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/ai-detection.mdx",
+      "source_location": "L15"
+    },
+    {
+      "id": "advanced_ai_detection_enable_ai_features",
+      "label": "Enable AI features",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/ai-detection.mdx",
+      "source_location": "L21"
+    },
+    {
+      "id": "advanced_ai_detection_detect_recipients",
+      "label": "Detect Recipients",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/ai-detection.mdx",
+      "source_location": "L54"
+    },
+    {
+      "id": "advanced_ai_detection_detect_fields",
+      "label": "Detect Fields",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/ai-detection.mdx",
+      "source_location": "L82"
+    },
+    {
+      "id": "advanced_ai_detection_best_practices",
+      "label": "Best Practices",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/ai-detection.mdx",
+      "source_location": "L113"
+    },
+    {
+      "id": "advanced_ai_detection_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/ai-detection.mdx",
+      "source_location": "L128"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_ai_detection_mdx",
+      "target": "advanced_ai_detection_overview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/ai-detection.mdx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_ai_detection_mdx",
+      "target": "advanced_ai_detection_requirements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/ai-detection.mdx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "advanced_ai_detection_requirements",
+      "target": "advanced_ai_detection_enable_ai_features",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/ai-detection.mdx",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_ai_detection_mdx",
+      "target": "advanced_ai_detection_detect_recipients",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/ai-detection.mdx",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_ai_detection_mdx",
+      "target": "advanced_ai_detection_detect_fields",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/ai-detection.mdx",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_ai_detection_mdx",
+      "target": "advanced_ai_detection_best_practices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/ai-detection.mdx",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_advanced_ai_detection_mdx",
+      "target": "advanced_ai_detection_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/advanced/ai-detection.mdx",
+      "source_location": "L128",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

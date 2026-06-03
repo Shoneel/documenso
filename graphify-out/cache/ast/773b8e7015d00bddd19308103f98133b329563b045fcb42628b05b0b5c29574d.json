@@ -1,0 +1,735 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_recipients_mdx",
+      "label": "recipients.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "api_recipients_recipient_object",
+      "label": "Recipient Object",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L14"
+    },
+    {
+      "id": "api_recipients_codeblock_1",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L16"
+    },
+    {
+      "id": "api_recipients_recipient_roles",
+      "label": "Recipient Roles",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L48"
+    },
+    {
+      "id": "api_recipients_get_recipient",
+      "label": "Get Recipient",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L60"
+    },
+    {
+      "id": "api_recipients_codeblock_2",
+      "label": "code:block2 (GET /api/v2/envelope/recipient/{recipientId})",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L64"
+    },
+    {
+      "id": "api_recipients_example",
+      "label": "Example",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L68"
+    },
+    {
+      "id": "api_recipients_codeblock_3",
+      "label": "code:bash (curl \"https://app.documenso.com/api/v2/envelope/recipient/78)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L72"
+    },
+    {
+      "id": "api_recipients_codeblock_4",
+      "label": "code:typescript (const response = await fetch()",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L78"
+    },
+    {
+      "id": "api_recipients_response",
+      "label": "Response",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L94"
+    },
+    {
+      "id": "api_recipients_create_recipients",
+      "label": "Create Recipients",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L100"
+    },
+    {
+      "id": "api_recipients_codeblock_5",
+      "label": "code:block5",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L104"
+    },
+    {
+      "id": "api_recipients_request_body",
+      "label": "Request Body",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L110"
+    },
+    {
+      "id": "api_recipients_example_128",
+      "label": "Example",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L128"
+    },
+    {
+      "id": "api_recipients_codeblock_6",
+      "label": "code:bash (curl -X POST \"https://app.documenso.com/api/v2/envelope/reci)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L132"
+    },
+    {
+      "id": "api_recipients_codeblock_7",
+      "label": "code:typescript (const response = await fetch()",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L157"
+    },
+    {
+      "id": "api_recipients_response_192",
+      "label": "Response",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L192"
+    },
+    {
+      "id": "api_recipients_codeblock_8",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L194"
+    },
+    {
+      "id": "api_recipients_update_recipients",
+      "label": "Update Recipients",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L229"
+    },
+    {
+      "id": "api_recipients_codeblock_9",
+      "label": "code:block9 (POST /api/v2/envelope/recipient/update-many)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L233"
+    },
+    {
+      "id": "api_recipients_request_body_237",
+      "label": "Request Body",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L237"
+    },
+    {
+      "id": "api_recipients_example_256",
+      "label": "Example",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L256"
+    },
+    {
+      "id": "api_recipients_codeblock_10",
+      "label": "code:bash (curl -X POST \"https://app.documenso.com/api/v2/envelope/reci)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L260"
+    },
+    {
+      "id": "api_recipients_codeblock_11",
+      "label": "code:typescript (const response = await fetch()",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L277"
+    },
+    {
+      "id": "api_recipients_response_305",
+      "label": "Response",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L305"
+    },
+    {
+      "id": "api_recipients_delete_recipient",
+      "label": "Delete Recipient",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L311"
+    },
+    {
+      "id": "api_recipients_codeblock_12",
+      "label": "code:block12",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L315"
+    },
+    {
+      "id": "api_recipients_request_body_321",
+      "label": "Request Body",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L321"
+    },
+    {
+      "id": "api_recipients_example_327",
+      "label": "Example",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L327"
+    },
+    {
+      "id": "api_recipients_codeblock_13",
+      "label": "code:bash (curl -X POST \"https://app.documenso.com/api/v2/envelope/reci)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L331"
+    },
+    {
+      "id": "api_recipients_codeblock_14",
+      "label": "code:typescript (const response = await fetch()",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L342"
+    },
+    {
+      "id": "api_recipients_response_364",
+      "label": "Response",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L364"
+    },
+    {
+      "id": "api_recipients_codeblock_15",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L366"
+    },
+    {
+      "id": "api_recipients_signing_order",
+      "label": "Signing Order",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L374"
+    },
+    {
+      "id": "api_recipients_setting_signing_order",
+      "label": "Setting Signing Order",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L378"
+    },
+    {
+      "id": "api_recipients_codeblock_16",
+      "label": "code:typescript (const response = await fetch('https://app.documenso.com/api/)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L382"
+    },
+    {
+      "id": "api_recipients_signing_order_behavior",
+      "label": "Signing Order Behavior",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L421"
+    },
+    {
+      "id": "api_recipients_authentication_options",
+      "label": "Authentication Options",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L430"
+    },
+    {
+      "id": "api_recipients_access_authentication",
+      "label": "Access Authentication",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L434"
+    },
+    {
+      "id": "api_recipients_action_authentication",
+      "label": "Action Authentication",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L443"
+    },
+    {
+      "id": "api_recipients_example_455",
+      "label": "Example",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L455"
+    },
+    {
+      "id": "api_recipients_codeblock_17",
+      "label": "code:typescript (const response = await fetch('https://app.documenso.com/api/)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L457"
+    },
+    {
+      "id": "api_recipients_error_responses",
+      "label": "Error Responses",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L481"
+    },
+    {
+      "id": "api_recipients_example_error_response",
+      "label": "Example Error Response",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L491"
+    },
+    {
+      "id": "api_recipients_codeblock_18",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L493"
+    },
+    {
+      "id": "api_recipients_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L501"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_recipients_mdx",
+      "target": "api_recipients_recipient_object",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_recipient_object",
+      "target": "api_recipients_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_recipients_mdx",
+      "target": "api_recipients_recipient_roles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_recipients_mdx",
+      "target": "api_recipients_get_recipient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_get_recipient",
+      "target": "api_recipients_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_get_recipient",
+      "target": "api_recipients_example",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_example",
+      "target": "api_recipients_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_example",
+      "target": "api_recipients_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_get_recipient",
+      "target": "api_recipients_response",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_recipients_mdx",
+      "target": "api_recipients_create_recipients",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_create_recipients",
+      "target": "api_recipients_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_create_recipients",
+      "target": "api_recipients_request_body",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_create_recipients",
+      "target": "api_recipients_example_128",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L128",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_example_128",
+      "target": "api_recipients_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_example_128",
+      "target": "api_recipients_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_create_recipients",
+      "target": "api_recipients_response_192",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L192",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_response_192",
+      "target": "api_recipients_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L194",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_recipients_mdx",
+      "target": "api_recipients_update_recipients",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L229",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_update_recipients",
+      "target": "api_recipients_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_update_recipients",
+      "target": "api_recipients_request_body_237",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L237",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_update_recipients",
+      "target": "api_recipients_example_256",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L256",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_example_256",
+      "target": "api_recipients_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L260",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_example_256",
+      "target": "api_recipients_codeblock_11",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L277",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_update_recipients",
+      "target": "api_recipients_response_305",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L305",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_recipients_mdx",
+      "target": "api_recipients_delete_recipient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L311",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_delete_recipient",
+      "target": "api_recipients_codeblock_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L315",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_delete_recipient",
+      "target": "api_recipients_request_body_321",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L321",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_delete_recipient",
+      "target": "api_recipients_example_327",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L327",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_example_327",
+      "target": "api_recipients_codeblock_13",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L331",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_example_327",
+      "target": "api_recipients_codeblock_14",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L342",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_delete_recipient",
+      "target": "api_recipients_response_364",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L364",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_response_364",
+      "target": "api_recipients_codeblock_15",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L366",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_recipients_mdx",
+      "target": "api_recipients_signing_order",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L374",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_signing_order",
+      "target": "api_recipients_setting_signing_order",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L378",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_setting_signing_order",
+      "target": "api_recipients_codeblock_16",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L382",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_signing_order",
+      "target": "api_recipients_signing_order_behavior",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L421",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_recipients_mdx",
+      "target": "api_recipients_authentication_options",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L430",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_authentication_options",
+      "target": "api_recipients_access_authentication",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L434",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_authentication_options",
+      "target": "api_recipients_action_authentication",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L443",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_authentication_options",
+      "target": "api_recipients_example_455",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L455",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_example_455",
+      "target": "api_recipients_codeblock_17",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L457",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_recipients_mdx",
+      "target": "api_recipients_error_responses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L481",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_error_responses",
+      "target": "api_recipients_example_error_response",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L491",
+      "weight": 1.0
+    },
+    {
+      "source": "api_recipients_example_error_response",
+      "target": "api_recipients_codeblock_18",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L493",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_api_recipients_mdx",
+      "target": "api_recipients_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/api/recipients.mdx",
+      "source_location": "L501",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

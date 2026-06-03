@@ -1,0 +1,719 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_agents_skills_agent_browser_references_commands_md",
+      "label": "commands.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "references_commands_command_reference",
+      "label": "Command Reference",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "references_commands_navigation",
+      "label": "Navigation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "references_commands_codeblock_1",
+      "label": "code:bash (agent-browser open <url>      # Navigate to URL (aliases: go)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L7"
+    },
+    {
+      "id": "references_commands_snapshot_page_analysis",
+      "label": "Snapshot (page analysis)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L18"
+    },
+    {
+      "id": "references_commands_codeblock_2",
+      "label": "code:bash (agent-browser snapshot            # Full accessibility tree)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L20"
+    },
+    {
+      "id": "references_commands_interactions_use_refs_from_snapshot",
+      "label": "Interactions (use @refs from snapshot)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L28"
+    },
+    {
+      "id": "references_commands_codeblock_3",
+      "label": "code:bash (agent-browser click @e1           # Click)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L30"
+    },
+    {
+      "id": "references_commands_get_information",
+      "label": "Get Information",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L51"
+    },
+    {
+      "id": "references_commands_codeblock_4",
+      "label": "code:bash (agent-browser get text @e1        # Get element text)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L53"
+    },
+    {
+      "id": "references_commands_check_state",
+      "label": "Check State",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L65"
+    },
+    {
+      "id": "references_commands_codeblock_5",
+      "label": "code:bash (agent-browser is visible @e1      # Check if visible)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L67"
+    },
+    {
+      "id": "references_commands_screenshots_and_pdf",
+      "label": "Screenshots and PDF",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L73"
+    },
+    {
+      "id": "references_commands_codeblock_6",
+      "label": "code:bash (agent-browser screenshot          # Save to temporary direct)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L75"
+    },
+    {
+      "id": "references_commands_video_recording",
+      "label": "Video Recording",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L82"
+    },
+    {
+      "id": "references_commands_codeblock_7",
+      "label": "code:bash (agent-browser record start ./demo.webm    # Start recording)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L84"
+    },
+    {
+      "id": "references_commands_wait",
+      "label": "Wait",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L91"
+    },
+    {
+      "id": "references_commands_codeblock_8",
+      "label": "code:bash (agent-browser wait @e1                     # Wait for elemen)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L93"
+    },
+    {
+      "id": "references_commands_mouse_control",
+      "label": "Mouse Control",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L102"
+    },
+    {
+      "id": "references_commands_codeblock_9",
+      "label": "code:bash (agent-browser mouse move 100 200      # Move mouse)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L104"
+    },
+    {
+      "id": "references_commands_semantic_locators_alternative_to_refs",
+      "label": "Semantic Locators (alternative to refs)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L111"
+    },
+    {
+      "id": "references_commands_codeblock_10",
+      "label": "code:bash (agent-browser find role button click --name \"Submit\")",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L113"
+    },
+    {
+      "id": "references_commands_browser_settings",
+      "label": "Browser Settings",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L127"
+    },
+    {
+      "id": "references_commands_codeblock_11",
+      "label": "code:bash (agent-browser set viewport 1920 1080          # Set viewport)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L129"
+    },
+    {
+      "id": "references_commands_cookies_and_storage",
+      "label": "Cookies and Storage",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L140"
+    },
+    {
+      "id": "references_commands_codeblock_12",
+      "label": "code:bash (agent-browser cookies                     # Get all cookies)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L142"
+    },
+    {
+      "id": "references_commands_network",
+      "label": "Network",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L152"
+    },
+    {
+      "id": "references_commands_codeblock_13",
+      "label": "code:bash (agent-browser network route <url>              # Intercept r)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L154"
+    },
+    {
+      "id": "references_commands_tabs_and_windows",
+      "label": "Tabs and Windows",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L163"
+    },
+    {
+      "id": "references_commands_codeblock_14",
+      "label": "code:bash (agent-browser tab                 # List tabs)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L165"
+    },
+    {
+      "id": "references_commands_frames",
+      "label": "Frames",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L174"
+    },
+    {
+      "id": "references_commands_codeblock_15",
+      "label": "code:bash (agent-browser frame \"#iframe\"     # Switch to iframe)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L176"
+    },
+    {
+      "id": "references_commands_dialogs",
+      "label": "Dialogs",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L181"
+    },
+    {
+      "id": "references_commands_codeblock_16",
+      "label": "code:bash (agent-browser dialog accept [text]  # Accept dialog)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L183"
+    },
+    {
+      "id": "references_commands_javascript",
+      "label": "JavaScript",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L188"
+    },
+    {
+      "id": "references_commands_codeblock_17",
+      "label": "code:bash (agent-browser eval \"document.title\"          # Simple expres)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L190"
+    },
+    {
+      "id": "references_commands_codeblock_18",
+      "label": "code:bash (# Base64 encode your script, then:)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L198"
+    },
+    {
+      "id": "references_commands_state_management",
+      "label": "State Management",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L209"
+    },
+    {
+      "id": "references_commands_codeblock_19",
+      "label": "code:bash (agent-browser state save auth.json    # Save cookies, storag)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L211"
+    },
+    {
+      "id": "references_commands_global_options",
+      "label": "Global Options",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L216"
+    },
+    {
+      "id": "references_commands_codeblock_20",
+      "label": "code:bash (agent-browser --session <name> ...    # Isolated browser ses)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L218"
+    },
+    {
+      "id": "references_commands_debugging",
+      "label": "Debugging",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L235"
+    },
+    {
+      "id": "references_commands_codeblock_21",
+      "label": "code:bash (agent-browser --headed open example.com   # Show browser win)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L237"
+    },
+    {
+      "id": "references_commands_environment_variables",
+      "label": "Environment Variables",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L250"
+    },
+    {
+      "id": "references_commands_codeblock_22",
+      "label": "code:bash (AGENT_BROWSER_SESSION=\"mysession\"            # Default sessi)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L252"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_skills_agent_browser_references_commands_md",
+      "target": "references_commands_command_reference",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_navigation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_navigation",
+      "target": "references_commands_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_snapshot_page_analysis",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_snapshot_page_analysis",
+      "target": "references_commands_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_interactions_use_refs_from_snapshot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_interactions_use_refs_from_snapshot",
+      "target": "references_commands_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_get_information",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_get_information",
+      "target": "references_commands_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_check_state",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_check_state",
+      "target": "references_commands_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_screenshots_and_pdf",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_screenshots_and_pdf",
+      "target": "references_commands_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_video_recording",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_video_recording",
+      "target": "references_commands_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_wait",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_wait",
+      "target": "references_commands_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_mouse_control",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_mouse_control",
+      "target": "references_commands_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_semantic_locators_alternative_to_refs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_semantic_locators_alternative_to_refs",
+      "target": "references_commands_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_browser_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_browser_settings",
+      "target": "references_commands_codeblock_11",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_cookies_and_storage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_cookies_and_storage",
+      "target": "references_commands_codeblock_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_network",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_network",
+      "target": "references_commands_codeblock_13",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_tabs_and_windows",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_tabs_and_windows",
+      "target": "references_commands_codeblock_14",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_frames",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L174",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_frames",
+      "target": "references_commands_codeblock_15",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_dialogs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_dialogs",
+      "target": "references_commands_codeblock_16",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L183",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_javascript",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_javascript",
+      "target": "references_commands_codeblock_17",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L190",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_javascript",
+      "target": "references_commands_codeblock_18",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L198",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_state_management",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L209",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_state_management",
+      "target": "references_commands_codeblock_19",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L211",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_global_options",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L216",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_global_options",
+      "target": "references_commands_codeblock_20",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L218",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_debugging",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L235",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_debugging",
+      "target": "references_commands_codeblock_21",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L237",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_command_reference",
+      "target": "references_commands_environment_variables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L250",
+      "weight": 1.0
+    },
+    {
+      "source": "references_commands_environment_variables",
+      "target": "references_commands_codeblock_22",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/commands.md",
+      "source_location": "L252",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

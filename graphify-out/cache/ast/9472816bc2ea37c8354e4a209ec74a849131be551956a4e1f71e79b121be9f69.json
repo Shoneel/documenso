@@ -1,0 +1,319 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_create_mdx",
+      "label": "create.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "templates_create_overview",
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L9"
+    },
+    {
+      "id": "templates_create_create_a_template_from_scratch",
+      "label": "Create a Template from Scratch",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L20"
+    },
+    {
+      "id": "templates_create_go_to_templates",
+      "label": "Go to templates",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L25"
+    },
+    {
+      "id": "templates_create_upload_your_document",
+      "label": "Upload your document",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L34"
+    },
+    {
+      "id": "templates_create_add_recipients",
+      "label": "Add recipients",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L45"
+    },
+    {
+      "id": "templates_create_add_fields",
+      "label": "Add fields",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L58"
+    },
+    {
+      "id": "templates_create_save_the_template",
+      "label": "Save the template",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L67"
+    },
+    {
+      "id": "templates_create_placeholder_recipients",
+      "label": "Placeholder Recipients",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L76"
+    },
+    {
+      "id": "templates_create_setting_up_placeholders",
+      "label": "Setting up placeholders",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L83"
+    },
+    {
+      "id": "templates_create_when_to_use_real_emails",
+      "label": "When to use real emails",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L93"
+    },
+    {
+      "id": "templates_create_template_settings",
+      "label": "Template Settings",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L103"
+    },
+    {
+      "id": "templates_create_title",
+      "label": "Title",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L107"
+    },
+    {
+      "id": "templates_create_external_id",
+      "label": "External ID",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L113"
+    },
+    {
+      "id": "templates_create_global_settings",
+      "label": "Global settings",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L123"
+    },
+    {
+      "id": "templates_create_template_visibility",
+      "label": "Template Visibility",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L136"
+    },
+    {
+      "id": "templates_create_edit_a_template",
+      "label": "Edit a Template",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L144"
+    },
+    {
+      "id": "templates_create_duplicate_a_template",
+      "label": "Duplicate a Template",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L168"
+    },
+    {
+      "id": "templates_create_delete_a_template",
+      "label": "Delete a Template",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L189"
+    },
+    {
+      "id": "templates_create_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L213"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_create_mdx",
+      "target": "templates_create_overview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_create_mdx",
+      "target": "templates_create_create_a_template_from_scratch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_create_create_a_template_from_scratch",
+      "target": "templates_create_go_to_templates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_create_create_a_template_from_scratch",
+      "target": "templates_create_upload_your_document",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_create_create_a_template_from_scratch",
+      "target": "templates_create_add_recipients",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_create_create_a_template_from_scratch",
+      "target": "templates_create_add_fields",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_create_create_a_template_from_scratch",
+      "target": "templates_create_save_the_template",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_create_mdx",
+      "target": "templates_create_placeholder_recipients",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_create_placeholder_recipients",
+      "target": "templates_create_setting_up_placeholders",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_create_placeholder_recipients",
+      "target": "templates_create_when_to_use_real_emails",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_create_mdx",
+      "target": "templates_create_template_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_create_template_settings",
+      "target": "templates_create_title",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_create_template_settings",
+      "target": "templates_create_external_id",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_create_template_settings",
+      "target": "templates_create_global_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_create_mdx",
+      "target": "templates_create_template_visibility",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_create_mdx",
+      "target": "templates_create_edit_a_template",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_create_mdx",
+      "target": "templates_create_duplicate_a_template",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_create_mdx",
+      "target": "templates_create_delete_a_template",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L189",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_create_mdx",
+      "target": "templates_create_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/create.mdx",
+      "source_location": "L213",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,303 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_embedding_css_variables_mdx",
+      "label": "css-variables.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "embedding_css_variables_css_variables",
+      "label": "CSS Variables",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L14"
+    },
+    {
+      "id": "embedding_css_variables_codeblock_1",
+      "label": "code:jsx (<EmbedDirectTemplate)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L18"
+    },
+    {
+      "id": "embedding_css_variables_colors",
+      "label": "Colors",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L31"
+    },
+    {
+      "id": "embedding_css_variables_spacing",
+      "label": "Spacing",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L64"
+    },
+    {
+      "id": "embedding_css_variables_framework_usage",
+      "label": "Framework Usage",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L70"
+    },
+    {
+      "id": "embedding_css_variables_codeblock_2",
+      "label": "code:jsx (// React / Preact)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L74"
+    },
+    {
+      "id": "embedding_css_variables_color_formats",
+      "label": "Color Formats",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L88"
+    },
+    {
+      "id": "embedding_css_variables_custom_css",
+      "label": "Custom CSS",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L99"
+    },
+    {
+      "id": "embedding_css_variables_codeblock_3",
+      "label": "code:jsx (<EmbedDirectTemplate)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L103"
+    },
+    {
+      "id": "embedding_css_variables_css_class_targets",
+      "label": "CSS Class Targets",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L117"
+    },
+    {
+      "id": "embedding_css_variables_component_classes",
+      "label": "Component Classes",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L121"
+    },
+    {
+      "id": "embedding_css_variables_field_data_attributes",
+      "label": "Field Data Attributes",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L138"
+    },
+    {
+      "id": "embedding_css_variables_example",
+      "label": "Example",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L148"
+    },
+    {
+      "id": "embedding_css_variables_codeblock_4",
+      "label": "code:css (/* Style signature fields */)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L150"
+    },
+    {
+      "id": "embedding_css_variables_additional_examples",
+      "label": "Additional Examples",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L169"
+    },
+    {
+      "id": "embedding_css_variables_codeblock_5",
+      "label": "code:css (/* Style all field containers with transitions */)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L171"
+    },
+    {
+      "id": "embedding_css_variables_best_practices",
+      "label": "Best Practices",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L193"
+    },
+    {
+      "id": "embedding_css_variables_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L212"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_embedding_css_variables_mdx",
+      "target": "embedding_css_variables_css_variables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "embedding_css_variables_css_variables",
+      "target": "embedding_css_variables_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "embedding_css_variables_css_variables",
+      "target": "embedding_css_variables_colors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "embedding_css_variables_css_variables",
+      "target": "embedding_css_variables_spacing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "embedding_css_variables_css_variables",
+      "target": "embedding_css_variables_framework_usage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "embedding_css_variables_framework_usage",
+      "target": "embedding_css_variables_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "embedding_css_variables_css_variables",
+      "target": "embedding_css_variables_color_formats",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_embedding_css_variables_mdx",
+      "target": "embedding_css_variables_custom_css",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "embedding_css_variables_custom_css",
+      "target": "embedding_css_variables_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_embedding_css_variables_mdx",
+      "target": "embedding_css_variables_css_class_targets",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "embedding_css_variables_css_class_targets",
+      "target": "embedding_css_variables_component_classes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "embedding_css_variables_css_class_targets",
+      "target": "embedding_css_variables_field_data_attributes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "embedding_css_variables_css_class_targets",
+      "target": "embedding_css_variables_example",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "embedding_css_variables_example",
+      "target": "embedding_css_variables_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "embedding_css_variables_css_class_targets",
+      "target": "embedding_css_variables_additional_examples",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "embedding_css_variables_additional_examples",
+      "target": "embedding_css_variables_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L171",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_embedding_css_variables_mdx",
+      "target": "embedding_css_variables_best_practices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_embedding_css_variables_mdx",
+      "target": "embedding_css_variables_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/embedding/css-variables.mdx",
+      "source_location": "L212",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

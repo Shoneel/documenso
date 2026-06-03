@@ -1,0 +1,463 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_agents_skills_create_documentation_skill_md",
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "create_documentation_skill_your_task",
+      "label": "Your Task",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L10"
+    },
+    {
+      "id": "create_documentation_skill_documentation_framework",
+      "label": "Documentation Framework",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L19"
+    },
+    {
+      "id": "create_documentation_skill_documentation_structure",
+      "label": "Documentation Structure",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L23"
+    },
+    {
+      "id": "create_documentation_skill_codeblock_1",
+      "label": "code:block1 (apps/docs/content/docs/)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "create_documentation_skill_where_to_put_documentation",
+      "label": "Where to Put Documentation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L63"
+    },
+    {
+      "id": "create_documentation_skill_navigation_meta_json",
+      "label": "Navigation (meta.json)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L73"
+    },
+    {
+      "id": "create_documentation_skill_codeblock_2",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L77"
+    },
+    {
+      "id": "create_documentation_skill_codeblock_3",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L86"
+    },
+    {
+      "id": "create_documentation_skill_codeblock_4",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L97"
+    },
+    {
+      "id": "create_documentation_skill_mdx_file_format",
+      "label": "MDX File Format",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L113"
+    },
+    {
+      "id": "create_documentation_skill_frontmatter",
+      "label": "Frontmatter",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L115"
+    },
+    {
+      "id": "create_documentation_skill_codeblock_5",
+      "label": "code:yaml (---)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L119"
+    },
+    {
+      "id": "create_documentation_skill_fumadocs_components",
+      "label": "Fumadocs Components",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L126"
+    },
+    {
+      "id": "create_documentation_skill_codeblock_6",
+      "label": "code:mdx (import { Accordion, Accordions } from 'fumadocs-ui/component)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L130"
+    },
+    {
+      "id": "create_documentation_skill_codeblock_7",
+      "label": "code:mdx (<Callout type=\"info\">Informational note about behavior.</Cal)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L141"
+    },
+    {
+      "id": "create_documentation_skill_codeblock_8",
+      "label": "code:mdx ({/* prettier-ignore */})",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L151"
+    },
+    {
+      "id": "create_documentation_skill_codeblock_9",
+      "label": "code:`mdx (<Tabs items={['cURL', 'JavaScript', 'Python']}>)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L171"
+    },
+    {
+      "id": "create_documentation_skill_page_structure_by_audience",
+      "label": "Page Structure by Audience",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L178"
+    },
+    {
+      "id": "create_documentation_skill_user_documentation",
+      "label": "User Documentation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L180"
+    },
+    {
+      "id": "create_documentation_skill_codeblock_10",
+      "label": "code:mdx (---)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L182"
+    },
+    {
+      "id": "create_documentation_skill_developer_documentation",
+      "label": "Developer Documentation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L223"
+    },
+    {
+      "id": "create_documentation_skill_codeblock_11",
+      "label": "code:`mdx (---)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L225"
+    },
+    {
+      "id": "create_documentation_skill_codeblock_12",
+      "label": "code:block12",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L263"
+    },
+    {
+      "id": "create_documentation_skill_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L268"
+    },
+    {
+      "id": "create_documentation_skill_codeblock_13",
+      "label": "code:`",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L272"
+    },
+    {
+      "id": "create_documentation_skill_required_variables",
+      "label": "Required Variables",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L282"
+    },
+    {
+      "id": "create_documentation_skill_optional_variables",
+      "label": "Optional Variables",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L291"
+    },
+    {
+      "id": "create_documentation_skill_see_also_299",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L299"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_skills_create_documentation_skill_md",
+      "target": "create_documentation_skill_your_task",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_skills_create_documentation_skill_md",
+      "target": "create_documentation_skill_documentation_framework",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_skills_create_documentation_skill_md",
+      "target": "create_documentation_skill_documentation_structure",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_documentation_structure",
+      "target": "create_documentation_skill_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_documentation_structure",
+      "target": "create_documentation_skill_where_to_put_documentation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_documentation_structure",
+      "target": "create_documentation_skill_navigation_meta_json",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_navigation_meta_json",
+      "target": "create_documentation_skill_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_navigation_meta_json",
+      "target": "create_documentation_skill_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_navigation_meta_json",
+      "target": "create_documentation_skill_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_skills_create_documentation_skill_md",
+      "target": "create_documentation_skill_mdx_file_format",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_mdx_file_format",
+      "target": "create_documentation_skill_frontmatter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_frontmatter",
+      "target": "create_documentation_skill_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_mdx_file_format",
+      "target": "create_documentation_skill_fumadocs_components",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_fumadocs_components",
+      "target": "create_documentation_skill_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_fumadocs_components",
+      "target": "create_documentation_skill_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_fumadocs_components",
+      "target": "create_documentation_skill_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_fumadocs_components",
+      "target": "create_documentation_skill_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L171",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_skills_create_documentation_skill_md",
+      "target": "create_documentation_skill_page_structure_by_audience",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L178",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_page_structure_by_audience",
+      "target": "create_documentation_skill_user_documentation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_user_documentation",
+      "target": "create_documentation_skill_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L182",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_page_structure_by_audience",
+      "target": "create_documentation_skill_developer_documentation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L223",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_developer_documentation",
+      "target": "create_documentation_skill_codeblock_11",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L225",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_developer_documentation",
+      "target": "create_documentation_skill_codeblock_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L263",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_skills_create_documentation_skill_md",
+      "target": "create_documentation_skill_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L268",
+      "weight": 1.0
+    },
+    {
+      "source": "create_documentation_skill_see_also",
+      "target": "create_documentation_skill_codeblock_13",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L272",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_skills_create_documentation_skill_md",
+      "target": "create_documentation_skill_required_variables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L282",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_skills_create_documentation_skill_md",
+      "target": "create_documentation_skill_optional_variables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L291",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_skills_create_documentation_skill_md",
+      "target": "create_documentation_skill_see_also_299",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/create-documentation/SKILL.md",
+      "source_location": "L299",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

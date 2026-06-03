@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_organisations_overview_mdx",
+      "label": "overview.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/overview.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "organisations_overview_what_are_organisations",
+      "label": "What are Organisations?",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/overview.mdx",
+      "source_location": "L10"
+    },
+    {
+      "id": "organisations_overview_create_a_new_organisation",
+      "label": "Create a New Organisation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/overview.mdx",
+      "source_location": "L26"
+    },
+    {
+      "id": "organisations_overview_open_organisation_creation",
+      "label": "Open organisation creation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/overview.mdx",
+      "source_location": "L36"
+    },
+    {
+      "id": "organisations_overview_select_your_plan",
+      "label": "Select your plan",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/overview.mdx",
+      "source_location": "L45"
+    },
+    {
+      "id": "organisations_overview_name_your_organisation",
+      "label": "Name your organisation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/overview.mdx",
+      "source_location": "L52"
+    },
+    {
+      "id": "organisations_overview_organisation_vs_team_settings",
+      "label": "Organisation vs Team Settings",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/overview.mdx",
+      "source_location": "L62"
+    },
+    {
+      "id": "organisations_overview_best_practices",
+      "label": "Best Practices",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/overview.mdx",
+      "source_location": "L76"
+    },
+    {
+      "id": "organisations_overview_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/overview.mdx",
+      "source_location": "L93"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_organisations_overview_mdx",
+      "target": "organisations_overview_what_are_organisations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/overview.mdx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_organisations_overview_mdx",
+      "target": "organisations_overview_create_a_new_organisation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/overview.mdx",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "organisations_overview_create_a_new_organisation",
+      "target": "organisations_overview_open_organisation_creation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/overview.mdx",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "organisations_overview_create_a_new_organisation",
+      "target": "organisations_overview_select_your_plan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/overview.mdx",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "organisations_overview_create_a_new_organisation",
+      "target": "organisations_overview_name_your_organisation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/overview.mdx",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_organisations_overview_mdx",
+      "target": "organisations_overview_organisation_vs_team_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/overview.mdx",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_organisations_overview_mdx",
+      "target": "organisations_overview_best_practices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/overview.mdx",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_organisations_overview_mdx",
+      "target": "organisations_overview_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/organisations/overview.mdx",
+      "source_location": "L93",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

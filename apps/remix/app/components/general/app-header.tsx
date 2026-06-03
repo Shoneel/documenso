@@ -9,8 +9,6 @@ import { InboxIcon, MenuIcon, SearchIcon } from 'lucide-react';
 import { type HTMLAttributes, useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router';
 
-import { BrandingLogo } from '~/components/general/branding-logo';
-
 import { AppCommandMenu } from './app-command-menu';
 import { AppNavDesktop } from './app-nav-desktop';
 import { AppNavMobile } from './app-nav-mobile';
@@ -59,9 +57,18 @@ export const Header = ({ className, ...props }: HeaderProps) => {
       <div className="mx-auto flex w-full max-w-screen-xl items-center justify-between gap-x-4 px-4 md:justify-normal md:px-8">
         <Link
           to={getRootHref(params)}
-          className="hidden rounded-md ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:inline"
+          className="flex flex-row items-center gap-4 rounded-md ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
         >
-          <BrandingLogo className="h-6 w-auto" />
+          <img
+            src="/static/logo.png"
+            alt="WAF eSign"
+            width={130}
+            height="auto"
+            style={{ display: 'block', objectFit: 'contain', filter: 'brightness(1.1)' }}
+          />
+          <span className="whitespace-nowrap border-white/20 border-l pl-4 font-bold text-base text-white tracking-wide">
+            WAF eSign Platform
+          </span>
         </Link>
 
         <AppNavDesktop setIsCommandMenuOpen={setIsCommandMenuOpen} />

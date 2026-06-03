@@ -1,0 +1,367 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_add_fields_mdx",
+      "label": "add-fields.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "documents_add_fields_overview",
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L10"
+    },
+    {
+      "id": "documents_add_fields_add_a_field_to_your_document",
+      "label": "Add a Field to Your Document",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L16"
+    },
+    {
+      "id": "documents_add_fields_select_a_recipient",
+      "label": "Select a recipient",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L21"
+    },
+    {
+      "id": "documents_add_fields_drag_a_field_onto_the_document",
+      "label": "Drag a field onto the document",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L28"
+    },
+    {
+      "id": "documents_add_fields_position_the_field",
+      "label": "Position the field",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L61"
+    },
+    {
+      "id": "documents_add_fields_assign_fields_to_recipients",
+      "label": "Assign Fields to Recipients",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L73"
+    },
+    {
+      "id": "documents_add_fields_position_and_resize_fields",
+      "label": "Position and Resize Fields",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L106"
+    },
+    {
+      "id": "documents_add_fields_moving_fields",
+      "label": "Moving Fields",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L108"
+    },
+    {
+      "id": "documents_add_fields_resizing_fields",
+      "label": "Resizing Fields",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L112"
+    },
+    {
+      "id": "documents_add_fields_multi_page_documents",
+      "label": "Multi-Page Documents",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L120"
+    },
+    {
+      "id": "documents_add_fields_configure_field_properties",
+      "label": "Configure Field Properties",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L124"
+    },
+    {
+      "id": "documents_add_fields_common_properties",
+      "label": "Common Properties",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L128"
+    },
+    {
+      "id": "documents_add_fields_text_field_properties",
+      "label": "Text Field Properties",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L137"
+    },
+    {
+      "id": "documents_add_fields_number_field_properties",
+      "label": "Number Field Properties",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L146"
+    },
+    {
+      "id": "documents_add_fields_selection_field_properties_checkbox_radio_dropdown",
+      "label": "Selection Field Properties (Checkbox, Radio, Dropdown)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L154"
+    },
+    {
+      "id": "documents_add_fields_common_field_patterns",
+      "label": "Common Field Patterns",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L166"
+    },
+    {
+      "id": "documents_add_fields_signature_block",
+      "label": "Signature Block",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L168"
+    },
+    {
+      "id": "documents_add_fields_terms_acceptance",
+      "label": "Terms Acceptance",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L180"
+    },
+    {
+      "id": "documents_add_fields_information_collection",
+      "label": "Information Collection",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L206"
+    },
+    {
+      "id": "documents_add_fields_multiple_signers",
+      "label": "Multiple Signers",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L238"
+    },
+    {
+      "id": "documents_add_fields_edit_or_delete_fields",
+      "label": "Edit or Delete Fields",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L270"
+    },
+    {
+      "id": "documents_add_fields_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L292"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_add_fields_mdx",
+      "target": "documents_add_fields_overview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_add_fields_mdx",
+      "target": "documents_add_fields_add_a_field_to_your_document",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "documents_add_fields_add_a_field_to_your_document",
+      "target": "documents_add_fields_select_a_recipient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "documents_add_fields_add_a_field_to_your_document",
+      "target": "documents_add_fields_drag_a_field_onto_the_document",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "documents_add_fields_add_a_field_to_your_document",
+      "target": "documents_add_fields_position_the_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_add_fields_mdx",
+      "target": "documents_add_fields_assign_fields_to_recipients",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_add_fields_mdx",
+      "target": "documents_add_fields_position_and_resize_fields",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "documents_add_fields_position_and_resize_fields",
+      "target": "documents_add_fields_moving_fields",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "documents_add_fields_position_and_resize_fields",
+      "target": "documents_add_fields_resizing_fields",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "documents_add_fields_position_and_resize_fields",
+      "target": "documents_add_fields_multi_page_documents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_add_fields_mdx",
+      "target": "documents_add_fields_configure_field_properties",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "documents_add_fields_configure_field_properties",
+      "target": "documents_add_fields_common_properties",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L128",
+      "weight": 1.0
+    },
+    {
+      "source": "documents_add_fields_configure_field_properties",
+      "target": "documents_add_fields_text_field_properties",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L137",
+      "weight": 1.0
+    },
+    {
+      "source": "documents_add_fields_configure_field_properties",
+      "target": "documents_add_fields_number_field_properties",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L146",
+      "weight": 1.0
+    },
+    {
+      "source": "documents_add_fields_configure_field_properties",
+      "target": "documents_add_fields_selection_field_properties_checkbox_radio_dropdown",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_add_fields_mdx",
+      "target": "documents_add_fields_common_field_patterns",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "documents_add_fields_common_field_patterns",
+      "target": "documents_add_fields_signature_block",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "documents_add_fields_common_field_patterns",
+      "target": "documents_add_fields_terms_acceptance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "documents_add_fields_common_field_patterns",
+      "target": "documents_add_fields_information_collection",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L206",
+      "weight": 1.0
+    },
+    {
+      "source": "documents_add_fields_common_field_patterns",
+      "target": "documents_add_fields_multiple_signers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L238",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_add_fields_mdx",
+      "target": "documents_add_fields_edit_or_delete_fields",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L270",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_documents_add_fields_mdx",
+      "target": "documents_add_fields_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/documents/add-fields.mdx",
+      "source_location": "L292",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

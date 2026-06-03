@@ -1,0 +1,95 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_webhooks_index_mdx",
+      "label": "index.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/index.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "webhooks_index_how_webhooks_work",
+      "label": "How Webhooks Work",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/index.mdx",
+      "source_location": "L6"
+    },
+    {
+      "id": "webhooks_index_getting_started",
+      "label": "Getting Started",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/index.mdx",
+      "source_location": "L16"
+    },
+    {
+      "id": "webhooks_index_example_payload",
+      "label": "Example Payload",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/index.mdx",
+      "source_location": "L38"
+    },
+    {
+      "id": "webhooks_index_codeblock_1",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/index.mdx",
+      "source_location": "L40"
+    },
+    {
+      "id": "webhooks_index_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/index.mdx",
+      "source_location": "L63"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_webhooks_index_mdx",
+      "target": "webhooks_index_how_webhooks_work",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/index.mdx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_webhooks_index_mdx",
+      "target": "webhooks_index_getting_started",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/index.mdx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_webhooks_index_mdx",
+      "target": "webhooks_index_example_payload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/index.mdx",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "webhooks_index_example_payload",
+      "target": "webhooks_index_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/index.mdx",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_webhooks_index_mdx",
+      "target": "webhooks_index_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/webhooks/index.mdx",
+      "source_location": "L63",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

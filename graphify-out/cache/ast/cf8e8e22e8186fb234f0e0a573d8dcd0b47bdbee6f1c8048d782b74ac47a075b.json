@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_index_mdx",
+      "label": "index.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/index.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "users_index_getting_started",
+      "label": "Getting Started",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/index.mdx",
+      "source_location": "L6"
+    },
+    {
+      "id": "users_index_documents",
+      "label": "Documents",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/index.mdx",
+      "source_location": "L25"
+    },
+    {
+      "id": "users_index_templates",
+      "label": "Templates",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/index.mdx",
+      "source_location": "L59"
+    },
+    {
+      "id": "users_index_organisations",
+      "label": "Organisations",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/index.mdx",
+      "source_location": "L78"
+    },
+    {
+      "id": "users_index_settings",
+      "label": "Settings",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/index.mdx",
+      "source_location": "L107"
+    },
+    {
+      "id": "users_index_prerequisites",
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/index.mdx",
+      "source_location": "L126"
+    },
+    {
+      "id": "users_index_looking_for_something_else",
+      "label": "Looking for Something Else?",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/index.mdx",
+      "source_location": "L132"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_index_mdx",
+      "target": "users_index_getting_started",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/index.mdx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_index_mdx",
+      "target": "users_index_documents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/index.mdx",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_index_mdx",
+      "target": "users_index_templates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/index.mdx",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_index_mdx",
+      "target": "users_index_organisations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/index.mdx",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_index_mdx",
+      "target": "users_index_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/index.mdx",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_index_mdx",
+      "target": "users_index_prerequisites",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/index.mdx",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_index_mdx",
+      "target": "users_index_looking_for_something_else",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/index.mdx",
+      "source_location": "L132",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

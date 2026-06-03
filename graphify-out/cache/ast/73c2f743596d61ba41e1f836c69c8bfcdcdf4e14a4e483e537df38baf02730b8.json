@@ -1,0 +1,367 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_getting_started_authentication_mdx",
+      "label": "authentication.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "getting_started_authentication_prerequisites",
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L10"
+    },
+    {
+      "id": "getting_started_authentication_create_an_api_token",
+      "label": "Create an API Token",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L20"
+    },
+    {
+      "id": "getting_started_authentication_open_settings",
+      "label": "Open settings",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L25"
+    },
+    {
+      "id": "getting_started_authentication_navigate_to_the_api_tokens_tab",
+      "label": "Navigate to the API Tokens tab",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L36"
+    },
+    {
+      "id": "getting_started_authentication_generate_a_new_token",
+      "label": "Generate a new token",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L45"
+    },
+    {
+      "id": "getting_started_authentication_copy_your_token",
+      "label": "Copy your token",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L55"
+    },
+    {
+      "id": "getting_started_authentication_using_your_token",
+      "label": "Using Your Token",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L69"
+    },
+    {
+      "id": "getting_started_authentication_curl",
+      "label": "cURL",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L73"
+    },
+    {
+      "id": "getting_started_authentication_codeblock_1",
+      "label": "code:bash (curl https://app.documenso.com/api/v2/document \\)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L75"
+    },
+    {
+      "id": "getting_started_authentication_javascript_typescript",
+      "label": "JavaScript / TypeScript",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L80"
+    },
+    {
+      "id": "getting_started_authentication_codeblock_2",
+      "label": "code:typescript (const response = await fetch('https://app.documenso.com/api/)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L82"
+    },
+    {
+      "id": "getting_started_authentication_using_the_typescript_sdk",
+      "label": "Using the TypeScript SDK",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L93"
+    },
+    {
+      "id": "getting_started_authentication_codeblock_3",
+      "label": "code:typescript (import { Documenso } from '@documenso/sdk-typescript';)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L97"
+    },
+    {
+      "id": "getting_started_authentication_api_base_urls",
+      "label": "API Base URLs",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L109"
+    },
+    {
+      "id": "getting_started_authentication_token_security",
+      "label": "Token Security",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L128"
+    },
+    {
+      "id": "getting_started_authentication_environment_variables",
+      "label": "Environment Variables",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L139"
+    },
+    {
+      "id": "getting_started_authentication_codeblock_4",
+      "label": "code:bash (# .env (do not commit this file))",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L143"
+    },
+    {
+      "id": "getting_started_authentication_codeblock_5",
+      "label": "code:typescript (const client = new Documenso({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L148"
+    },
+    {
+      "id": "getting_started_authentication_token_scope",
+      "label": "Token Scope",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L154"
+    },
+    {
+      "id": "getting_started_authentication_revoking_a_token",
+      "label": "Revoking a Token",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L165"
+    },
+    {
+      "id": "getting_started_authentication_troubleshooting",
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L187"
+    },
+    {
+      "id": "getting_started_authentication_next_steps",
+      "label": "Next Steps",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L199"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_getting_started_authentication_mdx",
+      "target": "getting_started_authentication_prerequisites",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_getting_started_authentication_mdx",
+      "target": "getting_started_authentication_create_an_api_token",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_authentication_create_an_api_token",
+      "target": "getting_started_authentication_open_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_authentication_create_an_api_token",
+      "target": "getting_started_authentication_navigate_to_the_api_tokens_tab",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_authentication_create_an_api_token",
+      "target": "getting_started_authentication_generate_a_new_token",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_authentication_create_an_api_token",
+      "target": "getting_started_authentication_copy_your_token",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_getting_started_authentication_mdx",
+      "target": "getting_started_authentication_using_your_token",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_authentication_using_your_token",
+      "target": "getting_started_authentication_curl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_authentication_curl",
+      "target": "getting_started_authentication_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_authentication_using_your_token",
+      "target": "getting_started_authentication_javascript_typescript",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_authentication_javascript_typescript",
+      "target": "getting_started_authentication_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_authentication_using_your_token",
+      "target": "getting_started_authentication_using_the_typescript_sdk",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_authentication_using_the_typescript_sdk",
+      "target": "getting_started_authentication_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_getting_started_authentication_mdx",
+      "target": "getting_started_authentication_api_base_urls",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_getting_started_authentication_mdx",
+      "target": "getting_started_authentication_token_security",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L128",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_authentication_token_security",
+      "target": "getting_started_authentication_environment_variables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_authentication_environment_variables",
+      "target": "getting_started_authentication_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "getting_started_authentication_environment_variables",
+      "target": "getting_started_authentication_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_getting_started_authentication_mdx",
+      "target": "getting_started_authentication_token_scope",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_getting_started_authentication_mdx",
+      "target": "getting_started_authentication_revoking_a_token",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_getting_started_authentication_mdx",
+      "target": "getting_started_authentication_troubleshooting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_developers_getting_started_authentication_mdx",
+      "target": "getting_started_authentication_next_steps",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/developers/getting-started/authentication.mdx",
+      "source_location": "L199",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

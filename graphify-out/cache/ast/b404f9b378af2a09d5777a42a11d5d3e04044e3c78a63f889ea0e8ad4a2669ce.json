@@ -1,0 +1,239 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_telemetry_mdx",
+      "label": "telemetry.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "configuration_telemetry_overview",
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L9"
+    },
+    {
+      "id": "configuration_telemetry_what_we_collect",
+      "label": "What We Collect",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L13"
+    },
+    {
+      "id": "configuration_telemetry_what_we_don_t_collect",
+      "label": "What We Don't Collect",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L23"
+    },
+    {
+      "id": "configuration_telemetry_why_we_collect_telemetry",
+      "label": "Why We Collect Telemetry",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L34"
+    },
+    {
+      "id": "configuration_telemetry_events_we_track",
+      "label": "Events We Track",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L59"
+    },
+    {
+      "id": "configuration_telemetry_how_to_disable_telemetry",
+      "label": "How to Disable Telemetry",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L76"
+    },
+    {
+      "id": "configuration_telemetry_using_environment_variables",
+      "label": "Using Environment Variables",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L80"
+    },
+    {
+      "id": "configuration_telemetry_codeblock_1",
+      "label": "code:bash (DOCUMENSO_DISABLE_TELEMETRY=true)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L84"
+    },
+    {
+      "id": "configuration_telemetry_docker",
+      "label": "Docker",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L88"
+    },
+    {
+      "id": "configuration_telemetry_codeblock_2",
+      "label": "code:yaml (services:)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L92"
+    },
+    {
+      "id": "configuration_telemetry_codeblock_3",
+      "label": "code:bash (docker run -e DOCUMENSO_DISABLE_TELEMETRY=true ...)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L101"
+    },
+    {
+      "id": "configuration_telemetry_after_disabling",
+      "label": "After Disabling",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L105"
+    },
+    {
+      "id": "configuration_telemetry_questions_or_concerns",
+      "label": "Questions or Concerns",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L114"
+    },
+    {
+      "id": "configuration_telemetry_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L120"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_telemetry_mdx",
+      "target": "configuration_telemetry_overview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_telemetry_mdx",
+      "target": "configuration_telemetry_what_we_collect",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_telemetry_what_we_collect",
+      "target": "configuration_telemetry_what_we_don_t_collect",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_telemetry_mdx",
+      "target": "configuration_telemetry_why_we_collect_telemetry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_telemetry_mdx",
+      "target": "configuration_telemetry_events_we_track",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_telemetry_mdx",
+      "target": "configuration_telemetry_how_to_disable_telemetry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_telemetry_how_to_disable_telemetry",
+      "target": "configuration_telemetry_using_environment_variables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_telemetry_using_environment_variables",
+      "target": "configuration_telemetry_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_telemetry_how_to_disable_telemetry",
+      "target": "configuration_telemetry_docker",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_telemetry_docker",
+      "target": "configuration_telemetry_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_telemetry_docker",
+      "target": "configuration_telemetry_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "configuration_telemetry_how_to_disable_telemetry",
+      "target": "configuration_telemetry_after_disabling",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_telemetry_mdx",
+      "target": "configuration_telemetry_questions_or_concerns",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_configuration_telemetry_mdx",
+      "target": "configuration_telemetry_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/telemetry.mdx",
+      "source_location": "L120",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

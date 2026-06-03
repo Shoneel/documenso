@@ -1,0 +1,255 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_organisation_templates_mdx",
+      "label": "organisation-templates.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "templates_organisation_templates_overview",
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L9"
+    },
+    {
+      "id": "templates_organisation_templates_requirements",
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L15"
+    },
+    {
+      "id": "templates_organisation_templates_template_types",
+      "label": "Template Types",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L19"
+    },
+    {
+      "id": "templates_organisation_templates_set_a_template_as_organisation",
+      "label": "Set a Template as Organisation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L27"
+    },
+    {
+      "id": "templates_organisation_templates_open_template_settings",
+      "label": "Open template settings",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L32"
+    },
+    {
+      "id": "templates_organisation_templates_change_the_template_type",
+      "label": "Change the template type",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L39"
+    },
+    {
+      "id": "templates_organisation_templates_save",
+      "label": "Save",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L46"
+    },
+    {
+      "id": "templates_organisation_templates_browse_organisation_templates",
+      "label": "Browse Organisation Templates",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L55"
+    },
+    {
+      "id": "templates_organisation_templates_open_the_templates_page",
+      "label": "Open the templates page",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L60"
+    },
+    {
+      "id": "templates_organisation_templates_switch_to_the_organisation_tab",
+      "label": "Switch to the Organisation tab",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L67"
+    },
+    {
+      "id": "templates_organisation_templates_use_an_organisation_template",
+      "label": "Use an Organisation Template",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L78"
+    },
+    {
+      "id": "templates_organisation_templates_editing_and_permissions",
+      "label": "Editing and Permissions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L99"
+    },
+    {
+      "id": "templates_organisation_templates_visibility",
+      "label": "Visibility",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L109"
+    },
+    {
+      "id": "templates_organisation_templates_reverting_to_private",
+      "label": "Reverting to Private",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L121"
+    },
+    {
+      "id": "templates_organisation_templates_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L127"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_organisation_templates_mdx",
+      "target": "templates_organisation_templates_overview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_organisation_templates_mdx",
+      "target": "templates_organisation_templates_requirements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_organisation_templates_mdx",
+      "target": "templates_organisation_templates_template_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_organisation_templates_mdx",
+      "target": "templates_organisation_templates_set_a_template_as_organisation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_organisation_templates_set_a_template_as_organisation",
+      "target": "templates_organisation_templates_open_template_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_organisation_templates_set_a_template_as_organisation",
+      "target": "templates_organisation_templates_change_the_template_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_organisation_templates_set_a_template_as_organisation",
+      "target": "templates_organisation_templates_save",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_organisation_templates_mdx",
+      "target": "templates_organisation_templates_browse_organisation_templates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_organisation_templates_browse_organisation_templates",
+      "target": "templates_organisation_templates_open_the_templates_page",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_organisation_templates_browse_organisation_templates",
+      "target": "templates_organisation_templates_switch_to_the_organisation_tab",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_organisation_templates_mdx",
+      "target": "templates_organisation_templates_use_an_organisation_template",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_organisation_templates_mdx",
+      "target": "templates_organisation_templates_editing_and_permissions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_organisation_templates_mdx",
+      "target": "templates_organisation_templates_visibility",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_organisation_templates_mdx",
+      "target": "templates_organisation_templates_reverting_to_private",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_users_templates_organisation_templates_mdx",
+      "target": "templates_organisation_templates_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/users/templates/organisation-templates.mdx",
+      "source_location": "L127",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,559 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_writing_style_md",
+      "label": "WRITING_STYLE.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "documenso_writing_style_documentation_writing_style_guide",
+      "label": "Documentation Writing Style Guide",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "documenso_writing_style_core_principles",
+      "label": "Core Principles",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L7"
+    },
+    {
+      "id": "documenso_writing_style_tone",
+      "label": "Tone",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "documenso_writing_style_anti_patterns_to_avoid",
+      "label": "Anti-Patterns to Avoid",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L22"
+    },
+    {
+      "id": "documenso_writing_style_documentation_audiences",
+      "label": "Documentation Audiences",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L30"
+    },
+    {
+      "id": "documenso_writing_style_file_structure",
+      "label": "File Structure",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L44"
+    },
+    {
+      "id": "documenso_writing_style_codeblock_1",
+      "label": "code:block1 (apps/docs/)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L46"
+    },
+    {
+      "id": "documenso_writing_style_codeblock_2",
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L70"
+    },
+    {
+      "id": "documenso_writing_style_mdx_frontmatter",
+      "label": "MDX Frontmatter",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L79"
+    },
+    {
+      "id": "documenso_writing_style_codeblock_3",
+      "label": "code:yaml (---)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L83"
+    },
+    {
+      "id": "documenso_writing_style_page_structure",
+      "label": "Page Structure",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L90"
+    },
+    {
+      "id": "documenso_writing_style_user_documentation",
+      "label": "User Documentation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L92"
+    },
+    {
+      "id": "documenso_writing_style_codeblock_4",
+      "label": "code:mdx (---)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L94"
+    },
+    {
+      "id": "documenso_writing_style_developer_documentation",
+      "label": "Developer Documentation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L117"
+    },
+    {
+      "id": "documenso_writing_style_codeblock_5",
+      "label": "code:mdx (---)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L119"
+    },
+    {
+      "id": "documenso_writing_style_self_hosting_documentation",
+      "label": "Self-Hosting Documentation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L148"
+    },
+    {
+      "id": "documenso_writing_style_codeblock_6",
+      "label": "code:mdx (---)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L150"
+    },
+    {
+      "id": "documenso_writing_style_parameter_tables",
+      "label": "Parameter Tables",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L173"
+    },
+    {
+      "id": "documenso_writing_style_codeblock_7",
+      "label": "code:markdown (### methodName(param, options?))",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L177"
+    },
+    {
+      "id": "documenso_writing_style_code_examples",
+      "label": "Code Examples",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L203"
+    },
+    {
+      "id": "documenso_writing_style_codeblock_8",
+      "label": "code:typescript (// Basic usage)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L207"
+    },
+    {
+      "id": "documenso_writing_style_example_guidelines",
+      "label": "Example Guidelines",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L235"
+    },
+    {
+      "id": "documenso_writing_style_ui_instructions",
+      "label": "UI Instructions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L242"
+    },
+    {
+      "id": "documenso_writing_style_callouts",
+      "label": "Callouts",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L252"
+    },
+    {
+      "id": "documenso_writing_style_codeblock_9",
+      "label": "code:mdx (<Callout type=\"info\">Informational note about behavior.</Cal)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L256"
+    },
+    {
+      "id": "documenso_writing_style_tables",
+      "label": "Tables",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L271"
+    },
+    {
+      "id": "documenso_writing_style_codeblock_10",
+      "label": "code:markdown (| Feature          | Status | Notes                    |)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L280"
+    },
+    {
+      "id": "documenso_writing_style_linking",
+      "label": "Linking",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L288"
+    },
+    {
+      "id": "documenso_writing_style_error_documentation",
+      "label": "Error Documentation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L294"
+    },
+    {
+      "id": "documenso_writing_style_codeblock_11",
+      "label": "code:markdown (## Document Errors)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L298"
+    },
+    {
+      "id": "documenso_writing_style_concept_explanations",
+      "label": "Concept Explanations",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L315"
+    },
+    {
+      "id": "documenso_writing_style_codeblock_12",
+      "label": "code:markdown (Think of a **signing workflow** like passing a physical docu)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L319"
+    },
+    {
+      "id": "documenso_writing_style_self_hosting_specific",
+      "label": "Self-Hosting Specific",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L327"
+    },
+    {
+      "id": "documenso_writing_style_maintenance",
+      "label": "Maintenance",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L337"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_writing_style_md",
+      "target": "documenso_writing_style_documentation_writing_style_guide",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_documentation_writing_style_guide",
+      "target": "documenso_writing_style_core_principles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_documentation_writing_style_guide",
+      "target": "documenso_writing_style_tone",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_documentation_writing_style_guide",
+      "target": "documenso_writing_style_anti_patterns_to_avoid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_documentation_writing_style_guide",
+      "target": "documenso_writing_style_documentation_audiences",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_documentation_writing_style_guide",
+      "target": "documenso_writing_style_file_structure",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_file_structure",
+      "target": "documenso_writing_style_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_file_structure",
+      "target": "documenso_writing_style_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_documentation_writing_style_guide",
+      "target": "documenso_writing_style_mdx_frontmatter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_mdx_frontmatter",
+      "target": "documenso_writing_style_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_documentation_writing_style_guide",
+      "target": "documenso_writing_style_page_structure",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_page_structure",
+      "target": "documenso_writing_style_user_documentation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_user_documentation",
+      "target": "documenso_writing_style_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_page_structure",
+      "target": "documenso_writing_style_developer_documentation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_developer_documentation",
+      "target": "documenso_writing_style_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_page_structure",
+      "target": "documenso_writing_style_self_hosting_documentation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_self_hosting_documentation",
+      "target": "documenso_writing_style_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_documentation_writing_style_guide",
+      "target": "documenso_writing_style_parameter_tables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_parameter_tables",
+      "target": "documenso_writing_style_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_documentation_writing_style_guide",
+      "target": "documenso_writing_style_code_examples",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L203",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_code_examples",
+      "target": "documenso_writing_style_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L207",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_code_examples",
+      "target": "documenso_writing_style_example_guidelines",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L235",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_documentation_writing_style_guide",
+      "target": "documenso_writing_style_ui_instructions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L242",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_documentation_writing_style_guide",
+      "target": "documenso_writing_style_callouts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L252",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_callouts",
+      "target": "documenso_writing_style_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L256",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_documentation_writing_style_guide",
+      "target": "documenso_writing_style_tables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L271",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_tables",
+      "target": "documenso_writing_style_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L280",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_documentation_writing_style_guide",
+      "target": "documenso_writing_style_linking",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L288",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_documentation_writing_style_guide",
+      "target": "documenso_writing_style_error_documentation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L294",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_error_documentation",
+      "target": "documenso_writing_style_codeblock_11",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L298",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_documentation_writing_style_guide",
+      "target": "documenso_writing_style_concept_explanations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L315",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_concept_explanations",
+      "target": "documenso_writing_style_codeblock_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L319",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_documentation_writing_style_guide",
+      "target": "documenso_writing_style_self_hosting_specific",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L327",
+      "weight": 1.0
+    },
+    {
+      "source": "documenso_writing_style_documentation_writing_style_guide",
+      "target": "documenso_writing_style_maintenance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md",
+      "source_location": "L337",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

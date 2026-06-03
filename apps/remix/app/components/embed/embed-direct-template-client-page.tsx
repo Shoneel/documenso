@@ -39,7 +39,6 @@ import { DateTime } from 'luxon';
 import { useEffect, useLayoutEffect, useState } from 'react';
 import { useSearchParams } from 'react-router';
 
-import { BrandingLogo } from '~/components/general/branding-logo';
 import PDFViewerLazy from '~/components/general/pdf-viewer/pdf-viewer-lazy';
 import { injectCss } from '~/utils/css-vars';
 
@@ -514,7 +513,14 @@ export const EmbedDirectTemplateClientPage = ({
           <span>
             <Trans>Powered by</Trans>
           </span>
-          <BrandingLogo className="ml-2 inline-block h-[14px]" />
+          <img
+            src="/static/logo.png"
+            alt="WAF eSign"
+            width={140}
+            height="auto"
+            style={{ objectFit: 'contain' }}
+            className="ml-2 inline-block"
+          />
         </div>
       )}
     </div>

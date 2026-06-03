@@ -1,0 +1,543 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_agents_skills_agent_browser_references_snapshot_refs_md",
+      "label": "snapshot-refs.md",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "references_snapshot_refs_snapshot_and_refs",
+      "label": "Snapshot and Refs",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "references_snapshot_refs_contents",
+      "label": "Contents",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L7"
+    },
+    {
+      "id": "references_snapshot_refs_how_refs_work",
+      "label": "How Refs Work",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L17"
+    },
+    {
+      "id": "references_snapshot_refs_codeblock_1",
+      "label": "code:block1 (Full DOM/HTML \u2192 AI parses \u2192 CSS selector \u2192 Action (~3000-500)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L20"
+    },
+    {
+      "id": "references_snapshot_refs_codeblock_2",
+      "label": "code:block2 (Compact snapshot \u2192 @refs assigned \u2192 Direct interaction (~200)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "references_snapshot_refs_the_snapshot_command",
+      "label": "The Snapshot Command",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L29"
+    },
+    {
+      "id": "references_snapshot_refs_codeblock_3",
+      "label": "code:bash (# Basic snapshot (shows page structure))",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L31"
+    },
+    {
+      "id": "references_snapshot_refs_snapshot_output_format",
+      "label": "Snapshot Output Format",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L39"
+    },
+    {
+      "id": "references_snapshot_refs_codeblock_4",
+      "label": "code:block4 (Page: Example Site - Home)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L41"
+    },
+    {
+      "id": "references_snapshot_refs_using_refs",
+      "label": "Using Refs",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L63"
+    },
+    {
+      "id": "references_snapshot_refs_codeblock_5",
+      "label": "code:bash (# Click the \"Sign In\" button)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L67"
+    },
+    {
+      "id": "references_snapshot_refs_ref_lifecycle",
+      "label": "Ref Lifecycle",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L81"
+    },
+    {
+      "id": "references_snapshot_refs_codeblock_6",
+      "label": "code:bash (# Get initial snapshot)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L85"
+    },
+    {
+      "id": "references_snapshot_refs_best_practices",
+      "label": "Best Practices",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L98"
+    },
+    {
+      "id": "references_snapshot_refs_1_always_snapshot_before_interacting",
+      "label": "1. Always Snapshot Before Interacting",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L100"
+    },
+    {
+      "id": "references_snapshot_refs_codeblock_7",
+      "label": "code:bash (# CORRECT)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L102"
+    },
+    {
+      "id": "references_snapshot_refs_2_re_snapshot_after_navigation",
+      "label": "2. Re-Snapshot After Navigation",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L113"
+    },
+    {
+      "id": "references_snapshot_refs_codeblock_8",
+      "label": "code:bash (agent-browser click @e5            # Navigates to new page)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L115"
+    },
+    {
+      "id": "references_snapshot_refs_3_re_snapshot_after_dynamic_changes",
+      "label": "3. Re-Snapshot After Dynamic Changes",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L121"
+    },
+    {
+      "id": "references_snapshot_refs_codeblock_9",
+      "label": "code:bash (agent-browser click @e1            # Opens dropdown)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L123"
+    },
+    {
+      "id": "references_snapshot_refs_4_snapshot_specific_regions",
+      "label": "4. Snapshot Specific Regions",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L129"
+    },
+    {
+      "id": "references_snapshot_refs_codeblock_10",
+      "label": "code:bash (# Snapshot just the form)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L133"
+    },
+    {
+      "id": "references_snapshot_refs_ref_notation_details",
+      "label": "Ref Notation Details",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L138"
+    },
+    {
+      "id": "references_snapshot_refs_codeblock_11",
+      "label": "code:block11 (@e1 [tag type=\"value\"] \"text content\" placeholder=\"hint\")",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L140"
+    },
+    {
+      "id": "references_snapshot_refs_common_patterns",
+      "label": "Common Patterns",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L150"
+    },
+    {
+      "id": "references_snapshot_refs_codeblock_12",
+      "label": "code:block12 (@e1 [button] \"Submit\"                    # Button with text)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L152"
+    },
+    {
+      "id": "references_snapshot_refs_troubleshooting",
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L165"
+    },
+    {
+      "id": "references_snapshot_refs_ref_not_found_error",
+      "label": "\"Ref not found\" Error",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L167"
+    },
+    {
+      "id": "references_snapshot_refs_codeblock_13",
+      "label": "code:bash (# Ref may have changed - re-snapshot)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L169"
+    },
+    {
+      "id": "references_snapshot_refs_element_not_visible_in_snapshot",
+      "label": "Element Not Visible in Snapshot",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L174"
+    },
+    {
+      "id": "references_snapshot_refs_codeblock_14",
+      "label": "code:bash (# Scroll to reveal element)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L176"
+    },
+    {
+      "id": "references_snapshot_refs_too_many_elements",
+      "label": "Too Many Elements",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L186"
+    },
+    {
+      "id": "references_snapshot_refs_codeblock_15",
+      "label": "code:bash (# Snapshot specific container)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L188"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_agents_skills_agent_browser_references_snapshot_refs_md",
+      "target": "references_snapshot_refs_snapshot_and_refs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_snapshot_and_refs",
+      "target": "references_snapshot_refs_contents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_snapshot_and_refs",
+      "target": "references_snapshot_refs_how_refs_work",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_how_refs_work",
+      "target": "references_snapshot_refs_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_how_refs_work",
+      "target": "references_snapshot_refs_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_snapshot_and_refs",
+      "target": "references_snapshot_refs_the_snapshot_command",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_the_snapshot_command",
+      "target": "references_snapshot_refs_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_the_snapshot_command",
+      "target": "references_snapshot_refs_snapshot_output_format",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_snapshot_output_format",
+      "target": "references_snapshot_refs_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_snapshot_and_refs",
+      "target": "references_snapshot_refs_using_refs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_using_refs",
+      "target": "references_snapshot_refs_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_snapshot_and_refs",
+      "target": "references_snapshot_refs_ref_lifecycle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_ref_lifecycle",
+      "target": "references_snapshot_refs_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_snapshot_and_refs",
+      "target": "references_snapshot_refs_best_practices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_best_practices",
+      "target": "references_snapshot_refs_1_always_snapshot_before_interacting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_1_always_snapshot_before_interacting",
+      "target": "references_snapshot_refs_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_best_practices",
+      "target": "references_snapshot_refs_2_re_snapshot_after_navigation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_2_re_snapshot_after_navigation",
+      "target": "references_snapshot_refs_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_best_practices",
+      "target": "references_snapshot_refs_3_re_snapshot_after_dynamic_changes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_3_re_snapshot_after_dynamic_changes",
+      "target": "references_snapshot_refs_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_best_practices",
+      "target": "references_snapshot_refs_4_snapshot_specific_regions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_4_snapshot_specific_regions",
+      "target": "references_snapshot_refs_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_snapshot_and_refs",
+      "target": "references_snapshot_refs_ref_notation_details",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_ref_notation_details",
+      "target": "references_snapshot_refs_codeblock_11",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_ref_notation_details",
+      "target": "references_snapshot_refs_common_patterns",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_common_patterns",
+      "target": "references_snapshot_refs_codeblock_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_snapshot_and_refs",
+      "target": "references_snapshot_refs_troubleshooting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_troubleshooting",
+      "target": "references_snapshot_refs_ref_not_found_error",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_ref_not_found_error",
+      "target": "references_snapshot_refs_codeblock_13",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_troubleshooting",
+      "target": "references_snapshot_refs_element_not_visible_in_snapshot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L174",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_element_not_visible_in_snapshot",
+      "target": "references_snapshot_refs_codeblock_14",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_troubleshooting",
+      "target": "references_snapshot_refs_too_many_elements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L186",
+      "weight": 1.0
+    },
+    {
+      "source": "references_snapshot_refs_too_many_elements",
+      "target": "references_snapshot_refs_codeblock_15",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/.agents/skills/agent-browser/references/snapshot-refs.md",
+      "source_location": "L188",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

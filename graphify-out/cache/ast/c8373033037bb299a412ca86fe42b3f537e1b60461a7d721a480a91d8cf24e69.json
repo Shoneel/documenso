@@ -1,0 +1,1279 @@
+{
+  "nodes": [
+    {
+      "id": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_maintenance_backups_mdx",
+      "label": "backups.mdx",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L1"
+    },
+    {
+      "id": "maintenance_backups_what_to_back_up",
+      "label": "What to Back Up",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L10"
+    },
+    {
+      "id": "maintenance_backups_data_stored_in_postgresql",
+      "label": "Data Stored in PostgreSQL",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L25"
+    },
+    {
+      "id": "maintenance_backups_database_backups",
+      "label": "Database Backups",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L41"
+    },
+    {
+      "id": "maintenance_backups_using_pg_dump",
+      "label": "Using pg_dump",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L43"
+    },
+    {
+      "id": "maintenance_backups_codeblock_1",
+      "label": "code:bash (pg_dump -h localhost -U documenso -d documenso -F c -f docum)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L58"
+    },
+    {
+      "id": "maintenance_backups_codeblock_2",
+      "label": "code:bash (docker compose exec database pg_dump -U documenso -F c docum)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L65"
+    },
+    {
+      "id": "maintenance_backups_backup_with_timestamp",
+      "label": "Backup with Timestamp",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L72"
+    },
+    {
+      "id": "maintenance_backups_codeblock_3",
+      "label": "code:bash (pg_dump -h localhost -U documenso -d documenso -F c \\)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L76"
+    },
+    {
+      "id": "maintenance_backups_plain_sql_backup",
+      "label": "Plain SQL Backup",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L81"
+    },
+    {
+      "id": "maintenance_backups_codeblock_4",
+      "label": "code:bash (pg_dump -h localhost -U documenso -d documenso -F p -f docum)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L85"
+    },
+    {
+      "id": "maintenance_backups_compressed_backup",
+      "label": "Compressed Backup",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L89"
+    },
+    {
+      "id": "maintenance_backups_codeblock_5",
+      "label": "code:bash (pg_dump -h localhost -U documenso -d documenso | gzip > docu)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L93"
+    },
+    {
+      "id": "maintenance_backups_certificate_backups",
+      "label": "Certificate Backups",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L99"
+    },
+    {
+      "id": "maintenance_backups_locate_your_certificate",
+      "label": "Locate Your Certificate",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L103"
+    },
+    {
+      "id": "maintenance_backups_codeblock_6",
+      "label": "code:bash (echo $NEXT_PRIVATE_SIGNING_LOCAL_FILE_PATH)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L110"
+    },
+    {
+      "id": "maintenance_backups_codeblock_7",
+      "label": "code:bash (echo $NEXT_PRIVATE_SIGNING_LOCAL_FILE_CONTENTS)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L117"
+    },
+    {
+      "id": "maintenance_backups_back_up_certificate",
+      "label": "Back Up Certificate",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L124"
+    },
+    {
+      "id": "maintenance_backups_codeblock_8",
+      "label": "code:bash (cp /opt/documenso/cert.p12 /backup/documenso/cert.p12)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L131"
+    },
+    {
+      "id": "maintenance_backups_codeblock_9",
+      "label": "code:bash (echo \"$NEXT_PRIVATE_SIGNING_LOCAL_FILE_CONTENTS\" | base64 -d)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L140"
+    },
+    {
+      "id": "maintenance_backups_store_certificate_passphrase",
+      "label": "Store Certificate Passphrase",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L147"
+    },
+    {
+      "id": "maintenance_backups_storage_backups_s3",
+      "label": "Storage Backups (S3)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L158"
+    },
+    {
+      "id": "maintenance_backups_codeblock_10",
+      "label": "code:bash (aws s3api put-bucket-versioning \\)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L167"
+    },
+    {
+      "id": "maintenance_backups_codeblock_11",
+      "label": "code:bash (aws s3 sync s3://your-documenso-bucket s3://your-backup-buck)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L175"
+    },
+    {
+      "id": "maintenance_backups_codeblock_12",
+      "label": "code:bash (aws s3 sync s3://your-bucket /backup/documenso/documents/ \\)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L186"
+    },
+    {
+      "id": "maintenance_backups_cross_region_replication",
+      "label": "Cross-Region Replication",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L194"
+    },
+    {
+      "id": "maintenance_backups_automated_backup_script",
+      "label": "Automated Backup Script",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L200"
+    },
+    {
+      "id": "maintenance_backups_codeblock_13",
+      "label": "code:bash (#!/bin/bash)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L207"
+    },
+    {
+      "id": "maintenance_backups_codeblock_14",
+      "label": "code:bash (#!/bin/bash)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L267"
+    },
+    {
+      "id": "maintenance_backups_codeblock_15",
+      "label": "code:bash (chmod +x /usr/local/bin/documenso-backup.sh)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L297"
+    },
+    {
+      "id": "maintenance_backups_backup_retention",
+      "label": "Backup Retention",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L303"
+    },
+    {
+      "id": "maintenance_backups_recommended_retention_schedule",
+      "label": "Recommended Retention Schedule",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L307"
+    },
+    {
+      "id": "maintenance_backups_retention_script",
+      "label": "Retention Script",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L316"
+    },
+    {
+      "id": "maintenance_backups_codeblock_16",
+      "label": "code:bash (# Remove hourly backups older than 24 hours)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L320"
+    },
+    {
+      "id": "maintenance_backups_schedule_backups",
+      "label": "Schedule Backups",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L334"
+    },
+    {
+      "id": "maintenance_backups_codeblock_17",
+      "label": "code:block17 (# Daily backup at 2:00 AM)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L341"
+    },
+    {
+      "id": "maintenance_backups_codeblock_18",
+      "label": "code:ini ([Unit])",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L354"
+    },
+    {
+      "id": "maintenance_backups_codeblock_19",
+      "label": "code:ini ([Unit])",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L366"
+    },
+    {
+      "id": "maintenance_backups_codeblock_20",
+      "label": "code:bash (systemctl daemon-reload)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L380"
+    },
+    {
+      "id": "maintenance_backups_restore_procedures",
+      "label": "Restore Procedures",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L390"
+    },
+    {
+      "id": "maintenance_backups_restore_database",
+      "label": "Restore Database",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L392"
+    },
+    {
+      "id": "maintenance_backups_codeblock_21",
+      "label": "code:bash (pg_restore -h localhost -U documenso -d documenso -c documen)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L404"
+    },
+    {
+      "id": "maintenance_backups_codeblock_22",
+      "label": "code:bash (docker compose exec -T database pg_restore -U documenso -d d)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L410"
+    },
+    {
+      "id": "maintenance_backups_codeblock_23",
+      "label": "code:bash (psql -h localhost -U documenso -d documenso < documenso_back)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L417"
+    },
+    {
+      "id": "maintenance_backups_codeblock_24",
+      "label": "code:bash (gunzip -c documenso_backup.sql.gz | psql -h localhost -U doc)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L423"
+    },
+    {
+      "id": "maintenance_backups_restore_certificate",
+      "label": "Restore Certificate",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L430"
+    },
+    {
+      "id": "maintenance_backups_codeblock_25",
+      "label": "code:bash (cp /backup/documenso/cert.p12 /opt/documenso/cert.p12)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L434"
+    },
+    {
+      "id": "maintenance_backups_restore_s3_documents",
+      "label": "Restore S3 Documents",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L440"
+    },
+    {
+      "id": "maintenance_backups_codeblock_26",
+      "label": "code:bash (aws s3 sync /backup/documenso/documents/ s3://your-documenso)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L444"
+    },
+    {
+      "id": "maintenance_backups_full_restore_procedure",
+      "label": "Full Restore Procedure",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L448"
+    },
+    {
+      "id": "maintenance_backups_stop_documenso",
+      "label": "Stop Documenso",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L453"
+    },
+    {
+      "id": "maintenance_backups_codeblock_27",
+      "label": "code:bash (docker compose stop documenso)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L455"
+    },
+    {
+      "id": "maintenance_backups_restore_the_database",
+      "label": "Restore the database",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L461"
+    },
+    {
+      "id": "maintenance_backups_codeblock_28",
+      "label": "code:bash (docker compose exec -T database pg_restore -U documenso -d d)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L463"
+    },
+    {
+      "id": "maintenance_backups_restore_the_certificate",
+      "label": "Restore the certificate",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L469"
+    },
+    {
+      "id": "maintenance_backups_codeblock_29",
+      "label": "code:bash (docker compose cp cert.p12 documenso:/opt/documenso/cert.p12)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L471"
+    },
+    {
+      "id": "maintenance_backups_restore_s3_documents_if_applicable",
+      "label": "Restore S3 documents (if applicable)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L477"
+    },
+    {
+      "id": "maintenance_backups_codeblock_30",
+      "label": "code:bash (aws s3 sync /backup/documents/ s3://your-bucket)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L479"
+    },
+    {
+      "id": "maintenance_backups_start_documenso",
+      "label": "Start Documenso",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L485"
+    },
+    {
+      "id": "maintenance_backups_codeblock_31",
+      "label": "code:bash (docker compose start documenso)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L487"
+    },
+    {
+      "id": "maintenance_backups_verify_the_restore",
+      "label": "Verify the restore",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L493"
+    },
+    {
+      "id": "maintenance_backups_codeblock_32",
+      "label": "code:bash (curl http://localhost:3000/api/health)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L495"
+    },
+    {
+      "id": "maintenance_backups_testing_backups",
+      "label": "Testing Backups",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L504"
+    },
+    {
+      "id": "maintenance_backups_monthly_restore_test",
+      "label": "Monthly Restore Test",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L510"
+    },
+    {
+      "id": "maintenance_backups_create_a_test_environment",
+      "label": "Create a test environment",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L515"
+    },
+    {
+      "id": "maintenance_backups_restore_backup",
+      "label": "Restore backup",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L521"
+    },
+    {
+      "id": "maintenance_backups_verify",
+      "label": "Verify",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L527"
+    },
+    {
+      "id": "maintenance_backups_document_any_issues",
+      "label": "Document any issues",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L535"
+    },
+    {
+      "id": "maintenance_backups_tear_down",
+      "label": "Tear down",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L541"
+    },
+    {
+      "id": "maintenance_backups_automated_restore_verification",
+      "label": "Automated Restore Verification",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L548"
+    },
+    {
+      "id": "maintenance_backups_codeblock_33",
+      "label": "code:bash (#!/bin/bash)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L552"
+    },
+    {
+      "id": "maintenance_backups_backup_integrity_checks",
+      "label": "Backup Integrity Checks",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L575"
+    },
+    {
+      "id": "maintenance_backups_codeblock_34",
+      "label": "code:bash (# Check checksum)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L579"
+    },
+    {
+      "id": "maintenance_backups_managed_database_backups",
+      "label": "Managed Database Backups",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L589"
+    },
+    {
+      "id": "maintenance_backups_off_site_backup_storage",
+      "label": "Off-Site Backup Storage",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L629"
+    },
+    {
+      "id": "maintenance_backups_options",
+      "label": "Options",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L633"
+    },
+    {
+      "id": "maintenance_backups_off_site_upload",
+      "label": "Off-Site Upload",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L642"
+    },
+    {
+      "id": "maintenance_backups_codeblock_35",
+      "label": "code:bash (aws s3 cp documenso_backup.tar.gz s3://your-backup-bucket/do)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L647"
+    },
+    {
+      "id": "maintenance_backups_codeblock_36",
+      "label": "code:bash (# Encrypt)",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L656"
+    },
+    {
+      "id": "maintenance_backups_see_also",
+      "label": "See Also",
+      "file_type": "document",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L669"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_maintenance_backups_mdx",
+      "target": "maintenance_backups_what_to_back_up",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_what_to_back_up",
+      "target": "maintenance_backups_data_stored_in_postgresql",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_maintenance_backups_mdx",
+      "target": "maintenance_backups_database_backups",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_database_backups",
+      "target": "maintenance_backups_using_pg_dump",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_using_pg_dump",
+      "target": "maintenance_backups_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_using_pg_dump",
+      "target": "maintenance_backups_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_database_backups",
+      "target": "maintenance_backups_backup_with_timestamp",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_backup_with_timestamp",
+      "target": "maintenance_backups_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_database_backups",
+      "target": "maintenance_backups_plain_sql_backup",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_plain_sql_backup",
+      "target": "maintenance_backups_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_database_backups",
+      "target": "maintenance_backups_compressed_backup",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_compressed_backup",
+      "target": "maintenance_backups_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_maintenance_backups_mdx",
+      "target": "maintenance_backups_certificate_backups",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_certificate_backups",
+      "target": "maintenance_backups_locate_your_certificate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_locate_your_certificate",
+      "target": "maintenance_backups_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_locate_your_certificate",
+      "target": "maintenance_backups_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_certificate_backups",
+      "target": "maintenance_backups_back_up_certificate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_back_up_certificate",
+      "target": "maintenance_backups_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_back_up_certificate",
+      "target": "maintenance_backups_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_certificate_backups",
+      "target": "maintenance_backups_store_certificate_passphrase",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_maintenance_backups_mdx",
+      "target": "maintenance_backups_storage_backups_s3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L158",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_storage_backups_s3",
+      "target": "maintenance_backups_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_storage_backups_s3",
+      "target": "maintenance_backups_codeblock_11",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L175",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_storage_backups_s3",
+      "target": "maintenance_backups_codeblock_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L186",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_storage_backups_s3",
+      "target": "maintenance_backups_cross_region_replication",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L194",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_maintenance_backups_mdx",
+      "target": "maintenance_backups_automated_backup_script",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L200",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_automated_backup_script",
+      "target": "maintenance_backups_codeblock_13",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L207",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_automated_backup_script",
+      "target": "maintenance_backups_codeblock_14",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L267",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_automated_backup_script",
+      "target": "maintenance_backups_codeblock_15",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L297",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_maintenance_backups_mdx",
+      "target": "maintenance_backups_backup_retention",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L303",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_backup_retention",
+      "target": "maintenance_backups_recommended_retention_schedule",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L307",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_backup_retention",
+      "target": "maintenance_backups_retention_script",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L316",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_retention_script",
+      "target": "maintenance_backups_codeblock_16",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L320",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_backup_retention",
+      "target": "maintenance_backups_schedule_backups",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L334",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_schedule_backups",
+      "target": "maintenance_backups_codeblock_17",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L341",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_schedule_backups",
+      "target": "maintenance_backups_codeblock_18",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L354",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_schedule_backups",
+      "target": "maintenance_backups_codeblock_19",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L366",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_schedule_backups",
+      "target": "maintenance_backups_codeblock_20",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L380",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_maintenance_backups_mdx",
+      "target": "maintenance_backups_restore_procedures",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L390",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_procedures",
+      "target": "maintenance_backups_restore_database",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L392",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_database",
+      "target": "maintenance_backups_codeblock_21",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L404",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_database",
+      "target": "maintenance_backups_codeblock_22",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L410",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_database",
+      "target": "maintenance_backups_codeblock_23",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L417",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_database",
+      "target": "maintenance_backups_codeblock_24",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L423",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_procedures",
+      "target": "maintenance_backups_restore_certificate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L430",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_certificate",
+      "target": "maintenance_backups_codeblock_25",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L434",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_procedures",
+      "target": "maintenance_backups_restore_s3_documents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L440",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_s3_documents",
+      "target": "maintenance_backups_codeblock_26",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L444",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_procedures",
+      "target": "maintenance_backups_full_restore_procedure",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L448",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_procedures",
+      "target": "maintenance_backups_stop_documenso",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L453",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_stop_documenso",
+      "target": "maintenance_backups_codeblock_27",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L455",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_procedures",
+      "target": "maintenance_backups_restore_the_database",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L461",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_the_database",
+      "target": "maintenance_backups_codeblock_28",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L463",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_procedures",
+      "target": "maintenance_backups_restore_the_certificate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L469",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_the_certificate",
+      "target": "maintenance_backups_codeblock_29",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L471",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_procedures",
+      "target": "maintenance_backups_restore_s3_documents_if_applicable",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L477",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_s3_documents_if_applicable",
+      "target": "maintenance_backups_codeblock_30",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L479",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_procedures",
+      "target": "maintenance_backups_start_documenso",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L485",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_start_documenso",
+      "target": "maintenance_backups_codeblock_31",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L487",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_restore_procedures",
+      "target": "maintenance_backups_verify_the_restore",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L493",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_verify_the_restore",
+      "target": "maintenance_backups_codeblock_32",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L495",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_maintenance_backups_mdx",
+      "target": "maintenance_backups_testing_backups",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L504",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_testing_backups",
+      "target": "maintenance_backups_monthly_restore_test",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L510",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_testing_backups",
+      "target": "maintenance_backups_create_a_test_environment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L515",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_testing_backups",
+      "target": "maintenance_backups_restore_backup",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L521",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_testing_backups",
+      "target": "maintenance_backups_verify",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L527",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_testing_backups",
+      "target": "maintenance_backups_document_any_issues",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L535",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_testing_backups",
+      "target": "maintenance_backups_tear_down",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L541",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_testing_backups",
+      "target": "maintenance_backups_automated_restore_verification",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L548",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_automated_restore_verification",
+      "target": "maintenance_backups_codeblock_33",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L552",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_testing_backups",
+      "target": "maintenance_backups_backup_integrity_checks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L575",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_backup_integrity_checks",
+      "target": "maintenance_backups_codeblock_34",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L579",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_maintenance_backups_mdx",
+      "target": "maintenance_backups_managed_database_backups",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L589",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_maintenance_backups_mdx",
+      "target": "maintenance_backups_off_site_backup_storage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L629",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_off_site_backup_storage",
+      "target": "maintenance_backups_options",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L633",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_off_site_backup_storage",
+      "target": "maintenance_backups_off_site_upload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L642",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_off_site_upload",
+      "target": "maintenance_backups_codeblock_35",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L647",
+      "weight": 1.0
+    },
+    {
+      "source": "maintenance_backups_off_site_upload",
+      "target": "maintenance_backups_codeblock_36",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L656",
+      "weight": 1.0
+    },
+    {
+      "source": "home_shonzi_waf_dev_code_documenso_apps_docs_content_docs_self_hosting_maintenance_backups_mdx",
+      "target": "maintenance_backups_see_also",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/maintenance/backups.mdx",
+      "source_location": "L669",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
