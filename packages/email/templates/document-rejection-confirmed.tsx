@@ -1,9 +1,9 @@
 import { msg } from '@lingui/core/macro';
 import { useLingui } from '@lingui/react';
 
-import { Body, Container, Head, Html, Img, Preview, Section } from '../components';
-import { useBranding } from '../providers/branding';
+import { Body, Container, Head, Hr, Html, Preview, Section } from '../components';
 import { TemplateDocumentRejectionConfirmed } from '../template-components/template-document-rejection-confirmed';
+import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 
 export type DocumentRejectionConfirmedEmailProps = {
@@ -22,7 +22,6 @@ export function DocumentRejectionConfirmedEmail({
   assetBaseUrl = 'http://localhost:3002',
 }: DocumentRejectionConfirmedEmailProps) {
   const { _ } = useLingui();
-  const branding = useBranding();
 
   const previewText = _(msg`You have rejected the document '${documentName}'`);
 
@@ -35,16 +34,12 @@ export function DocumentRejectionConfirmedEmail({
       <Head />
       <Preview>{previewText}</Preview>
 
-      <Body className="mx-auto my-auto bg-white font-sans">
-        <Section>
-          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-slate-200 border-solid p-4 backdrop-blur-sm">
-            <Section>
-              {branding.brandingEnabled && branding.brandingLogo ? (
-                <Img src={branding.brandingLogo} alt="Branding Logo" className="mb-4 h-6" />
-              ) : (
-                <Img src={getAssetUrl('/static/logo.png')} alt="Documenso Logo" className="mb-4 h-6" />
-              )}
+      <Body className="bg-[#f9fafb] font-sans">
+        <Section className="bg-white">
+          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
 
+          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
+            <Section className="p-2">
               <TemplateDocumentRejectionConfirmed
                 recipientName={recipientName}
                 documentName={documentName}
@@ -54,9 +49,10 @@ export function DocumentRejectionConfirmedEmail({
             </Section>
           </Container>
 
-          <Container className="mx-auto max-w-xl">
+          <Hr className="mx-auto mt-12 max-w-xl" />
+          <Section className="bg-[#f3f4f6] px-8 py-6">
             <TemplateFooter />
-          </Container>
+          </Section>
         </Section>
       </Body>
     </Html>

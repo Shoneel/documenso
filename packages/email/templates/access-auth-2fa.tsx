@@ -1,9 +1,9 @@
 import { msg } from '@lingui/core/macro';
 import { useLingui } from '@lingui/react';
 
-import { Body, Container, Head, Html, Img, Preview, Section } from '../components';
-import { useBranding } from '../providers/branding';
+import { Body, Container, Head, Html, Preview, Section } from '../components';
 import { TemplateAccessAuth2FA } from '../template-components/template-access-auth-2fa';
+import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 
 export type AccessAuth2FAEmailTemplateProps = {
@@ -25,8 +25,6 @@ export const AccessAuth2FAEmailTemplate = ({
 }: AccessAuth2FAEmailTemplateProps) => {
   const { _ } = useLingui();
 
-  const branding = useBranding();
-
   const previewText = msg`Your verification code is ${code}`;
 
   const getAssetUrl = (path: string) => {
@@ -38,16 +36,12 @@ export const AccessAuth2FAEmailTemplate = ({
       <Head />
       <Preview>{_(previewText)}</Preview>
 
-      <Body className="mx-auto my-auto bg-white font-sans">
+      <Body className="bg-[#f9fafb] font-sans">
         <Section>
-          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-slate-200 border-solid p-4 backdrop-blur-sm">
-            <Section>
-              {branding.brandingEnabled && branding.brandingLogo ? (
-                <Img src={branding.brandingLogo} alt="Branding Logo" className="mb-4 h-6" />
-              ) : (
-                <Img src={getAssetUrl('/static/logo.png')} alt="Documenso Logo" className="mb-4 h-6" />
-              )}
+          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
 
+          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
+            <Section>
               <TemplateAccessAuth2FA
                 documentTitle={documentTitle}
                 code={code}
@@ -60,10 +54,9 @@ export const AccessAuth2FAEmailTemplate = ({
           </Container>
 
           <div className="mx-auto mt-12 max-w-xl" />
-
-          <Container className="mx-auto max-w-xl">
-            <TemplateFooter isDocument={false} />
-          </Container>
+          <Section className="bg-[#f3f4f6] px-8 py-6">
+            <TemplateFooter />
+          </Section>
         </Section>
       </Body>
     </Html>

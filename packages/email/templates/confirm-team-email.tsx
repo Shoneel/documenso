@@ -3,8 +3,8 @@ import { msg } from '@lingui/core/macro';
 import { useLingui } from '@lingui/react';
 import { Trans } from '@lingui/react/macro';
 
-import { Body, Button, Container, Head, Hr, Html, Img, Link, Preview, Section, Text } from '../components';
-import { useBranding } from '../providers/branding';
+import { Body, Button, Container, Head, Hr, Html, Link, Preview, Section, Text } from '../components';
+import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 import TemplateImage from '../template-components/template-image';
 
@@ -24,24 +24,19 @@ export const ConfirmTeamEmailTemplate = ({
   token = '',
 }: ConfirmTeamEmailProps) => {
   const { _ } = useLingui();
-  const branding = useBranding();
 
-  const previewText = msg`Accept team email request for ${teamName} on Documenso`;
+  const previewText = msg`Accept team email request for ${teamName} on WAF eSign`;
 
   return (
     <Html>
       <Head />
       <Preview>{_(previewText)}</Preview>
 
-      <Body className="mx-auto my-auto font-sans">
+      <Body className="bg-[#f9fafb] font-sans">
         <Section className="bg-white">
-          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-slate-200 border-solid px-2 pt-2 backdrop-blur-sm">
-            {branding.brandingEnabled && branding.brandingLogo ? (
-              <Img src={branding.brandingLogo} alt="Branding Logo" className="mb-4 h-6 p-2" />
-            ) : (
-              <TemplateImage assetBaseUrl={assetBaseUrl} className="mb-4 h-6 p-2" staticAsset="logo.png" />
-            )}
+          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
 
+          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
             <Section>
               <TemplateImage className="mx-auto" assetBaseUrl={assetBaseUrl} staticAsset="mail-open.png" />
             </Section>
@@ -54,7 +49,7 @@ export const ConfirmTeamEmailTemplate = ({
               <Text className="text-center text-base">
                 <Trans>
                   <span className="font-bold">{teamName}</span> has requested to use your email address for their team
-                  on Documenso.
+                  on WAF eSign.
                 </Trans>
               </Text>
 
@@ -83,7 +78,7 @@ export const ConfirmTeamEmailTemplate = ({
 
                 <Text className="mt-2 text-sm">
                   <Trans>
-                    You can revoke access at any time in your team settings on Documenso{' '}
+                    You can revoke access at any time in your team settings on WAF eSign{' '}
                     <Link href={`${baseUrl}/settings/teams`}>here</Link>.
                   </Trans>
                 </Text>
@@ -91,7 +86,7 @@ export const ConfirmTeamEmailTemplate = ({
 
               <Section className="mt-8 mb-6 text-center">
                 <Button
-                  className="inline-flex items-center justify-center rounded-lg bg-documenso-500 px-6 py-3 text-center font-medium text-black text-sm no-underline"
+                  className="inline-flex items-center justify-center rounded-md bg-[#3b82f6] px-8 py-3 text-center font-semibold text-white no-underline"
                   href={`${baseUrl}/team/verify/email/${token}`}
                 >
                   <Trans>Accept</Trans>
@@ -105,10 +100,9 @@ export const ConfirmTeamEmailTemplate = ({
           </Container>
 
           <Hr className="mx-auto mt-12 max-w-xl" />
-
-          <Container className="mx-auto max-w-xl">
-            <TemplateFooter isDocument={false} />
-          </Container>
+          <Section className="bg-[#f3f4f6] px-8 py-6">
+            <TemplateFooter />
+          </Section>
         </Section>
       </Body>
     </Html>

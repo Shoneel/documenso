@@ -1,8 +1,8 @@
 {
   "/home/shonzi/WAF/dev/code/documenso/.graphify_detect.json": {
-    "size": 280027,
-    "mtime_ns": 1779935090087976625,
-    "hash": "cb93006d66dc62c18df495ed8280c87dcab44c6951e95b7ea2ee3911ef31f46b"
+    "size": 296896,
+    "mtime_ns": 1780454759767461457,
+    "hash": "c5dc1e5d6e58117ae48727c5b0ef5fdfa2ee039656d857cb5dc616acd8169ad7"
   },
   "/home/shonzi/WAF/dev/code/documenso/package.json": {
     "size": 4433,
@@ -66,7 +66,7 @@
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/husky.sh": {
     "size": 160,
-    "mtime_ns": 1780435290215979406,
+    "mtime_ns": 1780466230854324174,
     "hash": "6db0aa99aece6ebd17bbc27c5e5287a462fb39cc4a2ca3a82a6277c166bdb3a0"
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/ui/package.json": {
@@ -1015,9 +1015,9 @@
     "hash": "0d8f5f0312a4918e9765918955193290cc37a2065c4d5ffe7008a45503e06732"
   },
   "/home/shonzi/WAF/dev/code/documenso/.codex/hooks.json": {
-    "size": 242,
-    "mtime_ns": 1779935407138317783,
-    "hash": "a12e17974d3966eb180b57f5406d68db4a7bc3400bc4278398ec3873d6bf713c"
+    "size": 243,
+    "mtime_ns": 1780454759767461457,
+    "hash": "ce3d6272bb0189c0d07b961a4f4cb839368b400e5c433ad67aff06782e852ecb"
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/docs/cli.json": {
     "size": 301,

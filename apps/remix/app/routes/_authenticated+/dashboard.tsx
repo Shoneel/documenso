@@ -13,15 +13,11 @@ import { Plural, Trans, useLingui } from '@lingui/react/macro';
 import { Building2Icon, InboxIcon, SettingsIcon, UsersIcon } from 'lucide-react';
 import { DateTime } from 'luxon';
 import { useMemo } from 'react';
-import { Link, redirect } from 'react-router';
+import { Link } from 'react-router';
 
 import { OrganisationInvitations } from '~/components/general/organisations/organisation-invitations';
 import { InboxTable } from '~/components/tables/inbox-table';
 import { appMetaTags } from '~/utils/meta';
-
-export function loader() {
-  throw redirect('/');
-}
 
 export function meta() {
   return appMetaTags(msg`Dashboard`);

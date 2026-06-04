@@ -1,8 +1,8 @@
 import { msg } from '@lingui/core/macro';
 import { useLingui } from '@lingui/react';
 
-import { Body, Container, Head, Hr, Html, Img, Preview, Section, Text } from '../components';
-import { useBranding } from '../providers/branding';
+import { Body, Container, Head, Hr, Html, Preview, Section, Text } from '../components';
+import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 import TemplateImage from '../template-components/template-image';
 
@@ -22,7 +22,6 @@ export const OrganisationDeleteEmailTemplate = ({
   deletedByAdmin = false,
 }: OrganisationDeleteEmailProps) => {
   const { _ } = useLingui();
-  const branding = useBranding();
 
   const previewText = msg`Your organisation has been deleted`;
 
@@ -37,15 +36,11 @@ export const OrganisationDeleteEmailTemplate = ({
       <Head />
       <Preview>{_(previewText)}</Preview>
 
-      <Body className="mx-auto my-auto font-sans">
+      <Body className="bg-[#f9fafb] font-sans">
         <Section className="bg-white text-slate-500">
-          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-slate-200 border-solid p-2 backdrop-blur-sm">
-            {branding.brandingEnabled && branding.brandingLogo ? (
-              <Img src={branding.brandingLogo} alt="Branding Logo" className="mb-4 h-6 p-2" />
-            ) : (
-              <TemplateImage assetBaseUrl={assetBaseUrl} className="mb-4 h-6 p-2" staticAsset="logo.png" />
-            )}
+          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
 
+          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
             <Section>
               <TemplateImage className="mx-auto" assetBaseUrl={assetBaseUrl} staticAsset="delete-team.png" />
             </Section>
@@ -62,10 +57,9 @@ export const OrganisationDeleteEmailTemplate = ({
           </Container>
 
           <Hr className="mx-auto mt-12 max-w-xl" />
-
-          <Container className="mx-auto max-w-xl">
-            <TemplateFooter isDocument={false} />
-          </Container>
+          <Section className="bg-[#f3f4f6] px-8 py-6">
+            <TemplateFooter />
+          </Section>
         </Section>
       </Body>
     </Html>

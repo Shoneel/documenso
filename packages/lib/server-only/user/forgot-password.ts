@@ -47,5 +47,6 @@ export const forgotPassword = async ({ email }: { email: string }) => {
 
   await sendForgotPassword({
     userId: user.id,
-  }).catch((err) => console.error(err));
+    token,
+  });
 };

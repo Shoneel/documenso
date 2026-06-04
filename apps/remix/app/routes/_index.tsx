@@ -41,7 +41,7 @@ export async function loader({ request }: Route.LoaderArgs) {
     }
 
     if (!currentTeam) {
-      throw redirect('/inbox');
+      throw redirect('/dashboard');
     }
 
     throw redirect(formatDocumentsPath(currentTeam.url));

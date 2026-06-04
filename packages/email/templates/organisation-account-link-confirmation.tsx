@@ -2,8 +2,8 @@ import { msg } from '@lingui/core/macro';
 import { useLingui } from '@lingui/react';
 import { Trans } from '@lingui/react/macro';
 
-import { Body, Button, Container, Head, Hr, Html, Img, Preview, Section, Text } from '../components';
-import { useBranding } from '../providers/branding';
+import { Body, Button, Container, Head, Hr, Html, Preview, Section, Text } from '../components';
+import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 import TemplateImage from '../template-components/template-image';
 
@@ -21,26 +21,21 @@ export const OrganisationAccountLinkConfirmationTemplate = ({
   assetBaseUrl = 'http://localhost:3002',
 }: OrganisationAccountLinkConfirmationTemplateProps) => {
   const { _ } = useLingui();
-  const branding = useBranding();
 
   const previewText =
     type === 'create'
       ? msg`A request has been made to create an account for you`
-      : msg`A request has been made to link your Documenso account`;
+      : msg`A request has been made to link your WAF eSign account`;
 
   return (
     <Html>
       <Head />
       <Preview>{_(previewText)}</Preview>
-      <Body className="mx-auto my-auto font-sans">
+      <Body className="bg-[#f9fafb] font-sans">
         <Section className="bg-white">
-          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-slate-200 border-solid px-2 pt-2 backdrop-blur-sm">
-            {branding.brandingEnabled && branding.brandingLogo ? (
-              <Img src={branding.brandingLogo} alt="Branding Logo" className="mb-4 h-6 p-2" />
-            ) : (
-              <TemplateImage assetBaseUrl={assetBaseUrl} className="mb-4 h-6 p-2" staticAsset="logo.png" />
-            )}
+          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
 
+          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
             <Section>
               <TemplateImage className="mx-auto h-12 w-12" assetBaseUrl={assetBaseUrl} staticAsset="building-2.png" />
             </Section>
@@ -50,7 +45,7 @@ export const OrganisationAccountLinkConfirmationTemplate = ({
                 {type === 'create' ? (
                   <Trans>Account creation request</Trans>
                 ) : (
-                  <Trans>Link your Documenso account</Trans>
+                  <Trans>Link your WAF eSign account</Trans>
                 )}
               </Text>
 
@@ -62,7 +57,7 @@ export const OrganisationAccountLinkConfirmationTemplate = ({
                   </Trans>
                 ) : (
                   <Trans>
-                    <span className="font-bold">{organisationName}</span> has requested to link your current Documenso
+                    <span className="font-bold">{organisationName}</span> has requested to link your current WAF eSign
                     account to their organisation.
                   </Trans>
                 )}
@@ -91,7 +86,7 @@ export const OrganisationAccountLinkConfirmationTemplate = ({
 
                 <Text className="mt-2 text-sm">
                   <Trans>
-                    You can unlink your account at any time in your security settings on Documenso{' '}
+                    You can unlink your account at any time in your security settings on WAF eSign{' '}
                     <Link href={`${assetBaseUrl}/settings/security/linked-accounts`}>here.</Link>
                   </Trans>
                 </Text>
@@ -99,7 +94,7 @@ export const OrganisationAccountLinkConfirmationTemplate = ({
 
               <Section className="mt-8 mb-6 text-center">
                 <Button
-                  className="inline-flex items-center justify-center rounded-lg bg-documenso-500 px-6 py-3 text-center font-medium text-black text-sm no-underline"
+                  className="inline-flex items-center justify-center rounded-md bg-[#3b82f6] px-8 py-3 text-center font-semibold text-white no-underline"
                   href={confirmationLink}
                 >
                   <Trans>Review request</Trans>
@@ -113,10 +108,9 @@ export const OrganisationAccountLinkConfirmationTemplate = ({
           </Container>
 
           <Hr className="mx-auto mt-12 max-w-xl" />
-
-          <Container className="mx-auto max-w-xl">
-            <TemplateFooter isDocument={false} />
-          </Container>
+          <Section className="bg-[#f3f4f6] px-8 py-6">
+            <TemplateFooter />
+          </Section>
         </Section>
       </Body>
     </Html>

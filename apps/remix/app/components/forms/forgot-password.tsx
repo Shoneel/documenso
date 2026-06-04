@@ -39,19 +39,27 @@ export const ForgotPasswordForm = ({ className }: ForgotPasswordFormProps) => {
   const isSubmitting = form.formState.isSubmitting;
 
   const onFormSubmit = async ({ email }: TForgotPasswordFormSchema) => {
-    await authClient.emailPassword.forgotPassword({ email }).catch(() => null);
+    try {
+      await authClient.emailPassword.forgotPassword({ email });
 
-    await navigate('/check-email');
+      await navigate('/check-email');
 
-    toast({
-      title: _(msg`Reset email sent`),
-      description: _(
-        msg`A password reset email has been sent, if you have an account you should see it in your inbox shortly.`,
-      ),
-      duration: 5000,
-    });
+      toast({
+        title: _(msg`Reset email sent`),
+        description: _(
+          msg`A password reset email has been sent, if you have an account you should see it in your inbox shortly.`,
+        ),
+        duration: 5000,
+      });
 
-    form.reset();
+      form.reset();
+    } catch {
+      toast({
+        variant: 'destructive',
+        title: _(msg`An error occurred while sending your password reset email`),
+        description: _(msg`Please try again in a moment.`),
+      });
+    }
   };
 
   return (

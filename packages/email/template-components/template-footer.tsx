@@ -1,49 +1,16 @@
-import { Trans } from '@lingui/react/macro';
-
-import { Link, Section, Text } from '../components';
-import { useBranding } from '../providers/branding';
+import { Section, Text } from '../components';
 
 export type TemplateFooterProps = {
   isDocument?: boolean;
 };
 
 export const TemplateFooter = ({ isDocument = true }: TemplateFooterProps) => {
-  const branding = useBranding();
-
   return (
     <Section>
-      {isDocument && !branding.brandingHidePoweredBy && (
-        <Text className="my-4 text-base text-slate-400">
-          <Trans>
-            This document was sent using{' '}
-            <Link className="text-[#7AC455]" href="https://documen.so/mail-footer">
-              Documenso
-            </Link>
-            .
-          </Trans>
-        </Text>
-      )}
-
-      {branding.brandingEnabled && branding.brandingCompanyDetails && (
-        <Text className="my-8 text-slate-400 text-sm">
-          {branding.brandingCompanyDetails.split('\n').map((line, idx) => {
-            return (
-              <>
-                {idx > 0 && <br />}
-                {line}
-              </>
-            );
-          })}
-        </Text>
-      )}
-
-      {!branding.brandingEnabled && (
-        <Text className="my-8 text-slate-400 text-sm">
-          Documenso, Inc.
-          <br />
-          2261 Market Street, #5211, San Francisco, CA 94114, USA
-        </Text>
-      )}
+      <Text className="m-0 text-center text-[#6b7280] text-[12px] leading-5">
+        © 2026 Water Authority of Fiji. All Rights Reserved.&nbsp;&nbsp;•&nbsp;&nbsp;Developed by WAF ICT
+        &nbsp;&nbsp;•&nbsp;&nbsp;Development Build v1.1.0
+      </Text>
     </Section>
   );
 };

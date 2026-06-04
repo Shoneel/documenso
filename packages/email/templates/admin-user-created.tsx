@@ -4,6 +4,7 @@ import { useLingui } from '@lingui/react';
 import { Body, Container, Head, Html, Img, Preview, Section } from '../components';
 import type { TemplateAdminUserCreatedProps } from '../template-components/template-admin-user-created';
 import { TemplateAdminUserCreated } from '../template-components/template-admin-user-created';
+import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 
 export const AdminUserCreatedTemplate = ({
@@ -12,7 +13,7 @@ export const AdminUserCreatedTemplate = ({
 }: TemplateAdminUserCreatedProps) => {
   const { _ } = useLingui();
 
-  const previewText = msg`Set your password for Documenso`;
+  const previewText = msg`Set your password for WAF eSign`;
 
   const getAssetUrl = (path: string) => {
     return new URL(path, assetBaseUrl).toString();
@@ -22,20 +23,21 @@ export const AdminUserCreatedTemplate = ({
     <Html>
       <Head />
       <Preview>{_(previewText)}</Preview>
-      <Body className="mx-auto my-auto bg-white font-sans">
+      <Body className="bg-[#f9fafb] font-sans">
         <Section>
-          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-slate-200 border-solid p-4 backdrop-blur-sm">
+          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
+
+          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
             <Section>
-              <Img src={getAssetUrl('/static/logo.png')} alt="Documenso Logo" className="mb-4 h-6" />
+              <Img src={getAssetUrl('/static/logo.png')} alt="WAF eSign Logo" className="mb-4 h-6" />
 
               <TemplateAdminUserCreated resetPasswordLink={resetPasswordLink} assetBaseUrl={assetBaseUrl} />
             </Section>
           </Container>
           <div className="mx-auto mt-12 max-w-xl" />
-
-          <Container className="mx-auto max-w-xl">
-            <TemplateFooter isDocument={false} />
-          </Container>
+          <Section className="bg-[#f3f4f6] px-8 py-6">
+            <TemplateFooter />
+          </Section>
         </Section>
       </Body>
     </Html>

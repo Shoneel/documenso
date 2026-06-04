@@ -2,6 +2,7 @@ import { msg, Trans } from '@lingui/macro';
 import { useLingui } from '@lingui/react';
 
 import { Body, Container, Head, Html, Preview, Section, Text } from '../components';
+import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 
 export interface BulkSendCompleteEmailProps {
@@ -28,9 +29,11 @@ export const BulkSendCompleteEmail = ({
     <Html>
       <Head />
       <Preview>{_(msg`Bulk send operation complete for template "${templateName}"`)}</Preview>
-      <Body className="mx-auto my-auto bg-white font-sans">
+      <Body className="bg-[#f9fafb] font-sans">
         <Section>
-          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-slate-200 border-solid p-4 backdrop-blur-sm">
+          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
+
+          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
             <Section>
               <Text className="text-sm">
                 <Trans>Hi {userName},</Trans>
@@ -80,10 +83,9 @@ export const BulkSendCompleteEmail = ({
               </Text>
             </Section>
           </Container>
-
-          <Container className="mx-auto max-w-xl">
-            <TemplateFooter isDocument={false} />
-          </Container>
+          <Section className="bg-[#f3f4f6] px-8 py-6">
+            <TemplateFooter />
+          </Section>
         </Section>
       </Body>
     </Html>

@@ -39,11 +39,7 @@ export const TemplateDocumentSelfSigned = ({ documentName, assetBaseUrl }: Templ
         <Text className="mx-auto mt-1 mb-6 max-w-[80%] text-center text-base text-slate-400">
           <Trans>
             Create a{' '}
-            <Link
-              href={signUpUrl}
-              target="_blank"
-              className="whitespace-nowrap text-documenso-700 hover:text-documenso-600"
-            >
+            <Link href={signUpUrl} target="_blank" className="whitespace-nowrap text-[#1d4ed8] hover:text-[#1d4ed8]">
               free account
             </Link>{' '}
             to access your signed documents at any time.

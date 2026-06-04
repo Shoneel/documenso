@@ -4,9 +4,9 @@ import { useLingui } from '@lingui/react';
 import { Trans } from '@lingui/react/macro';
 import { RecipientRole } from '@prisma/client';
 
-import { Body, Button, Container, Head, Html, Img, Preview, Section, Text } from '../components';
-import { useBranding } from '../providers/branding';
+import { Body, Button, Container, Head, Html, Preview, Section, Text } from '../components';
 import TemplateDocumentImage from '../template-components/template-document-image';
+import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 
 export type DocumentCompletedEmailTemplateProps = {
@@ -25,7 +25,6 @@ export const DocumentCreatedFromDirectTemplateEmailTemplate = ({
   assetBaseUrl = 'http://localhost:3002',
 }: DocumentCompletedEmailTemplateProps) => {
   const { _ } = useLingui();
-  const branding = useBranding();
 
   const action = _(RECIPIENT_ROLES_DESCRIPTION[recipientRole].actioned).toLowerCase();
 
@@ -40,16 +39,12 @@ export const DocumentCreatedFromDirectTemplateEmailTemplate = ({
       <Head />
       <Preview>{_(previewText)}</Preview>
 
-      <Body className="mx-auto my-auto font-sans">
+      <Body className="bg-[#f9fafb] font-sans">
         <Section className="bg-white">
-          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-slate-200 border-solid p-2 backdrop-blur-sm">
-            <Section className="p-2">
-              {branding.brandingEnabled && branding.brandingLogo ? (
-                <Img src={branding.brandingLogo} alt="Branding Logo" className="mb-4 h-6" />
-              ) : (
-                <Img src={getAssetUrl('/static/logo.png')} alt="Documenso Logo" className="mb-4 h-6" />
-              )}
+          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
 
+          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
+            <Section className="p-2">
               <TemplateDocumentImage className="mt-6" assetBaseUrl={assetBaseUrl} />
 
               <Section>
@@ -65,7 +60,7 @@ export const DocumentCreatedFromDirectTemplateEmailTemplate = ({
 
                 <Section className="my-6 text-center">
                   <Button
-                    className="inline-flex items-center justify-center rounded-lg bg-documenso-500 px-6 py-3 text-center font-medium text-black text-sm no-underline"
+                    className="inline-flex items-center justify-center rounded-md bg-[#3b82f6] px-8 py-3 text-center font-semibold text-white no-underline"
                     href={documentLink}
                   >
                     <Trans>View document</Trans>
@@ -74,10 +69,9 @@ export const DocumentCreatedFromDirectTemplateEmailTemplate = ({
               </Section>
             </Section>
           </Container>
-
-          <Container className="mx-auto max-w-xl">
+          <Section className="bg-[#f3f4f6] px-8 py-6">
             <TemplateFooter />
-          </Container>
+          </Section>
         </Section>
       </Body>
     </Html>

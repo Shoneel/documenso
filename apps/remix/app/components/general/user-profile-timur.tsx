@@ -1,4 +1,3 @@
-import timurImage from '@documenso/assets/images/timur.png';
 import { NEXT_PUBLIC_WEBAPP_URL } from '@documenso/lib/constants/app';
 import { VerifiedIcon } from '@documenso/ui/icons/verified';
 import { cn } from '@documenso/ui/lib/utils';
@@ -17,11 +16,15 @@ export const UserProfileTimur = ({ className, rows = 2 }: UserProfileTimurProps)
   return (
     <div className={cn('flex flex-col items-center rounded-xl bg-neutral-100 p-4 dark:bg-background', className)}>
       <div className="inline-block max-w-full truncate rounded-md border border-border bg-background px-2.5 py-1.5 text-muted-foreground text-sm">
-        {baseUrl.host}/u/timur
+        {baseUrl.host}/u/joe-deo
       </div>
 
       <div className="mt-4">
-        <img src={timurImage} className="h-20 w-20 rounded-full" alt="image of timur ercan founder of WAF eSign" />
+        <img
+          src="/static/add-user.png"
+          alt="User"
+          style={{ width: '80px', height: '80px', objectFit: 'contain', borderRadius: '50%' }}
+        />
       </div>
 
       <div className="mt-6">
@@ -32,7 +35,7 @@ export const UserProfileTimur = ({ className, rows = 2 }: UserProfileTimurProps)
         </div>
 
         <p className="mt-4 max-w-[40ch] text-center text-muted-foreground text-sm">
-          <Trans>Hey I’m Timur</Trans>
+          <Trans>Hey I’m Joe Deo</Trans>
         </p>
 
         <p className="mt-1 max-w-[40ch] text-center text-muted-foreground text-sm">

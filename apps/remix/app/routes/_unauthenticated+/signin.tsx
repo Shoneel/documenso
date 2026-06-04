@@ -80,7 +80,7 @@ export default function SignIn({ loaderData }: Route.ComponentProps) {
   return (
     <div className="fixed inset-0 w-screen overflow-hidden">
       <div className="relative grid h-screen w-full md:grid-cols-2">
-        <section className="hidden h-full items-center justify-center bg-[#0d1117] px-6 md:flex">
+        <section className="relative hidden h-full items-center justify-center overflow-hidden bg-[#0d1117] px-6 md:flex">
           <div className="flex max-w-[360px] flex-col items-center text-center">
             <img src="/static/logo.png" alt="WAF eSign" width={280} height="auto" style={{ objectFit: 'contain' }} />
 
@@ -95,6 +95,25 @@ export default function SignIn({ loaderData }: Route.ComponentProps) {
               </Trans>
             </p>
           </div>
+
+          <footer
+            style={{
+              position: 'absolute',
+              bottom: 0,
+              left: 0,
+              right: 0,
+              padding: '12px 24px',
+              textAlign: 'center',
+              borderTop: '1px solid rgba(255,255,255,0.06)',
+              fontSize: '0.68rem',
+              color: 'rgba(255,255,255,0.3)',
+              letterSpacing: '0.03em',
+              whiteSpace: 'nowrap',
+            }}
+          >
+            © 2026 Water Authority of Fiji. All Rights Reserved.&nbsp;&nbsp;•&nbsp;&nbsp;Developed by WAF
+            ICT&nbsp;&nbsp;•&nbsp;&nbsp;Development Build v1.1.0
+          </footer>
         </section>
 
         <section className="relative flex h-full items-center justify-center overflow-hidden bg-[#131c2e] px-6">

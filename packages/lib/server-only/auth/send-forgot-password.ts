@@ -11,30 +11,18 @@ import { renderEmailWithI18N } from '../../utils/render-email-with-i18n';
 
 export interface SendForgotPasswordOptions {
   userId: number;
+  token: string;
 }
 
-export const sendForgotPassword = async ({ userId }: SendForgotPasswordOptions) => {
+export const sendForgotPassword = async ({ userId, token }: SendForgotPasswordOptions) => {
   const user = await prisma.user.findFirstOrThrow({
     where: {
       id: userId,
     },
-    include: {
-      passwordResetTokens: {
-        orderBy: {
-          createdAt: 'desc',
-        },
-        take: 1,
-      },
-    },
   });
 
-  if (!user) {
-    throw new Error('User not found');
-  }
-
-  const token = user.passwordResetTokens[0].token;
   const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:3000';
-  const resetPasswordLink = `${NEXT_PUBLIC_WEBAPP_URL()}/reset-password/${token}`;
+  const resetPasswordLink = `${assetBaseUrl}/reset-password/${token}`;
 
   const template = createElement(ForgotPasswordTemplate, {
     assetBaseUrl,

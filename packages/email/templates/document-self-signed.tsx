@@ -1,10 +1,10 @@
 import { msg } from '@lingui/core/macro';
 import { useLingui } from '@lingui/react';
 
-import { Body, Container, Head, Html, Img, Preview, Section } from '../components';
-import { useBranding } from '../providers/branding';
+import { Body, Container, Head, Html, Preview, Section } from '../components';
 import type { TemplateDocumentSelfSignedProps } from '../template-components/template-document-self-signed';
 import { TemplateDocumentSelfSigned } from '../template-components/template-document-self-signed';
+import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 
 export type DocumentSelfSignedTemplateProps = TemplateDocumentSelfSignedProps;
@@ -14,7 +14,6 @@ export const DocumentSelfSignedEmailTemplate = ({
   assetBaseUrl = 'http://localhost:3002',
 }: DocumentSelfSignedTemplateProps) => {
   const { _ } = useLingui();
-  const branding = useBranding();
 
   const previewText = msg`Completed Document`;
 
@@ -27,23 +26,18 @@ export const DocumentSelfSignedEmailTemplate = ({
       <Head />
       <Preview>{_(previewText)}</Preview>
 
-      <Body className="mx-auto my-auto font-sans">
+      <Body className="bg-[#f9fafb] font-sans">
         <Section className="bg-white">
-          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-slate-200 border-solid p-2 backdrop-blur-sm">
-            <Section className="p-2">
-              {branding.brandingEnabled && branding.brandingLogo ? (
-                <Img src={branding.brandingLogo} alt="Branding Logo" className="mb-4 h-6" />
-              ) : (
-                <Img src={getAssetUrl('/static/logo.png')} alt="Documenso Logo" className="mb-4 h-6" />
-              )}
+          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
 
+          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
+            <Section className="p-2">
               <TemplateDocumentSelfSigned documentName={documentName} assetBaseUrl={assetBaseUrl} />
             </Section>
           </Container>
-
-          <Container className="mx-auto max-w-xl">
+          <Section className="bg-[#f3f4f6] px-8 py-6">
             <TemplateFooter />
-          </Container>
+          </Section>
         </Section>
       </Body>
     </Html>
