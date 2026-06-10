@@ -1,16 +1,16 @@
-# Graph Report - documenso  (2026-06-03)
+# Graph Report - documenso  (2026-06-10)
 
 ## Corpus Check
-- 2514 files · ~2,419,269 words
+- 2514 files · ~2,495,508 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 15145 nodes · 29779 edges · 952 communities (754 shown, 198 thin omitted)
+- 15145 nodes · 29779 edges · 955 communities (756 shown, 199 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 342 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `cddc494b`
+- Built from commit: `4fbf9f67`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -909,7 +909,10 @@
 - [[_COMMUNITY_Community 948|Community 948]]
 - [[_COMMUNITY_Community 949|Community 949]]
 - [[_COMMUNITY_Community 950|Community 950]]
+- [[_COMMUNITY_Community 951|Community 951]]
 - [[_COMMUNITY_Community 952|Community 952]]
+- [[_COMMUNITY_Community 953|Community 953]]
+- [[_COMMUNITY_Community 954|Community 954]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `useToast()` - 358 edges
@@ -935,15 +938,15 @@
 - `AdminLicenseResyncButton()` --calls--> `useToast()`  [EXTRACTED]
   apps/remix/app/components/general/admin-license-card.tsx → packages/ui/primitives/use-toast.ts
 
-## Communities (952 total, 198 thin omitted)
+## Communities (955 total, 199 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.02
-Nodes (178): DisableAuthenticatorAppDialog(), EnableAuthenticatorAppDialog(), ViewRecoveryCodesDialog(), loader(), meta(), OrganisationGroupSettingsPage(), loader(), meta() (+170 more)
+Nodes (183): DisableAuthenticatorAppDialog(), EnableAuthenticatorAppDialog(), ViewRecoveryCodesDialog(), loader(), meta(), OrganisationGroupSettingsPage(), loader(), DashboardPage() (+175 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.02
-Nodes (199): TDisable2FAForm, ZDisable2FAForm, TBannerFormSchema, ZPasswordSchema, OrganisationGroupFormOptions, TUpdateOrganisationGroupFormSchema, ZUpdateOrganisationGroupFormSchema, SSOProviderFormProps (+191 more)
+Nodes (196): TDisable2FAForm, ZDisable2FAForm, TBannerFormSchema, ZPasswordSchema, OrganisationGroupFormOptions, TUpdateOrganisationGroupFormSchema, ZUpdateOrganisationGroupFormSchema, SSOProviderFormProps (+188 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.04
@@ -959,31 +962,31 @@ Nodes (138): AdminLayout(), LocalTime(), LocalTimeProps, TimeRowProps, TIME_ZONE
 
 ### Community 5 - "Community 5"
 Cohesion: 0.02
-Nodes (98): action(), hashString(), BaseJobProvider, BullMQJobProvider, JobClient, InngestJobProvider, BackgroundTaskExceededRetriesError, BackgroundTaskFailedError (+90 more)
+Nodes (87): action(), hashString(), BaseJobProvider, BullMQJobProvider, JobClient, InngestJobProvider, BackgroundTaskExceededRetriesError, BackgroundTaskFailedError (+79 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.02
-Nodes (98): AdminFindDocumentsOptions, AdminFindUnsealedDocumentsOptions, AdminUnsealedDocument, FindPasskeysOptions, DocumentVisibilityTypeData, ALLOWED_TEAM_GROUP_TYPES, PROTECTED_TEAM_URLS, TEAM_INTERNAL_GROUPS (+90 more)
+Nodes (98): AdminFindDocumentsOptions, AdminFindUnsealedDocumentsOptions, AdminUnsealedDocument, FindPasskeysOptions, DocumentVisibilityTypeData, ALLOWED_TEAM_GROUP_TYPES, PROTECTED_TEAM_URLS, EnvelopeExpressionBuilder (+90 more)
 
 ### Community 7 - "Community 7"
 Cohesion: 0.15
 Nodes (28): loadRecipientBrandingByTeamId(), RecipientBrandingPayload, DirectSigningPageV1(), DirectSigningPageV2(), DirectTemplatePage(), handleV1Loader(), handleV2Loader(), loader() (+20 more)
 
 ### Community 8 - "Community 8"
-Cohesion: 0.05
-Nodes (74): loader(), extractFieldAutoInsertValues(), injectFormValuesIntoDocument(), sendDocument(), SendDocumentOptions, validateFieldAuth(), ViewedDocumentOptions, seedDeleteDocumentsTestRequirements() (+66 more)
+Cohesion: 0.06
+Nodes (61): loader(), validateFieldAuth(), ViewedDocumentOptions, seedDeleteDocumentsTestRequirements(), createEnvelope(), CreateEnvelopeOptions, CreateEnvelopeRecipientFieldOptions, CreateEnvelopeRecipientOptions (+53 more)
 
 ### Community 9 - "Community 9"
 Cohesion: 0.06
 Nodes (84): adminSuperDeleteDocument(), AdminSuperDeleteDocumentOptions, sendConfirmationEmail(), SendConfirmationEmailProps, NEXT_PUBLIC_SIGNING_CONTACT_INFO(), NEXT_PUBLIC_WEBAPP_URL(), DOCUMENSO_INTERNAL_EMAIL, RECIPIENT_ROLE_TO_EMAIL_TYPE (+76 more)
 
 ### Community 10 - "Community 10"
-Cohesion: 0.03
-Nodes (82): createOrganisationGroupRoute, ZCreateOrganisationGroupRequestSchema, ZCreateOrganisationGroupResponseSchema, createOrganisationMemberInvitesRoute, TCreateOrganisationMemberInvitesRequestSchema, ZCreateOrganisationMemberInvitesRequestSchema, ZCreateOrganisationMemberInvitesResponseSchema, deleteOrganisationRoute (+74 more)
+Cohesion: 0.02
+Nodes (86): createOrganisationGroupRoute, ZCreateOrganisationGroupRequestSchema, ZCreateOrganisationGroupResponseSchema, createOrganisationMemberInvitesRoute, TCreateOrganisationMemberInvitesRequestSchema, ZCreateOrganisationMemberInvitesRequestSchema, ZCreateOrganisationMemberInvitesResponseSchema, deleteOrganisationRoute (+78 more)
 
 ### Community 11 - "Community 11"
 Cohesion: 0.03
-Nodes (108): unsafeGetEntireEnvelopeOptions, loader(), FindDocumentAuditLogsOptions, GetDocumentWithDetailsByIdOptions, CreateDocumentMetaOptions, updateDocumentMeta(), SendPendingEmailOptions, ValidateFieldAuthOptions (+100 more)
+Nodes (111): unsafeGetEntireEnvelopeOptions, loader(), FindDocumentAuditLogsOptions, GetDocumentWithDetailsByIdOptions, CreateDocumentMetaOptions, updateDocumentMeta(), extractFieldAutoInsertValues(), sendDocument() (+103 more)
 
 ### Community 12 - "Community 12"
 Cohesion: 0.02
@@ -999,7 +1002,7 @@ Nodes (70): createTeamRoute, createTeamGroupsRoute, ZCreateTeamGroupsRequestSche
 
 ### Community 15 - "Community 15"
 Cohesion: 0.03
-Nodes (80): accessAuthRequest2FAEmailRoute, TAccessAuthRequest2FAEmailRequest, TAccessAuthRequest2FAEmailResponse, ZAccessAuthRequest2FAEmailRequestSchema, ZAccessAuthRequest2FAEmailResponseSchema, distributeDocumentRoute, distributeDocumentMeta, TDistributeDocumentRequest (+72 more)
+Nodes (91): accessAuthRequest2FAEmailRoute, TAccessAuthRequest2FAEmailRequest, TAccessAuthRequest2FAEmailResponse, ZAccessAuthRequest2FAEmailRequestSchema, ZAccessAuthRequest2FAEmailResponseSchema, distributeDocumentRoute, distributeDocumentMeta, TDistributeDocumentRequest (+83 more)
 
 ### Community 16 - "Community 16"
 Cohesion: 0.05
@@ -1019,11 +1022,11 @@ Nodes (42): loader(), unsafeGetEntireEnvelope(), main(), PosthogInit(), handleRe
 
 ### Community 20 - "Community 20"
 Cohesion: 0.04
-Nodes (75): AiFieldDetectionDialog(), DocumentCertificateQrV2(), DocumentCertificateQrV2Props, DocumentCertificateQRView(), DocumentCertificateQRViewProps, EditorFieldCheckboxForm(), EditorFieldDropdownForm(), EditorFieldInitialsForm() (+67 more)
+Nodes (65): DocumentCertificateQrV2(), DocumentCertificateQrV2Props, DocumentCertificateQRView(), DocumentCertificateQRViewProps, EnvelopeEditorFieldsPageRenderer(), FieldActionButtons(), FieldActionButtonsProps, EnvelopeEditorPreviewPage() (+57 more)
 
 ### Community 21 - "Community 21"
-Cohesion: 0.03
-Nodes (77): validateCheckboxLength(), SignFieldCheckboxDialog, SignFieldDropdownDialog, SignFieldEmailDialog, SignFieldInitialsDialog, SignFieldNameDialog, SignFieldNumberDialog, SignFieldSignatureDialog (+69 more)
+Cohesion: 0.04
+Nodes (70): validateCheckboxLength(), SignFieldCheckboxDialog, SignFieldDropdownDialog, SignFieldEmailDialog, SignFieldInitialsDialog, SignFieldNameDialog, SignFieldNumberDialog, SignFieldSignatureDialog (+62 more)
 
 ### Community 22 - "Community 22"
 Cohesion: 0.29
@@ -1035,19 +1038,19 @@ Nodes (82): isBase64Image(), AssistantConfirmationDialog(), NextSigner, DirectTe
 
 ### Community 24 - "Community 24"
 Cohesion: 0.03
-Nodes (98): RecoveryCodeList(), RecoveryCodeListProps, AdminDocumentDetailsPage(), GenericOrganisationAdminForm(), OrganisationAdminForm(), OrganisationAdminFormOptions, TUpdateGenericOrganisationDataFormSchema, TUpdateOrganisationBillingFormSchema (+90 more)
+Nodes (101): RecoveryCodeList(), RecoveryCodeListProps, AdminDocumentDetailsPage(), GenericOrganisationAdminForm(), OrganisationAdminForm(), OrganisationAdminFormOptions, TUpdateGenericOrganisationDataFormSchema, TUpdateOrganisationBillingFormSchema (+93 more)
 
 ### Community 25 - "Community 25"
 Cohesion: 0.05
 Nodes (53): loader(), CheckStatus, loader(), hashSync(), getCertificateStatus(), seedBulkActionsTestRequirements(), openDocumentEnvelopeEditor(), getDatabaseUrl() (+45 more)
 
 ### Community 26 - "Community 26"
-Cohesion: 0.02
-Nodes (100): getEnvelopeFieldRoute, getEnvelopeFieldSignaturesRoute, TGetEnvelopeFieldSignaturesRequest, TGetEnvelopeFieldSignaturesResponse, ZGetEnvelopeFieldSignaturesRequestSchema, ZGetEnvelopeFieldSignaturesResponseSchema, getEnvelopeFieldMeta, TGetEnvelopeFieldRequest (+92 more)
+Cohesion: 0.03
+Nodes (70): getEnvelopeFieldRoute, getEnvelopeFieldSignaturesRoute, TGetEnvelopeFieldSignaturesRequest, TGetEnvelopeFieldSignaturesResponse, ZGetEnvelopeFieldSignaturesRequestSchema, ZGetEnvelopeFieldSignaturesResponseSchema, getEnvelopeFieldMeta, TGetEnvelopeFieldRequest (+62 more)
 
 ### Community 27 - "Community 27"
-Cohesion: 0.08
-Nodes (22): PDF_SIZE_A4_72PPI, EditorFieldDateForm(), EditorFieldDateFormProps, TDateFieldFormSchema, ZDateFieldFormSchema, EditorFieldEmailForm(), EditorFieldEmailFormProps, TEmailFieldFormSchema (+14 more)
+Cohesion: 0.03
+Nodes (75): validateNumberField(), validateTextField(), PDF_SIZE_A4_72PPI, AiFieldDetectionDialog(), EditorFieldCheckboxForm(), EditorFieldDateForm(), EditorFieldDateFormProps, TDateFieldFormSchema (+67 more)
 
 ### Community 28 - "Community 28"
 Cohesion: 0.03
@@ -1118,16 +1121,16 @@ Cohesion: 0.07
 Nodes (41): SeededEnvelopes, seedTwoPendingEnvelopes(), WEBAPP_BASE_URL, canvas, insertedDate, manualFields, nameDialog, nameInput (+33 more)
 
 ### Community 45 - "Community 45"
-Cohesion: 0.07
-Nodes (36): DocumentMoveToFolderDialog(), EnvelopesBulkDeleteDialog(), EnvelopesBulkMoveDialog(), FolderCreateDialog(), FolderDeleteDialog(), FolderMoveDialog(), FolderUpdateDialog(), FolderCard() (+28 more)
+Cohesion: 0.22
+Nodes (14): FolderCreateDialog(), FolderDeleteDialog(), FolderMoveDialog(), FolderUpdateDialog(), FolderCard(), FolderCardEmpty(), FolderCardProps, FolderGridProps (+6 more)
 
 ### Community 46 - "Community 46"
 Cohesion: 0.04
 Nodes (41): Access Authentication, Action Authentication, Authentication Options, code:json ({), code:bash (curl -X POST "https://app.documenso.com/api/v2/envelope/reci), code:block12, code:bash (curl -X POST "https://app.documenso.com/api/v2/envelope/reci), code:json ({) (+33 more)
 
 ### Community 47 - "Community 47"
-Cohesion: 0.05
-Nodes (70): validateNumberField(), validateTextField(), CAVEAT_FONT_PATH(), EditorFieldSignatureForm(), EditorFieldSignatureFormProps, TSignatureFieldFormSchema, ZSignatureFieldFormSchema, calculateHorizontalOverflow() (+62 more)
+Cohesion: 0.13
+Nodes (34): CAVEAT_FONT_PATH(), calculateHorizontalOverflow(), calculateLayout(), calculateOverflowLayout(), calculateVerticalOverflow(), OverflowLayoutParams, OverflowLayoutResult, createFieldHoverInteraction() (+26 more)
 
 ### Community 48 - "Community 48"
 Cohesion: 0.04
@@ -1167,7 +1170,7 @@ Nodes (29): SigningCard(), SigningCard3D(), SigningCardContent(), SigningCardCon
 
 ### Community 57 - "Community 57"
 Cohesion: 0.04
-Nodes (69): DashboardPage(), meta(), getExtraRecipientsType(), getRecipientType(), RecipientForType, RecipientStatusType, CopyTextButton(), CopyTextButtonProps (+61 more)
+Nodes (86): getExtraRecipientsType(), getRecipientType(), RecipientForType, RecipientStatusType, CopyTextButton(), CopyTextButtonProps, RECIPIENT_ROLE_TO_DISPLAY_TYPE, DIRECT_TEMPLATE_DOCUMENTATION (+78 more)
 
 ### Community 58 - "Community 58"
 Cohesion: 0.20
@@ -1347,7 +1350,7 @@ Nodes (26): Actions, All V2 Editor Components, code:jsx (import { EmbedCreateEnv
 
 ### Community 102 - "Community 102"
 Cohesion: 0.16
-Nodes (13): TemplateAdminUserCreated(), TemplateAdminUserCreatedProps, TemplateDocumentCancel(), TemplateDocumentCancelProps, TemplateDocumentCompleted(), TemplateDocumentCompletedProps, TemplateDocumentImage(), TemplateDocumentImageProps (+5 more)
+Nodes (14): TemplateConfirmationEmail(), TemplateConfirmationEmailProps, TemplateDocumentCancel(), TemplateDocumentCancelProps, TemplateDocumentCompleted(), TemplateDocumentCompletedProps, TemplateDocumentImage(), TemplateDocumentImageProps (+6 more)
 
 ### Community 103 - "Community 103"
 Cohesion: 0.07
@@ -1474,8 +1477,8 @@ Cohesion: 0.13
 Nodes (23): BaseAuditLog, CertificateRecipient, columnWidthPercentages, ColumnWidths, GenerateCertificateOptions, getDevice(), groupRowsIntoPages(), GroupRowsIntoPagesOptions (+15 more)
 
 ### Community 134 - "Community 134"
-Cohesion: 0.15
-Nodes (12): ORGANISATION_INTERNAL_GROUPS, PROTECTED_ORGANISATION_URLS, createOrganisation(), CreateOrganisationOptions, createPersonalOrganisation(), CreatePersonalOrganisationOptions, createCustomer(), CreateCustomerOptions (+4 more)
+Cohesion: 0.06
+Nodes (36): ORGANISATION_INTERNAL_GROUPS, PROTECTED_ORGANISATION_URLS, TEAM_INTERNAL_GROUPS, optimiseAvatar(), linkOrganisationAccount(), LinkOrganisationAccountOptions, acceptOrganisationInvitation(), AcceptOrganisationInvitationOptions (+28 more)
 
 ### Community 135 - "Community 135"
 Cohesion: 0.12
@@ -2019,7 +2022,7 @@ Nodes (11): assertEnvelopeSettingsPersistedInDatabase(), clickSettingsDialogHead
 
 ### Community 270 - "Community 270"
 Cohesion: 0.12
-Nodes (15): GET(), OPTIONS(), GET(), OPTIONS(), paths, GET(), OPTIONS(), paths (+7 more)
+Nodes (15): GET(), OPTIONS(), paths, GET(), OPTIONS(), GET(), OPTIONS(), paths (+7 more)
 
 ### Community 271 - "Community 271"
 Cohesion: 0.10
@@ -2267,7 +2270,7 @@ Nodes (11): createEmailDomain(), CreateEmailDomainOptions, DomainRecord, flatten
 
 ### Community 333 - "Community 333"
 Cohesion: 0.16
-Nodes (11): getAdminTeamRoute, TGetAdminTeamRequest, TGetAdminTeamResponse, ZGetAdminTeamRequestSchema, ZGetAdminTeamResponseSchema, TUpdateSiteSettingRequest, TUpdateSiteSettingResponse, ZUpdateSiteSettingRequestSchema (+3 more)
+Nodes (11): reregisterEmailDomainRoute, TReregisterEmailDomainRequest, TReregisterEmailDomainResponse, ZReregisterEmailDomainRequestSchema, ZReregisterEmailDomainResponseSchema, TUpdateSiteSettingRequest, TUpdateSiteSettingResponse, ZUpdateSiteSettingRequestSchema (+3 more)
 
 ### Community 334 - "Community 334"
 Cohesion: 0.13
@@ -2434,8 +2437,8 @@ Cohesion: 0.17
 Nodes (5): OVERFLOW_TEST_FIELDS, OverflowFieldTestData, SINGLE_TYPE_ML_COLUMN_X, SINGLE_TYPE_ML_ROW_Y, TEXT_AUTO_COLUMN_X
 
 ### Community 375 - "Community 375"
-Cohesion: 0.17
-Nodes (11): code:bash (NEXT_PRIVATE_DATABASE_URL=${{Postgres.DATABASE_URL}}), Cost Estimate, Environment Variables, Free Tier Limitations, Koyeb, Other One-Click Deployment Options, Prerequisites, Referencing Railway Services (+3 more)
+Cohesion: 0.22
+Nodes (8): code:bash (NEXT_PRIVATE_DATABASE_URL=${{Postgres.DATABASE_URL}}), Cost Estimate, Environment Variables, Free Tier Limitations, Prerequisites, Referencing Railway Services, See Also, Troubleshooting
 
 ### Community 376 - "Community 376"
 Cohesion: 0.17
@@ -2534,8 +2537,8 @@ Cohesion: 0.18
 Nodes (10): DOCX Conversion, Drag and Drop, File Picker, Limitations, See Also, Supported Formats, Troubleshooting, Upload Methods (+2 more)
 
 ### Community 400 - "Community 400"
-Cohesion: 0.36
-Nodes (6): getDocumentsByIdsRoute, getDocumentsByIdsMeta, TGetDocumentsByIdsRequest, TGetDocumentsByIdsResponse, ZGetDocumentsByIdsRequestSchema, ZGetDocumentsByIdsResponseSchema
+Cohesion: 0.31
+Nodes (7): createEnvelopeRecipientsRoute, createEnvelopeRecipientsMeta, TCreateEnvelopeRecipientsRequest, TCreateEnvelopeRecipientsResponse, ZCreateEnvelopeRecipientSchema, ZCreateEnvelopeRecipientsRequestSchema, ZCreateEnvelopeRecipientsResponseSchema
 
 ### Community 401 - "Community 401"
 Cohesion: 0.18
@@ -2670,8 +2673,8 @@ Cohesion: 0.20
 Nodes (10): 1.1 Expiration period data shape, 1.2 Add expiration fields to `Recipient`, 1.3 Add expiration period to settings models, 1.4 Add expiration period to DocumentMeta, 1. Database Schema Changes, code:typescript (export const ZEnvelopeExpirationPeriod = z.union([), code:prisma (model Recipient {), code:prisma (model OrganisationGlobalSettings {) (+2 more)
 
 ### Community 434 - "Community 434"
-Cohesion: 0.32
-Nodes (6): setEnvelopeRecipientsRoute, TSetEnvelopeRecipientsRequest, TSetEnvelopeRecipientsResponse, ZSetEnvelopeRecipientSchema, ZSetEnvelopeRecipientsRequestSchema, ZSetEnvelopeRecipientsResponseSchema
+Cohesion: 0.31
+Nodes (7): TUpdateEnvelopeRecipientsRequest, TUpdateEnvelopeRecipientsResponse, updateEnvelopeRecipientsMeta, ZUpdateEnvelopeRecipientSchema, ZUpdateEnvelopeRecipientsRequestSchema, ZUpdateEnvelopeRecipientsResponseSchema, updateEnvelopeRecipientsRoute
 
 ### Community 435 - "Community 435"
 Cohesion: 0.28
@@ -2987,7 +2990,7 @@ Nodes (6): TemplateDirectLink, TemplateDirectLinkSchema, LegacyTemplateDirectLin
 
 ### Community 513 - "Community 513"
 Cohesion: 0.04
-Nodes (64): NEXT_PRIVATE_INTERNAL_WEBAPP_URL(), NEXT_PRIVATE_SIGNING_TIMESTAMP_AUTHORITY(), NEXT_PRIVATE_USE_LEGACY_SIGNING_SUBFILTER(), NEXT_PRIVATE_USE_PLAYWRIGHT_PDF(), USE_INTERNAL_URL_BROWSERLESS(), isValidLanguageCode(), ONE_MONTH, ONE_YEAR (+56 more)
+Nodes (61): NEXT_PRIVATE_INTERNAL_WEBAPP_URL(), NEXT_PRIVATE_SIGNING_TIMESTAMP_AUTHORITY(), NEXT_PRIVATE_USE_LEGACY_SIGNING_SUBFILTER(), NEXT_PRIVATE_USE_PLAYWRIGHT_PDF(), USE_INTERNAL_URL_BROWSERLESS(), isValidLanguageCode(), ONE_MONTH, ONE_YEAR (+53 more)
 
 ### Community 514 - "Community 514"
 Cohesion: 0.25
@@ -3226,8 +3229,8 @@ Cohesion: 0.33
 Nodes (5): FieldTypeSchema, FieldTypeType, Field, FieldCustomValidators, FieldSchema
 
 ### Community 573 - "Community 573"
-Cohesion: 0.29
-Nodes (5): findAttachmentsRoute, TFindAttachmentsRequest, TFindAttachmentsResponse, ZFindAttachmentsRequestSchema, ZFindAttachmentsResponseSchema
+Cohesion: 0.40
+Nodes (4): TFindAttachmentsRequest, TFindAttachmentsResponse, ZFindAttachmentsRequestSchema, ZFindAttachmentsResponseSchema
 
 ### Community 574 - "Community 574"
 Cohesion: 0.33
@@ -3402,8 +3405,8 @@ Cohesion: 0.47
 Nodes (4): TemplateRecipientExpired(), TemplateRecipientExpiredProps, RecipientExpiredEmailTemplateProps, RecipientExpiredTemplate()
 
 ### Community 617 - "Community 617"
-Cohesion: 0.50
-Nodes (3): GET(), OPTIONS(), paths
+Cohesion: 0.36
+Nodes (6): duplicateEnvelopeRoute, duplicateEnvelopeMeta, TDuplicateEnvelopeRequest, TDuplicateEnvelopeResponse, ZDuplicateEnvelopeRequestSchema, ZDuplicateEnvelopeResponseSchema
 
 ### Community 618 - "Community 618"
 Cohesion: 0.25
@@ -3570,8 +3573,8 @@ Cohesion: 0.40
 Nodes (5): code:bash (aws s3 cp documenso_backup.tar.gz s3://your-backup-bucket/do), code:bash (# Encrypt), Off-Site Backup Storage, Off-Site Upload, Options
 
 ### Community 661 - "Community 661"
-Cohesion: 0.60
-Nodes (3): TemplateConfirmationEmail(), TemplateConfirmationEmailProps, ConfirmEmailTemplate()
+Cohesion: 0.36
+Nodes (6): findEnvelopeAuditLogsRoute, findEnvelopeAuditLogsMeta, TFindEnvelopeAuditLogsRequest, TFindEnvelopeAuditLogsResponse, ZFindEnvelopeAuditLogsRequestSchema, ZFindEnvelopeAuditLogsResponseSchema
 
 ### Community 662 - "Community 662"
 Cohesion: 0.40
@@ -3710,8 +3713,8 @@ Cohesion: 0.67
 Nodes (3): code:yaml (# service.yaml), code:bash (kubectl apply -f service.yaml), Service
 
 ### Community 737 - "Community 737"
-Cohesion: 0.38
-Nodes (5): reregisterEmailDomainRoute, TReregisterEmailDomainRequest, TReregisterEmailDomainResponse, ZReregisterEmailDomainRequestSchema, ZReregisterEmailDomainResponseSchema
+Cohesion: 0.36
+Nodes (6): findEnvelopesRoute, findEnvelopesMeta, TFindEnvelopesRequest, TFindEnvelopesResponse, ZFindEnvelopesRequestSchema, ZFindEnvelopesResponseSchema
 
 ### Community 738 - "Community 738"
 Cohesion: 0.67
@@ -3721,14 +3724,22 @@ Nodes (3): code:bash (kubectl get pods -n documenso -o wide), code:bash (kubectl
 Cohesion: 0.50
 Nodes (4): code:bash (kubectl set image deployment/documenso \), code:yaml (spec:), code:bash (kubectl apply -f deployment.yaml), Update the deployment image
 
-### Community 952 - "Community 952"
-Cohesion: 0.40
-Nodes (4): TCreateAttachmentRequest, TCreateAttachmentResponse, ZCreateAttachmentRequestSchema, ZCreateAttachmentResponseSchema
+### Community 951 - "Community 951"
+Cohesion: 0.38
+Nodes (5): getAdminTeamRoute, TGetAdminTeamRequest, TGetAdminTeamResponse, ZGetAdminTeamRequestSchema, ZGetAdminTeamResponseSchema
+
+### Community 953 - "Community 953"
+Cohesion: 0.50
+Nodes (3): GET(), OPTIONS(), paths
+
+### Community 954 - "Community 954"
+Cohesion: 0.67
+Nodes (3): Koyeb, Other One-Click Deployment Options, Render
 
 ## Knowledge Gaps
 - **8300 isolated node(s):** `code`, `document`, `paper`, `image`, `video` (+8295 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **198 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **199 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -3737,8 +3748,8 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.044) - this node is a cross-community bridge._
 - **Why does `apiSignin()` connect `Community 12` to `Community 137`, `Community 9`, `Community 525`, `Community 278`, `Community 25`, `Community 31`, `Community 421`, `Community 54`, `Community 567`, `Community 566`, `Community 315`, `Community 457`, `Community 458`, `Community 339`, `Community 468`, `Community 595`, `Community 346`, `Community 347`, `Community 348`, `Community 357`, `Community 364`, `Community 376`, `Community 507`?**
   _High betweenness centrality (0.036) - this node is a cross-community bridge._
-- **Why does `cn()` connect `Community 4` to `Community 384`, `Community 1`, `Community 2`, `Community 3`, `Community 385`, `Community 514`, `Community 0`, `Community 7`, `Community 16`, `Community 20`, `Community 23`, `Community 24`, `Community 28`, `Community 30`, `Community 32`, `Community 424`, `Community 45`, `Community 432`, `Community 305`, `Community 435`, `Community 310`, `Community 56`, `Community 57`, `Community 574`, `Community 70`, `Community 460`, `Community 461`, `Community 79`, `Community 122`?**
-  _High betweenness centrality (0.027) - this node is a cross-community bridge._
+- **Why does `cn()` connect `Community 4` to `Community 384`, `Community 1`, `Community 2`, `Community 3`, `Community 0`, `Community 385`, `Community 514`, `Community 7`, `Community 16`, `Community 20`, `Community 23`, `Community 24`, `Community 27`, `Community 28`, `Community 30`, `Community 32`, `Community 424`, `Community 432`, `Community 305`, `Community 435`, `Community 310`, `Community 56`, `Community 57`, `Community 574`, `Community 70`, `Community 460`, `Community 461`, `Community 79`, `Community 122`?**
+  _High betweenness centrality (0.023) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `useToast()` (e.g. with `AddTemplateFieldsFormPartial()` and `EnvelopeEditorProvider()`) actually correct?**
   _`useToast()` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 5 inferred relationships involving `cn()` (e.g. with `AddSignersFormPartial()` and `AddTemplatePlaceholderRecipientsFormPartial()`) actually correct?**
@@ -3746,4 +3757,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **What connects `code`, `document`, `paper` to the rest of the system?**
   _8300 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.02059595491740003 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.019904366862541767 - nodes in this community are weakly interconnected._

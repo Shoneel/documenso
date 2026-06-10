@@ -1,6 +1,6 @@
 {
   "/home/shonzi/WAF/dev/code/documenso/.graphify_detect.json": {
-    "mtime": 1780454759.7674615,
+    "mtime": 1780540213.8302093,
     "ast_hash": "1d41799cd830af9bca3d5599bf96e3a3",
     "semantic_hash": ""
   },
@@ -65,87 +65,87 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.vscode/settings.json": {
-    "mtime": 1779849269.1336734,
+    "mtime": 1780540213.8302093,
     "ast_hash": "6cd39294cdb16a617a2e8aec980cdbf0",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/post-commit": {
-    "mtime": 1780466230.854324,
+    "mtime": 1781042431.875545,
     "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/pre-push": {
-    "mtime": 1780466230.854324,
+    "mtime": 1781042431.875545,
     "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/prepare-commit-msg": {
-    "mtime": 1780466230.854324,
+    "mtime": 1781042431.875545,
     "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/commit-msg": {
-    "mtime": 1780466230.854324,
+    "mtime": 1781042431.875545,
     "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/post-applypatch": {
-    "mtime": 1780466230.854324,
+    "mtime": 1781042431.875545,
     "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/pre-auto-gc": {
-    "mtime": 1780466230.854324,
+    "mtime": 1781042431.875545,
     "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/pre-commit": {
-    "mtime": 1780466230.854324,
+    "mtime": 1781042431.875545,
     "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/post-merge": {
-    "mtime": 1780466230.854324,
+    "mtime": 1781042431.875545,
     "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/pre-merge-commit": {
-    "mtime": 1780466230.854324,
+    "mtime": 1781042431.875545,
     "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/applypatch-msg": {
-    "mtime": 1780466230.854324,
+    "mtime": 1781042431.875545,
     "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/post-checkout": {
-    "mtime": 1780466230.854324,
+    "mtime": 1781042431.875545,
     "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/h": {
-    "mtime": 1780466230.854324,
+    "mtime": 1781042431.875545,
     "ast_hash": "15239a01c5554e56ff745570fb583a91",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/pre-applypatch": {
-    "mtime": 1780466230.854324,
+    "mtime": 1781042431.875545,
     "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/post-rewrite": {
-    "mtime": 1780466230.854324,
+    "mtime": 1781042431.875545,
     "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/pre-rebase": {
-    "mtime": 1780466230.854324,
+    "mtime": 1781042431.875545,
     "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/husky.sh": {
-    "mtime": 1780466230.854324,
+    "mtime": 1781042431.875545,
     "ast_hash": "13871d2ab13e8423790ecb2c01c78c18",
     "semantic_hash": ""
   },
@@ -1385,7 +1385,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/trpc/server/trpc.ts": {
-    "mtime": 1779849269.5443401,
+    "mtime": 1780540213.9706092,
     "ast_hash": "f6d6429239a1a1692b7a015eea0bb7ef",
     "semantic_hash": ""
   },
@@ -1995,7 +1995,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/trpc/server/envelope-router/router.ts": {
-    "mtime": 1779849269.5406733,
+    "mtime": 1780540213.9706092,
     "ast_hash": "ee798835366cdf5c80df9730a02d8954",
     "semantic_hash": ""
   },
@@ -2420,7 +2420,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/trpc/server/organisation-router/create-organisation.ts": {
-    "mtime": 1779849269.5443401,
+    "mtime": 1780540213.9706092,
     "ast_hash": "b7b000fff3833bf61ab50c59c1ca278c",
     "semantic_hash": ""
   },
@@ -2905,7 +2905,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/trpc/server/admin-router/swap-organisation-subscription.ts": {
-    "mtime": 1779849269.5370066,
+    "mtime": 1780540213.9706092,
     "ast_hash": "155c6630e27c5616c630b5f4414beb99",
     "semantic_hash": ""
   },
@@ -2915,7 +2915,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/trpc/server/admin-router/get-admin-organisation.ts": {
-    "mtime": 1779849269.5370066,
+    "mtime": 1780540213.9706092,
     "ast_hash": "e88de8ed89b10b7e32bda8e4d0087023",
     "semantic_hash": ""
   },
@@ -2935,7 +2935,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/trpc/server/admin-router/router.ts": {
-    "mtime": 1779849269.5370066,
+    "mtime": 1780540213.9706092,
     "ast_hash": "8f064cadf28e22fe613971672a553d45",
     "semantic_hash": ""
   },
@@ -2980,7 +2980,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/trpc/server/admin-router/create-subscription-claim.ts": {
-    "mtime": 1779849269.5370066,
+    "mtime": 1780540213.9706092,
     "ast_hash": "8a14a4d3ed0b6e79c4e82838fb41a020",
     "semantic_hash": ""
   },
@@ -3050,7 +3050,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/trpc/server/admin-router/update-admin-organisation.types.ts": {
-    "mtime": 1779849269.5370066,
+    "mtime": 1780540213.9706092,
     "ast_hash": "7cfa101492ad98b9a592c6f8c53bde7f",
     "semantic_hash": ""
   },
@@ -3110,7 +3110,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/trpc/server/admin-router/create-admin-organisation.ts": {
-    "mtime": 1779849269.5370066,
+    "mtime": 1780540213.9706092,
     "ast_hash": "cfe9e2ef49df06bdd6fd9440bb4ef29e",
     "semantic_hash": ""
   },
@@ -3180,7 +3180,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/trpc/server/admin-router/find-subscription-claims.types.ts": {
-    "mtime": 1779849269.5370066,
+    "mtime": 1780540213.9706092,
     "ast_hash": "e304304ad189ab18551258e2e628e551",
     "semantic_hash": ""
   },
@@ -3195,7 +3195,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/trpc/server/admin-router/create-subscription-claim.types.ts": {
-    "mtime": 1779849269.5370066,
+    "mtime": 1780540213.9706092,
     "ast_hash": "b81a5a682b0d96af6feb77203be7abda",
     "semantic_hash": ""
   },
@@ -3205,7 +3205,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/trpc/server/admin-router/get-admin-organisation.types.ts": {
-    "mtime": 1779849269.5370066,
+    "mtime": 1780540213.9706092,
     "ast_hash": "62d10fa40d2e5de58773c6ff6eef4e72",
     "semantic_hash": ""
   },
@@ -3340,7 +3340,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/ee/server-only/limits/constants.ts": {
-    "mtime": 1779849269.4783401,
+    "mtime": 1780540213.9346092,
     "ast_hash": "62b814fda40d15181c0e692a438c7522",
     "semantic_hash": ""
   },
@@ -3430,7 +3430,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/ee/server-only/stripe/webhook/on-subscription-deleted.ts": {
-    "mtime": 1779849269.4783401,
+    "mtime": 1780540213.9346092,
     "ast_hash": "062f51e156c3ab66df837aaa53d39b3b",
     "semantic_hash": ""
   },
@@ -3440,7 +3440,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/ee/server-only/stripe/webhook/on-subscription-updated.ts": {
-    "mtime": 1779849269.4783401,
+    "mtime": 1780540213.9346092,
     "ast_hash": "8baf7f05b433ed6508324490ad6e1b4f",
     "semantic_hash": ""
   },
@@ -3535,12 +3535,12 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/api/v1/middleware/authenticated.ts": {
-    "mtime": 1779849269.3756733,
+    "mtime": 1780540213.9346092,
     "ast_hash": "1fc2100c52a0e7eb00ebcd2467ac2c8b",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/package.json": {
-    "mtime": 1779849269.4856734,
+    "mtime": 1780540213.9490092,
     "ast_hash": "e58482295fd68722d34435f59fcff309",
     "semantic_hash": ""
   },
@@ -3625,7 +3625,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/server-only/template/create-document-from-direct-template.ts": {
-    "mtime": 1779849269.4930067,
+    "mtime": 1780540213.9490092,
     "ast_hash": "8fe21733b5031598b533ef97db2a5889",
     "semantic_hash": ""
   },
@@ -3655,7 +3655,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/server-only/template/create-document-from-template.ts": {
-    "mtime": 1779849269.4930067,
+    "mtime": 1780540213.9490092,
     "ast_hash": "6b078f3656e68f1f817e052c5b74672e",
     "semantic_hash": ""
   },
@@ -3805,12 +3805,12 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/server-only/recipient/set-document-recipients.ts": {
-    "mtime": 1779849269.4930067,
+    "mtime": 1780540213.9490092,
     "ast_hash": "ed748f32a2c694361b87172dc9511406",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/server-only/recipient/delete-envelope-recipient.ts": {
-    "mtime": 1779849269.4930067,
+    "mtime": 1780540213.9490092,
     "ast_hash": "52ea28df51bf514cd72b8ca193875282",
     "semantic_hash": ""
   },
@@ -3990,7 +3990,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/server-only/document/delete-document.ts": {
-    "mtime": 1779849269.48934,
+    "mtime": 1780540213.9490092,
     "ast_hash": "80615d1481ac8ac46d1e961a6ca89598",
     "semantic_hash": ""
   },
@@ -4005,7 +4005,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/server-only/document/send-document.ts": {
-    "mtime": 1779849269.48934,
+    "mtime": 1780540213.9490092,
     "ast_hash": "4bd30e0d8a99a11d5527c1330553eb92",
     "semantic_hash": ""
   },
@@ -4030,7 +4030,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/server-only/document/resend-document.ts": {
-    "mtime": 1779849269.48934,
+    "mtime": 1780540213.9490092,
     "ast_hash": "5079009717857f5281c30dfaa127d2d0",
     "semantic_hash": ""
   },
@@ -4155,7 +4155,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/server-only/admin/get-organisation-detailed-insights.ts": {
-    "mtime": 1779849269.4856734,
+    "mtime": 1780540213.9490092,
     "ast_hash": "f7f7d4d09e2361b7edf7152f3e7a53cc",
     "semantic_hash": ""
   },
@@ -4175,7 +4175,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/server-only/admin/admin-find-documents.ts": {
-    "mtime": 1779849269.4856734,
+    "mtime": 1780540213.9490092,
     "ast_hash": "af8af033287795671ec687838c48e593",
     "semantic_hash": ""
   },
@@ -4240,7 +4240,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/server-only/organisation/create-organisation.ts": {
-    "mtime": 1779849269.48934,
+    "mtime": 1780540213.9490092,
     "ast_hash": "2c01e2161819f4013fbb599d83126210",
     "semantic_hash": ""
   },
@@ -4320,7 +4320,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/server-only/rate-limit/rate-limit.ts": {
-    "mtime": 1779849269.4930067,
+    "mtime": 1780540213.9490092,
     "ast_hash": "bc205014ab9d9d26a6445f8ea74ac57f",
     "semantic_hash": ""
   },
@@ -4330,7 +4330,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/server-only/rate-limit/rate-limits.ts": {
-    "mtime": 1779849269.4930067,
+    "mtime": 1780540213.9490092,
     "ast_hash": "4518a20798ff252adefde249bff66c92",
     "semantic_hash": ""
   },
@@ -4460,7 +4460,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/server-only/webhooks/zapier/validateApiToken.ts": {
-    "mtime": 1779849269.4966733,
+    "mtime": 1780540213.9490092,
     "ast_hash": "cca86f502a69e35818326683b8f835f7",
     "semantic_hash": ""
   },
@@ -4560,7 +4560,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/server-only/email/get-email-context.ts": {
-    "mtime": 1779849269.48934,
+    "mtime": 1780540213.9490092,
     "ast_hash": "97181cfd1be85915f635abef6e4d00f7",
     "semantic_hash": ""
   },
@@ -4580,7 +4580,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/server-only/site-settings/schema.ts": {
-    "mtime": 1779849269.4930067,
+    "mtime": 1780540213.9490092,
     "ast_hash": "bf8f88c729bff70600384d9071815bd6",
     "semantic_hash": ""
   },
@@ -4630,7 +4630,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/server-only/envelope/create-envelope.ts": {
-    "mtime": 1779849269.48934,
+    "mtime": 1780540213.9490092,
     "ast_hash": "5e6d1f15104fc6c058b9c2f630775d8e",
     "semantic_hash": ""
   },
@@ -4655,7 +4655,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/server-only/envelope/duplicate-envelope.ts": {
-    "mtime": 1779849269.48934,
+    "mtime": 1780540213.9490092,
     "ast_hash": "f3f33790d54baff90881b99510584227",
     "semantic_hash": ""
   },
@@ -4740,7 +4740,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/jobs/client.ts": {
-    "mtime": 1779849269.4820068,
+    "mtime": 1780540213.9490092,
     "ast_hash": "71a614275147f1c7ab47ab66f026dbf6",
     "semantic_hash": ""
   },
@@ -4815,7 +4815,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/jobs/definitions/internal/process-signing-reminder.handler.ts": {
-    "mtime": 1779849269.4856734,
+    "mtime": 1780540213.9490092,
     "ast_hash": "90908014a2ca7b9659f340fa9f14c55a",
     "semantic_hash": ""
   },
@@ -4930,7 +4930,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/jobs/definitions/emails/send-signing-email.handler.ts": {
-    "mtime": 1779849269.4820068,
+    "mtime": 1780540213.9490092,
     "ast_hash": "4caa328fa7b62dd97512210f2cd2f12d",
     "semantic_hash": ""
   },
@@ -4940,7 +4940,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/jobs/definitions/emails/send-document-completed-emails.handler.ts": {
-    "mtime": 1779849269.4820068,
+    "mtime": 1780540213.9490092,
     "ast_hash": "f3e1eec20343cc5b221bab36c46adbe0",
     "semantic_hash": ""
   },
@@ -5010,7 +5010,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/jobs/definitions/emails/send-document-cancelled-emails.handler.ts": {
-    "mtime": 1779849269.4820068,
+    "mtime": 1780540213.9490092,
     "ast_hash": "7b98b5ced99c4a755dd892e0fd9aa7ba",
     "semantic_hash": ""
   },
@@ -5170,7 +5170,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/utils/organisations-claims.ts": {
-    "mtime": 1779849269.5186734,
+    "mtime": 1780540213.9706092,
     "ast_hash": "c3076bdaacdcfa5ec55412c1e49a8081",
     "semantic_hash": ""
   },
@@ -5405,7 +5405,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/constants/auth.ts": {
-    "mtime": 1779849269.4820068,
+    "mtime": 1780540213.9490092,
     "ast_hash": "9de5a42faa1e94e2118ec644fb9c3860",
     "semantic_hash": ""
   },
@@ -5550,7 +5550,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/types/subscription.ts": {
-    "mtime": 1779849269.5150068,
+    "mtime": 1780540213.9706092,
     "ast_hash": "c4e9da35996141da77b7a4b19914d8a2",
     "semantic_hash": ""
   },
@@ -5595,57 +5595,57 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/translations/en/web.mjs": {
-    "mtime": 1780466239.4691246,
+    "mtime": 1781042445.346644,
     "ast_hash": "0d3ed16e0bb1f2aeb364d8aba3e843b6",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/translations/it/web.mjs": {
-    "mtime": 1780466239.5267246,
+    "mtime": 1781042445.4474437,
     "ast_hash": "cab2d1a885355079617a07c92d14d7cd",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/translations/ko/web.mjs": {
-    "mtime": 1780466239.6023245,
+    "mtime": 1781042445.4906437,
     "ast_hash": "4d246da5075b87adc6f389233ddb4752",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/translations/zh/web.mjs": {
-    "mtime": 1780466239.5987246,
+    "mtime": 1781042445.4870439,
     "ast_hash": "ad7ebd4c957fce36956f09ce495df162",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/translations/es/web.mjs": {
-    "mtime": 1780466239.5375245,
+    "mtime": 1781042445.4294438,
     "ast_hash": "e39fb90ca4e47fe70db5fd75ac8ca52b",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/translations/pt-BR/web.mjs": {
-    "mtime": 1780466239.5375245,
+    "mtime": 1781042445.3970437,
     "ast_hash": "79a9baa851101443bc64cff1b312dc32",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/translations/de/web.mjs": {
-    "mtime": 1780466239.5375245,
+    "mtime": 1781042445.4402437,
     "ast_hash": "dec1f1d8a52bb5f1b6407844a7f5ec97",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/translations/ja/web.mjs": {
-    "mtime": 1780466239.5771246,
+    "mtime": 1781042445.4654438,
     "ast_hash": "80b4442bbadea4be93807a80275594a3",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/translations/nl/web.mjs": {
-    "mtime": 1780466239.5123246,
+    "mtime": 1781042445.4006438,
     "ast_hash": "aa077729c3cbc96937ec5d60c6ede398",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/translations/pl/web.mjs": {
-    "mtime": 1780466239.5123246,
+    "mtime": 1781042445.3934438,
     "ast_hash": "f850d509543cfc27c1590a011e8d1c42",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/translations/fr/web.mjs": {
-    "mtime": 1780466239.5447245,
+    "mtime": 1781042445.3934438,
     "ast_hash": "10923e862632b3e04714fbb368fa21c5",
     "semantic_hash": ""
   },
@@ -5845,7 +5845,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/universal/id.ts": {
-    "mtime": 1779849269.5150068,
+    "mtime": 1780540213.9706092,
     "ast_hash": "35cba0c25ea83a61b9ce65467ebac2ed",
     "semantic_hash": ""
   },
@@ -5855,12 +5855,12 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/universal/field-renderer/render-dropdown-field.ts": {
-    "mtime": 1779849269.5150068,
+    "mtime": 1780540213.9706092,
     "ast_hash": "7d6a13329fb6e7f1e6205eba5e6d6c64",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/universal/field-renderer/render-signature-field.ts": {
-    "mtime": 1779849269.5150068,
+    "mtime": 1780540213.9706092,
     "ast_hash": "327e1ca26d66443ab51412d2ac912c3e",
     "semantic_hash": ""
   },
@@ -5870,7 +5870,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/universal/field-renderer/field-generic-items.ts": {
-    "mtime": 1779849269.5150068,
+    "mtime": 1780540213.9706092,
     "ast_hash": "ef83f05b4c6003cfb26354c7df451194",
     "semantic_hash": ""
   },
@@ -5880,7 +5880,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/universal/field-renderer/render-generic-text-field.ts": {
-    "mtime": 1779849269.5150068,
+    "mtime": 1780540213.9706092,
     "ast_hash": "c669b6327af6198334325dca235b2ac7",
     "semantic_hash": ""
   },
@@ -5920,17 +5920,17 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/universal/upload/server-actions.ts": {
-    "mtime": 1779849269.5186734,
+    "mtime": 1780540213.9706092,
     "ast_hash": "6213f8bf0b50365130108ff8f7aca901",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/universal/upload/put-file.ts": {
-    "mtime": 1779849269.5186734,
+    "mtime": 1780540213.9706092,
     "ast_hash": "9d4fc32d98aaeb57b770cb2077b53ef7",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/universal/upload/put-file.server.ts": {
-    "mtime": 1779849269.5186734,
+    "mtime": 1780540213.9706092,
     "ast_hash": "135afa691e44ef9b447db226edbd09a1",
     "semantic_hash": ""
   },
@@ -5975,7 +5975,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/auth/server/lib/errors/error-codes.ts": {
-    "mtime": 1779849269.4746733,
+    "mtime": 1780540213.9346092,
     "ast_hash": "cd8b923369ddbe6f0d590c91458fbcea",
     "semantic_hash": ""
   },
@@ -5985,7 +5985,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/auth/server/lib/session/session.ts": {
-    "mtime": 1779849269.4746733,
+    "mtime": 1780540213.9346092,
     "ast_hash": "f30e5b661e08d594c4f17f802a72751a",
     "semantic_hash": ""
   },
@@ -6015,12 +6015,12 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/auth/server/lib/utils/handle-oauth-callback-url.ts": {
-    "mtime": 1779849269.4746733,
+    "mtime": 1780540213.9346092,
     "ast_hash": "3c3a5743a92b8493639fb6ba5a1565ee",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/auth/server/lib/utils/authorizer.ts": {
-    "mtime": 1779849269.4746733,
+    "mtime": 1780540213.9346092,
     "ast_hash": "a890588ab2a197a0a11cb799bb3eb681",
     "semantic_hash": ""
   },
@@ -6030,7 +6030,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/auth/server/lib/utils/handle-oauth-organisation-callback-url.ts": {
-    "mtime": 1779849269.4746733,
+    "mtime": 1780540213.9346092,
     "ast_hash": "6fbf237ad5a0bad96e03927f718aec87",
     "semantic_hash": ""
   },
@@ -6100,7 +6100,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/tsconfig/process-env.d.ts": {
-    "mtime": 1779849269.5480068,
+    "mtime": 1780540213.9706092,
     "ast_hash": "f8be736883a1bf320cfb79a7f0e6b35d",
     "semantic_hash": ""
   },
@@ -7790,8 +7790,8 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/mailer.ts": {
-    "mtime": 1779849269.4783401,
-    "ast_hash": "4d7270378090d934fcfcb8d21822ac5c",
+    "mtime": 1780540213.9346092,
+    "ast_hash": "d560b22319171add07c9047b114084d9",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/tsconfig.json": {
@@ -7815,128 +7815,128 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/document-cancel.tsx": {
-    "mtime": 1780467483.2283924,
-    "ast_hash": "46084bd1b413cbfd4efd59dc672c5087",
+    "mtime": 1780540213.9418092,
+    "ast_hash": "b12a3be2cba42fb86c7a23108f7a9ad9",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/document-created-from-direct-template.tsx": {
-    "mtime": 1780467430.6676192,
-    "ast_hash": "80f623395765bab15aeec2ca23f16e50",
+    "mtime": 1780540213.9418092,
+    "ast_hash": "66f85ece919ef3a50d6b1bf06aadcf8e",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/document-rejection-confirmed.tsx": {
-    "mtime": 1780467403.1366198,
-    "ast_hash": "8f26d653d238c063066d471fc1236d38",
+    "mtime": 1780540213.9454093,
+    "ast_hash": "2bc04ee192c52cab3d57017b0f8f4224",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/recipient-removed-from-document.tsx": {
-    "mtime": 1780467430.6748192,
-    "ast_hash": "642f38d441d016f7924f058f9f006554",
+    "mtime": 1780540213.9454093,
+    "ast_hash": "d9f1764555557d197915c53b9f770843",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/bulk-send-complete.tsx": {
-    "mtime": 1780467403.1366198,
+    "mtime": 1780540213.9418092,
     "ast_hash": "6de6a2e4d2eb47f8c1274f9f06e7fd81",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/confirm-team-email.tsx": {
-    "mtime": 1780467430.6676192,
-    "ast_hash": "7a9955a32134d51ccaccccb245dc3407",
+    "mtime": 1780540213.9418092,
+    "ast_hash": "2b7a8ef2e7a8988c006a7596ab35138f",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/access-auth-2fa.tsx": {
-    "mtime": 1780467430.6676192,
-    "ast_hash": "77c2b8dd942fabf4d2d2c9859207dd9a",
+    "mtime": 1780540213.9382093,
+    "ast_hash": "6ce28c4676598deae1b661de35b65246",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/team-delete.tsx": {
-    "mtime": 1780467430.6748192,
-    "ast_hash": "df57449a7de2282d1157a05f708c43bf",
+    "mtime": 1780540213.9454093,
+    "ast_hash": "fe1a2cb337578753d5dc8c06dc784609",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/organisation-join.tsx": {
-    "mtime": 1780467483.2319925,
-    "ast_hash": "13ae6fb60c1077cf9aec08525b5a7766",
+    "mtime": 1780540213.9454093,
+    "ast_hash": "1a164855db8d23b0373c10cbb655175f",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/document-completed.tsx": {
-    "mtime": 1780467430.6676192,
-    "ast_hash": "798988d322cb5586bee68c9d92976e6e",
+    "mtime": 1780540213.9418092,
+    "ast_hash": "3e8c219ea4bf4e121bc5a58c5d54dca1",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/document-invite.tsx": {
-    "mtime": 1780467483.2283924,
-    "ast_hash": "a55af2e90b8796590e4c6564bdc3dd03",
+    "mtime": 1780540213.9418092,
+    "ast_hash": "766e07bfb7338d6466232c418c0b6784",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/recipient-expired.tsx": {
-    "mtime": 1780467430.6748192,
-    "ast_hash": "2828fbc07eb188172b7153b4cae070fd",
+    "mtime": 1780540213.9454093,
+    "ast_hash": "bfd24cdaf80130ac0043b4c399a7f8d5",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/document-self-signed.tsx": {
-    "mtime": 1780467430.6748192,
-    "ast_hash": "e9a2fcec06ecc773f9cdfbd9fef0efd7",
+    "mtime": 1780540213.9454093,
+    "ast_hash": "85533dfdd27b3563b083f35f65c3137a",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/document-pending.tsx": {
-    "mtime": 1780467430.6748192,
-    "ast_hash": "104d26972a933bbc95b9039486ba6f0b",
+    "mtime": 1780540213.9418092,
+    "ast_hash": "8fb5e0f7335e38b0c3fb767792ca3299",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/admin-user-created.tsx": {
-    "mtime": 1780467403.1366198,
-    "ast_hash": "9c12f007c8d9c539c442eade5ba1db3b",
+    "mtime": 1780540213.9418092,
+    "ast_hash": "4bb6d3273850aab3778056b0b8e5470b",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/document-reminder.tsx": {
-    "mtime": 1780467430.6748192,
-    "ast_hash": "74ec8ef07704399e03a1b6f5b0bc9970",
+    "mtime": 1780540213.9454093,
+    "ast_hash": "c2a5ce06fc808bd8c869c11e942a654b",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/confirm-email.tsx": {
-    "mtime": 1780467430.6676192,
-    "ast_hash": "3909ed54e8777eaaa20fe38531a064aa",
+    "mtime": 1780540213.9418092,
+    "ast_hash": "4573ec253a540012acf3314d07d52471",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/document-recipient-signed.tsx": {
-    "mtime": 1780467483.2283924,
-    "ast_hash": "328bf29b342198085cbf642e900528cc",
+    "mtime": 1780540213.9418092,
+    "ast_hash": "f0f3ab0358e7c5a2d864033f55aae27c",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/organisation-account-link-confirmation.tsx": {
-    "mtime": 1780467430.6748192,
-    "ast_hash": "cd2a71a7e63a0cd472ba920af8a0ebda",
+    "mtime": 1780540213.9454093,
+    "ast_hash": "e030d19d40900772665a5169015739ea",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/organisation-leave.tsx": {
-    "mtime": 1780467483.2319925,
-    "ast_hash": "40e4dfcee6719b97816f52a2a0bafadb",
+    "mtime": 1780540213.9454093,
+    "ast_hash": "8f1c55ec3bd439a8abb90f538a33b7c1",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/team-email-removed.tsx": {
-    "mtime": 1780467483.2319925,
-    "ast_hash": "cb566a4677328be80f8d55d633fe3b3e",
+    "mtime": 1780540213.9454093,
+    "ast_hash": "29f5d8fff467015c854f9f5f59a7cf6c",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/organisation-delete.tsx": {
-    "mtime": 1780467430.6748192,
-    "ast_hash": "6d4c96159e7d2378865a422c0415c13f",
+    "mtime": 1780540213.9454093,
+    "ast_hash": "95e08d69a7154ed2312b286062bd5853",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/document-rejected.tsx": {
-    "mtime": 1780467403.1366198,
-    "ast_hash": "20f685b62f3fbdcf08d1ec149a20e40c",
+    "mtime": 1780540213.9454093,
+    "ast_hash": "e5e48aaeb7389c7b04faa4585ddc0252",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/organisation-invite.tsx": {
-    "mtime": 1780467430.6748192,
-    "ast_hash": "df9be9c06f11172bb1110dd9bdb98ca7",
+    "mtime": 1780540213.9454093,
+    "ast_hash": "c93689b0bce8de563a566e26e546ee17",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/templates/document-super-delete.tsx": {
-    "mtime": 1780467430.6748192,
-    "ast_hash": "d0d8f2ddfbcd0bc32ec55e1398572e06",
+    "mtime": 1780540213.9454093,
+    "ast_hash": "db0e4ce34ffbcd2f51e955a675eb992b",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/transports/mailchannels.ts": {
@@ -7950,8 +7950,8 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/template-components/template-document-self-signed.tsx": {
-    "mtime": 1780467255.6142325,
-    "ast_hash": "4eb2c795de78b3a8a1a4e8d41da98330",
+    "mtime": 1780540213.9382093,
+    "ast_hash": "3e6bc4efd69015ef13499029502ea1f5",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/template-components/template-access-auth-2fa.tsx": {
@@ -7975,7 +7975,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/template-components/template-document-rejected.tsx": {
-    "mtime": 1780467255.6142325,
+    "mtime": 1780540213.9382093,
     "ast_hash": "b14bcd8272b74ca6e1d6679123e5d03d",
     "semantic_hash": ""
   },
@@ -7990,7 +7990,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/template-components/template-document-image.tsx": {
-    "mtime": 1780467069.6322868,
+    "mtime": 1780540213.9382093,
     "ast_hash": "5aa750fe9fa1fb0a39d80b032153090e",
     "semantic_hash": ""
   },
@@ -8000,33 +8000,33 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/template-components/template-admin-user-created.tsx": {
-    "mtime": 1780467483.2211924,
+    "mtime": 1780540213.9346092,
     "ast_hash": "b3fd3753ad1c6715878e0b07e1ba0efa",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/template-components/template-recipient-expired.tsx": {
-    "mtime": 1780467255.6142325,
+    "mtime": 1780540213.9382093,
     "ast_hash": "93ce5cf713f04954f621f79f88e3db96",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/template-components/template-document-reminder.tsx": {
-    "mtime": 1780467255.6142325,
+    "mtime": 1780540213.9382093,
     "ast_hash": "40edb9498a6c8a80f2f9f63eab5cef7f",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/template-components/template-confirmation-email.tsx": {
-    "mtime": 1780467255.6106324,
+    "mtime": 1780540213.9346092,
     "ast_hash": "086da7c75394d6095642d6e63b48d98c",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/template-components/template-document-invite.tsx": {
-    "mtime": 1780467255.6142325,
+    "mtime": 1780540213.9382093,
     "ast_hash": "faa8cd84c680861c362002efc264daee",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/template-components/template-footer.tsx": {
-    "mtime": 1780467232.3210647,
-    "ast_hash": "8dfa62b048fad31bc2255b9255f35988",
+    "mtime": 1780540213.9382093,
+    "ast_hash": "58cfadc7c00cbe3e6d51c87b484cb8f1",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/template-components/template-document-pending.tsx": {
@@ -8075,7 +8075,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/.codex/hooks.json": {
-    "mtime": 1780454759.7674615,
+    "mtime": 1780540213.8302093,
     "ast_hash": "f2afcc14e01926c2af61648152a2013d",
     "semantic_hash": ""
   },
@@ -8260,22 +8260,22 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/docs/.source/server.ts": {
-    "mtime": 1780466230.389924,
-    "ast_hash": "86336007fd90d3b7251358f03817e155",
+    "mtime": 1781042431.555145,
+    "ast_hash": "356ed4aa54059f69c0d4d061d503aa7b",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/docs/.source/browser.ts": {
-    "mtime": 1780466230.389924,
-    "ast_hash": "fb0b82c4d19e47a399c2a2a8068c01d3",
+    "mtime": 1781042431.555145,
+    "ast_hash": "66a39aa80e08c20bf4b7e767ea8bbe40",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/docs/.source/dynamic.ts": {
-    "mtime": 1780466230.389924,
+    "mtime": 1781042431.555145,
     "ast_hash": "6521c8a5255d3b06ea9ecd7e6f905ccc",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/docs/.source/source.config.mjs": {
-    "mtime": 1780466230.2783241,
+    "mtime": 1781042431.468745,
     "ast_hash": "744aa97c86cc75efc62ef676bb654411",
     "semantic_hash": ""
   },
@@ -8420,7 +8420,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.bin/stripe-dev.sh": {
-    "mtime": 1779849269.1886735,
+    "mtime": 1780540213.8302093,
     "ast_hash": "806d9d5fb51693141ecb538e26127140",
     "semantic_hash": ""
   },
@@ -8435,7 +8435,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/root.tsx": {
-    "mtime": 1780447600.7561865,
+    "mtime": 1781045767.7216618,
     "ast_hash": "c57d64be8692ab3b34b25fbfa5e07581",
     "semantic_hash": ""
   },
@@ -8455,12 +8455,12 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/forms/public-profile-form.tsx": {
-    "mtime": 1779849269.1960068,
+    "mtime": 1780540213.8338091,
     "ast_hash": "b6d413a46225c7d054b8376e090441bc",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/forms/subscription-claim-form.tsx": {
-    "mtime": 1779849269.1960068,
+    "mtime": 1780540213.8338091,
     "ast_hash": "6a7334356cb500226e135dc134581518",
     "semantic_hash": ""
   },
@@ -8470,7 +8470,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/forms/signin.tsx": {
-    "mtime": 1779859132.8496158,
+    "mtime": 1780540213.8338091,
     "ast_hash": "6e23f010f3bf48a1c1c0fc472e886421",
     "semantic_hash": ""
   },
@@ -8510,7 +8510,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/forms/signup.tsx": {
-    "mtime": 1779849269.1960068,
+    "mtime": 1780540213.8338091,
     "ast_hash": "350dcd921fe14c784235f499c58e5895",
     "semantic_hash": ""
   },
@@ -8580,12 +8580,12 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/forms/2fa/enable-authenticator-app-dialog.tsx": {
-    "mtime": 1780448900.9978466,
+    "mtime": 1780540213.8338091,
     "ast_hash": "24cd93ff7b7e7e9249d7cde18f943c3e",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/forms/2fa/view-recovery-codes-dialog.tsx": {
-    "mtime": 1780448900.5046468,
+    "mtime": 1780540213.8338091,
     "ast_hash": "0cd5bbbcc6b918f5105be737261505a1",
     "semantic_hash": ""
   },
@@ -8635,7 +8635,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/general/org-menu-switcher.tsx": {
-    "mtime": 1780457021.0186257,
+    "mtime": 1780540213.8374093,
     "ast_hash": "82107a1fa34cba6bb0eeea3e7dd58da9",
     "semantic_hash": ""
   },
@@ -8660,7 +8660,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/general/user-profile-timur.tsx": {
-    "mtime": 1780458935.3616486,
+    "mtime": 1780540213.8374093,
     "ast_hash": "560ca7b012252b25f15d389e49597a85",
     "semantic_hash": ""
   },
@@ -8670,7 +8670,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/general/admin-license-card.tsx": {
-    "mtime": 1780447564.4490676,
+    "mtime": 1780540213.8338091,
     "ast_hash": "bb1dc2d04aa110afb8a6dc2a33b49da5",
     "semantic_hash": ""
   },
@@ -8725,7 +8725,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/general/branding-logo.tsx": {
-    "mtime": 1780454759.7890615,
+    "mtime": 1780540213.8374093,
     "ast_hash": "e6d59bffc9f964f839532e636acf8838",
     "semantic_hash": ""
   },
@@ -8740,7 +8740,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/general/app-nav-mobile.tsx": {
-    "mtime": 1780448734.4749594,
+    "mtime": 1780540213.8374093,
     "ast_hash": "65a841cc98fa6775da9669ee13c5c5f6",
     "semantic_hash": ""
   },
@@ -8770,7 +8770,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/general/app-header.tsx": {
-    "mtime": 1780454759.8430614,
+    "mtime": 1780540213.8338091,
     "ast_hash": "6d96b02c785f6307d577dbe77ef1680f",
     "semantic_hash": ""
   },
@@ -8795,7 +8795,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/general/admin-license-status-banner.tsx": {
-    "mtime": 1780447564.0350676,
+    "mtime": 1780540213.8338091,
     "ast_hash": "3c37d6fb8e1e3358132ad5522083b6fa",
     "semantic_hash": ""
   },
@@ -8850,7 +8850,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/general/document-signing/document-signing-page-view-v2.tsx": {
-    "mtime": 1780448809.8714325,
+    "mtime": 1780540213.8374093,
     "ast_hash": "95bd7015bc1b5ffce7769899e456b722",
     "semantic_hash": ""
   },
@@ -8860,7 +8860,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/general/document-signing/document-signing-mobile-widget.tsx": {
-    "mtime": 1780448788.9446316,
+    "mtime": 1780540213.8374093,
     "ast_hash": "342aff70e85aeffd77a6dc56abde4c7a",
     "semantic_hash": ""
   },
@@ -9040,12 +9040,12 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/general/envelope-editor/envelope-editor-header.tsx": {
-    "mtime": 1780454759.7926614,
+    "mtime": 1780540213.8374093,
     "ast_hash": "5f87449b13c02ccdf8741888198b57b7",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/general/envelope-editor/envelope-editor-settings-dialog.tsx": {
-    "mtime": 1780447597.1705863,
+    "mtime": 1780540213.8374093,
     "ast_hash": "e702caffe12ab26ea7094675bc3eab4f",
     "semantic_hash": ""
   },
@@ -9065,7 +9065,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/general/envelope-signing/envelope-signer-page-renderer.tsx": {
-    "mtime": 1779849269.2143402,
+    "mtime": 1780540213.8374093,
     "ast_hash": "364cca2a2f11e848cc69c9802874403b",
     "semantic_hash": ""
   },
@@ -9075,7 +9075,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/general/envelope-signing/envelope-signer-header.tsx": {
-    "mtime": 1780454759.7926614,
+    "mtime": 1780540213.8374093,
     "ast_hash": "1c6c0d08a2d1c6d6d64ce6c61c4fa175",
     "semantic_hash": ""
   },
@@ -9225,7 +9225,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/general/document/document-certificate-qr-view.tsx": {
-    "mtime": 1780447595.5037863,
+    "mtime": 1780540213.8374093,
     "ast_hash": "ffbe0cc8f630575a4788ac0b8058332b",
     "semantic_hash": ""
   },
@@ -9240,7 +9240,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/general/organisations/organisation-billing-banner.tsx": {
-    "mtime": 1780447565.2302675,
+    "mtime": 1780540213.8374093,
     "ast_hash": "fc330a463ac52895f39dd6c3b296a12d",
     "semantic_hash": ""
   },
@@ -9425,7 +9425,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/tables/organisation-insights-table.tsx": {
-    "mtime": 1779849269.2180068,
+    "mtime": 1780540213.8374093,
     "ast_hash": "c75680473715cf2af5cc21595cc1f730",
     "semantic_hash": ""
   },
@@ -9475,7 +9475,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/dialogs/account-delete-dialog.tsx": {
-    "mtime": 1780447596.8033864,
+    "mtime": 1780540213.8302093,
     "ast_hash": "1dd7cc49252857208f0a0a0b6863e6f4",
     "semantic_hash": ""
   },
@@ -9520,7 +9520,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/dialogs/public-profile-template-manage-dialog.tsx": {
-    "mtime": 1779849269.1923401,
+    "mtime": 1780540213.8338091,
     "ast_hash": "6891c103bb049d79182e06869bbebfc2",
     "semantic_hash": ""
   },
@@ -9640,7 +9640,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/dialogs/webhook-create-dialog.tsx": {
-    "mtime": 1780454759.7890615,
+    "mtime": 1780540213.8338091,
     "ast_hash": "f067dc8e2492901b710661fbf080db2a",
     "semantic_hash": ""
   },
@@ -9665,7 +9665,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/dialogs/organisation-member-invite-dialog.tsx": {
-    "mtime": 1780448900.0006466,
+    "mtime": 1780540213.8338091,
     "ast_hash": "c5f34b4bc7c5b18750a5993f1549aa4b",
     "semantic_hash": ""
   },
@@ -9695,7 +9695,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/dialogs/envelope-distribute-dialog.tsx": {
-    "mtime": 1780447595.7341864,
+    "mtime": 1780540213.8302093,
     "ast_hash": "06089bd718b05ec65ebebb5a39d7f3fd",
     "semantic_hash": ""
   },
@@ -9825,12 +9825,12 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/dialogs/webhook-edit-dialog.tsx": {
-    "mtime": 1780454759.7890615,
+    "mtime": 1780540213.8338091,
     "ast_hash": "6ba51de6f70d6cc560a505f84c439dcb",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/dialogs/admin-swap-subscription-dialog.tsx": {
-    "mtime": 1779849269.1923401,
+    "mtime": 1780540213.8302093,
     "ast_hash": "535e7d832f436bffa04fdf9fbb67b159",
     "semantic_hash": ""
   },
@@ -9870,7 +9870,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/embed/embed-document-completed.tsx": {
-    "mtime": 1780447563.6210675,
+    "mtime": 1780540213.8338091,
     "ast_hash": "4c0798f6691c6e3c75989cadec11c13c",
     "semantic_hash": ""
   },
@@ -9885,12 +9885,12 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/embed/embed-direct-template-client-page.tsx": {
-    "mtime": 1780454759.7890615,
+    "mtime": 1780540213.8338091,
     "ast_hash": "2fcbeaf0478602077f3e4c79a8d64e85",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/embed/embed-authentication-required.tsx": {
-    "mtime": 1780454759.7890615,
+    "mtime": 1780540213.8338091,
     "ast_hash": "366d4bfd77158369f286b028132fb9d5",
     "semantic_hash": ""
   },
@@ -9915,7 +9915,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/components/embed/embed-document-signing-page-v1.tsx": {
-    "mtime": 1780448789.4414315,
+    "mtime": 1780540213.8338091,
     "ast_hash": "b6b77ab968d9070ee2f82b4eccda86f3",
     "semantic_hash": ""
   },
@@ -9990,27 +9990,27 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_index.tsx": {
-    "mtime": 1779849269.2216735,
-    "ast_hash": "581515133933269ad5274f8aac0328ea",
+    "mtime": 1780540213.8410091,
+    "ast_hash": "6f63edba9282895c500dd0e54ab5eff7",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_profile+/_layout.tsx": {
-    "mtime": 1780448734.7917595,
+    "mtime": 1780540213.8410091,
     "ast_hash": "4ea7f2126b0fc988d19bba012f293948",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_profile+/p.$url.tsx": {
-    "mtime": 1780458744.4988809,
+    "mtime": 1780540213.8410091,
     "ast_hash": "e007717402b4c9e659ded0dddf9b5aa6",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_internal+/[__htmltopdf]+/audit-log.tsx": {
-    "mtime": 1780454759.7890615,
+    "mtime": 1780540213.8410091,
     "ast_hash": "cc6181df1a9cb11d86304d5810919a9d",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_internal+/[__htmltopdf]+/certificate.tsx": {
-    "mtime": 1780454759.7926614,
+    "mtime": 1780540213.8410091,
     "ast_hash": "9d6fd679b8ce74aa90e5f8089b3f9cbc",
     "semantic_hash": ""
   },
@@ -10090,7 +10090,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_authenticated+/o.$orgUrl.support.tsx": {
-    "mtime": 1780447597.8977864,
+    "mtime": 1780540213.8410091,
     "ast_hash": "2b4ce5783a0c309f8f979734de3737e5",
     "semantic_hash": ""
   },
@@ -10105,8 +10105,8 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_authenticated+/dashboard.tsx": {
-    "mtime": 1779849269.2180068,
-    "ast_hash": "1a22f58f9f4b4208a730ca0a42be69a0",
+    "mtime": 1780540213.8374093,
+    "ast_hash": "0cfdd8750d31bfbfcc7ad8947495dbca",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_authenticated+/o.$orgUrl.settings.groups._index.tsx": {
@@ -10130,7 +10130,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_authenticated+/admin+/documents._index.tsx": {
-    "mtime": 1779849269.2180068,
+    "mtime": 1780540213.8374093,
     "ast_hash": "3e1e8ea3874b7757219ecb43fe2a4197",
     "semantic_hash": ""
   },
@@ -10160,7 +10160,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_authenticated+/admin+/_layout.tsx": {
-    "mtime": 1779849269.2180068,
+    "mtime": 1780540213.8374093,
     "ast_hash": "d62340e0be0029d046b1fb994c5cc01f",
     "semantic_hash": ""
   },
@@ -10180,7 +10180,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_authenticated+/admin+/site-settings.tsx": {
-    "mtime": 1779849269.2180068,
+    "mtime": 1780540213.8374093,
     "ast_hash": "a6e33ebe0f349dc0d385f3cd2dd6f50a",
     "semantic_hash": ""
   },
@@ -10190,7 +10190,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_authenticated+/admin+/organisations.$id.tsx": {
-    "mtime": 1779849269.2180068,
+    "mtime": 1780540213.8374093,
     "ast_hash": "46f15153378e3e08cf1717e51daecf7d",
     "semantic_hash": ""
   },
@@ -10425,12 +10425,12 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_unauthenticated+/articles.signature-disclosure.tsx": {
-    "mtime": 1780447600.3421867,
+    "mtime": 1780540213.8410091,
     "ast_hash": "f1734f15463584f8b5dbcaedf4578de4",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_unauthenticated+/o.$orgUrl.signin.tsx": {
-    "mtime": 1780447599.9461865,
+    "mtime": 1780540213.8410091,
     "ast_hash": "700dca40a840015806eefe7ba3b5db27",
     "semantic_hash": ""
   },
@@ -10445,7 +10445,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_unauthenticated+/signin.tsx": {
-    "mtime": 1780457249.9978657,
+    "mtime": 1780540213.8410091,
     "ast_hash": "c43d278ddf2fdeb9798843870448e042",
     "semantic_hash": ""
   },
@@ -10465,7 +10465,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_recipient+/_layout.tsx": {
-    "mtime": 1780447597.5413864,
+    "mtime": 1780540213.8410091,
     "ast_hash": "779c6cb84fd8ce77bfe3feb17e19c46e",
     "semantic_hash": ""
   },
@@ -10475,7 +10475,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_recipient+/sign.$token+/_index.tsx": {
-    "mtime": 1780447599.1073866,
+    "mtime": 1780540213.8410091,
     "ast_hash": "477b55bd317894e20fb8d9ca6a184536",
     "semantic_hash": ""
   },
@@ -10510,7 +10510,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/embed+/v1+/multisign+/_index.tsx": {
-    "mtime": 1780448877.8496878,
+    "mtime": 1780540213.8410091,
     "ast_hash": "c52dcba56ac41e3d9a84756704ea7f56",
     "semantic_hash": ""
   },
@@ -10620,7 +10620,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/routes/_share+/share.$slug.tsx": {
-    "mtime": 1780448840.484384,
+    "mtime": 1780540213.8410091,
     "ast_hash": "5045a4acebbd65510812042420977e9e",
     "semantic_hash": ""
   },
@@ -10630,7 +10630,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/app/utils/meta.ts": {
-    "mtime": 1780448840.0235841,
+    "mtime": 1780540213.8410091,
     "ast_hash": "cb15d8c1a6f1439d0d0aaa1f68c5cc17",
     "semantic_hash": ""
   },
@@ -10825,662 +10825,662 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/+routes.ts": {
-    "mtime": 1780466240.7219245,
+    "mtime": 1781042446.6246438,
     "ast_hash": "4d41153e638038ecf393455c6e653546",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/+server-build.d.ts": {
-    "mtime": 1780466240.7219245,
+    "mtime": 1781042446.6246438,
     "ast_hash": "feb059bd8a13e59965da5ed7f19ac4ff",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/+future.ts": {
-    "mtime": 1780466240.7183247,
+    "mtime": 1781042446.6246438,
     "ast_hash": "946cbf41ce33d02a825b720a9698d07a",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/+types/root.ts": {
-    "mtime": 1780466240.7219245,
+    "mtime": 1781042446.6246438,
     "ast_hash": "9f7f0f9acf4c87d78336da16854b9a86",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/+types/_index.ts": {
-    "mtime": 1780466240.7219245,
+    "mtime": 1781042446.6246438,
     "ast_hash": "08503d19beb52add0f19e834ead26de7",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_profile+/+types/p.$url.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.628244,
     "ast_hash": "bad74de16bf545dc3d131d6b4c2e5d10",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_profile+/+types/_layout.ts": {
-    "mtime": 1780466240.7219245,
+    "mtime": 1781042446.693044,
     "ast_hash": "45a921e12acf221a6f52384a622c01a3",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_internal+/[__htmltopdf]+/+types/audit-log.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.628244,
     "ast_hash": "015afb22fe51dfb2eccc9c4f9d54632f",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_internal+/[__htmltopdf]+/+types/certificate.ts": {
-    "mtime": 1780466240.7219245,
+    "mtime": 1781042446.693044,
     "ast_hash": "ce96462277526cc83c359bc62c1cd213",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/o.$orgUrl.settings._layout.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "f588748d4b6b386b8610c71d2c256a50",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/o.$orgUrl.settings.billing.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "b94575a115132c77b3ec810554252f06",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/dashboard.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "97fed6ae0008ebd8a26f4b840f6ce68f",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/o.$orgUrl.settings.teams.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "41ed69c04f7cac466b7fbe6c1e5cc9d8",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/o.$orgUrl.settings.members.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "9ea19a4b73122364c1ff346708cede16",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/o.$orgUrl.settings.branding.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "390172f4f6dc820fe8d17f8d3521d78e",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/o.$orgUrl._layout.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "db35275a8f3c9039b4afd654bc7d71b0",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/o.$orgUrl.settings.email.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "62668f51d522a71eb2bfba2482198732",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/inbox.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "8f42f86f5ed8ff55b25dd5b222f8950e",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/o.$orgUrl._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "75682beaf7629c343be0154159c24e7f",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/o.$orgUrl.settings.email-domains._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "bbc18759641cedfb4b89442b8c0a4ca4",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/o.$orgUrl.settings.sso.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "0b18f1a987c6e5adc14700eaac1446d8",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/o.$orgUrl.support.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "03ca8245a26a5b560353cb769b2695ae",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/_layout.ts": {
-    "mtime": 1780466240.7255247,
+    "mtime": 1781042446.6606438,
     "ast_hash": "b4c134208cf51c933165a6fb3d50c006",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/o.$orgUrl.settings.groups._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "e55d17eaa0d395dc1c01ea643d9a8efd",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/o.$orgUrl.settings.general.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "4bc425ca3f85bd9cbad3ac97430cc233",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/o.$orgUrl.settings._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "be355fdcceec8f53aa399680f4c21a59",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/o.$orgUrl.settings.email-domains.$id.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "e13048019d675fcb0a94fed78cf79de2",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/o.$orgUrl.settings.document.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "c2b3aeeed057c0beb2e244bc0a6b523e",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/+types/o.$orgUrl.settings.groups.$id.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "be9bd77e990e4e0427ca9606ac6dd691",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/admin+/+types/site-settings.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "e5b2ae356239ca864c0378438f69fe7b",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/admin+/+types/claims.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "224be9df8adc412fdca0ab2a258887ab",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/admin+/+types/teams.$id.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "1732324871a81f3e493d550a72b9f03e",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/admin+/+types/email-domains._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "656384fa9feaf637b2fef5b051d0f259",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/admin+/+types/organisations.$id.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "800f506718db8d12ee6852dcf6ebb7f4",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/admin+/+types/users._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "3f5820df43480e5dad4e2aa596321bf8",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/admin+/+types/documents._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "2cfb68bf150ed96c655d5c5c1e414e5b",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/admin+/+types/organisation-insights.$id.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "b6178ce1edf778b5f1fb4ee89116f3ca",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/admin+/+types/organisation-insights._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "18e7f971c5fb6d8c5560d1fb1aa85316",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/admin+/+types/organisations._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "bd16547db54fd2e69388b71e07b1954f",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/admin+/+types/documents.$id.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "87e61f32ff37b7802857ebb604d356b3",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/admin+/+types/email-domains.$id.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "6721fd670f6a69a5a4b3ab466851156c",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/admin+/+types/_layout.ts": {
-    "mtime": 1780466240.7219245,
+    "mtime": 1781042446.6246438,
     "ast_hash": "26b79328a1cd861096d61806838a717d",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/admin+/+types/stats.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "73a840ca4d6f32544c13127fe3528fc3",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/admin+/+types/_index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "32de255e31eac7583551d5afa2cb4148",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/admin+/+types/users.$id.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "c46b219526f6ee78435598c7b1f2f583",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/admin+/+types/unsealed-documents._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "3c7c70b589f883429bffc154565e2590",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/settings.webhooks._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "bf10622b7cfb6f015d68c06a4dc22143",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/settings.public-profile.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "45a81bd174580f0bf12b84dba35122dc",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/settings.webhooks.$id._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "bf05685d08be293e7bc1a664e7a15c06",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/templates.$id._layout.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "5e84ae487d1119388f74c518eee50e1c",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/settings.document.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "529a907ac3414b8b843eb50ef824ad62",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/settings.branding.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "f90c2ac015d54c7eab1e236859625f57",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/documents.$id._layout.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "45e18aa6153d707555d5e8a84e02a436",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/templates.$id._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "8e3308625670dfc1e7b5a74491e375dd",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/templates.folders._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "27b73cfd9a3c7bd1ffe56ef1b5efefdf",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/documents.$id.logs.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "47d85ae73d8d346b28b4e99b2ab6abf2",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/documents.f.$folderId._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "a24ef163ffbaa937b378464bf5a329fd",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/documents.$id.edit.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "72e5d1f9a5606c7b3eab9babf9159e41",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/templates.$id.legacy_editor.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "3e1ea0566adfd70bb9c2431f7fad224d",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/documents._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "8893c721cf2bca9e969977d0a12f78be",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/settings.members.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "7f5474bfa5e0b6c58300b929f7b46114",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/settings._layout.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "8fe658c62b8c9331ce73f42be0e36636",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/templates.$id.edit.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "f49c59b7437b5b21a8102c5434886cb7",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/_layout.ts": {
-    "mtime": 1780466240.7219245,
+    "mtime": 1781042446.628244,
     "ast_hash": "7b65a4a009d6e3d75a2742744522f8a0",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/documents.$id._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "886e2b5982348aca38b49b3aabd9860b",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/templates._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "c11e785394fcb6394c81725af1eccc3b",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/templates.f.$folderId._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "92664de039047f8e865595b6ea912aa6",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/_index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "9397f3e5bf88451effad7434d2b3d2f6",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/settings._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "440ae2c1a5cbbc4b2f5c1c11489cf60a",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/documents.folders._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "8b871a2bc91da01fe3f07151a11898bc",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/settings.groups.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "b2e6542c1600c7cb3ecf27c4c45f220a",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/documents.$id.legacy_editor.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "6d34386de71904a8d983c11c27e506e0",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/t.$teamUrl+/+types/settings.email.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "c7d7879c237447f6cb0111f4414c8336",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/+types/organisations.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "8378d64cb690411de990e6de0ecd335f",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/+types/security._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "7aa429b49ac95ff88b8a6941b13b0576",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/+types/security.sessions.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "acd359535ab5b82ab43a9f066abea208",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/+types/security.passkeys.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "fa24811cf7b777685c15270bc89f063f",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/+types/billing.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "d2e043a80b5db0b0979cf4959f94adf6",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/+types/_layout.ts": {
-    "mtime": 1780466240.7543247,
+    "mtime": 1781042446.6606438,
     "ast_hash": "784cbc53c30303127532c74bd2f87cd9",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/+types/security.activity.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "2ef0f0ab795c9e04af3e55978d3eafa1",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/+types/_index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "db8f3d4f531b06d49f97e353b731099b",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/+types/profile.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "806013b170c7e2d0025893be9d9e2c58",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/+types/security.linked-accounts.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "beafc762cf9883f20df58b623182cc0e",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/_dynamic_personal_routes+/+types/billing-personal.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "954defe76a890fae3a0a39a0ddff6384",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/_dynamic_personal_routes+/+types/webhooks._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "44498569545ae2eb21a01cf7a11f4a8c",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/_dynamic_personal_routes+/+types/document.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "ce1ae3208ce74e713c80dd4d3c3a971f",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/_dynamic_personal_routes+/+types/public-profile.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "bcc990fa85c3218e534d72431e25428c",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/_dynamic_personal_routes+/+types/_layout.ts": {
-    "mtime": 1780466240.7219245,
+    "mtime": 1781042446.6246438,
     "ast_hash": "8ce7c29530e59b67be6bc773ee767bfa",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/_dynamic_personal_routes+/+types/webhooks.$id._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "68b65a47fe4876c85197750f2eeefe43",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/_dynamic_personal_routes+/+types/email.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "0771f39b4ee94b8654c9504a5edf53a8",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_authenticated+/settings+/_dynamic_personal_routes+/+types/branding.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "9b18d5e18e1d3be21bb5b5303748749a",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_unauthenticated+/+types/signup.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "5c19740e1b21069a0b8d9bae4d887ffa",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_unauthenticated+/+types/articles.signature-disclosure.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "c27f24427936173530c13611120127aa",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_unauthenticated+/+types/unverified-account.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "0853f670e501348530b0f0644ce82d27",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_unauthenticated+/+types/signin.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "07ddbd2f215e34d1e0d98d482f50cb9f",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_unauthenticated+/+types/check-email.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "e61d20bf4d4b3ff4d3bbcaa66f1d4ef3",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_unauthenticated+/+types/verify-email._index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "11f1fa39e3cc7565d5baa58db656400a",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_unauthenticated+/+types/o.$orgUrl.signin.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "5862d8a40b7ba6fbd88aa0ed5a7d7521",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_unauthenticated+/+types/_layout.ts": {
-    "mtime": 1780466240.7255247,
+    "mtime": 1781042446.628244,
     "ast_hash": "7e2b6aa44a2ca9104524684860fe7e2f",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_recipient+/+types/_layout.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "883d8812edf720dffe5113280884adac",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_recipient+/d.$token+/+types/_index.ts": {
-    "mtime": 1780466240.7219245,
+    "mtime": 1781042446.6246438,
     "ast_hash": "6feda60b29a2c1ac0376d3e8ee32dbfd",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_recipient+/sign.$token+/+types/waiting.ts": {
-    "mtime": 1780466240.7219245,
+    "mtime": 1781042446.693044,
     "ast_hash": "a9ae70f2bd32c716ec0ea524e947b6e5",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_recipient+/sign.$token+/+types/rejected.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.628244,
     "ast_hash": "01d001cb986581fca83129ba83b848c6",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_recipient+/sign.$token+/+types/expired.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "925356d95aae17f87103fb1f721ea944",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_recipient+/sign.$token+/+types/_index.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "5ce5e19ec8076d8fbed8f2682456e8e7",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_recipient+/sign.$token+/+types/complete.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "4f49fd43f3dd1bfd9d988acd999a0281",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/embed+/+types/playground.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "13f69d8e28317926a15ec8bfd0edb0d9",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/embed+/v1+/+types/authoring_.completed.create.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "a62944998f4e9f3346e919f3bf2595dd",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/embed+/v1+/multisign+/+types/_index.ts": {
-    "mtime": 1780466240.7255247,
+    "mtime": 1781042446.628244,
     "ast_hash": "d4bf8a0a24b984b83bfab7cd0fe11a78",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/embed+/v1+/authoring+/+types/template.edit.$id.ts": {
-    "mtime": 1780466240.7219245,
+    "mtime": 1781042446.628244,
     "ast_hash": "a9500f612e9352a630cc7f70d2f82c4e",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/embed+/v1+/authoring+/+types/template.create.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "7b1e1e63a54fc033cd8edc36203f7b35",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/embed+/v1+/authoring+/+types/document.create.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "98929b997f44d4c80e8c295f14615e96",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/embed+/v1+/authoring+/+types/document.edit.$id.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "f5773a92646c14601fa4a91ca0a734fb",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/embed+/v1+/authoring+/+types/_layout.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "803c35d3cbe216564f162b2255b5f7a7",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/embed+/v2+/authoring+/+types/envelope.create._index.ts": {
-    "mtime": 1780466240.7219245,
+    "mtime": 1781042446.693044,
     "ast_hash": "ad32ffea0dcd9dae395a42e1935be85b",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/embed+/v2+/authoring+/+types/_layout.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.628244,
     "ast_hash": "b5162687f75feba0a5e87303a579f616",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/embed+/v2+/authoring+/+types/envelope.edit.$id.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "45c380bb56b48391049cc402df1f5e3c",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/embed+/_v0+/+types/_layout.ts": {
-    "mtime": 1780466240.7219245,
+    "mtime": 1781042446.628244,
     "ast_hash": "fce5077a92c1958580943c4d8136e065",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/api+/+types/branding.logo.organisation.$orgId.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "9931b2ecfffd47bef4fe44b40627dc90",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/api+/+types/avatar.$id.ts": {
-    "mtime": 1780466240.7255247,
+    "mtime": 1781042446.628244,
     "ast_hash": "925c92353ea1e8129475552ee181af67",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/api+/+types/locale.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "1ee76f167f63a121daf829e2bc736c1d",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/api+/+types/webhook.trigger.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "48e80fda01ef39758b7486943eef23b8",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/api+/+types/certificate-status.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "55528ba34985247cd1251054c0f4256e",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/api+/+types/health.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "124592a4ed2f436383aae875118ed84b",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/api+/+types/limits.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "c4c82f7aeb75d019cd5e2e196f215ca7",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/api+/+types/branding.logo.team.$teamId.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "edb06b4f27354fa3198d38aadac376a7",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/api+/+types/theme.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "d253a1162fad2efd993a481530b4cf4c",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/api+/+types/stripe.webhook.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "0c76c5dea82227a67e7d6e3312d5c85c",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_share+/+types/share.$slug.opengraph.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "9b43ec100c66d4619e86ee03bfabdff8",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_share+/+types/_layout.ts": {
-    "mtime": 1780466240.7255247,
+    "mtime": 1781042446.628244,
     "ast_hash": "29d61c8380bd844c4b2276e697f82bd4",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_share+/+types/share.$slug.ts": {
-    "mtime": 1780466240.7867246,
+    "mtime": 1781042446.693044,
     "ast_hash": "c874c83a911cea4650aa655449c5a152",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.react-router/types/app/routes/_redirects+/+types/ingest.$.ts": {
-    "mtime": 1780466240.7219245,
+    "mtime": 1781042446.628244,
     "ast_hash": "36c09744f41c9db01501ab5198ea4206",
     "semantic_hash": ""
   },
@@ -11625,7 +11625,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/AGENTS.md": {
-    "mtime": 1779935407.1383178,
+    "mtime": 1780540213.8302093,
     "ast_hash": "406aeae77d9f287d3d993d7770297863",
     "semantic_hash": ""
   },
@@ -12040,7 +12040,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/storage.mdx": {
-    "mtime": 1779849269.1410067,
+    "mtime": 1780540213.8302093,
     "ast_hash": "76452e98f9d14879c6a19d0dea1e09fd",
     "semantic_hash": ""
   },
@@ -12190,7 +12190,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/standards.mdx": {
-    "mtime": 1779849269.1336734,
+    "mtime": 1780540213.8302093,
     "ast_hash": "26abe739095284237b199a2cc48e71c8",
     "semantic_hash": ""
   },
@@ -12640,7 +12640,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/recipient-roles.mdx": {
-    "mtime": 1779849269.13734,
+    "mtime": 1780540213.8302093,
     "ast_hash": "8dae987a8561bdf6540984397dba4ea3",
     "semantic_hash": ""
   },
@@ -12710,7 +12710,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/public/.well-known/security.txt": {
-    "mtime": 1780454758.0286615,
+    "mtime": 1780539852.9039264,
     "ast_hash": "616c578f6aa4afedb14f33c2c28400e4",
     "semantic_hash": ""
   },
@@ -12975,7 +12975,7 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/assets/static/logo.png": {
-    "mtime": 1779855331.5388691,
+    "mtime": 1780540213.9346092,
     "ast_hash": "6ed1117e1ddbacdd487195357d3f404b",
     "semantic_hash": ""
   },
@@ -13565,8 +13565,8 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/public/favicon-32x32.png": {
-    "mtime": 1779849269.2253401,
-    "ast_hash": "715106cf97efc9f9e7a09b2b21b41b79",
+    "mtime": 1781045756.8573325,
+    "ast_hash": "5b0eaa33c893c2ba548c1dc943a77627",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/public/android-chrome-192x192.png": {
@@ -13575,8 +13575,8 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/public/favicon-16x16.png": {
-    "mtime": 1779849269.2253401,
-    "ast_hash": "fd3948bbb49286ee39d0eb773d6b45e3",
+    "mtime": 1781045756.8683326,
+    "ast_hash": "c6b8ed5174fded06d7ff8084675f446b",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/public/opengraph-image.jpg": {
@@ -13655,12 +13655,12 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/public/static/logo.png": {
-    "mtime": 1779855404.5502021,
+    "mtime": 1780540213.8446093,
     "ast_hash": "6ed1117e1ddbacdd487195357d3f404b",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/public/static/waf-logo.png": {
-    "mtime": 1779854722.5134385,
+    "mtime": 1780540213.8446093,
     "ast_hash": "6ed1117e1ddbacdd487195357d3f404b",
     "semantic_hash": ""
   },
@@ -13685,13 +13685,18 @@
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/template-components/template-email-header.tsx": {
-    "mtime": 1780467529.0576975,
-    "ast_hash": "da3c368994b6b371a98e905d8050a25d",
+    "mtime": 1780540213.9382093,
+    "ast_hash": "5d5ceacb8e5abdbd3636408b67f6a302",
     "semantic_hash": ""
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/email/template-components/template-email-shell.tsx": {
-    "mtime": 1780467045.3103313,
-    "ast_hash": "3dab10b4f077120952b5dece421697f4",
+    "mtime": 1780540213.9382093,
+    "ast_hash": "23ad2a8aec894ba902d10f1701775956",
+    "semantic_hash": ""
+  },
+  "/home/shonzi/WAF/dev/code/documenso/apps/remix/public/new-waf-favicon.png": {
+    "mtime": 1781045459.232312,
+    "ast_hash": "853b57a269d7f99d5c1981e6ee015220",
     "semantic_hash": ""
   }
 }

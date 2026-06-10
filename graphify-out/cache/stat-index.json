@@ -1,7 +1,7 @@
 {
   "/home/shonzi/WAF/dev/code/documenso/.graphify_detect.json": {
     "size": 296896,
-    "mtime_ns": 1780454759767461457,
+    "mtime_ns": 1780540213830209201,
     "hash": "c5dc1e5d6e58117ae48727c5b0ef5fdfa2ee039656d857cb5dc616acd8169ad7"
   },
   "/home/shonzi/WAF/dev/code/documenso/package.json": {
@@ -61,12 +61,12 @@
   },
   "/home/shonzi/WAF/dev/code/documenso/.vscode/settings.json": {
     "size": 966,
-    "mtime_ns": 1779849269133673482,
+    "mtime_ns": 1780540213830209201,
     "hash": "2c162d0f8ad376ae3c886d7c21f09bc2438ccb1f847c7730bed637b0f2f58099"
   },
   "/home/shonzi/WAF/dev/code/documenso/.husky/_/husky.sh": {
     "size": 160,
-    "mtime_ns": 1780466230854324174,
+    "mtime_ns": 1781042431875545087,
     "hash": "6db0aa99aece6ebd17bbc27c5e5287a462fb39cc4a2ca3a82a6277c166bdb3a0"
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/ui/package.json": {
@@ -121,7 +121,7 @@
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/package.json": {
     "size": 2096,
-    "mtime_ns": 1779849269485673371,
+    "mtime_ns": 1780540213949009207,
     "hash": "00ec8f49c59a96892e4c2b3ecbc5243391cee337f330e48871e9b9da136f8a73"
   },
   "/home/shonzi/WAF/dev/code/documenso/packages/lib/tsconfig.json": {
@@ -1016,7 +1016,7 @@
   },
   "/home/shonzi/WAF/dev/code/documenso/.codex/hooks.json": {
     "size": 243,
-    "mtime_ns": 1780454759767461457,
+    "mtime_ns": 1780540213830209201,
     "hash": "ce3d6272bb0189c0d07b961a4f4cb839368b400e5c433ad67aff06782e852ecb"
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/docs/cli.json": {
@@ -1201,7 +1201,7 @@
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/remix/.bin/stripe-dev.sh": {
     "size": 3120,
-    "mtime_ns": 1779849269188673465,
+    "mtime_ns": 1780540213830209201,
     "hash": "37531eff8daa040f0a970ce5c6aad2814e537855f37564c76d32e123ea930f8d"
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/openpage-api/package.json": {
@@ -1216,7 +1216,7 @@
   },
   "/home/shonzi/WAF/dev/code/documenso/AGENTS.md": {
     "size": 3870,
-    "mtime_ns": 1779935407138317783,
+    "mtime_ns": 1780540213830209201,
     "hash": "44c5c8d63cf430ac752656ecfc431f3fc0ed036dec5ac500c1e51a8a3ac27db5"
   },
   "/home/shonzi/WAF/dev/code/documenso/WRITING_STYLE.md": {
@@ -1481,7 +1481,7 @@
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/storage.mdx": {
     "size": 14858,
-    "mtime_ns": 1779849269141006813,
+    "mtime_ns": 1780540213830209201,
     "hash": "350ad7247680fa8102de0e76def3365492458e4960af2ce33e800cc0999158bb"
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/self-hosting/configuration/environment.mdx": {
@@ -1631,7 +1631,7 @@
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/standards.mdx": {
     "size": 5218,
-    "mtime_ns": 1779849269133673482,
+    "mtime_ns": 1780540213830209201,
     "hash": "7525babc6efa23a61cb34a846e79d98f6bfd6bba280803571c56febd0cd7b55e"
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/compliance/esign.mdx": {
@@ -2081,7 +2081,7 @@
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/recipient-roles.mdx": {
     "size": 5691,
-    "mtime_ns": 1779849269137340147,
+    "mtime_ns": 1780540213830209201,
     "hash": "20667ba864675842c262a490dc8c4219b2d5cf26b37529b19351983fd1c409c3"
   },
   "/home/shonzi/WAF/dev/code/documenso/apps/docs/content/docs/concepts/document-lifecycle.mdx": {
