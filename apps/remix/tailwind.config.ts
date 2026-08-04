@@ -1,9 +1,12 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const baseConfig = require('@documenso/ui/tailwind.config.cjs');
+// WAF eSign overlay. MUST come after baseConfig so its colours win.
+// See packages/ui/waf-tailwind.config.cjs for why this is needed.
+const wafConfig = require('@documenso/ui/waf-tailwind.config.cjs');
 const path = require('path');
 
 module.exports = {
-  presets: [baseConfig],
+  presets: [baseConfig, wafConfig],
   content: [
     './app/**/*.{ts,tsx}',
     `${path.join(require.resolve('@documenso/ui'), '..')}/components/**/*.{ts,tsx}`,
