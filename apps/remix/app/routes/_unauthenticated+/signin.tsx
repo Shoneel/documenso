@@ -22,6 +22,7 @@ import { Link, redirect, useSearchParams } from 'react-router';
 
 import { SignInForm } from '~/components/forms/signin';
 import { SIGNUP_ERROR_MESSAGES } from '~/components/forms/signup';
+import { Waves } from '~/components/general/waves';
 import { appMetaTags } from '~/utils/meta';
 
 import type { Route } from './+types/signin';
@@ -127,7 +128,14 @@ export default function SignIn({ loaderData }: Route.ComponentProps) {
     <div className="fixed inset-0 w-screen overflow-hidden">
       <div className="relative grid h-screen w-full md:grid-cols-2">
         <section className="relative hidden h-full items-center justify-center overflow-hidden bg-[#0d1117] px-6 md:flex">
-          <div className="flex max-w-[360px] flex-col items-center text-center">
+          {/*
+           * Decorative background. `text-documenso-400` sets the stroke colour
+           * via `currentColor`, so it tracks the WAF ramp in
+           * waf-tailwind.config.cjs rather than hardcoding a hex here.
+           */}
+          <Waves className="text-documenso-400 opacity-30" />
+
+          <div className="relative z-10 flex max-w-[360px] flex-col items-center text-center">
             <img src="/static/logo.png" alt="WAF eSign" width={280} height="auto" style={{ objectFit: 'contain' }} />
 
             <h1 className="mt-6 font-bold text-[2.5rem] text-white leading-none">
@@ -145,6 +153,7 @@ export default function SignIn({ loaderData }: Route.ComponentProps) {
           <footer
             style={{
               position: 'absolute',
+              zIndex: 10,
               bottom: 0,
               left: 0,
               right: 0,
