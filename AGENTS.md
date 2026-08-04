@@ -1,5 +1,11 @@
 # Agent Guidelines for Documenso
 
+> **This repository is the WAF eSign fork of Documenso.** Before changing anything
+> branding-related — colours, logos, product name, email templates — read
+> [`README.waf.md`](./README.waf.md). It explains which files are fork-owned and which are
+> upstream-owned. Editing an upstream file in place when a fork-owned file or runtime config would
+> do creates a permanent merge conflict.
+
 ## Build/Test/Lint Commands
 
 - `npm run build` - Build all packages
