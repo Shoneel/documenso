@@ -2,8 +2,8 @@ import { msg } from '@lingui/core/macro';
 import { useLingui } from '@lingui/react';
 
 import { Body, Container, Head, Html, Preview, Section } from '../components';
+import { TemplateBrandingLogo } from '../template-components/template-branding-logo';
 import { TemplateDocumentRecipientSigned } from '../template-components/template-document-recipient-signed';
-import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 
 export interface DocumentRecipientSignedEmailTemplateProps {
@@ -16,7 +16,7 @@ export interface DocumentRecipientSignedEmailTemplateProps {
 export const DocumentRecipientSignedEmailTemplate = ({
   documentName = 'Open Source Pledge.pdf',
   recipientName = 'John Doe',
-  recipientEmail = 'lucas@waf.com.fj',
+  recipientEmail = 'lucas@documenso.com',
   assetBaseUrl = 'http://localhost:3002',
 }: DocumentRecipientSignedEmailTemplateProps) => {
   const { _ } = useLingui();
@@ -25,21 +25,17 @@ export const DocumentRecipientSignedEmailTemplate = ({
 
   const previewText = msg`${recipientReference} has signed ${documentName}`;
 
-  const getAssetUrl = (path: string) => {
-    return new URL(path, assetBaseUrl).toString();
-  };
-
   return (
     <Html>
       <Head />
-      <Preview>{_(previewText)}</Preview>
+      <Body className="mx-auto my-auto font-sans">
+        <Preview>{_(previewText)}</Preview>
 
-      <Body className="bg-[#f9fafb] font-sans">
-        <Section className="bg-white">
-          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
-
-          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
+        <Section className="bg-background">
+          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-border border-solid p-2 backdrop-blur-sm">
             <Section className="p-2">
+              <TemplateBrandingLogo assetBaseUrl={assetBaseUrl} className="mb-4 h-6" />
+
               <TemplateDocumentRecipientSigned
                 documentName={documentName}
                 recipientName={recipientName}
@@ -48,9 +44,10 @@ export const DocumentRecipientSignedEmailTemplate = ({
               />
             </Section>
           </Container>
-          <Section className="bg-[#f3f4f6] px-8 py-6">
+
+          <Container className="mx-auto max-w-xl">
             <TemplateFooter />
-          </Section>
+          </Container>
         </Section>
       </Body>
     </Html>

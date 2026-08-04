@@ -4,7 +4,7 @@ import { useLingui } from '@lingui/react';
 import { Trans } from '@lingui/react/macro';
 
 import { Body, Button, Container, Head, Hr, Html, Link, Preview, Section, Text } from '../components';
-import { TemplateEmailHeader } from '../template-components/template-email-header';
+import { TemplateBrandingLogo } from '../template-components/template-branding-logo';
 import { TemplateFooter } from '../template-components/template-footer';
 import TemplateImage from '../template-components/template-image';
 
@@ -30,19 +30,19 @@ export const ConfirmTeamEmailTemplate = ({
   return (
     <Html>
       <Head />
-      <Preview>{_(previewText)}</Preview>
+      <Body className="mx-auto my-auto font-sans">
+        <Preview>{_(previewText)}</Preview>
 
-      <Body className="bg-[#f9fafb] font-sans">
-        <Section className="bg-white">
-          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
+        <Section className="bg-background">
+          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-border border-solid px-2 pt-2 backdrop-blur-sm">
+            <TemplateBrandingLogo assetBaseUrl={assetBaseUrl} className="mb-4 h-6 p-2" />
 
-          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
             <Section>
               <TemplateImage className="mx-auto" assetBaseUrl={assetBaseUrl} staticAsset="mail-open.png" />
             </Section>
 
-            <Section className="p-2 text-slate-500">
-              <Text className="text-center font-medium text-black text-lg">
+            <Section className="p-2 text-muted-foreground">
+              <Text className="text-center font-medium text-foreground text-lg">
                 <Trans>Verify your team email address</Trans>
               </Text>
 
@@ -53,7 +53,7 @@ export const ConfirmTeamEmailTemplate = ({
                 </Trans>
               </Text>
 
-              <div className="mx-auto mt-6 w-fit rounded-lg bg-gray-50 px-4 py-2 font-medium text-base text-slate-600">
+              <div className="mx-auto mt-6 w-fit rounded-lg bg-muted px-4 py-2 font-medium text-base text-muted-foreground">
                 {formatTeamUrl(teamUrl, baseUrl)}
               </div>
 
@@ -86,7 +86,7 @@ export const ConfirmTeamEmailTemplate = ({
 
               <Section className="mt-8 mb-6 text-center">
                 <Button
-                  className="inline-flex items-center justify-center rounded-md bg-[#3b82f6] px-8 py-3 text-center font-semibold text-white no-underline"
+                  className="inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 text-center font-medium text-primary-foreground text-sm no-underline"
                   href={`${baseUrl}/team/verify/email/${token}`}
                 >
                   <Trans>Accept</Trans>
@@ -94,15 +94,16 @@ export const ConfirmTeamEmailTemplate = ({
               </Section>
             </Section>
 
-            <Text className="text-center text-slate-500 text-xs">
+            <Text className="text-center text-muted-foreground text-xs">
               <Trans>Link expires in 1 hour.</Trans>
             </Text>
           </Container>
 
           <Hr className="mx-auto mt-12 max-w-xl" />
-          <Section className="bg-[#f3f4f6] px-8 py-6">
-            <TemplateFooter />
-          </Section>
+
+          <Container className="mx-auto max-w-xl">
+            <TemplateFooter isDocument={false} />
+          </Container>
         </Section>
       </Body>
     </Html>

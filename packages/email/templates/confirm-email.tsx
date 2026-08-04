@@ -2,9 +2,9 @@ import { msg } from '@lingui/core/macro';
 import { useLingui } from '@lingui/react';
 
 import { Body, Container, Head, Html, Preview, Section } from '../components';
+import { TemplateBrandingLogo } from '../template-components/template-branding-logo';
 import type { TemplateConfirmationEmailProps } from '../template-components/template-confirmation-email';
 import { TemplateConfirmationEmail } from '../template-components/template-confirmation-email';
-import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 
 export const ConfirmEmailTemplate = ({
@@ -15,27 +15,25 @@ export const ConfirmEmailTemplate = ({
 
   const previewText = msg`Please confirm your email address`;
 
-  const getAssetUrl = (path: string) => {
-    return new URL(path, assetBaseUrl).toString();
-  };
-
   return (
     <Html>
       <Head />
-      <Preview>{_(previewText)}</Preview>
-      <Body className="bg-[#f9fafb] font-sans">
-        <Section>
-          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
+      <Body className="mx-auto my-auto bg-background font-sans">
+        <Preview>{_(previewText)}</Preview>
 
-          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
+        <Section>
+          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-border border-solid p-4 backdrop-blur-sm">
             <Section>
+              <TemplateBrandingLogo assetBaseUrl={assetBaseUrl} className="mb-4 h-6" />
+
               <TemplateConfirmationEmail confirmationLink={confirmationLink} assetBaseUrl={assetBaseUrl} />
             </Section>
           </Container>
           <div className="mx-auto mt-12 max-w-xl" />
-          <Section className="bg-[#f3f4f6] px-8 py-6">
-            <TemplateFooter />
-          </Section>
+
+          <Container className="mx-auto max-w-xl">
+            <TemplateFooter isDocument={false} />
+          </Container>
         </Section>
       </Body>
     </Html>

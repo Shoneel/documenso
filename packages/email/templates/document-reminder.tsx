@@ -4,9 +4,9 @@ import { useLingui } from '@lingui/react';
 import { RecipientRole } from '@prisma/client';
 
 import { Body, Container, Head, Hr, Html, Preview, Section, Text } from '../components';
+import { TemplateBrandingLogo } from '../template-components/template-branding-logo';
 import { TemplateCustomMessageBody } from '../template-components/template-custom-message-body';
 import { TemplateDocumentReminder } from '../template-components/template-document-reminder';
-import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 
 export type DocumentReminderEmailTemplateProps = {
@@ -16,6 +16,7 @@ export type DocumentReminderEmailTemplateProps = {
   assetBaseUrl?: string;
   customBody?: string;
   role: RecipientRole;
+  reportUrl?: string;
 };
 
 export const DocumentReminderEmailTemplate = ({
@@ -25,6 +26,7 @@ export const DocumentReminderEmailTemplate = ({
   assetBaseUrl = 'http://localhost:3002',
   customBody,
   role = RecipientRole.SIGNER,
+  reportUrl,
 }: DocumentReminderEmailTemplateProps) => {
   const { _ } = useLingui();
 
@@ -32,21 +34,18 @@ export const DocumentReminderEmailTemplate = ({
 
   const previewText = msg`Reminder to ${action} ${documentName}`;
 
-  const getAssetUrl = (path: string) => {
-    return new URL(path, assetBaseUrl).toString();
-  };
-
   return (
     <Html>
       <Head />
-      <Preview>{_(previewText)}</Preview>
 
-      <Body className="bg-[#f9fafb] font-sans">
+      <Body className="mx-auto my-auto bg-background font-sans">
+        <Preview>{_(previewText)}</Preview>
+
         <Section>
-          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
-
-          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
+          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-border border-solid p-4 backdrop-blur-sm">
             <Section>
+              <TemplateBrandingLogo assetBaseUrl={assetBaseUrl} className="mb-4 h-6" />
+
               <TemplateDocumentReminder
                 recipientName={recipientName}
                 documentName={documentName}
@@ -60,7 +59,7 @@ export const DocumentReminderEmailTemplate = ({
           {customBody && (
             <Container className="mx-auto mt-12 max-w-xl">
               <Section>
-                <Text className="mt-2 text-base text-slate-400">
+                <Text className="mt-2 text-base text-muted-foreground">
                   <TemplateCustomMessageBody text={customBody} />
                 </Text>
               </Section>
@@ -68,9 +67,10 @@ export const DocumentReminderEmailTemplate = ({
           )}
 
           <Hr className="mx-auto mt-12 max-w-xl" />
-          <Section className="bg-[#f3f4f6] px-8 py-6">
-            <TemplateFooter />
-          </Section>
+
+          <Container className="mx-auto max-w-xl">
+            <TemplateFooter reportUrl={reportUrl} />
+          </Container>
         </Section>
       </Body>
     </Html>

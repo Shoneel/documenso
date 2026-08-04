@@ -53,6 +53,9 @@ export const WAF_BRAND = {
    */
   url: '',
 
-  /** Path, relative to `assetBaseUrl`, of the logo bundled with the app. */
+  /** Path, relative to `assetBaseUrl`, of the wordmark bundled with the app. */
   logoPath: '/static/logo.png',
+
+  /** Square mark, for places the wordmark will not fit (mobile headers). */
+  iconPath: '/new-waf-favicon.png',
 } as const;

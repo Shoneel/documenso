@@ -6,10 +6,10 @@ import type { RecipientRole } from '@prisma/client';
 import { OrganisationType } from '@prisma/client';
 
 import { Body, Container, Head, Hr, Html, Link, Preview, Section, Text } from '../components';
+import { TemplateBrandingLogo } from '../template-components/template-branding-logo';
 import { TemplateCustomMessageBody } from '../template-components/template-custom-message-body';
 import type { TemplateDocumentInviteProps } from '../template-components/template-document-invite';
 import { TemplateDocumentInvite } from '../template-components/template-document-invite';
-import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 
 export type DocumentInviteEmailTemplateProps = Partial<TemplateDocumentInviteProps> & {
@@ -20,11 +20,12 @@ export type DocumentInviteEmailTemplateProps = Partial<TemplateDocumentInvitePro
   teamEmail?: string;
   includeSenderDetails?: boolean;
   organisationType?: OrganisationType;
+  reportUrl?: string;
 };
 
 export const DocumentInviteEmailTemplate = ({
   inviterName = 'Lucas Smith',
-  inviterEmail = 'lucas@waf.com.fj',
+  inviterEmail = 'lucas@documenso.com',
   documentName = 'Open Source Pledge.pdf',
   signDocumentLink = 'https://documenso.com',
   assetBaseUrl = 'http://localhost:3002',
@@ -34,6 +35,7 @@ export const DocumentInviteEmailTemplate = ({
   teamName = '',
   includeSenderDetails,
   organisationType,
+  reportUrl,
 }: DocumentInviteEmailTemplateProps) => {
   const { _ } = useLingui();
 
@@ -51,21 +53,18 @@ export const DocumentInviteEmailTemplate = ({
     previewText = msg`Please ${action} your document ${documentName}`;
   }
 
-  const getAssetUrl = (path: string) => {
-    return new URL(path, assetBaseUrl).toString();
-  };
-
   return (
     <Html>
       <Head />
-      <Preview>{_(previewText)}</Preview>
 
-      <Body className="bg-[#f9fafb] font-sans">
+      <Body className="mx-auto my-auto bg-background font-sans">
+        <Preview>{_(previewText)}</Preview>
+
         <Section>
-          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
-
-          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
+          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-border border-solid p-4 backdrop-blur-sm">
             <Section>
+              <TemplateBrandingLogo assetBaseUrl={assetBaseUrl} className="mb-4 h-6" />
+
               <TemplateDocumentInvite
                 inviterName={inviterName}
                 inviterEmail={inviterEmail}
@@ -87,14 +86,14 @@ export const DocumentInviteEmailTemplate = ({
                 <Text className="my-4 font-semibold text-base">
                   <Trans>
                     {inviterName}{' '}
-                    <Link className="font-normal text-slate-400" href="mailto:{inviterEmail}">
+                    <Link className="font-normal text-muted-foreground" href={`mailto:${inviterEmail}`}>
                       ({inviterEmail})
                     </Link>
                   </Trans>
                 </Text>
               )}
 
-              <Text className="mt-2 text-base text-slate-400">
+              <Text className="mt-2 text-base text-muted-foreground">
                 {customBody ? (
                   <TemplateCustomMessageBody text={customBody} />
                 ) : (
@@ -107,9 +106,10 @@ export const DocumentInviteEmailTemplate = ({
           </Container>
 
           <Hr className="mx-auto mt-12 max-w-xl" />
-          <Section className="bg-[#f3f4f6] px-8 py-6">
-            <TemplateFooter />
-          </Section>
+
+          <Container className="mx-auto max-w-xl">
+            <TemplateFooter reportUrl={reportUrl} />
+          </Container>
         </Section>
       </Body>
     </Html>

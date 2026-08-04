@@ -2,13 +2,14 @@ import { msg } from '@lingui/core/macro';
 import { useLingui } from '@lingui/react';
 
 import { Body, Container, Head, Html, Preview, Section } from '../components';
+import { TemplateBrandingLogo } from '../template-components/template-branding-logo';
 import type { TemplateDocumentCompletedProps } from '../template-components/template-document-completed';
 import { TemplateDocumentCompleted } from '../template-components/template-document-completed';
-import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 
 export type DocumentCompletedEmailTemplateProps = Partial<TemplateDocumentCompletedProps> & {
   customBody?: string;
+  reportUrl?: string;
 };
 
 export const DocumentCompletedEmailTemplate = ({
@@ -16,26 +17,23 @@ export const DocumentCompletedEmailTemplate = ({
   documentName = 'Open Source Pledge.pdf',
   assetBaseUrl = 'http://localhost:3002',
   customBody,
+  reportUrl,
 }: DocumentCompletedEmailTemplateProps) => {
   const { _ } = useLingui();
 
   const previewText = msg`Completed Document`;
 
-  const getAssetUrl = (path: string) => {
-    return new URL(path, assetBaseUrl).toString();
-  };
-
   return (
     <Html>
       <Head />
-      <Preview>{_(previewText)}</Preview>
+      <Body className="mx-auto my-auto font-sans">
+        <Preview>{_(previewText)}</Preview>
 
-      <Body className="bg-[#f9fafb] font-sans">
-        <Section className="bg-white">
-          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
-
-          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
+        <Section className="bg-background">
+          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-border border-solid p-2 backdrop-blur-sm">
             <Section className="p-2">
+              <TemplateBrandingLogo assetBaseUrl={assetBaseUrl} className="mb-4 h-6" />
+
               <TemplateDocumentCompleted
                 downloadLink={downloadLink}
                 documentName={documentName}
@@ -44,9 +42,10 @@ export const DocumentCompletedEmailTemplate = ({
               />
             </Section>
           </Container>
-          <Section className="bg-[#f3f4f6] px-8 py-6">
-            <TemplateFooter />
-          </Section>
+
+          <Container className="mx-auto max-w-xl">
+            <TemplateFooter reportUrl={reportUrl} />
+          </Container>
         </Section>
       </Body>
     </Html>

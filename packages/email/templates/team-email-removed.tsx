@@ -4,7 +4,7 @@ import { useLingui } from '@lingui/react';
 import { Trans } from '@lingui/react/macro';
 
 import { Body, Container, Head, Hr, Html, Preview, Section, Text } from '../components';
-import { TemplateEmailHeader } from '../template-components/template-email-header';
+import { TemplateBrandingLogo } from '../template-components/template-branding-logo';
 import { TemplateFooter } from '../template-components/template-footer';
 import TemplateImage from '../template-components/template-image';
 
@@ -19,7 +19,7 @@ export type TeamEmailRemovedTemplateProps = {
 export const TeamEmailRemovedTemplate = ({
   assetBaseUrl = 'http://localhost:3002',
   baseUrl = 'https://documenso.com',
-  teamEmail = 'example@waf.com.fj',
+  teamEmail = 'example@documenso.com',
   teamName = 'Team Name',
   teamUrl = 'demo',
 }: TeamEmailRemovedTemplateProps) => {
@@ -30,19 +30,19 @@ export const TeamEmailRemovedTemplate = ({
   return (
     <Html>
       <Head />
-      <Preview>{_(previewText)}</Preview>
+      <Body className="mx-auto my-auto font-sans">
+        <Preview>{_(previewText)}</Preview>
 
-      <Body className="bg-[#f9fafb] font-sans">
-        <Section className="bg-white text-slate-500">
-          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
+        <Section className="bg-background text-muted-foreground">
+          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-border border-solid px-2 pt-2 backdrop-blur-sm">
+            <TemplateBrandingLogo assetBaseUrl={assetBaseUrl} className="mb-4 h-6 p-2" />
 
-          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
             <Section>
               <TemplateImage className="mx-auto" assetBaseUrl={assetBaseUrl} staticAsset="mail-open-alert.png" />
             </Section>
 
-            <Section className="p-2 text-slate-500">
-              <Text className="text-center font-medium text-black text-lg">
+            <Section className="p-2 text-muted-foreground">
+              <Text className="text-center font-medium text-foreground text-lg">
                 <Trans>Team email removed</Trans>
               </Text>
 
@@ -52,16 +52,17 @@ export const TeamEmailRemovedTemplate = ({
                 </Trans>
               </Text>
 
-              <div className="mx-auto mt-2 mb-6 w-fit rounded-lg bg-gray-50 px-4 py-2 font-medium text-base text-slate-600">
+              <div className="mx-auto mt-2 mb-6 w-fit rounded-lg bg-muted px-4 py-2 font-medium text-base text-muted-foreground">
                 {formatTeamUrl(teamUrl, baseUrl)}
               </div>
             </Section>
           </Container>
 
           <Hr className="mx-auto mt-12 max-w-xl" />
-          <Section className="bg-[#f3f4f6] px-8 py-6">
-            <TemplateFooter />
-          </Section>
+
+          <Container className="mx-auto max-w-xl">
+            <TemplateFooter isDocument={false} />
+          </Container>
         </Section>
       </Body>
     </Html>

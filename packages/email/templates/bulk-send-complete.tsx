@@ -2,7 +2,6 @@ import { msg, Trans } from '@lingui/macro';
 import { useLingui } from '@lingui/react';
 
 import { Body, Container, Head, Html, Preview, Section, Text } from '../components';
-import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 
 export interface BulkSendCompleteEmailProps {
@@ -22,19 +21,19 @@ export const BulkSendCompleteEmail = ({
   successCount,
   failedCount,
   errors,
-  assetBaseUrl = 'http://localhost:3002',
 }: BulkSendCompleteEmailProps) => {
   const { _ } = useLingui();
+
+  const previewText = msg`Bulk send operation complete for template "${templateName}"`;
 
   return (
     <Html>
       <Head />
-      <Preview>{_(msg`Bulk send operation complete for template "${templateName}"`)}</Preview>
-      <Body className="bg-[#f9fafb] font-sans">
-        <Section>
-          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
+      <Body className="mx-auto my-auto bg-background font-sans">
+        <Preview>{_(previewText)}</Preview>
 
-          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
+        <Section>
+          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-border border-solid p-4 backdrop-blur-sm">
             <Section>
               <Text className="text-sm">
                 <Trans>Hi {userName},</Trans>
@@ -60,7 +59,7 @@ export const BulkSendCompleteEmail = ({
                 </li>
               </ul>
 
-              {failedCount > 0 && (
+              {errors && errors.length > 0 && (
                 <Section className="mt-4">
                   <Text className="font-semibold text-lg">
                     <Trans>The following errors occurred:</Trans>
@@ -68,7 +67,7 @@ export const BulkSendCompleteEmail = ({
 
                   <ul className="my-2 ml-4 list-inside list-disc">
                     {errors.map((error, index) => (
-                      <li key={index} className="mt-1 text-destructive text-slate-400 text-sm">
+                      <li key={index} className="mt-1 text-destructive text-sm">
                         {error}
                       </li>
                     ))}
@@ -84,9 +83,10 @@ export const BulkSendCompleteEmail = ({
               </Text>
             </Section>
           </Container>
-          <Section className="bg-[#f3f4f6] px-8 py-6">
-            <TemplateFooter />
-          </Section>
+
+          <Container className="mx-auto max-w-xl">
+            <TemplateFooter isDocument={false} />
+          </Container>
         </Section>
       </Body>
     </Html>

@@ -1,9 +1,9 @@
 import { msg } from '@lingui/core/macro';
 import { useLingui } from '@lingui/react';
 
-import { Body, Container, Head, Hr, Html, Preview, Section } from '../components';
+import { Body, Container, Head, Html, Preview, Section } from '../components';
+import { TemplateBrandingLogo } from '../template-components/template-branding-logo';
 import { TemplateDocumentRejectionConfirmed } from '../template-components/template-document-rejection-confirmed';
-import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 
 export type DocumentRejectionConfirmedEmailProps = {
@@ -25,21 +25,18 @@ export function DocumentRejectionConfirmedEmail({
 
   const previewText = _(msg`You have rejected the document '${documentName}'`);
 
-  const getAssetUrl = (path: string) => {
-    return new URL(path, assetBaseUrl).toString();
-  };
-
   return (
     <Html>
       <Head />
-      <Preview>{previewText}</Preview>
 
-      <Body className="bg-[#f9fafb] font-sans">
-        <Section className="bg-white">
-          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
+      <Body className="mx-auto my-auto bg-background font-sans">
+        <Preview>{previewText}</Preview>
 
-          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
-            <Section className="p-2">
+        <Section>
+          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-border border-solid p-4 backdrop-blur-sm">
+            <Section>
+              <TemplateBrandingLogo assetBaseUrl={assetBaseUrl} className="mb-4 h-6" />
+
               <TemplateDocumentRejectionConfirmed
                 recipientName={recipientName}
                 documentName={documentName}
@@ -49,10 +46,9 @@ export function DocumentRejectionConfirmedEmail({
             </Section>
           </Container>
 
-          <Hr className="mx-auto mt-12 max-w-xl" />
-          <Section className="bg-[#f3f4f6] px-8 py-6">
+          <Container className="mx-auto max-w-xl">
             <TemplateFooter />
-          </Section>
+          </Container>
         </Section>
       </Body>
     </Html>

@@ -3,9 +3,9 @@ import { useLingui } from '@lingui/react';
 import { Trans } from '@lingui/react/macro';
 
 import { Body, Container, Head, Hr, Html, Preview, Section, Text } from '../components';
+import { TemplateBrandingLogo } from '../template-components/template-branding-logo';
 import type { TemplateDocumentCancelProps } from '../template-components/template-document-cancel';
 import TemplateDocumentImage from '../template-components/template-document-image';
-import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 
 export type DocumentCancelEmailTemplateProps = Partial<TemplateDocumentCancelProps>;
@@ -19,25 +19,22 @@ export const RecipientRemovedFromDocumentTemplate = ({
 
   const previewText = msg`${inviterName} has removed you from the document ${documentName}.`;
 
-  const getAssetUrl = (path: string) => {
-    return new URL(path, assetBaseUrl).toString();
-  };
-
   return (
     <Html>
       <Head />
-      <Preview>{_(previewText)}</Preview>
 
-      <Body className="bg-[#f9fafb] font-sans">
+      <Body className="mx-auto my-auto bg-background font-sans">
+        <Preview>{_(previewText)}</Preview>
+
         <Section>
-          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
-
-          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
+          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-border border-solid p-4 backdrop-blur-sm">
             <Section>
+              <TemplateBrandingLogo assetBaseUrl={assetBaseUrl} className="mb-4 h-6" />
+
               <TemplateDocumentImage className="mt-6" assetBaseUrl={assetBaseUrl} />
 
               <Section>
-                <Text className="mx-auto mb-0 max-w-[80%] text-center font-semibold text-lg text-primary">
+                <Text className="mx-auto mb-0 max-w-[80%] text-center font-semibold text-foreground text-lg">
                   <Trans>
                     {inviterName} has removed you from the document
                     <br />"{documentName}"
@@ -48,9 +45,10 @@ export const RecipientRemovedFromDocumentTemplate = ({
           </Container>
 
           <Hr className="mx-auto mt-12 max-w-xl" />
-          <Section className="bg-[#f3f4f6] px-8 py-6">
+
+          <Container className="mx-auto max-w-xl">
             <TemplateFooter />
-          </Section>
+          </Container>
         </Section>
       </Body>
     </Html>

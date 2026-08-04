@@ -2,11 +2,11 @@ import { msg } from '@lingui/core/macro';
 import { useLingui } from '@lingui/react';
 
 import { Body, Container, Head, Hr, Html, Preview, Section } from '../components';
+import { TemplateBrandingLogo } from '../template-components/template-branding-logo';
 import {
   TemplateDocumentDelete,
   type TemplateDocumentDeleteProps,
 } from '../template-components/template-document-super-delete';
-import { TemplateEmailHeader } from '../template-components/template-email-header';
 import { TemplateFooter } from '../template-components/template-footer';
 
 export type DocumentDeleteEmailTemplateProps = Partial<TemplateDocumentDeleteProps>;
@@ -20,29 +20,27 @@ export const DocumentSuperDeleteEmailTemplate = ({
 
   const previewText = msg`An admin has deleted your document "${documentName}".`;
 
-  const getAssetUrl = (path: string) => {
-    return new URL(path, assetBaseUrl).toString();
-  };
-
   return (
     <Html>
       <Head />
-      <Preview>{_(previewText)}</Preview>
 
-      <Body className="bg-[#f9fafb] font-sans">
+      <Body className="mx-auto my-auto bg-background font-sans">
+        <Preview>{_(previewText)}</Preview>
+
         <Section>
-          <TemplateEmailHeader assetBaseUrl={assetBaseUrl} />
-
-          <Container className="mx-auto w-full max-w-[600px] bg-white px-8 py-8">
+          <Container className="mx-auto mt-8 mb-2 max-w-xl rounded-lg border border-border border-solid p-4 backdrop-blur-sm">
             <Section>
+              <TemplateBrandingLogo assetBaseUrl={assetBaseUrl} className="mb-4 h-6" />
+
               <TemplateDocumentDelete reason={reason} documentName={documentName} assetBaseUrl={assetBaseUrl} />
             </Section>
           </Container>
 
           <Hr className="mx-auto mt-12 max-w-xl" />
-          <Section className="bg-[#f3f4f6] px-8 py-6">
+
+          <Container className="mx-auto max-w-xl">
             <TemplateFooter />
-          </Section>
+          </Container>
         </Section>
       </Body>
     </Html>
