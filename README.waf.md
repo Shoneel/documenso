@@ -203,6 +203,49 @@ meant editing every template.
 
 ---
 
+## Building (read this before debugging a broken build)
+
+Three environment traps will each fail the build in a way that looks like an application error.
+
+**Build with `--concurrency=1`:**
+
+```bash
+npx turbo run build --filter=@documenso/remix --concurrency=1
+```
+
+At the default concurrency, `node_modules/.bin` is emptied partway through the build and a later
+step dies with `exit 127` / `command not found` — `cross-env: not found`, `react-router: not found`.
+Nothing is wrong with the build; concurrent npm processes race over the bin directory. Serialising
+avoids it. If you hit it, `npm rebuild` restores the links.
+
+**Run `prisma generate` after `npm ci` or `npm rebuild`:**
+
+```bash
+npm run prisma:generate
+```
+
+The Prisma client is generated *into* `node_modules/@prisma/client`, so both commands discard it.
+Skipping this produces confusing type errors in the server bundle such as
+`Module '"@prisma/client"' has no exported member 'DocumentStatus'`.
+
+**If `npm ci` fails with `ENOENT` on a `_cacache` path**, the npm cache is corrupt. It will produce a
+half-populated `node_modules` — missing `.bin` entries — rather than failing loudly:
+
+```bash
+npm cache verify && npm ci
+```
+
+**Node 26** removed `fs.rmdirSync(path, { recursive: true })`, which `zod-prisma-types` 3.3.5 calls.
+`patches/zod-prisma-types+3.3.5.patch` fixes it and applies automatically on `postinstall`. If
+`prisma generate` starts failing with *"The property 'options.recursive' is no longer supported"*,
+that patch is not applied — run `npx patch-package`.
+
+**Translation catalogs are regenerated on every build.** `.bin/build.sh` runs
+`lingui extract --clean`, so `packages/lib/translations/*.po` will show as modified afterwards.
+That is expected; commit the result rather than reverting it.
+
+---
+
 ## Verifying a theme change
 
 After editing `waf-theme.css`, confirm the cascade resolves as intended:
@@ -275,9 +318,9 @@ network.
 - **`graphify-out/` is committed and not ignored** — roughly 23 MB across 282 files, including a
   ~17 MB `graph.json`. These are derived artifacts that churn on every run and add noise to every
   merge.
-- **Translation catalogs drift further each rename.** Renamed strings fall back to English in
-  non-English locales, because regenerating catalogs would rewrite every upstream-owned `.po` file.
-  Fine while WAF runs in English; revisit if that changes.
+- **Non-English locales fall back to English for WAF-renamed strings.** The catalogs now carry the
+  renamed source strings, but only the English entries are filled in — the other locales have empty
+  translations until someone supplies them. Fine while WAF runs in English.
 - **The email layout is now upstream's.** The fork's dark-header design was dropped in the
   `upstream/main` merge in favour of upstream's config-driven branding. If WAF wants a distinct email
   look, build it on `brandingColors` / `brandingCss` rather than by editing templates again.
