@@ -114,11 +114,31 @@ It redeclares only the tokens that differ from upstream; everything else inherit
 | You want to change | Edit this | Requires deploy |
 | --- | --- | --- |
 | A colour, anywhere in the app | `packages/ui/styles/waf-theme.css` | Yes |
+| The `documenso` Tailwind scale (`bg-documenso`, `text-documenso-700`) | `packages/ui/waf-tailwind.config.cjs` | Yes |
 | Product name, wordmark, footer text | `packages/lib/constants/waf-brand.ts` | Yes |
 | Logo shown in email, per organisation | Organisation Settings → Branding | No |
 | Company details in email footer | Organisation Settings → Branding | No |
 | Application / signer-header logo | `packages/lib/constants/waf-brand.ts` (`logoPath`, `iconPath`) | Yes |
 | Favicons, app logo asset | `apps/remix/public/` | Yes |
+
+---
+
+## The one colour `waf-theme.css` cannot reach
+
+`packages/tailwind-config/index.cjs` defines a `documenso` colour scale as **hardcoded hex**
+(`DEFAULT: '#A2E771'`), not as CSS custom properties. Tailwind compiles those values straight into
+utility classes, so no stylesheet override touches them. Roughly twenty call sites use it —
+`bg-documenso`, `text-documenso-700`, `bg-documenso-200` — including the sign-in submit button,
+folder icons and admin chart labels.
+
+`packages/ui/waf-tailwind.config.cjs` re-points that scale at `--new-primary-*`, and is applied as a
+second preset *after* the upstream one in `apps/remix/tailwind.config.ts`.
+
+The token keeps the name `documenso`: renaming it would mean editing every call site, all
+upstream-owned, to change nothing a user can see. It does still appear in the DOM as a class name.
+
+**If a colour looks wrong and editing `waf-theme.css` does not fix it, check whether it comes from a
+hardcoded Tailwind token rather than a custom property.**
 
 ---
 
