@@ -28,9 +28,6 @@ export const WAF_BRAND = {
   /** Short product name. Used in page titles and image alt text. */
   appName: 'WAF eSign',
 
-  /** Logo lockup wordmark, shown beside the default logo in email headers. */
-  platformName: 'WAF eSign Platform',
-
   /** Registered entity name. */
   legalName: 'Water Authority of Fiji',
 

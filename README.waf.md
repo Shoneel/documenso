@@ -29,7 +29,7 @@ branding logic. Both have been moved out.
 | Branch | Contains | Merge direction |
 | --- | --- | --- |
 | `main` | Pristine upstream. Never commit WAF work here. | Pull from `upstream/main` |
-| `wafeSign-v1.0` | All WAF customisation. | Merge `main` **into** this branch |
+| `waf/main` | All WAF customisation. | Merge `main` **into** this branch |
 
 Always **merge**, never rebase. Merging records each conflict resolution permanently; rebasing a
 long-lived branch replays every conflict on every sync.
@@ -39,7 +39,7 @@ Sync often. Small frequent merges are cheap; large rare ones are how forks die.
 ```bash
 git checkout main
 git pull upstream main
-git checkout wafeSign-v1.0
+git checkout waf/main
 git merge main
 ```
 
@@ -82,11 +82,11 @@ wherever a brand string is needed.
 
 ```ts
 WAF_BRAND.appName        // "WAF eSign"          — page titles, image alt text
-WAF_BRAND.platformName   // "WAF eSign Platform" — email header wordmark
 WAF_BRAND.legalName      // "Water Authority of Fiji"
-WAF_BRAND.companyDetails // email footer block
+WAF_BRAND.companyDetails // email + sign-in footer block
 WAF_BRAND.url            // header logo link; empty means "link to the app"
-WAF_BRAND.logoPath       // "/static/logo.png"
+WAF_BRAND.logoPath       // "/static/logo.png"   — wordmark
+WAF_BRAND.iconPath       // "/new-waf-favicon.png" — square mark, mobile headers
 ```
 
 Import it rather than retyping a brand string:
@@ -117,7 +117,7 @@ It redeclares only the tokens that differ from upstream; everything else inherit
 | Product name, wordmark, footer text | `packages/lib/constants/waf-brand.ts` | Yes |
 | Logo shown in email, per organisation | Organisation Settings → Branding | No |
 | Company details in email footer | Organisation Settings → Branding | No |
-| Application logo (top-left nav) | `apps/remix/app/components/general/branding-logo.tsx` | Yes |
+| Application / signer-header logo | `packages/lib/constants/waf-brand.ts` (`logoPath`, `iconPath`) | Yes |
 | Favicons, app logo asset | `apps/remix/public/` | Yes |
 
 ---
@@ -188,17 +188,18 @@ turn on *explicit* per-organisation branding, which is what allows an uploaded l
 
 ## Email branding behaviour
 
-`TemplateEmailHeader` reads `useBranding()` and degrades cleanly. Every email is rendered inside
-`BrandingProvider`, so the hook is always safe to call.
+Upstream's `TemplateBrandingLogo` reads `useBranding()` and degrades cleanly. Every email is rendered
+inside `BrandingProvider`, so the hook is always safe to call.
 
-| Organisation state | Logo | Link | Wordmark text |
-| --- | --- | --- | --- |
-| No branding configured | bundled `/static/logo.png` | app URL | shown |
-| Branding on, logo uploaded | `/api/branding/logo/organisation/:id` | `brandingUrl` | hidden |
-| Branding on, no logo yet | bundled `/static/logo.png` | app URL | shown |
+| Organisation state | Logo shown | Links to |
+| --- | --- | --- |
+| No branding configured | bundled `/static/logo.png` (the WAF mark) | not linked |
+| Branding on, logo uploaded | `/api/branding/logo/organisation/:id` | `brandingUrl`, if a safe http(s) URL |
+| Branding on, no logo yet | bundled `/static/logo.png` | not linked |
 
-The wordmark is suppressed when a custom logo is present because an uploaded logo already carries the
-organisation's name; rendering both produces a duplicated lockup.
+The fork previously carried its own `TemplateEmailHeader` for this. It was deleted in the
+`upstream/main` merge: it existed to work around a gap upstream has since closed, and keeping it
+meant editing every template.
 
 ---
 
@@ -271,15 +272,19 @@ network.
 
 ## Known gaps
 
-- **`branding-logo.tsx` still renders Documenso's wordmark artwork.** The component compiles and is
-  wired up, but the SVG path data is upstream's. Replacing it with the WAF mark is outstanding.
-- **~40 email templates still carry in-place edits.** The email refactor removed `useBranding()` from
-  each template and routed logos through `TemplateEmailHeader`. The branding *capability* is restored
-  through that header, but those per-template edits remain as merge surface. Reverting them would
-  cost the fork's improved email layout, so it is a deliberate open trade rather than an oversight.
 - **`graphify-out/` is committed and not ignored** — roughly 23 MB across 282 files, including a
   ~17 MB `graph.json`. These are derived artifacts that churn on every run and add noise to every
   merge.
+- **Translation catalogs drift further each rename.** Renamed strings fall back to English in
+  non-English locales, because regenerating catalogs would rewrite every upstream-owned `.po` file.
+  Fine while WAF runs in English; revisit if that changes.
+- **The email layout is now upstream's.** The fork's dark-header design was dropped in the
+  `upstream/main` merge in favour of upstream's config-driven branding. If WAF wants a distinct email
+  look, build it on `brandingColors` / `brandingCss` rather than by editing templates again.
+
+Two gaps listed here previously are now closed. `branding-logo.tsx` renders the WAF mark (it had to —
+upstream's new signer header renders that component to signers), and the ~40 in-place email template
+edits are gone, resolved by adopting upstream during the merge.
 
 ---
 
