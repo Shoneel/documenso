@@ -1,3 +1,4 @@
+import { WAF_BRAND } from '@documenso/lib/constants/waf-brand';
 import { Trans } from '@lingui/react/macro';
 
 import { Link, Section, Text } from '../components';
@@ -37,11 +38,28 @@ export const TemplateFooter = ({ isDocument = true }: TemplateFooterProps) => {
         </Text>
       )}
 
+      {/*
+       * FORK CHANGE: the unbranded fallback is WAF, not Documenso, Inc.
+       *
+       * Branding is per-organisation, and Documenso creates a personal
+       * organisation for every user — so an organisation that nobody has
+       * explicitly branded is the common case, not the exception. Leaving
+       * upstream's fallback here would put "Documenso, Inc., San Francisco"
+       * in the footer of mail sent from every such organisation.
+       *
+       * Keep this as the platform default; per-organisation branding still
+       * overrides it via the block above.
+       */}
       {!branding.brandingEnabled && (
         <Text className="my-8 text-slate-400 text-sm">
-          Documenso, Inc.
-          <br />
-          2261 Market Street, #5211, San Francisco, CA 94114, USA
+          {WAF_BRAND.companyDetails.split('\n').map((line, idx) => {
+            return (
+              <>
+                {idx > 0 && <br />}
+                {line}
+              </>
+            );
+          })}
         </Text>
       )}
     </Section>
