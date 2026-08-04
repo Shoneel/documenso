@@ -3,8 +3,9 @@ import { sha256 } from '@noble/hashes/sha256';
 import { createTOTPKeyURI } from 'oslo/otp';
 
 import { DOCUMENSO_ENCRYPTION_KEY } from '../../../constants/crypto';
+import { WAF_BRAND } from '../../../constants/waf-brand';
 
-const ISSUER = 'Documenso Email 2FA';
+const ISSUER = `${WAF_BRAND.appName} Email 2FA`;
 
 export type GenerateTwoFactorCredentialsFromEmailOptions = {
   envelopeId: string;

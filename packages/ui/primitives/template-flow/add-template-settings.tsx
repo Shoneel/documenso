@@ -4,6 +4,7 @@ import { DATE_FORMATS, DEFAULT_DOCUMENT_DATE_FORMAT } from '@documenso/lib/const
 import { DOCUMENT_DISTRIBUTION_METHODS, DOCUMENT_SIGNATURE_TYPES } from '@documenso/lib/constants/document';
 import { SUPPORTED_LANGUAGES } from '@documenso/lib/constants/i18n';
 import { DEFAULT_DOCUMENT_TIME_ZONE, TIME_ZONES } from '@documenso/lib/constants/time-zones';
+import { WAF_BRAND } from '@documenso/lib/constants/waf-brand';
 import { ZDocumentEmailSettingsSchema } from '@documenso/lib/types/document-email';
 import type { TDocumentMetaDateFormat } from '@documenso/lib/types/document-meta';
 import type { TRecipientLite } from '@documenso/lib/types/recipient';
@@ -487,7 +488,7 @@ export const AddTemplateSettingsFormPartial = ({
                                       </SelectItem>
                                     ))}
 
-                                    <SelectItem value={'-1'}>Documenso</SelectItem>
+                                    <SelectItem value={'-1'}>{WAF_BRAND.appName}</SelectItem>
                                   </SelectContent>
                                 </Select>
                               </FormControl>

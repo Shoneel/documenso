@@ -9,7 +9,7 @@ import type {
 } from '@documenso/prisma/client';
 import { EmailDomainStatus, type OrganisationClaim, type OrganisationGlobalSettings } from '@documenso/prisma/client';
 import { match, P } from 'ts-pattern';
-
+import { IS_BILLING_ENABLED } from '../../constants/app';
 import { DOCUMENSO_INTERNAL_EMAIL } from '../../constants/email';
 import { AppError, AppErrorCode } from '../../errors/app-error';
 import {
@@ -17,6 +17,16 @@ import {
   teamGlobalSettingsToBranding,
 } from '../../utils/team-global-settings-to-branding';
 import { extractDerivedTeamSettings } from '../../utils/teams';
+
+/**
+ * Whether to suppress the "sent using Documenso" line in email footers.
+ *
+ * Mirrors `loadRecipientBrandingByTeamId`, which grants this to self-hosted
+ * instances via `!billingEnabled || claim.flags.hidePoweredBy`. This module
+ * only consulted the claim flag, so a self-hosted instance got an unbranded
+ * signing page but a branded email footer — the two paths disagreed.
+ */
+const resolveHidePoweredBy = (claimFlag: boolean | undefined) => !IS_BILLING_ENABLED() || claimFlag === true;
 
 type EmailMetaOption = Partial<Pick<DocumentMeta, 'emailId' | 'emailReplyTo' | 'language'>>;
 
@@ -160,7 +170,7 @@ const handleOrganisationEmailContext = async (organisationId: string) => {
     branding: organisationGlobalSettingsToBranding(
       organisation.organisationGlobalSettings,
       organisation.id,
-      claims.flags.hidePoweredBy ?? false,
+      resolveHidePoweredBy(claims.flags.hidePoweredBy),
     ),
     settings: organisation.organisationGlobalSettings,
     claims,
@@ -205,7 +215,7 @@ const handleTeamEmailContext = async (teamId: number) => {
 
   return {
     allowedEmails,
-    branding: teamGlobalSettingsToBranding(teamSettings, teamId, claims.flags.hidePoweredBy ?? false),
+    branding: teamGlobalSettingsToBranding(teamSettings, teamId, resolveHidePoweredBy(claims.flags.hidePoweredBy)),
     settings: teamSettings,
     claims,
     organisationType: organisation.type,

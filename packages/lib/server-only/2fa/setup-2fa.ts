@@ -5,13 +5,17 @@ import crypto from 'crypto';
 import { createTOTPKeyURI } from 'oslo/otp';
 
 import { DOCUMENSO_ENCRYPTION_KEY } from '../../constants/crypto';
+import { WAF_BRAND } from '../../constants/waf-brand';
 import { symmetricEncrypt } from '../../universal/crypto';
 
 type SetupTwoFactorAuthenticationOptions = {
   user: Pick<User, 'id' | 'email'>;
 };
 
-const ISSUER = 'Documenso';
+// Shown as the account label in authenticator apps. Baked into the otpauth://
+// URI at enrolment, so changing it only affects new enrolments — existing
+// entries keep their old label until re-enrolled. Codes are unaffected.
+const ISSUER = WAF_BRAND.appName;
 
 export const setupTwoFactorAuthentication = async ({ user }: SetupTwoFactorAuthenticationOptions) => {
   const key = DOCUMENSO_ENCRYPTION_KEY;

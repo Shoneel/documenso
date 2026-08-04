@@ -20,7 +20,9 @@ export const ZNameSchema = z
   });
 
 export const IDENTITY_PROVIDER_NAME: Record<string, string> = {
-  DOCUMENSO: 'Documenso',
+  // The KEY is the `IdentityProvider` enum value persisted on `User` — it must
+  // stay `DOCUMENSO`. Only the display label changes.
+  DOCUMENSO: 'WAF eSign',
   GOOGLE: 'Google',
   MICROSOFT: 'Microsoft',
   OIDC: 'OIDC',

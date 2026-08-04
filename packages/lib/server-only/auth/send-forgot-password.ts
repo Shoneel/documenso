@@ -6,6 +6,7 @@ import { createElement } from 'react';
 
 import { getI18nInstance } from '../../client-only/providers/i18n-server';
 import { NEXT_PUBLIC_WEBAPP_URL } from '../../constants/app';
+import { WAF_BRAND } from '../../constants/waf-brand';
 import { env } from '../../utils/env';
 import { renderEmailWithI18N } from '../../utils/render-email-with-i18n';
 
@@ -42,7 +43,7 @@ export const sendForgotPassword = async ({ userId, token }: SendForgotPasswordOp
       name: user.name || '',
     },
     from: {
-      name: env('NEXT_PRIVATE_SMTP_FROM_NAME') || 'Documenso',
+      name: env('NEXT_PRIVATE_SMTP_FROM_NAME') || WAF_BRAND.appName,
       address: env('NEXT_PRIVATE_SMTP_FROM_ADDRESS') || 'noreply@documenso.com',
     },
     subject: i18n._(msg`Forgot Password?`),
