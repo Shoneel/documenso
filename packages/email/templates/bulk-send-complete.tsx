@@ -22,6 +22,7 @@ export const BulkSendCompleteEmail = ({
   successCount,
   failedCount,
   errors,
+  assetBaseUrl = 'http://localhost:3002',
 }: BulkSendCompleteEmailProps) => {
   const { _ } = useLingui();
 
