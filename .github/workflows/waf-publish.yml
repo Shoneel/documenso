@@ -1,0 +1,84 @@
+# Build the WAF eSign image and publish it to GHCR.
+#
+# Single-arch (linux/amd64). Upstream builds amd64 and arm64 across two Warp
+# runners; we deploy to one x86 VM, so the second architecture is pure cost.
+# Add linux/arm64 to `platforms` if that ever changes.
+name: WAF Publish Image
+
+on:
+  push:
+    branches: ['waf/main']
+  # Manual re-publish, e.g. to cut a tagged release from an existing commit.
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Build and push
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      # The only credential needed. GITHUB_TOKEN can push to this repository's
+      # own GHCR namespace, so there is no PAT or DockerHub secret to rotate.
+      packages: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: docker/setup-buildx-action@v3
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      # metadata-action lowercases the image reference for us. This matters:
+      # the org is `Water-Authority-of-Fiji` but Docker rejects uppercase in
+      # image names, so the published path is
+      # ghcr.io/water-authority-of-fiji/waf-esign.
+      - name: Image metadata
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ghcr.io/${{ github.repository_owner }}/waf-esign
+          tags: |
+            type=sha,prefix=sha-,format=short
+            type=raw,value=waf-main
+          labels: |
+            org.opencontainers.image.title=WAF eSign
+            org.opencontainers.image.vendor=Water Authority of Fiji
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: ./docker/Dockerfile
+          push: true
+          platforms: linux/amd64
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      # `sha-<short>` is what production pins in IMAGE_TAG. `waf-main` moves and
+      # exists for convenience; do not deploy from it, or rollback stops being a
+      # one-line edit.
+      - name: Summary
+        run: |
+          {
+            echo "### Published"
+            echo ''
+            echo '```'
+            echo "${{ steps.meta.outputs.tags }}"
+            echo '```'
+            echo ''
+            echo "Deploy: set \`IMAGE_TAG\` to the \`sha-\` tag in the VM's .env, then \`docker compose up -d\`."
+          } >> "$GITHUB_STEP_SUMMARY"

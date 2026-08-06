@@ -1,0 +1,49 @@
+# Traefik static configuration — WAF eSign.
+#
+# Read once at startup. Changing anything here needs a Traefik restart;
+# dynamic.yml, by contrast, is hot-reloaded.
+
+entryPoints:
+  web:
+    address: ':80'
+    http:
+      redirections:
+        entryPoint:
+          to: websecure
+          scheme: https
+          permanent: true
+
+  websecure:
+    address: ':443'
+
+  # Internal only — deliberately not published in compose, so `/ping` is
+  # reachable from inside the container (where the healthcheck runs) and
+  # nowhere else.
+  traefik:
+    address: ':8080'
+
+providers:
+  # File provider only — no Docker provider, so no Docker socket is mounted.
+  # `watch` picks up edits to dynamic.yml without a restart, which is what makes
+  # certificate rotation a file copy rather than a redeploy.
+  file:
+    directory: /etc/traefik/dynamic
+    watch: true
+
+# Enables `traefik healthcheck --ping`, used by the compose healthcheck.
+ping:
+  entryPoint: traefik
+
+# The dashboard and API are deliberately off. There is one route in this stack
+# and it is declared in a file that can simply be read.
+api:
+  dashboard: false
+  insecure: false
+
+log:
+  level: INFO
+
+accessLog:
+  filters:
+    statusCodes:
+      - '400-599'

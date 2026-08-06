@@ -1,0 +1,124 @@
+# WAF eSign — production stack.
+#
+# Pulls a prebuilt image from GHCR; it never builds. See README.md for the
+# deploy, rollback and backup runbook.
+#
+# Run from this directory:  docker compose up -d
+name: waf-esign
+
+services:
+  traefik:
+    image: traefik:v3.3
+    restart: unless-stopped
+    command: ['--configFile=/etc/traefik/traefik.yml']
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      # No Docker socket. Routing is declared statically in dynamic.yml rather
+      # than discovered from container labels, so Traefik has no reason to talk
+      # to the daemon — and a Traefik compromise does not become root on the
+      # host. The stack is one fixed service; label discovery buys nothing here.
+      - ./traefik/traefik.yml:/etc/traefik/traefik.yml:ro
+      - ./traefik/dynamic.yml:/etc/traefik/dynamic/dynamic.yml:ro
+      - ${WAF_TLS_DIR:?set WAF_TLS_DIR to the host directory holding the WAF certificate and key}:/etc/traefik/certs:ro
+    networks:
+      - edge
+    healthcheck:
+      test: ['CMD', 'traefik', 'healthcheck', '--ping']
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  esign:
+    # Immutable tag, never `latest`. Rollback is: edit IMAGE_TAG, `up -d`.
+    image: ghcr.io/water-authority-of-fiji/waf-esign:${IMAGE_TAG:?set IMAGE_TAG to a published image tag, e.g. sha-1a2b3c4}
+    restart: unless-stopped
+    depends_on:
+      database:
+        condition: service_healthy
+    # Deliberately publishes no host port. Traefik reaches it over the internal
+    # network; nothing else should.
+    networks:
+      - edge
+      - internal
+    volumes:
+      # Delivered out of band — the .p12 is gitignored, so it is in neither the
+      # repository nor the image. Must be readable by uid 1001 (the image runs
+      # as USER nodejs). See README.md.
+      - ${WAF_SIGNING_CERT_PATH:?set WAF_SIGNING_CERT_PATH to the host path of waf-signing.p12}:/opt/waf-esign/cert.p12:ro
+    environment:
+      - PORT=3000
+      - NEXTAUTH_SECRET=${NEXTAUTH_SECRET:?err}
+      - NEXT_PRIVATE_ENCRYPTION_KEY=${NEXT_PRIVATE_ENCRYPTION_KEY:?err}
+      - NEXT_PRIVATE_ENCRYPTION_SECONDARY_KEY=${NEXT_PRIVATE_ENCRYPTION_SECONDARY_KEY:?err}
+
+      - NEXT_PUBLIC_WEBAPP_URL=${NEXT_PUBLIC_WEBAPP_URL:?err}
+      - NEXT_PRIVATE_INTERNAL_WEBAPP_URL=${NEXT_PRIVATE_INTERNAL_WEBAPP_URL:-http://localhost:3000}
+
+      - NEXT_PRIVATE_DATABASE_URL=${NEXT_PRIVATE_DATABASE_URL:?err}
+      - NEXT_PRIVATE_DIRECT_DATABASE_URL=${NEXT_PRIVATE_DIRECT_DATABASE_URL:-${NEXT_PRIVATE_DATABASE_URL}}
+
+      # `database` keeps documents in Postgres — one service, one backup. Switch
+      # to s3 if the database grows uncomfortably large.
+      - NEXT_PUBLIC_UPLOAD_TRANSPORT=${NEXT_PUBLIC_UPLOAD_TRANSPORT:-database}
+      - NEXT_PUBLIC_DOCUMENT_SIZE_UPLOAD_LIMIT=${NEXT_PUBLIC_DOCUMENT_SIZE_UPLOAD_LIMIT}
+
+      - NEXT_PRIVATE_SMTP_TRANSPORT=${NEXT_PRIVATE_SMTP_TRANSPORT:?err}
+      - NEXT_PRIVATE_SMTP_HOST=${NEXT_PRIVATE_SMTP_HOST}
+      - NEXT_PRIVATE_SMTP_PORT=${NEXT_PRIVATE_SMTP_PORT}
+      - NEXT_PRIVATE_SMTP_USERNAME=${NEXT_PRIVATE_SMTP_USERNAME}
+      - NEXT_PRIVATE_SMTP_PASSWORD=${NEXT_PRIVATE_SMTP_PASSWORD}
+      - NEXT_PRIVATE_SMTP_SECURE=${NEXT_PRIVATE_SMTP_SECURE}
+      - NEXT_PRIVATE_SMTP_UNSAFE_IGNORE_TLS=${NEXT_PRIVATE_SMTP_UNSAFE_IGNORE_TLS}
+      - NEXT_PRIVATE_SMTP_FROM_NAME=${NEXT_PRIVATE_SMTP_FROM_NAME:?err}
+      - NEXT_PRIVATE_SMTP_FROM_ADDRESS=${NEXT_PRIVATE_SMTP_FROM_ADDRESS:?err}
+
+      # Upstream's compose forwards only FILE_PATH and PASSPHRASE, so setting
+      # anything else in .env silently did nothing. The whole block is passed
+      # through here — TIMESTAMP_AUTHORITY in particular, without which
+      # signatures carry no independent proof of when they were made.
+      - NEXT_PRIVATE_SIGNING_TRANSPORT=${NEXT_PRIVATE_SIGNING_TRANSPORT:-local}
+      - NEXT_PRIVATE_SIGNING_LOCAL_FILE_PATH=${NEXT_PRIVATE_SIGNING_LOCAL_FILE_PATH:-/opt/waf-esign/cert.p12}
+      - NEXT_PRIVATE_SIGNING_PASSPHRASE=${NEXT_PRIVATE_SIGNING_PASSPHRASE:?err}
+      - NEXT_PRIVATE_SIGNING_TIMESTAMP_AUTHORITY=${NEXT_PRIVATE_SIGNING_TIMESTAMP_AUTHORITY}
+      - NEXT_PUBLIC_SIGNING_CONTACT_INFO=${NEXT_PUBLIC_SIGNING_CONTACT_INFO}
+      - NEXT_PRIVATE_USE_LEGACY_SIGNING_SUBFILTER=${NEXT_PRIVATE_USE_LEGACY_SIGNING_SUBFILTER}
+
+      # An internal utility app should not accept public signups.
+      - NEXT_PUBLIC_DISABLE_SIGNUP=${NEXT_PUBLIC_DISABLE_SIGNUP:-true}
+      - NEXT_PRIVATE_ALLOWED_SIGNUP_DOMAINS=${NEXT_PRIVATE_ALLOWED_SIGNUP_DOMAINS}
+    healthcheck:
+      test: ['CMD', 'wget', '--quiet', '--tries=1', '--spider', 'http://localhost:3000/api/health']
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      # Generous: the container runs `prisma migrate deploy` before listening.
+      start_period: 120s
+
+  database:
+    image: postgres:15
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER:?err}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:?err}
+      - POSTGRES_DB=${POSTGRES_DB:?err}
+    # No published port. Reachable only from the internal network.
+    networks:
+      - internal
+    volumes:
+      - database:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U ${POSTGRES_USER}']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+networks:
+  edge:
+  internal:
+    internal: true
+
+volumes:
+  database:

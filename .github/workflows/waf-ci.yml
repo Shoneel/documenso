@@ -1,0 +1,72 @@
+# WAF eSign CI.
+#
+# Separate from upstream's `ci.yml` rather than an edit to it: that file targets
+# `main` and gets replaced wholesale on an upstream sync. This one is ours and
+# will not conflict.
+#
+# E2E is deliberately absent. Upstream's `e2e-tests.yml` needs Warp's 8-core
+# runners plus Postgres and Inbucket services; on `ubuntu-latest` it is slow
+# enough to stop being a useful gate. Add it as a nightly job when there is a
+# reason to.
+name: WAF CI
+
+on:
+  push:
+    branches: ['waf/main']
+  pull_request:
+    branches: ['waf/main']
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./.github/actions/node-install
+
+      - name: Biome
+        run: npm run lint
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./.github/actions/node-install
+
+      # The app reads configuration at runtime, but the build still needs the
+      # variables to exist. Example values are enough — nothing here is deployed.
+      - name: Copy env
+        run: cp .env.example .env
+
+      # No separate typecheck job: `apps/remix/.bin/build.sh` runs `build:app`,
+      # which is `npm run typecheck && react-router build`. A standalone job
+      # would run tsc twice for the same signal.
+      - name: Build
+        run: npm run build
+
+  docker:
+    name: Docker image builds
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: docker/setup-buildx-action@v3
+
+      # Proves the image still builds before anything is published. Publishing
+      # itself lives in waf-publish.yml and runs only on waf/main.
+      - name: Build image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: ./docker/Dockerfile
+          push: false
+          platforms: linux/amd64
+          cache-from: type=gha
+          cache-to: type=gha,mode=max

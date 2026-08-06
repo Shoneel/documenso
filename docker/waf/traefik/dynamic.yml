@@ -1,0 +1,55 @@
+# Traefik dynamic configuration — WAF eSign.
+#
+# Hot-reloaded (`providers.file.watch: true`), so certificate rotation is a file
+# copy into WAF_TLS_DIR plus, at most, an edit here. No restart needed.
+#
+# Certificates are WAF's own, supplied out of band. There is no ACME resolver:
+# nothing renews these automatically, so track the expiry date somewhere a human
+# will see it.
+
+http:
+  routers:
+    esign:
+      rule: 'Host(`esign.waf.com.fj`)'
+      entryPoints:
+        - websecure
+      service: esign
+      middlewares:
+        - security-headers
+      tls: {}
+
+  services:
+    esign:
+      loadBalancer:
+        servers:
+          - url: 'http://esign:3000'
+        # The app builds absolute URLs for signing links and reads the incoming
+        # host; it must see the public hostname, not the container name.
+        passHostHeader: true
+
+  middlewares:
+    security-headers:
+      headers:
+        stsSeconds: 31536000
+        stsIncludeSubdomains: true
+        # No stsPreload. Preloading is effectively irreversible and should be a
+        # deliberate decision, not a side effect of a deployment config.
+        contentTypeNosniff: true
+        referrerPolicy: strict-origin-when-cross-origin
+        # No Content-Security-Policy here on purpose — the app emits its own,
+        # nonce-based (see `useCspNonce` / root.tsx). A second CSP header would
+        # intersect with it and break the signing UI.
+
+tls:
+  certificates:
+    - certFile: /etc/traefik/certs/esign.waf.com.fj.crt
+      keyFile: /etc/traefik/certs/esign.waf.com.fj.key
+
+  stores:
+    default:
+      # Serves this certificate for any request whose SNI matches no other
+      # certificate, so a request to a bare IP or a stale DNS name gets a clean
+      # TLS error rather than Traefik's self-signed default.
+      defaultCertificate:
+        certFile: /etc/traefik/certs/esign.waf.com.fj.crt
+        keyFile: /etc/traefik/certs/esign.waf.com.fj.key
