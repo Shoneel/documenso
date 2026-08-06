@@ -74,3 +74,11 @@ tmp/
 
 # opencode
 .opencode/package-lock.json
+
+# WAF eSign signing certificate
+# Private key material, never committed. `certs/waf-signing.crt` is deliberately
+# NOT ignored — the public certificate is what staff install to trust WAF-signed
+# PDFs, and it is worth having in version control. See certs/README.md.
+certs/*.p12
+certs/*.key
+certs/.passphrase
