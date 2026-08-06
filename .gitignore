@@ -82,3 +82,10 @@ tmp/
 certs/*.p12
 certs/*.key
 certs/.passphrase
+
+# graphify
+# Derived output from the /graphify skill — regenerate it, don't track it. The
+# repo is the source of truth and the graph is a projection of it. graph.json
+# alone is 14MB and is rewritten whole on every run, and `.graphify_root` holds
+# an absolute path from whichever machine produced it.
+graphify-out/
