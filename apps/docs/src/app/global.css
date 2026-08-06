@@ -1,6 +1,9 @@
 @import "tailwindcss";
 @import "fumadocs-ui/css/shadcn.css";
 @import "fumadocs-ui/css/preset.css";
+/* WAF eSign theme overlay. Wins on specificity, not source order — see
+ * waf-theme.css for why it cannot simply sit last. */
+@import "./waf-theme.css";
 
 @theme {
   /* Brand utility colors */

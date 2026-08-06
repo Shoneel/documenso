@@ -1,0 +1,101 @@
+/*
+ * WAF eSign theme overlay for the docs site — Water Authority of Fiji.
+ *
+ * WHY THIS FILE EXISTS
+ * --------------------
+ * Same reasoning as `packages/ui/styles/waf-theme.css`: `global.css` stays
+ * byte-identical to upstream so it never conflicts on merge, and every
+ * WAF-specific token lives here. The only upstream edit is a single `@import`
+ * line in `global.css`.
+ *
+ * WHY THE DOCS SITE NEEDS ITS OWN OVERLAY
+ * ---------------------------------------
+ * The docs site does not share the app's theme. It is Next.js + Tailwind v4 +
+ * fumadocs, with its tokens declared inline in `global.css` — it consumes
+ * neither `@documenso/tailwind-config`, `packages/ui/styles/theme.css`, nor
+ * either WAF overlay. So it kept rendering the full Documenso green ramp
+ * (`--primary`, `--ring`, `--color-documenso*`) after the app had gone blue.
+ *
+ * WHY `:root:root` AND NOT `:root`
+ * --------------------------------
+ * The app's overlay wins on source order: `app.css` is nothing but `@import`s,
+ * so putting `waf-theme.css` second is enough. That does not work here.
+ * `global.css` declares its `:root` and `.dark` blocks *inline, after* its
+ * imports, and CSS requires `@import` to precede all style rules — so an
+ * imported overlay is always earlier in the cascade and always loses on order.
+ *
+ * `:root:root` (0,2,0) and `:root.dark` (0,2,0) outrank upstream's `:root` and
+ * `.dark` (both 0,1,0) on specificity, which is order-independent. The doubled
+ * selector is the standard idiom for exactly this; it is not a typo.
+ *
+ * This also covers the `@theme` block. Tailwind v4 compiles `@theme` into
+ * `:root` custom properties and emits utilities that *reference* them
+ * (`.bg-documenso { background-color: var(--color-documenso) }`), so
+ * redefining `--color-documenso` at higher specificity re-points every
+ * existing utility without needing a competing `@theme` block — which would
+ * have lost to upstream's on order anyway.
+ *
+ * VALUES MATCH `packages/ui/styles/waf-theme.css`
+ * ----------------------------------------------
+ * Restated rather than imported: this is a different Tailwind major in a
+ * different workspace with no build-time link to `packages/ui`. Keep the two in
+ * sync by hand — nothing enforces it.
+ *
+ * Values are complete `hsl(...)` functions, not the bare `210 55% 55%` channel
+ * triplets the app uses, because fumadocs' shadcn preset stores whole colour
+ * functions in these tokens.
+ *
+ * NOT HANDLED HERE: content
+ * -------------------------
+ * This overlay is colour only. The docs site still carries upstream marketing
+ * copy and links to documenso.com / github.com/documenso. That is a content
+ * question, not a theming one, and is deliberately left alone.
+ */
+
+:root:root {
+  /* Brand utility scale — `bg-documenso` / `bg-documenso-dark`, used by the
+   * home page and 404 CTAs. Re-pointed at the WAF ramp, keeping the token name
+   * for the same reason `waf-tailwind.config.cjs` does: renaming it would mean
+   * editing upstream call sites to change nothing a user can see. */
+  --color-documenso: hsl(210 55% 55%);
+  --color-documenso-dark: hsl(211 60% 48%);
+  --color-documenso-darker: hsl(212 65% 38%);
+
+  --background: hsl(210 40% 98%);
+  --foreground: hsl(215 35% 20%);
+  --card-foreground: hsl(215 35% 20%);
+  --popover-foreground: hsl(215 35% 20%);
+  --primary: hsl(211 60% 48%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(204 45% 92%);
+  --secondary-foreground: hsl(215 35% 25%);
+  --muted: hsl(210 35% 94%);
+  --muted-foreground: hsl(215 20% 45%);
+  --accent: hsl(200 65% 90%);
+  --accent-foreground: hsl(215 40% 20%);
+  --destructive: hsl(0 84% 60%);
+  --destructive-foreground: hsl(0 0% 100%);
+  --border: hsl(210 25% 86%);
+  --input: hsl(210 25% 88%);
+  --ring: hsl(210 55% 55%);
+}
+
+:root.dark {
+  --background: hsl(215 40% 12%);
+  --foreground: hsl(210 40% 96%);
+  --card: hsl(215 35% 14%);
+  --card-foreground: hsl(210 40% 96%);
+  --popover: hsl(215 35% 14%);
+  --popover-foreground: hsl(210 40% 96%);
+  --primary: hsl(205 75% 60%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(210 25% 20%);
+  --secondary-foreground: hsl(205 75% 60%);
+  --muted: hsl(215 20% 18%);
+  --muted-foreground: hsl(210 20% 70%);
+  --accent: hsl(210 25% 22%);
+  --accent-foreground: hsl(205 75% 60%);
+  --border: hsl(215 20% 22%);
+  --input: hsl(215 20% 22%);
+  --ring: hsl(205 75% 60%);
+}
