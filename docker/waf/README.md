@@ -43,7 +43,34 @@ one-line edit, not a rebuild.
 it stays byte-identical across syncs. It pulls `documenso/documenso:latest` —
 stock upstream, with none of the WAF fork in it. Do not deploy it.
 
-## First deploy
+## First deploy — the short way
+
+```bash
+sudo ./setup-prod.sh
+```
+
+Prompts for the handful of things only you know — hostname, image tag, SMTP,
+and where your certificates are — and does the rest: generates the session,
+encryption and database secrets, installs the certificates with the right
+ownership and modes, writes `.env` at mode 600, and validates the result before
+anything starts.
+
+It refuses to proceed on a TLS certificate that does not match its key, has
+expired, or does not cover the hostname; and on a `.p12` whose passphrase does
+not open it. Every check runs before the first file is written, so a failed run
+changes nothing. An existing `.env` is backed up with a timestamp rather than
+overwritten.
+
+It also offers to generate a production-only signing certificate, which is worth
+taking: the development key has lived on a workstation, and it is the thing that
+lets someone produce PDFs that appear signed by WAF. Each signed PDF embeds its
+own signer certificate, so having separate development and production keys costs
+nothing.
+
+The rest of this section is what the script does, for when you need to do it by
+hand or understand what it changed.
+
+## First deploy — by hand
 
 The VM needs Docker with the Compose plugin. It does **not** need a git
 checkout — copy this directory across and nothing else.
