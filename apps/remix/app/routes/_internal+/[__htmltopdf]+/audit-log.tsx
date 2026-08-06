@@ -189,7 +189,15 @@ export default function AuditLog({ loaderData }: Route.ComponentProps) {
       {!hidePoweredBy && (
         <div className="my-8 flex-row-reverse">
           <div className="flex items-end justify-end gap-x-4">
-            <img src="/static/logo.png" alt="WAF eSign" width={140} height="auto" style={{ objectFit: 'contain' }} />
+            {/* Dark-ink variant: this page prints on white, where the standard
+                white logo is invisible. See render-certificate.ts. */}
+            <img
+              src="/static/logo-dark-ink.png"
+              alt="WAF eSign"
+              width={187}
+              height="auto"
+              style={{ objectFit: 'contain' }}
+            />
           </div>
         </div>
       )}

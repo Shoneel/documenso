@@ -243,7 +243,10 @@ export default function SigningCertificate({ loaderData }: Route.ComponentProps)
                           <div
                             className="inline-block rounded-lg p-1"
                             style={{
-                              boxShadow: `0px 0px 0px 4.88px rgba(122, 196, 85, 0.1), 0px 0px 0px 1.22px rgba(122, 196, 85, 0.6), 0px 0px 0px 0.61px rgba(122, 196, 85, 1)`,
+                              // WAF eSign primary, #4d8ccb. Kept in step with
+                              // `signatureBorderStroke` in render-certificate.ts —
+                              // the two renderers must not drift.
+                              boxShadow: `0px 0px 0px 4.88px rgba(77, 140, 203, 0.1), 0px 0px 0px 1.22px rgba(77, 140, 203, 0.6), 0px 0px 0px 0.61px rgba(77, 140, 203, 1)`,
                             }}
                           >
                             {signature.signature?.signatureImageAsBase64 && (
@@ -378,7 +381,15 @@ export default function SigningCertificate({ loaderData }: Route.ComponentProps)
             <p className="flex-shrink-0 font-medium text-sm print:text-xs">
               {_(msg`Signing certificate provided by`)}:
             </p>
-            <img src="/static/logo.png" alt="WAF eSign" width={140} height="auto" style={{ objectFit: 'contain' }} />
+            {/* Dark-ink variant: this page prints on white, where the standard
+                white logo is invisible. See render-certificate.ts. */}
+            <img
+              src="/static/logo-dark-ink.png"
+              alt="WAF eSign"
+              width={187}
+              height="auto"
+              style={{ objectFit: 'contain' }}
+            />
           </div>
         </div>
       )}

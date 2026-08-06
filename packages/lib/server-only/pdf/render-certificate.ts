@@ -77,6 +77,12 @@ const textMutedForegroundLight = '#929DAE';
 const textForeground = '#000';
 const textMutedForeground = '#64748B';
 const textRejectedRed = '#dc2626';
+// WAF eSign primary, #4d8ccb / 210 55% 55%. Upstream ringed the signature in
+// Documenso green. Stated as rgb channels rather than imported from
+// `waf-theme-colors.ts` because Konva needs the alpha baked into the string and
+// that module exports opaque hex. Keep the two in sync by hand.
+const signatureBorderStroke = 'rgba(77, 140, 203, 0.6)';
+const signatureShadowStroke = 'rgba(77, 140, 203, 0.1)';
 const textBase = 10;
 const textSm = 9;
 const textXs = 8;
@@ -331,7 +337,7 @@ const renderColumnTwo = (options: RenderColumnOptions) => {
       y: 2,
       width: maxSignatureWidth,
       height: signatureHeight,
-      stroke: 'rgba(122, 196, 85, 0.6)',
+      stroke: signatureBorderStroke,
       strokeWidth: 1,
       cornerRadius: 8,
     });
@@ -342,7 +348,7 @@ const renderColumnTwo = (options: RenderColumnOptions) => {
       y: 0,
       width: maxSignatureWidth + 4,
       height: signatureHeight + 4,
-      stroke: 'rgba(122, 196, 85, 0.1)',
+      stroke: signatureShadowStroke,
       strokeWidth: 4,
       cornerRadius: 8,
     });
@@ -566,7 +572,12 @@ const renderRow = (options: RenderRowOptions) => {
 const renderBranding = async ({ qrToken, i18n }: { qrToken: string | null; i18n: I18n }) => {
   const branding = new Konva.Group();
 
-  const brandingHeight = 12;
+  // Upstream used 12, which suited Documenso's plain wordmark. The WAF mark is
+  // a wave plus a three-line wordmark at 5.8:1, and below ~24 the wordmark
+  // turns to mush. 32 reads cleanly and stays in proportion with the 72px QR
+  // code beside it. Safe to change: the block is right-aligned off its own
+  // measured `getClientRect()` and spills to a fresh page if it will not fit.
+  const brandingHeight = 32;
 
   const text = new Konva.Text({
     x: 0,
@@ -578,7 +589,13 @@ const renderBranding = async ({ qrToken, i18n }: { qrToken: string | null; i18n:
     height: brandingHeight,
   });
 
-  const logoPath = path.join(process.cwd(), 'public/static/logo.png');
+  // WAF eSign. Not `logo.png` — that asset is white, drawn for the app's dark
+  // header, and rendered onto this white page it is invisible (zero pixels
+  // darker than #C0C0C0). `logo-dark-ink.png` is the same mark inverted to
+  // neutral greys for light backgrounds. Named for the ink, not a theme: a
+  // file called `logo-dark` would read as "the dark-mode logo", which is the
+  // opposite of what this is.
+  const logoPath = path.join(process.cwd(), 'public/static/logo-dark-ink.png');
   const logo = fs.readFileSync(logoPath);
 
   // eslint-disable-next-line @typescript-eslint/consistent-type-assertions

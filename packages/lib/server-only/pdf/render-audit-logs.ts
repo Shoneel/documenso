@@ -438,9 +438,13 @@ const renderRow = (options: RenderRowOptions) => {
 const renderBranding = () => {
   const branding = new Konva.Group();
 
-  const brandingHeight = 16;
+  // Was 16. Matches render-certificate.ts now — see the note there on why the
+  // WAF mark needs more height than Documenso's wordmark did.
+  const brandingHeight = 32;
 
-  const logoPath = path.join(process.cwd(), 'public/static/logo.png');
+  // WAF eSign. Dark-ink variant, for the same reason as the signing
+  // certificate — see render-certificate.ts.
+  const logoPath = path.join(process.cwd(), 'public/static/logo-dark-ink.png');
   const logo = fs.readFileSync(logoPath);
 
   // eslint-disable-next-line @typescript-eslint/consistent-type-assertions
