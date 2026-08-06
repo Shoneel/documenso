@@ -101,21 +101,33 @@ openssl rand -hex 32
 Back up `NEXT_PRIVATE_ENCRYPTION_KEY` somewhere that is not this VM. Losing it
 makes existing encrypted data unreadable.
 
-**5. Authenticate to GHCR.** Only if the package is private, which it should be:
+**5. Registry access — nothing to do.**
+
+The package is public, so the VM pulls anonymously. No `docker login`, no token
+to provision, nothing to rotate.
+
+The image lives at `ghcr.io/$GHCR_OWNER/waf-esign`, currently
+`ghcr.io/shoneel/waf-esign`. GHCR packages belong to whoever owns the repository
+that published them, so the namespace follows the repository rather than the
+organisation.
+
+If the package is ever made private, this step comes back: create a machine
+account with `read:packages` and, on the VM,
 
 ```bash
 echo "$GHCR_PAT" | docker login ghcr.io -u <machine-account> --password-stdin
 ```
 
-Use a dedicated machine account with `read:packages`, not a personal token that
-dies when someone leaves.
+Use a machine account rather than a personal token, which dies when someone
+leaves.
 
-The image lives at `ghcr.io/$GHCR_OWNER/waf-esign`, currently
-`ghcr.io/shoneel/waf-esign`. GHCR packages are owned by whoever owns the
-repository that published them, so the namespace follows the repository rather
-than the organisation. New packages default to private, and access is inherited
-from the source repository — which is why the VM needs a credential of its own:
-it is not a collaborator.
+> **The image is world-readable.** Anything baked in at build time is published
+> with it. Runtime configuration is safe — the database URL, SMTP password,
+> signing passphrase and the `.p12` all arrive from this `.env` and the bind
+> mount, and `.env` is in `.dockerignore`. The rule to hold is: never pass a
+> real secret as a Docker build arg. The only build args the final image carries
+> are `NEXT_PRIVATE_TELEMETRY_KEY` and `NEXT_PRIVATE_TELEMETRY_HOST`, and the
+> publish workflow passes neither.
 
 **6. Up**
 
