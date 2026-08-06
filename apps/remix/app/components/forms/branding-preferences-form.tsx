@@ -5,7 +5,12 @@ import {
   BRANDING_LOGO_MAX_SIZE_BYTES,
   BRANDING_LOGO_MAX_SIZE_MB,
 } from '@documenso/lib/constants/branding';
-import { DEFAULT_BRAND_COLORS, DEFAULT_BRAND_RADIUS } from '@documenso/lib/constants/theme';
+import { DEFAULT_BRAND_RADIUS } from '@documenso/lib/constants/theme';
+// WAF eSign overlay for upstream's `DEFAULT_BRAND_COLORS`. These are the swatch
+// defaults an administrator sees, so they must show the WAF palette — saving the
+// form with upstream's green would write it into `brandingColors`, which beats
+// `waf-theme.css` on every signing route.
+import { WAF_BRAND_COLORS as DEFAULT_BRAND_COLORS } from '@documenso/lib/constants/waf-theme-colors';
 import { ZCssVarsSchema } from '@documenso/lib/types/css-vars';
 import { normalizeBrandingColors } from '@documenso/lib/utils/normalize-branding-colors';
 import { cn } from '@documenso/ui/lib/utils';

@@ -25,11 +25,16 @@ const LANGUAGE_LABELS: Record<string, string> = {
   zh: 'Chinese',
 };
 
+// WAF eSign. These are the swatches the preview harness starts on when you tick
+// "custom branding" — they only need to match what a real send produces, which
+// since the fork is `WAF_BRAND_COLORS`, not upstream's green. Left as literals
+// rather than an import: this dev-only tool should not be the reason a constants
+// module gets pulled into the preview bundle.
 const DEFAULT_COLORS = {
-  primary: '#a2e771',
-  primaryForeground: '#162c07',
-  background: '#ffffff',
-  foreground: '#0f172a',
+  primary: '#4d8ccb',
+  primaryForeground: '#ffffff',
+  background: '#f8fafc',
+  foreground: '#213045',
 };
 
 type PlaygroundProps = {

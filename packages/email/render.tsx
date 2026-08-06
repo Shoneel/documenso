@@ -1,4 +1,6 @@
-import { DEFAULT_BRAND_COLORS } from '@documenso/lib/constants/theme';
+// WAF eSign overlay for upstream's `DEFAULT_BRAND_COLORS`. Email inlines hex,
+// so `waf-theme.css` cannot reach it — see packages/lib/constants/waf-theme-colors.ts.
+import { WAF_BRAND_COLORS as DEFAULT_BRAND_COLORS } from '@documenso/lib/constants/waf-theme-colors';
 import type { EmailBrandingColors } from '@documenso/lib/utils/email-branding-colors';
 import { resolveEmailBrandingColors } from '@documenso/lib/utils/email-branding-colors';
 import type { I18n } from '@lingui/core';
@@ -15,13 +17,14 @@ export type RenderOptions = ReactEmail.Options & {
 
 /**
  * The default email token set: the shadcn theme tokens, sourced as hex from
- * `DEFAULT_BRAND_COLORS` (which mirrors `theme.css`). Emails can't use CSS
+ * `WAF_BRAND_COLORS` (which mirrors `waf-theme.css`). Emails can't use CSS
  * variables, so these are concrete hex values baked into the Tailwind config.
  *
  * Resolved through the same `resolveEmailBrandingColors` pipeline as tenant
- * colours so the default values live in exactly one place (`DEFAULT_BRAND_COLORS`)
+ * colours so the default values live in exactly one place (`WAF_BRAND_COLORS`)
  * and the default + tenant paths can't drift. Used when a tenant has no
- * (entitled) brand colours.
+ * (entitled) brand colours — which is the normal case here, since
+ * `apply-waf-branding.ts` deliberately leaves `brandingColors` unset.
  */
 const DEFAULT_EMAIL_BRANDING_COLORS: EmailBrandingColors =
   resolveEmailBrandingColors(DEFAULT_BRAND_COLORS) ?? DEFAULT_BRAND_COLORS;

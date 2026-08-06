@@ -1,6 +1,8 @@
 import { colord } from 'colord';
 
-import { DEFAULT_BRAND_COLORS } from '../constants/theme';
+// WAF eSign overlay for upstream's `DEFAULT_BRAND_COLORS`, aliased so the
+// per-token fallbacks below read unchanged against upstream.
+import { WAF_BRAND_COLORS as DEFAULT_BRAND_COLORS } from '../constants/waf-theme-colors';
 import type { TCssVarsSchema } from '../types/css-vars';
 
 /**
