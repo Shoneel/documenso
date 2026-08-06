@@ -93,6 +93,19 @@ If your CA issued a separate intermediate bundle, concatenate it after the
 server certificate in the `.crt`. Traefik serves the file as given; browsers
 will not chase a missing intermediate.
 
+Both files must be **root-owned**:
+
+```bash
+sudo chown root:root /opt/waf-esign/tls/esign.waf.com.fj.{crt,key}
+sudo chmod 644 /opt/waf-esign/tls/esign.waf.com.fj.crt
+sudo chmod 600 /opt/waf-esign/tls/esign.waf.com.fj.key
+```
+
+Traefik runs with `cap_drop: ALL`, which removes `CAP_DAC_OVERRIDE` — the
+capability that lets root read files regardless of mode. A mode-600 key owned by
+another user is unreadable, and the failure is quiet: Traefik starts, answers its
+healthcheck, and serves no certificate. `setup-prod.sh` sets this for you.
+
 **3. Install the signing certificate.** It is in neither the repository nor the
 image — the `.p12` is gitignored, so a CI checkout never sees it. Copy it from
 wherever you keep it and fix ownership:

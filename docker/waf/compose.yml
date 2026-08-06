@@ -24,6 +24,25 @@ services:
       - ${WAF_TLS_DIR:?set WAF_TLS_DIR to the host directory holding the WAF certificate and key}:/etc/traefik/certs:ro
     networks:
       - edge
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    cap_add:
+      # The only privilege it needs: binding 80 and 443.
+      #
+      # Note what is NOT here: CAP_DAC_OVERRIDE. Traefik runs as root in this
+      # image, and root normally reads any file regardless of mode because of
+      # that capability. Without it, the mounted TLS key must be genuinely
+      # readable by root — i.e. root-owned. A key owned by another user at mode
+      # 600 fails with "permission denied", and Traefik keeps running and
+      # answering /ping while serving no certificate, so the failure looks like
+      # a TLS problem rather than a permissions one. setup-prod.sh installs
+      # these root-owned for exactly this reason.
+      - NET_BIND_SERVICE
+    # Config and certificates are mounted read-only and nothing is written at
+    # runtime — no ACME store, since the certificates are WAF's own.
+    read_only: true
     healthcheck:
       test: ['CMD', 'traefik', 'healthcheck', '--ping']
       interval: 30s
@@ -49,6 +68,15 @@ services:
     networks:
       - edge
       - internal
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      # Already runs as uid 1001 and binds an unprivileged port, so it needs
+      # none of them.
+      - ALL
+    # Deliberately not `read_only`. The PDF pipeline (skia-canvas fonts, Prisma)
+    # writes to temporary paths, and that is not something to switch on without
+    # exercising a full signing run against it. Revisit with a tmpfs for /tmp.
     volumes:
       # Delivered out of band — the .p12 is gitignored, so it is in neither the
       # repository nor the image. Must be readable by uid 1001 (the image runs
@@ -113,6 +141,12 @@ services:
     # No published port. Reachable only from the internal network.
     networks:
       - internal
+    security_opt:
+      - no-new-privileges:true
+    # Capabilities are deliberately left alone. The postgres entrypoint starts
+    # as root and drops to the postgres user, which needs SETUID/SETGID/CHOWN —
+    # `cap_drop: ALL` breaks startup. Dropping to a hand-picked set would be
+    # guesswork against an image we do not control.
     volumes:
       - database:/var/lib/postgresql/data
     healthcheck:

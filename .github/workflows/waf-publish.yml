@@ -70,8 +70,10 @@ jobs:
           platforms: linux/amd64
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+          # Separate scope from waf-ci.yml, so the image that signs documents is
+          # never built from layers a CI run warmed. See the note there.
+          cache-from: type=gha,scope=publish
+          cache-to: type=gha,scope=publish,mode=max
 
       # `sha-<short>` is what production pins in IMAGE_TAG. `waf-main` moves and
       # exists for convenience; do not deploy from it, or rollback stops being a

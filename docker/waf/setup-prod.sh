@@ -230,9 +230,15 @@ install -d -m 700 "$INSTALL_ROOT/tls"
 install -d -m 700 "$INSTALL_ROOT/backups"
 ok "Created $INSTALL_ROOT"
 
-install -m 644 "$TLS_CRT_SRC" "$INSTALL_ROOT/tls/$HOSTNAME_FQDN.crt"
-install -m 600 "$TLS_KEY_SRC" "$INSTALL_ROOT/tls/$HOSTNAME_FQDN.key"
-ok "Installed TLS certificate and key"
+# Ownership is explicit and load-bearing. Traefik runs as root inside its
+# container but with `cap_drop: ALL`, which removes CAP_DAC_OVERRIDE — the
+# capability that normally lets root ignore file permissions. A mode-600 key
+# owned by anyone other than root is therefore unreadable, and Traefik fails
+# with "permission denied" while still starting and answering /ping, so the
+# symptom is a site that serves no TLS at all rather than a crash.
+install -o root -g root -m 644 "$TLS_CRT_SRC" "$INSTALL_ROOT/tls/$HOSTNAME_FQDN.crt"
+install -o root -g root -m 600 "$TLS_KEY_SRC" "$INSTALL_ROOT/tls/$HOSTNAME_FQDN.key"
+ok "Installed TLS certificate and key (root-owned)"
 
 P12_DEST="$INSTALL_ROOT/cert.p12"
 

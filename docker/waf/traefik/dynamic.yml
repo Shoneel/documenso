@@ -41,6 +41,22 @@ http:
         # intersect with it and break the signing UI.
 
 tls:
+  options:
+    # `default` is applied to every router that does not name a TLS option.
+    #
+    # Traefik v3 already refuses TLS 1.0 and 1.1 — verified by probing a running
+    # instance — so this changes nothing today. It is here so that a future
+    # change to Traefik's default cannot lower the floor without anyone noticing.
+    #
+    # Cipher suites are left to Go's defaults, which are sound and track the
+    # runtime. Pinning a list here would freeze it at whatever was current when
+    # this file was written.
+    default:
+      minVersion: VersionTLS12
+      # sniStrict is deliberately off: it would reject clients that send no SNI,
+      # which is precisely what the defaultCertificate below exists to serve.
+      sniStrict: false
+
   certificates:
     - certFile: /etc/traefik/certs/esign.waf.com.fj.crt
       keyFile: /etc/traefik/certs/esign.waf.com.fj.key
