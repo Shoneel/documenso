@@ -32,5 +32,17 @@ yarn-error.log*
 # turbo
 .turbo
 
+# WAF eSign signing certificate
+# The builder stage does `COPY . .`, so without this a local `docker/build.sh`
+# run would copy the private key into an intermediate image layer. CI never has
+# it — the .p12 is gitignored and so is absent from a clean checkout — but local
+# builds do.
+certs/
+
+# graphify
+# Derived output, ~54MB. Nothing in the build needs it and it is pure build
+# context weight.
+graphify-out/
+
 # vercel
 .vercel
