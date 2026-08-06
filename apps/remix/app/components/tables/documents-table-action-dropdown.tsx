@@ -5,7 +5,6 @@ import { getEnvelopeItemPermissions } from '@documenso/lib/utils/envelope';
 import { findRecipientByEmail } from '@documenso/lib/utils/recipients';
 import { formatDocumentsPath, isMemberManagerOrAbove } from '@documenso/lib/utils/teams';
 import { trpc as trpcReact } from '@documenso/trpc/react';
-import { DocumentShareButton } from '@documenso/ui/components/document/document-share-button';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -26,10 +25,8 @@ import {
   FileOutputIcon,
   FolderInput,
   History,
-  Loader,
   MoreHorizontal,
   Pencil,
-  Share,
   Trash2,
   XCircle,
 } from 'lucide-react';
@@ -263,18 +260,8 @@ export const DocumentsTableActionDropdown = ({ row, onMoveDocument }: DocumentsT
           />
         )}
 
-        <DocumentShareButton
-          documentId={row.id}
-          token={isOwner ? undefined : recipient?.token}
-          trigger={({ loading, disabled }) => (
-            <DropdownMenuItem disabled={disabled || isDraft} onSelect={(e) => e.preventDefault()}>
-              <div className="flex items-center">
-                {loading ? <Loader className="mr-2 h-4 w-4" /> : <Share className="mr-2 h-4 w-4" />}
-                <Trans>Share Signing Card</Trans>
-              </div>
-            </DropdownMenuItem>
-          )}
-        />
+        {/* WAF eSign: upstream's "Share Signing Card" item was removed from here.
+            See the note in routes/_recipient+/sign.$token+/complete.tsx. */}
       </DropdownMenuContent>
 
       <EnvelopeSaveAsTemplateDialog
