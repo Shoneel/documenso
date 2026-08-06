@@ -40,10 +40,15 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      # metadata-action lowercases the image reference for us. This matters:
-      # the org is `Water-Authority-of-Fiji` but Docker rejects uppercase in
-      # image names, so the published path is
-      # ghcr.io/water-authority-of-fiji/waf-esign.
+      # The package is owned by whoever owns this repository; a GITHUB_TOKEN
+      # cannot publish into another account's namespace. Today that is
+      # ghcr.io/shoneel/waf-esign. If the repository is ever moved to the
+      # Water-Authority-of-Fiji organisation this needs no change — but
+      # GHCR_OWNER in docker/waf/.env does.
+      #
+      # metadata-action lowercases the reference, which matters because Docker
+      # rejects uppercase in image names while GitHub account names keep their
+      # capitals.
       - name: Image metadata
         id: meta
         uses: docker/metadata-action@v5

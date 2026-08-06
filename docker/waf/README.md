@@ -110,6 +110,13 @@ echo "$GHCR_PAT" | docker login ghcr.io -u <machine-account> --password-stdin
 Use a dedicated machine account with `read:packages`, not a personal token that
 dies when someone leaves.
 
+The image lives at `ghcr.io/$GHCR_OWNER/waf-esign`, currently
+`ghcr.io/shoneel/waf-esign`. GHCR packages are owned by whoever owns the
+repository that published them, so the namespace follows the repository rather
+than the organisation. New packages default to private, and access is inherited
+from the source repository — which is why the VM needs a credential of its own:
+it is not a collaborator.
+
 **6. Up**
 
 ```bash

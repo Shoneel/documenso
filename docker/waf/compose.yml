@@ -33,7 +33,13 @@ services:
 
   esign:
     # Immutable tag, never `latest`. Rollback is: edit IMAGE_TAG, `up -d`.
-    image: ghcr.io/water-authority-of-fiji/waf-esign:${IMAGE_TAG:?set IMAGE_TAG to a published image tag, e.g. sha-1a2b3c4}
+    #
+    # GHCR_OWNER is the account that owns the repository, because that is who
+    # owns the package — a repository's GITHUB_TOKEN can only publish under its
+    # own namespace. Parameterised rather than hardcoded so that moving the
+    # repository to an organisation later is a one-line change to .env instead
+    # of an edit here.
+    image: ghcr.io/${GHCR_OWNER:-shoneel}/waf-esign:${IMAGE_TAG:?set IMAGE_TAG to a published image tag, e.g. sha-1a2b3c4}
     restart: unless-stopped
     depends_on:
       database:
