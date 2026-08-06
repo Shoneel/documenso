@@ -34,41 +34,130 @@ one-line edit, not a rebuild.
 
 | File | Purpose |
 |---|---|
+| `setup-prod.sh` | Interactive first-time setup. Prompts, generates secrets, installs certificates, writes `.env`. |
 | `compose.yml` | The stack. Pulls from GHCR; never builds. |
-| `.env.example` | Template for the VM's `.env`. |
+| `.env.example` | Template for the VM's `.env`. Reference — `setup-prod.sh` writes the real one. |
 | `traefik/traefik.yml` | Static config. Changes need a Traefik restart. |
 | `traefik/dynamic.yml` | Routing and TLS. Hot-reloaded. |
+
+The signing certificate itself is documented separately in `certs/README.md` —
+trust level, regeneration, and why Acrobat still shows an identity warning.
 
 `docker/production/compose.yml` is upstream's and is deliberately untouched, so
 it stays byte-identical across syncs. It pulls `documenso/documenso:latest` —
 stock upstream, with none of the WAF fork in it. Do not deploy it.
 
-## First deploy — the short way
+## Deploying to a fresh VM
+
+**Order of operations, since it is the usual question:** the deploy files come
+first, the image comes last and arrives on its own. `setup-prod.sh` only reads
+`compose.yml` to validate it — it never contacts the registry. The image is
+pulled by `docker compose up -d` at the end.
+
+```
+  files ──▶ certificates ──▶ setup-prod.sh ──▶ up -d ──▶ (image pulled here)
+```
+
+### Have ready
+
+- The WAF TLS certificate and key for the hostname, key **unencrypted**
+- A published image tag — from the summary of the latest green **WAF Publish
+  Image** run, or from
+  `github.com/users/<owner>/packages/container/waf-esign/versions`
+- DNS pointing at the VM (needed to verify, not to install)
+- SMTP relay host, port, username, password
+
+You do **not** need the signing `.p12`. The script offers to generate a
+production one, which is the better option — see step 3.
+
+### 0. Docker
+
+```bash
+curl -fsSL https://get.docker.com | sudo sh
+sudo docker compose version    # must print v2.x
+```
+
+Nothing else. No Node, no npm, no build toolchain — the VM never builds.
+
+### 1. Deploy files
+
+```bash
+sudo git clone --depth 1 --branch waf/main \
+  https://github.com/Shoneel/documenso.git /opt/waf-esign/src
+cd /opt/waf-esign/src/docker/waf
+```
+
+Shallow, and only `docker/waf/` is used. Cloning rather than copying means a
+later `git pull` picks up changes to the compose or Traefik config. If the VM
+has no outbound access to GitHub, `scp -r docker/waf/` from a workstation
+instead — it is five files.
+
+### 2. Stage the certificates
+
+Anywhere readable by root; you give the script the paths and it installs them
+properly.
+
+```bash
+sudo mkdir -p /root/incoming
+sudo cp esign.waf.com.fj.crt esign.waf.com.fj.key /root/incoming/
+```
+
+If the CA issued a separate intermediate bundle, concatenate it **after** the
+server certificate in the `.crt`.
+
+### 3. Run the setup script
 
 ```bash
 sudo ./setup-prod.sh
 ```
 
-Prompts for the handful of things only you know — hostname, image tag, SMTP,
-and where your certificates are — and does the rest: generates the session,
-encryption and database secrets, installs the certificates with the right
-ownership and modes, writes `.env` at mode 600, and validates the result before
-anything starts.
+It asks only for what a human knows — hostname, GHCR owner, image tag, SMTP,
+the two certificate paths — and does the rest: generates the session, encryption
+and database secrets, installs the certificates with the right ownership and
+modes, writes `.env` at mode 600, and validates before telling you anything
+worked.
 
-It refuses to proceed on a TLS certificate that does not match its key, has
+It refuses to continue on a TLS certificate that does not match its key, has
 expired, or does not cover the hostname; and on a `.p12` whose passphrase does
-not open it. Every check runs before the first file is written, so a failed run
-changes nothing. An existing `.env` is backed up with a timestamp rather than
-overwritten.
+not open it. Every check runs before the first file is written, so a rejected
+run leaves the machine untouched. An existing `.env` is backed up with a
+timestamp rather than overwritten.
 
-It also offers to generate a production-only signing certificate, which is worth
-taking: the development key has lived on a workstation, and it is the thing that
-lets someone produce PDFs that appear signed by WAF. Each signed PDF embeds its
-own signer certificate, so having separate development and production keys costs
-nothing.
+Say **yes** when it offers to generate a production signing certificate. The
+development key has lived on a workstation, and it is the thing that lets
+someone produce PDFs that appear signed by WAF. Each signed PDF embeds its own
+signer certificate, so separate development and production keys verify
+identically and cost nothing.
 
-The rest of this section is what the script does, for when you need to do it by
-hand or understand what it changed.
+### 4. Start
+
+Accept the script's final prompt, or:
+
+```bash
+sudo docker compose up -d
+sudo docker compose logs -f esign
+```
+
+**This is where the image is pulled** — automatically and anonymously, since the
+package is public. First boot runs `prisma migrate deploy` against an empty
+database before listening, so allow a minute or two.
+
+> Optional, to fail fast: `sudo docker pull ghcr.io/<owner>/waf-esign:<tag>`
+> after step 1. It proves the tag exists and the VM can reach GHCR, which is a
+> far clearer error in isolation than discovering it during `up -d`.
+
+### 5. Verify
+
+```bash
+sudo docker compose ps
+curl -s https://esign.waf.com.fj/api/health
+curl -s https://esign.waf.com.fj/api/certificate-status
+```
+
+Then the check that actually counts: send a document to yourself, sign it, open
+the PDF, and confirm the signature panel reads **Signed by Water Authority of
+Fiji**. `certificate-status` only reports that the file is readable — it does not
+prove the key loads or that the subject is right.
 
 ## First deploy — by hand
 
@@ -255,6 +344,54 @@ docker compose ps
 `certificate-status` reports on the file, not on a real signature. It probes
 readability; it does not verify that the key loads or that the subject is right.
 The definitive check is sending a document through and opening the result.
+
+## Troubleshooting
+
+**HTTPS serves nothing, but `docker compose ps` says everything is healthy.**
+Check ownership of the TLS files:
+
+```bash
+sudo ls -l /opt/waf-esign/tls/
+```
+
+Both must be `root root`. Traefik runs with `cap_drop: ALL`, which removes
+`CAP_DAC_OVERRIDE` — the capability that lets root read a file regardless of
+mode — so a mode-600 key owned by anyone else is unreadable. The failure is
+quiet: Traefik starts, answers its healthcheck and reports healthy while serving
+no certificate. Confirm with:
+
+```bash
+sudo docker compose logs traefik | grep -i "permission denied"
+```
+
+`setup-prod.sh` sets this correctly. It bites when certificates are replaced by
+hand later.
+
+**Documents sign but the signature panel says "Signed by Documenso".** The
+container is using the bundled demo certificate, which means
+`NEXT_PRIVATE_SIGNING_LOCAL_FILE_PATH` did not resolve. Confirm the mount and
+the ownership — the file must be readable by uid 1001:
+
+```bash
+sudo ls -l /opt/waf-esign/cert.p12          # expect: -r-------- 1 1001 1001
+sudo docker compose exec esign ls -l /opt/waf-esign/cert.p12
+```
+
+Note the signer is baked into each PDF at signing time, so documents already
+signed keep the old certificate. Only new signatures change.
+
+**Recipients never receive anything.** SMTP failures do not stop the app
+starting. Check the logs for send errors, and remember `NEXT_PRIVATE_SMTP_SECURE`
+must be `true` for port 465 and `false` for 587 with STARTTLS.
+
+**`up -d` fails with "manifest unknown".** `IMAGE_TAG` names a tag that was never
+published. List what exists at
+`github.com/users/<owner>/packages/container/waf-esign/versions`.
+
+**The app restarts in a loop on first boot.** Almost always the database URL.
+`POSTGRES_PASSWORD` and the password embedded in `NEXT_PRIVATE_DATABASE_URL` are
+set independently and nothing checks they agree — `setup-prod.sh` keeps them in
+step, hand-editing does not.
 
 ## Known gaps
 
