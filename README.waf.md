@@ -298,6 +298,7 @@ carried it, and how each is now handled.
 | "Send from" dropdown default option | `add-subject.tsx`, `add-template-settings.tsx` | `WAF_BRAND.appName` |
 | Sign-in provider label | `IDENTITY_PROVIDER_NAME` | Label only — the `DOCUMENSO` key is a DB enum value and must not change |
 | Signing certificate PDF | `render-certificate.ts` reads `public/static/logo.png` | Already the WAF mark |
+| Embed sign-in popup, embed session notices | `embed+/auth+/popup.tsx`, `security.sessions.tsx`, `embed-session-restrictions.ts` | Renamed in source |
 
 ### The powered-by line
 

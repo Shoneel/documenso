@@ -31,6 +31,7 @@ import { SignFieldTextDialog } from '~/components/dialogs/sign-field-text-dialog
 import { useEmbedSigningContext } from '~/components/embed/embed-signing-context';
 import { EnvelopeSignerPageRenderer } from '~/components/general/envelope-signing/envelope-signer-page-renderer';
 import { EnvelopePdfViewer } from '~/components/general/pdf-viewer/envelope-pdf-viewer';
+import { PublicLegalLinks } from '~/components/general/public-legal-links';
 
 import { DocumentSigningAttachmentsPopover } from '../document-signing/document-signing-attachments-popover';
 import { EnvelopeItemSelector } from '../envelope-editor/envelope-file-selector';
@@ -230,6 +231,8 @@ export const DocumentSigningPageViewV2 = () => {
                   </Button>
                 </div>
               )}
+
+              {!isEmbed && <PublicLegalLinks className="mt-4 justify-start px-4 pt-4" />}
             </div>
           </div>
         </div>

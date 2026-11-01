@@ -1,3 +1,4 @@
+import { useAnalytics } from '@documenso/lib/client-only/hooks/use-analytics';
 import { useThrottleFn } from '@documenso/lib/client-only/hooks/use-throttle-fn';
 import { DEFAULT_DOCUMENT_DATE_FORMAT } from '@documenso/lib/constants/date-formats';
 import { APP_I18N_OPTIONS } from '@documenso/lib/constants/i18n';
@@ -76,6 +77,7 @@ export const EmbedDirectTemplateClientPage = ({
 }: EmbedDirectTemplateClientPageProps) => {
   const { _ } = useLingui();
   const { toast } = useToast();
+  const analytics = useAnalytics();
 
   const [searchParams] = useSearchParams();
 
@@ -263,6 +265,13 @@ export const EmbedDirectTemplateClientPage = ({
       const error = AppError.parseError(err);
       const errorMessage = getDirectTemplateErrorMessage(error.code);
 
+      analytics.captureException(err, {
+        source: 'embed',
+        location: 'direct_template',
+        recipientId: recipient.id,
+        envelopeId,
+      });
+
       toast({
         title: _(errorMessage.title),
         description: _(errorMessage.description),
@@ -307,6 +316,14 @@ export const EmbedDirectTemplateClientPage = ({
       }
     } catch (err) {
       console.error(err);
+
+      analytics.captureException(err, {
+        source: 'embed',
+        location: 'embed_init',
+        recipientId: recipient.id,
+        envelopeId,
+      });
+
       setHasFinishedInit(true);
     }
 
