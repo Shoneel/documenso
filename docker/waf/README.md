@@ -35,6 +35,7 @@ one-line edit, not a rebuild.
 | File | Purpose |
 |---|---|
 | `setup-prod.sh` | Interactive first-time setup. Prompts, generates secrets, installs certificates, writes `.env`. |
+| `update.sh` | Every deploy after the first, and rollback. Pulls config and image, backs up, waits for healthy. |
 | `compose.yml` | The stack. Pulls from GHCR; never builds. |
 | `.env.example` | Template for the VM's `.env`. Reference — `setup-prod.sh` writes the real one. |
 | `traefik/traefik.yml` | Static config. Changes need a Traefik restart. |
@@ -271,24 +272,41 @@ server listens. First boot is slower for that reason; the healthcheck allows
 
 ## Deploying a change
 
-Push to `waf/main`. CI lints, builds and builds the image; `waf-publish.yml`
-pushes to GHCR and prints the tag in the run summary. Then, on the VM:
+Deploys are pulled, never pushed: the VM sits on an internal network, so CI
+never connects to it and nothing needs inbound SSH.
+
+Push to `waf/main` and wait for the **WAF Publish Image** run to go green. Then,
+on the VM:
 
 ```bash
-sed -i 's/^IMAGE_TAG=.*/IMAGE_TAG=sha-1a2b3c4/' .env
-docker compose pull && docker compose up -d
+cd /opt/waf-esign/src/docker/waf
+sudo ./update.sh
 ```
 
+It `git pull`s the deploy files and deploys `sha-<first 7 of HEAD>` — the image
+`waf-publish.yml` built from that same commit — so there is no tag to copy
+across. In order, it:
+
+1. refuses to run if tracked files were edited on the VM (config goes in `.env`)
+2. pulls the image, and stops with nothing changed if CI has not published it yet
+3. `pg_dump`s the database to `/opt/waf-esign/backups/` and lists any new migrations
+4. sets `IMAGE_TAG`, runs `docker compose up -d`, restarts Traefik only if
+   `traefik.yml` changed
+5. waits for `esign` to report healthy, and prints the rollback command either way
+
 Only `esign` restarts. Traefik and Postgres are untouched.
+
+Without git on the VM, copy `docker/waf/` across and pass the tag explicitly:
+`sudo ./update.sh sha-1a2b3c4`.
 
 ## Rolling back
 
 ```bash
-sed -i 's/^IMAGE_TAG=.*/IMAGE_TAG=<previous-sha-tag>/' .env
-docker compose up -d
+sudo ./update.sh <previous-sha-tag>
 ```
 
-Seconds, no rebuild. **Caveat:** this rolls back code, not the database.
+An explicit tag deploys that image and leaves git alone. Seconds, no rebuild.
+**Caveat:** this rolls back code, not the database.
 `prisma migrate deploy` is forward-only, so if the release you are leaving added
 a migration, rolling the image back does not undo it. Check for new files under
 `packages/prisma/migrations` before assuming a rollback is clean.

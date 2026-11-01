@@ -113,7 +113,11 @@ ask_required HOSTNAME_FQDN "Public hostname" "esign.waf.com.fj"
 ask_required GHCR_OWNER    "GHCR owner (the account owning the repo)" "shoneel"
 info ""
 note "The tag published by the 'WAF Publish Image' workflow — see its run summary."
-ask_required IMAGE_TAG "Image tag to deploy" "waf-main"
+# Default to the image built from this checkout's commit, which is what
+# update.sh deploys too, so the files and the image start out matched.
+default_tag=waf-main
+head=$(git -C "$SCRIPT_DIR" rev-parse HEAD 2>/dev/null) && default_tag="sha-${head:0:7}"
+ask_required IMAGE_TAG "Image tag to deploy" "$default_tag"
 
 if [[ $IMAGE_TAG == "waf-main" || $IMAGE_TAG == "latest" ]]; then
   warn "'$IMAGE_TAG' is a moving tag. Rollback stops being a one-line edit."
