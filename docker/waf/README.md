@@ -71,6 +71,36 @@ pulled by `docker compose up -d` at the end.
 You do **not** need the signing `.p12`. The script offers to generate a
 production one, which is the better option — see step 3.
 
+### Network the VM needs
+
+The VM is on an internal network, so check these before starting. Each one
+failed quietly on the first production install.
+
+| Outbound to | Port | Used for | If blocked |
+|---|---|---|---|
+| `github.com` | 443 | `git clone` / `git pull` of these files | No updates |
+| `ghcr.io` | 443 | Pulling the image | `up -d` / `update.sh` fail at the pull |
+| The mail relay (`mail.waf.com.fj`) | 25/587 | All email | Mail `ETIMEDOUT`, see Troubleshooting |
+| `timestamp.digicert.com`, `ocsp.digicert.com`, `crl3.digicert.com`, `crl4.digicert.com`, `cacerts.digicert.com` | 80 | Signature timestamps and revocation data | Documents hang at "Processing document" |
+
+`mail.waf.com.fj` must also **resolve to the relay's internal IP**. If the VM's
+DNS gives the public address instead, see Troubleshooting.
+
+### Working on the VM
+
+`setup-prod.sh` makes `/opt/waf-esign` root-only (mode 700): it holds the TLS
+key, the signing certificate, the backups and `.env`. Your own user cannot `cd`
+into it, and that is intended. Work from a root shell:
+
+```bash
+sudo -i
+cd /opt/waf-esign/src/docker/waf
+```
+
+Run git there as root too. The clone is root-owned, so a plain `git` as your own
+user fails with *detected dubious ownership*. Do not add a `safe.directory`
+exception; use the root shell.
+
 ### 0. Docker
 
 ```bash
@@ -105,6 +135,12 @@ sudo cp esign.waf.com.fj.crt esign.waf.com.fj.key /root/incoming/
 
 If the CA issued a separate intermediate bundle, concatenate it **after** the
 server certificate in the `.crt`.
+
+Any directory works (production used `/tmp/cert/bundle.crt` and
+`/tmp/cert/private.key`). WAF's certificate is the wildcard `*.waf.com.fj`, which
+the script accepts for `esign.waf.com.fj`. Because that key protects every WAF
+subdomain, delete the staged copy once the script has installed it:
+`shred -u /tmp/cert/private.key`.
 
 ### 3. Run the setup script
 
@@ -159,6 +195,25 @@ Then the check that actually counts: send a document to yourself, sign it, open
 the PDF, and confirm the signature panel reads **Signed by Water Authority of
 Fiji**. `certificate-status` only reports that the file is readable — it does not
 prove the key loads or that the subject is right.
+
+### 6. First admin account
+
+Production starts with an empty database: there is **no default admin**, and
+signup is off. Open signup briefly, register, promote the account, close signup.
+
+```bash
+sed -i 's/^NEXT_PUBLIC_DISABLE_SIGNUP=.*/NEXT_PUBLIC_DISABLE_SIGNUP=false/' .env
+docker compose up -d
+# Register at https://esign.waf.com.fj/signup with a @waf.com.fj address, then:
+docker compose exec database psql -U waf_esign -d waf_esign -c \
+  "UPDATE \"User\" SET roles = ARRAY['USER','ADMIN']::\"Role\"[], \"emailVerified\" = COALESCE(\"emailVerified\", now()) WHERE email = 'you@waf.com.fj';"
+sed -i 's/^NEXT_PUBLIC_DISABLE_SIGNUP=.*/NEXT_PUBLIC_DISABLE_SIGNUP=true/' .env
+docker compose up -d
+```
+
+The `UPDATE` must print `UPDATE 1`. Sign out and back in to get the **Admin**
+menu, and turn on two-factor authentication for this account. Create everyone
+else from **Admin → Users → Create user**; only admins can create organisations.
 
 ## First deploy — by hand
 
@@ -279,8 +334,9 @@ Push to `waf/main` and wait for the **WAF Publish Image** run to go green. Then,
 on the VM:
 
 ```bash
+sudo -i
 cd /opt/waf-esign/src/docker/waf
-sudo ./update.sh
+./update.sh
 ```
 
 It `git pull`s the deploy files and deploys `sha-<first 7 of HEAD>` — the image
@@ -400,7 +456,51 @@ signed keep the old certificate. Only new signatures change.
 
 **Recipients never receive anything.** SMTP failures do not stop the app
 starting. Check the logs for send errors, and remember `NEXT_PRIVATE_SMTP_SECURE`
-must be `true` for port 465 and `false` for 587 with STARTTLS.
+must be `true` for port 465 and `false` for 587 with STARTTLS. Test the exact
+settings the app uses, from inside its container:
+
+```bash
+docker compose exec esign node -e 'const n=require("nodemailer"),e=process.env;n.createTransport({host:e.NEXT_PRIVATE_SMTP_HOST,port:+e.NEXT_PRIVATE_SMTP_PORT,secure:e.NEXT_PRIVATE_SMTP_SECURE==="true",ignoreTLS:e.NEXT_PRIVATE_SMTP_UNSAFE_IGNORE_TLS==="true",auth:e.NEXT_PRIVATE_SMTP_USERNAME?{user:e.NEXT_PRIVATE_SMTP_USERNAME,pass:e.NEXT_PRIVATE_SMTP_PASSWORD}:undefined,connectionTimeout:10000}).verify().then(()=>console.log("SMTP OK"),x=>console.log("SMTP FAIL:",x.code||"",x.responseCode||"",x.message))'
+```
+
+The app reads `.env` only when its container is created: after editing, run
+`docker compose up -d`, not `docker compose restart`.
+
+**Mail fails with `ETIMEDOUT` by name but connects by IP, then fails with
+`Hostname/IP does not match certificate's altnames`.** The VM's DNS resolves
+`mail.waf.com.fj` to an address it cannot reach, and the relay's certificate is
+issued for the name, not the IP. Keep `NEXT_PRIVATE_SMTP_HOST=mail.waf.com.fj` and
+map the name to the internal IP inside the container only, with a local
+override file (not in git; `update.sh` and `git pull` leave it alone):
+
+```bash
+cat > compose.override.yml <<'EOF'
+services:
+  esign:
+    extra_hosts:
+      - "mail.waf.com.fj:<relay-internal-ip>"
+EOF
+docker compose up -d
+docker compose exec esign getent hosts mail.waf.com.fj   # must show the internal IP
+```
+
+Never "fix" it with `NEXT_PRIVATE_SMTP_UNSAFE_IGNORE_TLS=true`: that sends the
+SMTP password unencrypted. The proper fix is giving the VM WAF's internal DNS,
+after which the override file can be deleted.
+
+**A document hangs at "Processing document" after everyone has signed.** Sealing
+failed. Look for `TSA request failed: fetch failed` in
+`docker compose logs esign`: the VM cannot reach the timestamp authority. Either
+open the DigiCert hosts listed under *Network the VM needs*, or set
+`NEXT_PRIVATE_SIGNING_TIMESTAMP_AUTHORITY=` (empty) and `docker compose up -d`.
+Then reseal from **Admin → Unsealed documents**. A background sweep also retries
+every 15 minutes, but only for documents last signed between 15 minutes and 6
+hours ago.
+
+**The image pull fails with `unauthorized` or `denied`.** The GHCR package is not
+public, or the VM cannot reach `ghcr.io`. Test from the VM:
+`docker pull ghcr.io/shoneel/waf-esign:<tag>`. A git deploy key does not help;
+it grants access to the repository, never to packages.
 
 **`up -d` fails with "manifest unknown".** `IMAGE_TAG` names a tag that was never
 published. List what exists at
@@ -421,3 +521,14 @@ step, hand-editing does not.
   theme — is not in this image. It needs its own build if you want it hosted.
 - **Single instance.** `prisma migrate deploy` runs on container start, which
   would race across replicas. Fine as is; revisit before scaling out.
+- **No scheduled off-VM backup.** `update.sh` dumps the database before each
+  deploy, but onto the same VM. A nightly dump shipped elsewhere is still to do.
+- **Production workarounds in place (November 2026).** Signature timestamping is
+  off (`NEXT_PRIVATE_SIGNING_TIMESTAMP_AUTHORITY` empty) until the DigiCert hosts
+  are opened; mail reaches the relay through `compose.override.yml` until the VM
+  uses internal DNS; and SMTP authenticates as a personal mailbox, which should
+  become a service account or IP-based relay.
+- **End-to-end tests do not run in CI.** WAF CI runs lint, unit tests, the build
+  and the image build. The Playwright suites, including
+  `e2e/organisations/waf-admin-only-organisations.spec.ts`, run only locally and
+  need Postgres plus a mail catcher on port 2500.

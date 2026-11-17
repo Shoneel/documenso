@@ -112,9 +112,11 @@ step "Pulling image"
 # Fails here, with nothing changed, if CI has not finished publishing this
 # commit yet — rather than half-way through `up -d`.
 if ! docker pull --quiet "$IMAGE" >/dev/null; then
-  die "Could not pull $IMAGE.
-       If that commit was just pushed, the 'WAF Publish Image' run may still be
-       going or may have failed — check it, then re-run. Nothing was changed."
+  die "Could not pull $IMAGE. Nothing was changed.
+       'manifest unknown': that commit has no image yet. The 'WAF Publish Image'
+         run may still be going or may have failed; check it, then re-run.
+       'unauthorized' / 'denied': the GHCR package is not public, or this VM
+         cannot reach ghcr.io. See Troubleshooting in README.md."
 fi
 ok "$IMAGE"
 
