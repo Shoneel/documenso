@@ -34,8 +34,7 @@ import { resolveEmailTransport } from './resolve-email-transport';
  * Note upstream already applies the same `!IS_BILLING_ENABLED()` reasoning to
  * `allowBrandedEmailColors` below; this extends it to the powered-by line.
  */
-const resolveHidePoweredBy = (claimFlag: boolean | undefined) =>
-  !IS_BILLING_ENABLED() || claimFlag === true;
+const resolveHidePoweredBy = (claimFlag: boolean | undefined) => !IS_BILLING_ENABLED() || claimFlag === true;
 
 type EmailMetaOption = Partial<Pick<DocumentMeta, 'emailId' | 'emailReplyTo' | 'language'>>;
 

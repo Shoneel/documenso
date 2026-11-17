@@ -170,9 +170,11 @@ const UsageStatCard = ({ label, icon: Icon, used, limit, countOnly = false, foot
 
         {hasFiniteLimit ? <Progress className={cn('mt-3 h-2', progressClassName)} value={percent} /> : null}
 
+        {/* biome-ignore lint/nursery/noMisusedPromises: React 19 widens ReactNode to include Promise; these props are synchronous. */}
         {subtext ? <p className="mt-2 text-muted-foreground text-xs">{subtext}</p> : null}
       </div>
 
+      {/* biome-ignore lint/nursery/noMisusedPromises: React 19 widens ReactNode to include Promise; these props are synchronous. */}
       {action ? <div className="mt-4 flex justify-end border-t pt-4">{action}</div> : null}
     </div>
   );
