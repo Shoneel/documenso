@@ -8,8 +8,10 @@ import { apiSignin, apiSignout } from '../fixtures/authentication';
 import { expectTextToBeVisible, expectTextToNotBeVisible, openDropdownMenu } from '../fixtures/generic';
 
 test('[ORGANISATIONS]: create and delete organisation', async ({ page }) => {
+  // WAF: only administrators can create organisations.
   const { user, organisation } = await seedUser({
     isPersonalOrganisation: false,
+    isAdmin: true,
   });
 
   await apiSignin({

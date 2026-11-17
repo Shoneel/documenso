@@ -39,6 +39,19 @@ jobs:
       - name: Biome
         run: npm run lint
 
+  unit:
+    name: Unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./.github/actions/node-install
+
+      # The Vitest suites in packages/lib cover pure functions only, with no
+      # database or network, so they need no services and finish in seconds.
+      - name: Vitest
+        run: npm run test -w @documenso/lib
+
   build:
     name: Build
     runs-on: ubuntu-latest
