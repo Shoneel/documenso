@@ -5,6 +5,7 @@ import { AppError, AppErrorCode } from '@documenso/lib/errors/app-error';
 import { createOrganisation } from '@documenso/lib/server-only/organisation/create-organisation';
 import { getSubscriptionClaim } from '@documenso/lib/server-only/subscription/get-subscription-claim';
 import { INTERNAL_CLAIM_ID } from '@documenso/lib/types/subscription';
+import { isAdmin } from '@documenso/lib/utils/is-admin';
 import { prisma } from '@documenso/prisma';
 import { OrganisationType, SubscriptionStatus } from '@prisma/client';
 import { authenticatedProcedure } from '../trpc';
@@ -17,6 +18,19 @@ export const createOrganisationRoute = authenticatedProcedure
   .mutation(async ({ input, ctx }) => {
     const { name, priceId } = input;
     const { user } = ctx;
+
+    // WAF: only administrators create organisations; staff work inside the ones admins set up.
+    // The context user carries no roles, so they are read here rather than trusted from the client.
+    const { roles } = await prisma.user.findUniqueOrThrow({
+      where: { id: user.id },
+      select: { roles: true },
+    });
+
+    if (!isAdmin({ roles })) {
+      throw new AppError(AppErrorCode.UNAUTHORIZED, {
+        message: 'Only administrators can create organisations',
+      });
+    }
 
     ctx.logger.info({
       input: {

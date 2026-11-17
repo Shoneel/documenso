@@ -1,3 +1,5 @@
+import { useSession } from '@documenso/lib/client-only/providers/session';
+import { isAdmin } from '@documenso/lib/utils/is-admin';
 import { msg } from '@lingui/core/macro';
 import { useLingui } from '@lingui/react';
 
@@ -8,6 +10,7 @@ import { UserOrganisationsTable } from '~/components/tables/user-organisations-t
 
 export default function TeamsSettingsPage() {
   const { _ } = useLingui();
+  const { user } = useSession();
 
   return (
     <div>
@@ -16,7 +19,7 @@ export default function TeamsSettingsPage() {
         subtitle={_(msg`Manage all organisations you are currently associated with.`)}
         hideDivider
       >
-        <OrganisationCreateDialog />
+        {isAdmin(user) && <OrganisationCreateDialog />}
       </SettingsHeader>
 
       <UserOrganisationsTable />

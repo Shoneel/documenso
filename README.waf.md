@@ -334,6 +334,23 @@ network.
 
 ---
 
+## Organisation creation is admin-only
+
+Upstream lets any signed-in user create organisations when billing is off, which is every self-hosted
+instance. In WAF eSign only users with the `ADMIN` role can. Staff still get the personal organisation
+Documenso creates for every account, and work inside the organisations an administrator sets up.
+
+| Where | What |
+| --- | --- |
+| `packages/trpc/server/organisation-router/create-organisation.ts` | The enforcement: refuses non-admins with `UNAUTHORIZED`. Roles are read from the database, not the session. |
+| `settings+/organisations.tsx`, `settings-org-switcher.tsx`, `dashboard.tsx` | Hide the create button and links for non-admins. Cosmetic only. |
+
+Administrators can also create an organisation on a user's behalf from **Admin → Users → (user)**, which
+uses the separate admin router and is unaffected. These four files are in-place edits to upstream code,
+so expect small conflicts in them on a sync.
+
+---
+
 ## Known gaps
 
 - **`graphify-out/` is committed and not ignored** — roughly 23 MB across 282 files, including a

@@ -2,6 +2,7 @@ import { useSession } from '@documenso/lib/client-only/providers/session';
 import { IS_BILLING_ENABLED } from '@documenso/lib/constants/app';
 import { type INTERNAL_CLAIM_ID, internalClaims } from '@documenso/lib/types/subscription';
 import { formatAvatarUrl } from '@documenso/lib/utils/avatars';
+import { isAdmin } from '@documenso/lib/utils/is-admin';
 import { canExecuteOrganisationAction } from '@documenso/lib/utils/organisations';
 import { getSettingsNavGroups } from '@documenso/lib/utils/settings-nav';
 import { computeSwitcherContinuityPath } from '@documenso/lib/utils/settings-switcher';
@@ -24,7 +25,7 @@ export type SettingsOrgSwitcherProps = {
 
 export const SettingsOrgSwitcher = ({ currentOrgUrl }: SettingsOrgSwitcherProps) => {
   const { t } = useLingui();
-  const { organisations } = useSession();
+  const { user, organisations } = useSession();
   const { pathname } = useLocation();
   const navigate = useNavigate();
 
@@ -186,14 +187,16 @@ export const SettingsOrgSwitcher = ({ currentOrgUrl }: SettingsOrgSwitcherProps)
           })}
         </ul>
 
-        <div className="border-t p-1">
-          <Button variant="ghost" asChild className="w-full justify-start" data-testid="settings-org-switcher-create">
-            <a href="/settings/organisations?action=add-organisation">
-              <PlusIcon className="mr-2 h-4 w-4" />
-              <Trans>Create organisation</Trans>
-            </a>
-          </Button>
-        </div>
+        {isAdmin(user) && (
+          <div className="border-t p-1">
+            <Button variant="ghost" asChild className="w-full justify-start" data-testid="settings-org-switcher-create">
+              <a href="/settings/organisations?action=add-organisation">
+                <PlusIcon className="mr-2 h-4 w-4" />
+                <Trans>Create organisation</Trans>
+              </a>
+            </Button>
+          </div>
+        )}
       </PopoverContent>
     </Popover>
   );
